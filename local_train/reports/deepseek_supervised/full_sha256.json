@@ -68,5 +68,29 @@
  "s5_6000_merged": "5bbac68950034063396fff4682638bb1580e2d29471881a74f11fdc2866292b4",
  "s5_4500_merged": "8402771e742a4f19f49fe63212b1650fe8d461561072e28526c94195756bd316",
  "s6_5000": "eb3fd2dd49b73609906146beaa484135c304b7eb2493cbaf4561c59cd9af5991",
- "s6_6000": "b33e6c55eba4a9e36d70c996cee630b45f1fca90e011e07865e1045fd2fef4e5"
+ "s6_6000": "b33e6c55eba4a9e36d70c996cee630b45f1fca90e011e07865e1045fd2fef4e5",
+ "s7_5000_merged": "7c1ddb4f499516a36349476ccd070df06f2b16115c5cbabcbfff0b6dc047a182",
+ "s7_5750_merged": "7faf25cf48aac5d4e485cad2bd738a11b694dd2a7f32b08bed0f2949dc125582",
+ "s7_6750_merged": "ef9c42a164bfed180887f6c453eb848fb9fd425e346fbe6ea2e71a02eae6eae4",
+ "_canonical": {
+  "product_version": "AuK-ru v1.0",
+  "checkpoint": "s7_5750_merged",
+  "file": "local_train/run_s7/merged/auk_s7_5750.safetensors",
+  "sha256": "7faf25cf48aac5d4e485cad2bd738a11b694dd2a7f32b08bed0f2949dc125582",
+  "declared": "2026-09-19",
+  "gates": {
+   "tts_wer": 0.077,
+   "tts_first_ok": 0.812,
+   "clone_sim_best3": 0.771,
+   "clone_wer": 0.079,
+   "dsp": "6/6 PASS",
+   "chinese_accent": "0/100",
+   "emotion_ok_rate": 0.483
+  },
+  "fallback_neutral": {
+   "checkpoint": "s5_4500_merged",
+   "sha256": "8402771e742a4f19f49fe63212b1650fe8d461561072e28526c94195756bd316"
+  },
+  "recipe": "best-of-3 seeds (7,123,999) + composite reranker + normalize_rms + limit_peak + max_ref_seconds=30"
+ }
 }
