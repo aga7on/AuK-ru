@@ -324,3 +324,9 @@
 > first-shot gap composite +0.026 (0.7526→0.7789); S10_DESIGN.md (RFT первым методом).
 > **S13 prep**: pairwise A/B builder (40 пар s7-vs-s8, LISTEN.csv + SECRET_pair_map.csv,
 > .gitignore исключает secret; генерация после merge s8). ERRORS.MD #4 (float32 JSON, дважды).
+
+> **S8 ВЕРДИКТ (00:50)**: гейт 2/5 PASS (эмоции 48.3% ✅, TTS WER 0.069 ✅; first_ok 0.771 ❌,
+> judge clone 7.68 ❌, phonetics 7.75 ❌). **Канон остаётся v1.0 = s7@5750.** Полезный эффект S8:
+> first-shot gap 0.033→0.012 (first-seed 0.7473), frontend 0.255→0.222, phonetics +0.31.
+> S8b план: hard×2 (только фонетика), clone×1, +neutral replay 3000, старт от 7750, 750 шагов.
+> S8_RESULTS.md; pairwise_v1 (40 пар) готов к human A/B.
