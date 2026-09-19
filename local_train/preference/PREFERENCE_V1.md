@@ -1,13 +1,37 @@
-# PREFERENCE v1 — automatic candidate mining (S10 prep)
+# PREFERENCE v1 — automatic candidate mining (S10 prep, 19.09.2026)
 
-Пар: **56** (missing files: 0 — должно быть 0)
+## Датасет пар
 
-| источник | пар | метрика |
-|---|---|---|
-| tmp_seed_probe_s7_5750 | 23 | wespeaker_sim |
-| emotion_ru_s7_5750 | 17 | judge_overall |
-| emotion_ru_s7_6750 | 16 | judge_overall |
+| файл | пар | источник | метрика |
+|---|---|---|---|
+| `pairs_v1.jsonl` | 56 | seed-проба s7@5750 (23, WeSpeaker sim, gap≥0.03) + эмо-паки s7@5750/s7@6750 (33, judge verdict/Δoverall≥2) | sim / judge |
+| `pairs_mined_v1.jsonl` | 18 | s10_candidate_mine: 25 clone100-промптов × 4 seeds (7/123/999/2026) на v1.0, composite gap≥0.05 | composite_v1 |
 
-Правила: sim-пары gap ≥ 0.03; judge-пары — различие verdict или Δoverall ≥ 2.
-Назначение: seed для S10 preference/rejection-обучения (first-shot reliability).
-Расширение: N>1 майнинг на clone100-промптах (4–8 кандидатов) — следующий шаг S10.
+ИТОГО: **74 пары**, missing files = 0 (инвариант проверен).
+
+## Composite score (v1, веса ROADMAP S11)
+
+0.35·sim + 0.25·asr_fidelity + 0.20·dnsmos + 0.10·loudness + 0.10·pause − repetition − artifact.
+
+**Ключевой замер S10 (first-shot gap, composite):**
+first-seed median **0.7526** vs best-of-4 **0.7789** → gap **+0.0263** (25 промптов, 100 генераций).
+Согласуется с sim-only замером (0.7378→0.7711, gap +0.033): модель умеет хороший результат,
+но не выдаёт его первой попыткой в ~60% случаев → preference-обучение обосновано.
+
+## Инцидент (записан в ERRORS.MD #4)
+
+`s10_candidate_mine.py` упал на json.dump (np.float32) ПОСЛЕ генерации 99/100 wav —
+спас `s10_rescore.py` (пересчёт метрик из wav без перегенерации). Урок: float() при сборке
+строк + dry-run сериализации перед тяжёлыми прогонами.
+
+## Следующий шаг S10
+
+- Расширение майнинга: 100 промптов × 4 seeds (300+ пар) после S8-вердикта (на лучшем чекпойнте).
+- Формат обучения: пары {prompt, ref, chosen, rejected} → DPO-подобный объект или
+  rejection-sampling fine-tune (решается на старте S10).
+- Калибровка весов composite — после human A/B (S13).
+
+## Артефакты
+
+- `local_tests/s10_mine/` — 100 wav (25×4) + results.json (sim/asr/nat/loud/pause/rep/art/score)
+- `local_train/s10_preference_mine.py`, `local_train/s10_candidate_mine.py`, `local_train/s10_rescore.py`
