@@ -11,19 +11,21 @@
 >
 > Оригинальный README апстрима: https://github.com/Tencent-Hunyuan/AuK
 
-## Семплы — эмоции (s7@5750)
+## Семплы — эмоции (s7@5750) — слушать
 
 Пять генераций с эмоциональной инструкцией («say in Russian with a {emotion} tone»),
-референсы — открытые корпусные голоса (не авторов репозитория). Все пять получили
-verdict «годен», overall 9/10 у автосудьи (Gemini):
+референсы — открытые корпусные голоса (не авторов репозитория). Все пять — verdict «годен»,
+overall 9/10 у автосудьи (Gemini). **Кликните по ссылке — откроется страница файла со встроенным
+аудиоплеером GitHub** (скачивать не нужно):
 
-| файл | голос | эмоция |
+| ▶ слушать | голос | эмоция |
 |---|---|---|
-| [`samples/01_female_happy.wav`](samples/01_female_happy.wav) | женский | радость |
-| [`samples/02_female_excited.wav`](samples/02_female_excited.wav) | женский | восторг |
-| [`samples/03_male_sad.wav`](samples/03_male_sad.wav) | мужской | грусть |
-| [`samples/04_male_angry.wav`](samples/04_male_angry.wav) | мужской | злость |
-| [`samples/05_male_fearful.wav`](samples/05_male_fearful.wav) | мужской | страх |
+| [▶ 01_female_happy.wav](samples/01_female_happy.wav) | женский | радость |
+| [▶ 02_female_excited.wav](samples/02_female_excited.wav) | женский | восторг |
+| [▶ 03_male_sad.wav](samples/03_male_sad.wav) | мужской | грусть |
+| [▶ 04_male_angry.wav](samples/04_male_angry.wav) | мужской | злость |
+| [▶ 05_male_fearful.wav](samples/05_male_fearful.wav) | мужской | страх |
+
 
 ## GATES §1 — s7@5750 (эмоциональный этап, полный прогон 19.09.2026)
 
