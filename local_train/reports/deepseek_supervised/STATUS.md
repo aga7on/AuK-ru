@@ -299,3 +299,9 @@
 >   clone WER 0.079, DSP 6/6, китайский акцент 0/100. Судья: tts 7.06 (+), clone 7.56/phonetics 7.44
 >   (−0.6, плата за эмоции), upstream 6.90 (+1.13). Канон эмоций: s7@5750; fallback нейтрали: s5@4500.
 >   Семплы (5 эмоций, судья 9/10) опубликованы в GitHub+HF (samples/). S7_RESULTS.md.
+
+> **КАНОН 19.09: AuK-ru v1.0 = s7@5750** (полный GATES §1 закрыт; sha256 7faf25cf…;
+> fallback нейтрального clone/phonetics — s5@4500). Дорожная карта S8→S15+AuK-ru 2:
+> ROADMAP.md. Hard cases добыты: local_train/hard_cases/hard_cases_ru_v1.jsonl (41 текст;
+> substitution 35, judge_verdict_bad 9, ending_mangle 8, sim_ok_diction_bad 5;
+> loudness-разброс между seeds = 0 — normalize_rms закрыл проблему).
