@@ -578,13 +578,20 @@ def _limit_ref_audio(audio, max_seconds: float = 10.0):
         return audio
 
 
-def run_generate(variant, audio, instruction, gen_seconds, ref_text, gen_text, nfe, cfg, seed, task_type=None, translit=True, accentize=True, bestofn=1, trim=True, tts_wrap=True):
+def run_generate(variant, audio, instruction, gen_seconds, ref_text, gen_text, nfe, cfg, seed, task_type=None, translit=True, accentize=True, bestofn=1, trim=True, tts_wrap=True, normalize=True):
     if not instruction:
         raise gr.Error("Укажите инструкцию.")
     if not audio and not gen_seconds and not gen_text:
         raise gr.Error("Для TTS по описанию без референсного аудио нужна целевая длительность или целевой текст.")
 
     instruction = instruction.strip()
+    if normalize:
+        # S9 Russian frontend: числа/даты/валюты/аббревиатуры → слова (rutextnorm, детерминированно)
+        try:
+            from auk.infer.ru_frontend import normalize_numbers
+            instruction = normalize_numbers(instruction)
+        except Exception:
+            pass
     if tts_wrap:
         instruction = _tts_wrap(instruction)
     if accentize:
