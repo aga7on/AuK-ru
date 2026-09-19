@@ -92,5 +92,6 @@
    "sha256": "8402771e742a4f19f49fe63212b1650fe8d461561072e28526c94195756bd316"
   },
   "recipe": "best-of-3 seeds (7,123,999) + composite reranker + normalize_rms + limit_peak + max_ref_seconds=30"
- }
+ },
+ "s8_7750_merged": "ff0ed7ab1d7acead967883bf7c9a217cd824a87d133e5fccc86332244d63bed1"
 }
