@@ -1,0 +1,241 @@
+{"id": "fb_000", "category": "number_case", "text": "У нас нет 1423 страниц.", "expect_contains": "одной тысячи"}
+{"id": "fb_001", "category": "number_case", "text": "Добавьте 15 грамм соли.", "expect_contains": "пятнадцать"}
+{"id": "fb_002", "category": "number_case", "text": "Мы гордимся 27 учениками.", "expect_contains": "двадцатью"}
+{"id": "fb_003", "category": "number_case", "text": "К 8 марта подарили цветы.", "expect_contains": "восьмому"}
+{"id": "fb_004", "category": "number_case", "text": "Около 1000 человек пришли.", "expect_contains": "тысячи"}
+{"id": "fb_005", "category": "number_case", "text": "Более 3 млн рублей потрачено.", "expect_contains": "миллионов"}
+{"id": "fb_006", "category": "number_case", "text": "Свыше 45% голосов учтены.", "expect_contains": "сорока пяти"}
+{"id": "fb_007", "category": "number_case", "text": "Между 2 и 3 часами дня.", "expect_contains": "двумя"}
+{"id": "fb_008", "category": "number_case", "text": "Благодаря 12 донорам спасли жизнь.", "expect_contains": "двенадцати"}
+{"id": "fb_009", "category": "number_case", "text": "К 2030 году построим школу.", "expect_contains": "две тысячи тридцатому"}
+{"id": "fb_010", "category": "number_case", "text": "В 1812 году была война.", "expect_contains": "восемьсот двенадцатом"}
+{"id": "fb_011", "category": "number_case", "text": "У 500 сотрудников есть ДМС.", "expect_contains": "пятисот"}
+{"id": "fb_012", "category": "number_case", "text": "Нет 3 причин отказываться.", "expect_contains": "трёх"}
+{"id": "fb_013", "category": "number_case", "text": "Для 90% задач хватит CPU.", "expect_contains": "девяноста"}
+{"id": "fb_014", "category": "number_case", "text": "Пройдено 12345 шагов.", "expect_contains": "двенадцать тысяч"}
+{"id": "fb_015", "category": "number_case", "text": "Долг составил 2,5 млн руб.", "expect_contains": "два миллиона"}
+{"id": "fb_016", "category": "number_case", "text": "Прирост 0,25% за квартал.", "expect_contains": "ноль целых"}
+{"id": "fb_017", "category": "number_case", "text": "−7°C ночью обещают.", "expect_contains": "минус семь"}
+{"id": "fb_018", "category": "number_case", "text": "От 18 до 65 лет.", "expect_contains": "восемнадцати"}
+{"id": "fb_019", "category": "number_case", "text": "2^10 = 1024.", "expect_contains": "тысяча двадцать четыре"}
+{"id": "fb_020", "category": "date_time", "text": "Встреча 21.09.2026 в 14:30.", "expect_contains": null}
+{"id": "fb_021", "category": "date_time", "text": "Срок до 01.01.2027.", "expect_contains": null}
+{"id": "fb_022", "category": "date_time", "text": "Родился 09.05.1945.", "expect_contains": null}
+{"id": "fb_023", "category": "date_time", "text": "Отчёт за 3 квартал 2025 года.", "expect_contains": null}
+{"id": "fb_024", "category": "date_time", "text": "Дедлайн 15/12.", "expect_contains": null}
+{"id": "fb_025", "category": "date_time", "text": "Сегодня 2 января 2026.", "expect_contains": null}
+{"id": "fb_026", "category": "date_time", "text": "Выход 10.10.2026г.", "expect_contains": null}
+{"id": "fb_027", "category": "date_time", "text": "Операция 07.03 в 8:05.", "expect_contains": null}
+{"id": "fb_028", "category": "date_time", "text": "Юбилей 50 лет — 12.06.2026.", "expect_contains": null}
+{"id": "fb_029", "category": "date_time", "text": "Курс с 01.02 по 28.02.", "expect_contains": null}
+{"id": "fb_030", "category": "date_time", "text": "Дата: 31 декабря 2025 г.", "expect_contains": null}
+{"id": "fb_031", "category": "date_time", "text": "Начало в 23:59 31.12.", "expect_contains": null}
+{"id": "fb_032", "category": "date_time", "text": "Эпоха 90-х годов.", "expect_contains": null}
+{"id": "fb_033", "category": "date_time", "text": "В XIX веке это было нормой.", "expect_contains": null}
+{"id": "fb_034", "category": "date_time", "text": "2024-й был високосным.", "expect_contains": null}
+{"id": "fb_035", "category": "date_time", "text": "Релиз запланирован на II квартал.", "expect_contains": null}
+{"id": "fb_036", "category": "date_time", "text": "Смена с 8:00 до 20:00.", "expect_contains": null}
+{"id": "fb_037", "category": "date_time", "text": "Полдень — 12:00.", "expect_contains": null}
+{"id": "fb_038", "category": "date_time", "text": "Через 1,5 часа начнём.", "expect_contains": null}
+{"id": "fb_039", "category": "date_time", "text": "Ровно в 00:00.", "expect_contains": null}
+{"id": "fb_040", "category": "money", "text": "Купи хлеба на 1250 ₽.", "expect_contains": null}
+{"id": "fb_041", "category": "money", "text": "Цена 99,99 $ за штуку.", "expect_contains": null}
+{"id": "fb_042", "category": "money", "text": "Зарплата 150000 руб в месяц.", "expect_contains": null}
+{"id": "fb_043", "category": "money", "text": "Билет стоит €45.", "expect_contains": null}
+{"id": "fb_044", "category": "money", "text": "Курс 89,5 рублей за доллар.", "expect_contains": null}
+{"id": "fb_045", "category": "money", "text": "Скидка 20% на всё до 1000₽.", "expect_contains": null}
+{"id": "fb_046", "category": "money", "text": "Итого к оплате 3456,78 руб.", "expect_contains": null}
+{"id": "fb_047", "category": "money", "text": "Кэшбэк 5% с покупок.", "expect_contains": null}
+{"id": "fb_048", "category": "money", "text": "Перевод 10 тыс. юаней.", "expect_contains": null}
+{"id": "fb_049", "category": "money", "text": "Гонорар 2,5 млн тенге.", "expect_contains": null}
+{"id": "fb_050", "category": "money", "text": "Долг 350 евро.", "expect_contains": null}
+{"id": "fb_051", "category": "money", "text": "Аренда 45000₽ за месяц.", "expect_contains": null}
+{"id": "fb_052", "category": "money", "text": "Курс биткоина 67000 USD.", "expect_contains": null}
+{"id": "fb_053", "category": "money", "text": "Налог 13% с дохода.", "expect_contains": null}
+{"id": "fb_054", "category": "money", "text": "Комиссия 1,5% от суммы.", "expect_contains": null}
+{"id": "fb_055", "category": "money", "text": "Бюджет проекта 12 млрд руб.", "expect_contains": null}
+{"id": "fb_056", "category": "money", "text": "Пенсия 18420 рублей.", "expect_contains": null}
+{"id": "fb_057", "category": "money", "text": "Лот ушёл за £300.", "expect_contains": null}
+{"id": "fb_058", "category": "money", "text": "Оплата 50/50.", "expect_contains": null}
+{"id": "fb_059", "category": "money", "text": "Стоимость 0 руб.", "expect_contains": null}
+{"id": "fb_060", "category": "phone", "text": "Звони +7 (916) 123-45-67.", "expect_contains": null}
+{"id": "fb_061", "category": "phone", "text": "Тел. 8-800-555-35-35 бесплатно.", "expect_contains": null}
+{"id": "fb_062", "category": "phone", "text": "Номер 112.", "expect_contains": null}
+{"id": "fb_063", "category": "phone", "text": "Контакт: +7 495 777-77-77.", "expect_contains": null}
+{"id": "fb_064", "category": "phone", "text": "Моб. 89991234567.", "expect_contains": null}
+{"id": "fb_065", "category": "phone", "text": "Факс (495) 123-4567.", "expect_contains": null}
+{"id": "fb_066", "category": "phone", "text": "Служба 103.", "expect_contains": null}
+{"id": "fb_067", "category": "phone", "text": "WhatsApp +7-903-000-11-22.", "expect_contains": null}
+{"id": "fb_068", "category": "phone", "text": "Горячая линия 8(800)100-20-30.", "expect_contains": null}
+{"id": "fb_069", "category": "phone", "text": "Доб. 145 после гудка.", "expect_contains": null}
+{"id": "fb_070", "category": "phone", "text": "Код города 812.", "expect_contains": null}
+{"id": "fb_071", "category": "phone", "text": "Позвони 911 срочно.", "expect_contains": null}
+{"id": "fb_072", "category": "phone", "text": "Запись по тел. 8-499-111-22-33.", "expect_contains": null}
+{"id": "fb_073", "category": "phone", "text": "Приёмная +7 812 333 44 55.", "expect_contains": null}
+{"id": "fb_074", "category": "phone", "text": "SMS на 7777.", "expect_contains": null}
+{"id": "fb_075", "category": "phone", "text": "Номер +375 29 123 45 67.", "expect_contains": null}
+{"id": "fb_076", "category": "phone", "text": "Звонки с 9 до 18.", "expect_contains": null}
+{"id": "fb_077", "category": "phone", "text": "Телефон 222-22-22.", "expect_contains": null}
+{"id": "fb_078", "category": "phone", "text": "Оператор 09.", "expect_contains": null}
+{"id": "fb_079", "category": "phone", "text": "Справочная 007.", "expect_contains": null}
+{"id": "fb_080", "category": "tech_url", "text": "Заходи на https://example.com/path?q=1.", "expect_contains": null}
+{"id": "fb_081", "category": "tech_url", "text": "Пиши на mail@example.com.", "expect_contains": null}
+{"id": "fb_082", "category": "tech_url", "text": "Читай README.md в репозитории.", "expect_contains": null}
+{"id": "fb_083", "category": "tech_url", "text": "Скачай .apk с сайта.", "expect_contains": null}
+{"id": "fb_084", "category": "tech_url", "text": "Открой C:\\Users\\dev\\file.txt.", "expect_contains": null}
+{"id": "fb_085", "category": "tech_url", "text": "Код на Python 3.10.", "expect_contains": null}
+{"id": "fb_086", "category": "tech_url", "text": "Версия CUDA 12.8 и torch 2.7.1.", "expect_contains": null}
+{"id": "fb_087", "category": "tech_url", "text": "Скачай zip-архив 2,3 ГБ.", "expect_contains": null}
+{"id": "fb_088", "category": "tech_url", "text": "API ключ в .env файле.", "expect_contains": null}
+{"id": "fb_089", "category": "tech_url", "text": "Смотри docs/api.html.", "expect_contains": null}
+{"id": "fb_090", "category": "tech_url", "text": "Ссылка: www.госуслуги.рф.", "expect_contains": null}
+{"id": "fb_091", "category": "tech_url", "text": "Обнови npm-пакет до v2.0.1.", "expect_contains": null}
+{"id": "fb_092", "category": "tech_url", "text": "Формат JSON или YAML.", "expect_contains": null}
+{"id": "fb_093", "category": "tech_url", "text": "База в PostgreSQL 16.", "expect_contains": null}
+{"id": "fb_094", "category": "tech_url", "text": "Деплой через GitHub Actions.", "expect_contains": null}
+{"id": "fb_095", "category": "tech_url", "text": "RTX 6000 и A100 в наличии.", "expect_contains": null}
+{"id": "fb_096", "category": "tech_url", "text": "Qwen2.5-Omni-3B запущен.", "expect_contains": null}
+{"id": "fb_097", "category": "tech_url", "text": "Файл config.yaml изменён.", "expect_contains": null}
+{"id": "fb_098", "category": "tech_url", "text": "Логи в /var/log/syslog.", "expect_contains": null}
+{"id": "fb_099", "category": "tech_url", "text": "Порт 8045 занят.", "expect_contains": null}
+{"id": "fb_100", "category": "abbr_name", "text": "ООО «Ромашка» и ИП Иванов И.И.", "expect_contains": null}
+{"id": "fb_101", "category": "abbr_name", "text": "МГУ им. Ломоносова.", "expect_contains": null}
+{"id": "fb_102", "category": "abbr_name", "text": "договор №42 от 01.02.2025.", "expect_contains": null}
+{"id": "fb_103", "category": "abbr_name", "text": "СПбГУ, ВШЭ и МФТИ.", "expect_contains": null}
+{"id": "fb_104", "category": "abbr_name", "text": "ООН и НАТО обсуждают вопрос.", "expect_contains": null}
+{"id": "fb_105", "category": "abbr_name", "text": "ГОСТ 7.1-2003.", "expect_contains": null}
+{"id": "fb_106", "category": "abbr_name", "text": "ПАО «Газпром нефть».", "expect_contains": null}
+{"id": "fb_107", "category": "abbr_name", "text": "ТОО «КазАгро», г. Астана.", "expect_contains": null}
+{"id": "fb_108", "category": "abbr_name", "text": "НИИ хирургии им. Вишневского.", "expect_contains": null}
+{"id": "fb_109", "category": "abbr_name", "text": "ЕГЭ по математике.", "expect_contains": null}
+{"id": "fb_110", "category": "abbr_name", "text": "ОСАГО и КАСКО оформлены.", "expect_contains": null}
+{"id": "fb_111", "category": "abbr_name", "text": "ВОЗ опубликовала отчёт.", "expect_contains": null}
+{"id": "fb_112", "category": "abbr_name", "text": "ЦБ РФ поднял ставку.", "expect_contains": null}
+{"id": "fb_113", "category": "abbr_name", "text": "ЖКХ подорожало.", "expect_contains": null}
+{"id": "fb_114", "category": "abbr_name", "text": "ЗАГС работает до 17.", "expect_contains": null}
+{"id": "fb_115", "category": "abbr_name", "text": "ТЦ «Европейский», 3 этаж.", "expect_contains": null}
+{"id": "fb_116", "category": "abbr_name", "text": "РЖД продаёт билеты.", "expect_contains": null}
+{"id": "fb_117", "category": "abbr_name", "text": "ФСИН и МВД.", "expect_contains": null}
+{"id": "fb_118", "category": "abbr_name", "text": "СНИЛС 123-456-789 00.", "expect_contains": null}
+{"id": "fb_119", "category": "abbr_name", "text": "ИНН 7707083893.", "expect_contains": null}
+{"id": "fb_120", "category": "units_frac", "text": "Скорость 60 км/ч.", "expect_contains": null}
+{"id": "fb_121", "category": "units_frac", "text": "Объём 1/2 литра.", "expect_contains": null}
+{"id": "fb_122", "category": "units_frac", "text": "Вес 2 кг 300 г.", "expect_contains": null}
+{"id": "fb_123", "category": "units_frac", "text": "Рост 175 см.", "expect_contains": null}
+{"id": "fb_124", "category": "units_frac", "text": "Площадь 45 м².", "expect_contains": null}
+{"id": "fb_125", "category": "units_frac", "text": "Дистанция 42,195 км.", "expect_contains": null}
+{"id": "fb_126", "category": "units_frac", "text": "Температура −5°C.", "expect_contains": null}
+{"id": "fb_127", "category": "units_frac", "text": "Давление 760 мм рт. ст.", "expect_contains": null}
+{"id": "fb_128", "category": "units_frac", "text": "Ёмкость 100 мА·ч.", "expect_contains": null}
+{"id": "fb_129", "category": "units_frac", "text": "Мощность 2,5 кВт.", "expect_contains": null}
+{"id": "fb_130", "category": "units_frac", "text": "Расход 7 л/100км.", "expect_contains": null}
+{"id": "fb_131", "category": "units_frac", "text": "Частота 50 Гц.", "expect_contains": null}
+{"id": "fb_132", "category": "units_frac", "text": "Память 16 ГБ DDR5.", "expect_contains": null}
+{"id": "fb_133", "category": "units_frac", "text": "3/4 стакана муки.", "expect_contains": null}
+{"id": "fb_134", "category": "units_frac", "text": "1,5 часа пути.", "expect_contains": null}
+{"id": "fb_135", "category": "units_frac", "text": "25% скидка.", "expect_contains": null}
+{"id": "fb_136", "category": "units_frac", "text": "Скорость 1 Гбит/с.", "expect_contains": null}
+{"id": "fb_137", "category": "units_frac", "text": "Разрешение 1920×1080.", "expect_contains": null}
+{"id": "fb_138", "category": "units_frac", "text": "Длина волны 532 нм.", "expect_contains": null}
+{"id": "fb_139", "category": "units_frac", "text": "Ток 220 В, 16 А.", "expect_contains": null}
+{"id": "fb_140", "category": "omograph_stress", "text": "Замок стоит на горе, а на двери висит большой замок.", "expect_contains": null}
+{"id": "fb_141", "category": "omograph_stress", "text": "Мука́ и мука́ разные: му́ка боли и мука́ пшеничная.", "expect_contains": null}
+{"id": "fb_142", "category": "omograph_stress", "text": "Небо покрыто тучами, и парус одинокий белеет.", "expect_contains": null}
+{"id": "fb_143", "category": "omograph_stress", "text": "Он на́чал, но не сконча́л начатое.", "expect_contains": null}
+{"id": "fb_144", "category": "omograph_stress", "text": "Дорога́ дорога до дорогóго города.", "expect_contains": null}
+{"id": "fb_145", "category": "omograph_stress", "text": "Все́ и все́ пришли.", "expect_contains": null}
+{"id": "fb_146", "category": "omograph_stress", "text": "Узна́ем или узнае́м — решим.", "expect_contains": null}
+{"id": "fb_147", "category": "omograph_stress", "text": "Отдал и отдал долг.", "expect_contains": null}
+{"id": "fb_148", "category": "omograph_stress", "text": "Прóклятый проклял всё.", "expect_contains": null}
+{"id": "fb_149", "category": "omograph_stress", "text": "Съешь ещё этих мягких французских булок.", "expect_contains": null}
+{"id": "fb_150", "category": "omograph_stress", "text": "Взгляд был пронзительно-остёр.", "expect_contains": null}
+{"id": "fb_151", "category": "omograph_stress", "text": "Игла́ в стоге сена.", "expect_contains": null}
+{"id": "fb_152", "category": "omograph_stress", "text": "Крýги или круги́ по воде.", "expect_contains": null}
+{"id": "fb_153", "category": "omograph_stress", "text": "Ёжик нёс ёлку.", "expect_contains": null}
+{"id": "fb_154", "category": "omograph_stress", "text": "Всё равно, всё уже решено.", "expect_contains": null}
+{"id": "fb_155", "category": "omograph_stress", "text": "Хло́пок или хлопóк — зависит от контекста.", "expect_contains": null}
+{"id": "fb_156", "category": "omograph_stress", "text": "Атлас и атлас: карты и ткань.", "expect_contains": null}
+{"id": "fb_157", "category": "omograph_stress", "text": "Взгляды были пронзительно остры.", "expect_contains": null}
+{"id": "fb_158", "category": "omograph_stress", "text": "Большая кружка и маленький кружок.", "expect_contains": null}
+{"id": "fb_159", "category": "omograph_stress", "text": "Ведра воды и вёдра слёз.", "expect_contains": null}
+{"id": "fb_160", "category": "code_switch", "text": "Сделай pull request в main ветку.", "expect_contains": null}
+{"id": "fb_161", "category": "code_switch", "text": "Задеплой сервис на production.", "expect_contains": null}
+{"id": "fb_162", "category": "code_switch", "text": "Нужен фикс этого ба ASAP.", "expect_contains": null}
+{"id": "fb_163", "category": "code_switch", "text": "Открой терминал и запусти npm install.", "expect_contains": null}
+{"id": "fb_164", "category": "code_switch", "text": "Это machine learning модель.", "expect_contains": null}
+{"id": "fb_165", "category": "code_switch", "text": "Пришли мне фидбек по дизайну.", "expect_contains": null}
+{"id": "fb_166", "category": "code_switch", "text": "Дедлайн в пятницу, без овертаймов.", "expect_contains": null}
+{"id": "fb_167", "category": "code_switch", "text": "Синк по спринту завтра.", "expect_contains": null}
+{"id": "fb_168", "category": "code_switch", "text": "Скачай драйвер для GPU.", "expect_contains": null}
+{"id": "fb_169", "category": "code_switch", "text": "Чек-лист готов, ревью пройдено.", "expect_contains": null}
+{"id": "fb_170", "category": "code_switch", "text": "Юзай этот промпт для генерации.", "expect_contains": null}
+{"id": "fb_171", "category": "code_switch", "text": "Логи покажут stack trace.", "expect_contains": null}
+{"id": "fb_172", "category": "code_switch", "text": "Собери билд на CI.", "expect_contains": null}
+{"id": "fb_173", "category": "code_switch", "text": "Баг в проде — хотфикс немедленно.", "expect_contains": null}
+{"id": "fb_174", "category": "code_switch", "text": "Фича за флагом, включи feature flag.", "expect_contains": null}
+{"id": "fb_175", "category": "code_switch", "text": "Релиз v2.0.1 сегодня.", "expect_contains": null}
+{"id": "fb_176", "category": "code_switch", "text": "Коммит в репозиторий прошёл.", "expect_contains": null}
+{"id": "fb_177", "category": "code_switch", "text": "Настрой SSH ключ для git.", "expect_contains": null}
+{"id": "fb_178", "category": "code_switch", "text": "API вернул 500 ошибку.", "expect_contains": null}
+{"id": "fb_179", "category": "code_switch", "text": "Докер-контейнер упал.", "expect_contains": null}
+{"id": "fb_180", "category": "long_word_cluster", "text": "Превосходительство распорядился о субстантивировании.", "expect_contains": null}
+{"id": "fb_181", "category": "long_word_cluster", "text": "Рентгеноэлектрокардиографический аппарат.", "expect_contains": null}
+{"id": "fb_182", "category": "long_word_cluster", "text": "Частнопредпринимательская деятельность.", "expect_contains": null}
+{"id": "fb_183", "category": "long_word_cluster", "text": "Удостоверение личности военнослужащего.", "expect_contains": null}
+{"id": "fb_184", "category": "long_word_cluster", "text": "Контрреволюционные настроения.", "expect_contains": null}
+{"id": "fb_185", "category": "long_word_cluster", "text": "Субстантивированное причастие.", "expect_contains": null}
+{"id": "fb_186", "category": "long_word_cluster", "text": "Взгляд пронзительно остёр.", "expect_contains": null}
+{"id": "fb_187", "category": "long_word_cluster", "text": "Взблеск молнии вспыхнул.", "expect_contains": null}
+{"id": "fb_188", "category": "long_word_cluster", "text": "Круглолунная ночь.", "expect_contains": null}
+{"id": "fb_189", "category": "long_word_cluster", "text": "Четырёхсотдвадцатипятилетний юбилей.", "expect_contains": null}
+{"id": "fb_190", "category": "long_word_cluster", "text": "Мягковолосый ребёнок.", "expect_contains": null}
+{"id": "fb_191", "category": "long_word_cluster", "text": "Шерстистоволновая пряжа.", "expect_contains": null}
+{"id": "fb_192", "category": "long_word_cluster", "text": "Административно-территориальное деление.", "expect_contains": null}
+{"id": "fb_193", "category": "long_word_cluster", "text": "Санитарно-эпидемиологическая станция.", "expect_contains": null}
+{"id": "fb_194", "category": "long_word_cluster", "text": "Сельскохозяйственное машиностроение.", "expect_contains": null}
+{"id": "fb_195", "category": "long_word_cluster", "text": "Достопримечательности Санкт-Петербурга.", "expect_contains": null}
+{"id": "fb_196", "category": "long_word_cluster", "text": "Переосвидетельствование комиссии.", "expect_contains": null}
+{"id": "fb_197", "category": "long_word_cluster", "text": "Высокооплачиваемая должность.", "expect_contains": null}
+{"id": "fb_198", "category": "long_word_cluster", "text": "Трансконтинентальная магистраль.", "expect_contains": null}
+{"id": "fb_199", "category": "long_word_cluster", "text": "Многофункциональное устройство.", "expect_contains": null}
+{"id": "hc_000", "category": "mined_s7_fail", "text": "погода сегодня замечательная, пойдем гулять в парк", "expect_contains": null, "mined_categories": ["ending_mangle", "sim_ok_diction_bad", "substitution"]}
+{"id": "hc_001", "category": "mined_s7_fail", "text": "она учится на третьем курсе медицинского университета", "expect_contains": null, "mined_categories": ["ending_mangle", "sim_ok_diction_bad", "substitution"]}
+{"id": "hc_002", "category": "mined_s7_fail", "text": "мне кажется, этот фильм лучше предыдущего", "expect_contains": null, "mined_categories": ["ending_mangle", "sim_ok_diction_bad", "substitution"]}
+{"id": "hc_003", "category": "mined_s7_fail", "text": "четырнадцатыи сезон сериала колобанга только для пользователеи интернета.", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_004", "category": "mined_s7_fail", "text": "наити лучшие фильмы жанра приключенческии.", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_005", "category": "mined_s7_fail", "text": "алевтине евгеньевне царевои.", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_006", "category": "mined_s7_fail", "text": "юльке носковои.", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_007", "category": "mined_s7_fail", "text": "наити. неупокоенная!", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_008", "category": "mined_s7_fail", "text": "джои, какои баланс моеи сберкарты?", "expect_contains": null, "mined_categories": ["judge_verdict_bad", "substitution"]}
+{"id": "hc_009", "category": "mined_s7_fail", "text": "сколько стоит тысяча фунтов стерлингов в сбербанке?", "expect_contains": null, "mined_categories": ["ending_mangle", "substitution"]}
+{"id": "hc_010", "category": "mined_s7_fail", "text": "он работает инженером на заводе уже пять лет", "expect_contains": null, "mined_categories": ["ending_mangle", "sim_ok_diction_bad"]}
+{"id": "hc_011", "category": "mined_s7_fail", "text": "на улице холодно, надо надеть теплую куртку", "expect_contains": null, "mined_categories": ["ending_mangle", "substitution"]}
+{"id": "hc_012", "category": "mined_s7_fail", "text": "мы купили новый холодильник и стиральную машину", "expect_contains": null, "mined_categories": ["ending_mangle", "sim_ok_diction_bad"]}
+{"id": "hc_013", "category": "mined_s7_fail", "text": "Вздрогнул от неожиданности и вскрикнул.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_014", "category": "mined_s7_fail", "text": "Столкновение интересов привело к спорам.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_015", "category": "mined_s7_fail", "text": "Впрыск топлива происходит автоматически.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_016", "category": "mined_s7_fail", "text": "Скользкий лёд покрыл тротуары.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_017", "category": "mined_s7_fail", "text": "Купи что-нибудь к чаю.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_018", "category": "mined_s7_fail", "text": "Сорок семь участников зарегистрировались заранее.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_019", "category": "mined_s7_fail", "text": "Пятьдесят шесть процентов проголосовали.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_020", "category": "mined_s7_fail", "text": "Дмитрий встретил нас у входа.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_021", "category": "mined_s7_fail", "text": "Радость встречи переполняла нас.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_022", "category": "mined_s7_fail", "text": "добавь конину. курганскии мк. в корзину.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_023", "category": "mined_s7_fail", "text": "добавить в избранное телефон вадима паутова.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_024", "category": "mined_s7_fail", "text": "пополни телефон дарьи.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_025", "category": "mined_s7_fail", "text": "включи на телевизоре передачу. эмеизин.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_026", "category": "mined_s7_fail", "text": "как называется фильм, где снялся шурик и советская троица.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_027", "category": "mined_s7_fail", "text": "салют. герман греф любит музыку.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_028", "category": "mined_s7_fail", "text": "строили развитую дорожную сеть.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_029", "category": "mined_s7_fail", "text": "детскии сад номер пятнадцать. адрес.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_030", "category": "mined_s7_fail", "text": "форсаж поставь.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_031", "category": "mined_s7_fail", "text": "вудсток?", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_032", "category": "mined_s7_fail", "text": "самыи выгодныи курс белорусского рубля в сбербанке.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_033", "category": "mined_s7_fail", "text": "у тебя будет фильм калеидоскоп любви.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_034", "category": "mined_s7_fail", "text": "афина. олегу николаевичу приходилось рисковать.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_035", "category": "mined_s7_fail", "text": "сбер. включи, пожалуиста, свет на чердаке.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_036", "category": "mined_s7_fail", "text": "хочу посмотреть. самоубиицы. история любви эич ди.", "expect_contains": null, "mined_categories": ["substitution"]}
+{"id": "hc_037", "category": "mined_s7_fail", "text": "завтра утром я поеду в командировку в новосибирск", "expect_contains": null, "mined_categories": ["ending_mangle"]}
+{"id": "hc_038", "category": "mined_s7_fail", "text": "привет, как у тебя дела сегодня?", "expect_contains": null, "mined_categories": ["judge_verdict_bad"]}
+{"id": "hc_039", "category": "mined_s7_fail", "text": "я не могу найти свои ключи уже целый час", "expect_contains": null, "mined_categories": ["judge_verdict_bad"]}
+{"id": "hc_040", "category": "mined_s7_fail", "text": "завтра мы поедем на дачу и приготовим шашлык", "expect_contains": null, "mined_categories": ["judge_verdict_bad"]}
