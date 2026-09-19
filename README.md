@@ -44,6 +44,14 @@ overall 9/10 у автосудьи (Gemini). **Кликните по ссылк�
 Эмо-гейт Aniemore на синтетике невалиден (disgust-коллапс, доменный мисматч;
 RESD-контроль 99.3%) — эмоции подтверждены автосудьёй и прослушиванием.
 
+## 🏷️ AuK-ru v1.0
+
+**Канонический релиз: s7@5750** (`auk_s7_5750.safetensors` на HF) — полный GATES §1 закрыт
+(TTS WER 0.077, first_ok 0.812, clone sim best-of-3 0.771, clone WER 0.079, DSP 6/6,
+«китайский акцент» 0/100, эмоции годен 48.3%). Рецепт инференса: best-of-3 seeds (7, 123, 999)
++ reranking по speaker similarity + normalize_rms + limit_peak. Fallback нейтрального
+clone/phonetics — s5@4500. План развития: [ROADMAP.md](ROADMAP.md).
+
 ## Что внутри
 
 - `src/` — код модели + инференс (изменения и дополнения к апстриму):
