@@ -23,6 +23,7 @@ sys.path.insert(0, r"G:\AI\AuK\local_train")
 from auk.infer.infer_auk import AukInfer, save_audio
 from auk.infer.ru_frontend import to_speakable
 from ru_metrics import transcribe_path, text_metrics
+from wer_norm import norm_for_wer
 
 AUK = r"G:\AI\AuK"
 OUT_DEFAULT = os.path.join(AUK, "local_tests", "frontend_probe_s9")
@@ -71,9 +72,11 @@ def main():
             save_audio(audio, sr, fpath)
             heard, asr_err = transcribe_path(fpath)
             tm = text_metrics(expected, heard)
+            tmn = text_metrics(norm_for_wer(expected), norm_for_wer(heard))
             rows.append({"id": r["id"], "category": r["category"], "raw": r["text"],
                          "speakable": speak, "expected": expected, "heard": heard,
-                         "wer": round(tm["wer"], 3), "asr_error": asr_err,
+                         "wer": round(tm["wer"], 3), "wer_norm": round(tmn["wer"], 3),
+                         "cer_norm": round(tmn.get("cer", -1), 3), "asr_error": asr_err,
                          "file": fpath, "status": "ok"})
         except Exception as e:
             rows.append({"id": r["id"], "category": r["category"], "raw": r["text"],
@@ -82,13 +85,13 @@ def main():
 
     json.dump(rows, open(os.path.join(OUT, "results.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     ok = [r for r in rows if r["status"] == "ok"]
-    wers = [r["wer"] for r in ok]
+    wers = [r.get("wer_norm", r["wer"]) for r in ok]
     first_ok = sum(1 for w in wers if w <= 0.15)
     mean = sum(wers) / len(wers) if wers else None
     print(f"FRONTEND_PROBE_DONE n={len(ok)}/{len(rows)} wer_mean={mean} first_ok={first_ok}/{len(ok)}")
     by = {}
     for r in ok:
-        by.setdefault(r["category"], []).append(r["wer"])
+        by.setdefault(r["category"], []).append(r.get("wer_norm", r["wer"]))
     for c, ws in sorted(by.items()):
         print(f"  {c}: n={len(ws)} wer_mean={sum(ws)/len(ws):.3f}")
 
