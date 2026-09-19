@@ -281,3 +281,16 @@
   4500→6750 (2250 апдейтов), лог run_s7/train_log.txt.
 - user_voices стресс: 24 голоса × (short+long): 29 ok сразу, 19 OOM на рефах 39–145с — все
   восстановлены обрезкой 30с (48/48). Готовый сет local_tests/user_voices.
+
+
+> ДОПОЛНЕНИЕ 19.09 (s7 + публикация):
+> - **s7 обучен до 6750**: model_6750.pt 615778297 Б целый; merges s7 5000/5750/6750 готовы.
+> - **Эмо-тест судьёй** (60 сэмплов, gemini-3.8-flash-medium, group=clone): s7@5750 годен 48.3%
+>   (overall 6.22, leak 2) > s7@6750 45.0% (5.87, leak 3) > s5@4500 36.7% (5.77, leak 5).
+>   Лучший эмо-чекпойнт — s7@5750; 6750 регрессирует. S7_RESULTS.md.
+> - **Aniemore-гейт**: RESD-контроль 99.3% (валиден); на синтетике disgust-коллапс
+>   (langswap 17%, s5/s7 3.3-5.0%) → доменно-неприменим, числа недоказуемы.
+> - **Публикация**: GitHub https://github.com/aga7on/AuK-ru (public, a3ebb15);
+>   HF https://huggingface.co/aga7on/AuK-ru (public; s5@4500, s7 5000/5750/6750, config, sha256.json;
+>   голоса/датасеты не публиковались).
+> - Диск: −51.4 ГБ (superseded merged + tmp); ERRORS.MD пополнен.
