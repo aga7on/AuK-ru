@@ -19,12 +19,12 @@ AUK = r"G:\AI\AuK"
 LT = os.path.join(AUK, "local_tests")
 OUTDIR = os.path.join(AUK, "local_train", "reports", "deepseek_supervised")
 CLEAN_DIR = r"G:\AI\kyutai-ru\data\ru_wav_mfa"
-VARIANTS = ["u10000", "A@250", "A@500", "B@250", "B@500", "s3@2000", "s4@4000", "s5@6000", "s5@4500", "s6@5000", "s6@6000", "s7@5750", "s8@7750"]
+VARIANTS = ["u10000", "A@250", "A@500", "B@250", "B@500", "s3@2000", "s4@4000", "s5@6000", "s5@4500", "s6@5000", "s6@6000", "s7@5750", "s8@7750", "s8b@8500"]
 DIRS = {"u10000": "u0_control", "A@250": "s2_A_250", "A@500": "s2_A_500",
         "B@250": "s2_B_250", "B@500": "s2_B_500", "s3@2000": "s3_control",
         "s4@4000": "s4_control", "s5@6000": "s5_control", "s5@4500": "s5_4500_control",
         "s6@5000": "s6_5000_control", "s6@6000": "s6_control", "s7@5750": "s7_5750_control",
-        "s8@7750": "s8_7750_control"}
+        "s8@7750": "s8_7750_control", "s8b@8500": "s8b_8500_control"}
 OPS = ["volume_up", "volume_down", "speed_up", "speed_down", "pitch_up", "pitch_down", "noise_add"]
 N_PER_OP = 5
 
