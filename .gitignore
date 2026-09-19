@@ -69,3 +69,7 @@ local_train/data/
 tmp_pub/
 !samples/
 !samples/*.wav
+
+# pairwise A/B secrets (never publish)
+**/SECRET_pair_map.csv
+local_tests/pairwise_*/SECRET_pair_map.csv
