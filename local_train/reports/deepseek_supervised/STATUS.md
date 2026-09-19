@@ -294,3 +294,8 @@
 >   HF https://huggingface.co/aga7on/AuK-ru (public; s5@4500, s7 5000/5750/6750, config, sha256.json;
 >   голоса/датасеты не публиковались).
 > - Диск: −51.4 ГБ (superseded merged + tmp); ERRORS.MD пополнен.
+
+> - **GATES §1 s7@5750 ЗАКРЫТ** (19.09): TTS WER 0.077, first_ok 0.812, clone sim best-of-3 0.771,
+>   clone WER 0.079, DSP 6/6, китайский акцент 0/100. Судья: tts 7.06 (+), clone 7.56/phonetics 7.44
+>   (−0.6, плата за эмоции), upstream 6.90 (+1.13). Канон эмоций: s7@5750; fallback нейтрали: s5@4500.
+>   Семплы (5 эмоций, судья 9/10) опубликованы в GitHub+HF (samples/). S7_RESULTS.md.
