@@ -64,6 +64,20 @@ clone/phonetics — s5@4500. План развития: [ROADMAP.md](ROADMAP.md)
   (без чекпойнтов, датасетов и секретов).
 - `LICENSE` — оригинальная лицензия Tencent (MIT), сохранена как требуется.
 
+## Russian frontend (S9)
+
+Письменный русский → произносимый текст перед моделью:
+
+\\python
+from auk.infer.ru_frontend import to_speakable
+to_speakable("Встреча 21.09.2026 в 14:30, тел. 8-800-555-35-35")
+# -> "Встреча дв+адцать п+ервое сентябр+я ... телеф+он в+осемь восемьс+от ..."
+\
+Конвейер: rutextnorm (числа/даты/валюты/единицы) → tech-prespell (URL/email/версии/аббревиатуры)
+→ safe_accentize (ударения RUAccent с защитой от фонетического респеллинга) → опц. транслит.
+Regression-бенчмарк: \local_train/hard_cases/hard_cases_ru.jsonl\ (241 текст, 10 категорий),
+прогон — \local_train/frontend_probe.py\. Результаты: S9_FRONTEND.md (wer_mean 0.319→0.255).
+
 ## Линейка обучения (доказательная цепочка)
 
 Каждый этап мержится ТОЛЬКО со своей базой (см. `LINEAGE` в отчётах):
