@@ -78,6 +78,21 @@ to_speakable("Встреча 21.09.2026 в 14:30, тел. 8-800-555-35-35")
 Regression-бенчмарк: \local_train/hard_cases/hard_cases_ru.jsonl\ (241 текст, 10 категорий),
 прогон — \local_train/frontend_probe.py\. Результаты: S9_FRONTEND.md (wer_mean 0.319→0.255).
 
+## Быстрый старт (v1.0)
+
+Единая точка входа с полным рецептом (frontend → best-of-3 → composite rerank → нормализация):
+
+\\powershell
+# TTS (нормализация чисел/дат/телефонов встроенная)
+python local_train\generate_v1.py --text "Встреча 21.09.2026 в 14:30." --out out_tts
+
+# клонирование голоса + эмоция
+python local_train\generate_v1.py --text "Привет, как дела?" --ref ref.wav --emotion happy --out out_clone
+\
+Режимы: TTS (без --ref), clone (--ref), clone+emotion (--emotion happy|sad|angry|fearful|excited|...).
+Best-of-N seeds (7,123,999) с composite-скорингом; лучший копируется в \1_best.wav\.
+Веса: HF \ga7on/AuK-ru\ → \uk_s7_5750.safetensors\ + \config.yaml\ в \local_train/run_s7/merged/\.
+
 ## Линейка обучения (доказательная цепочка)
 
 Каждый этап мержится ТОЛЬКО со своей базой (см. `LINEAGE` в отчётах):
