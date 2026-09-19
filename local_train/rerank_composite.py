@@ -92,6 +92,25 @@ def artifact_penalty(x):
     return 0.3 if clip > 2e-4 else 0.0
 
 
+def naturalness_score(x, sr):
+    """DNSMOS OVRL (speechmos) → 0..1; fallback 0.5 если модуль недоступен."""
+    try:
+        from speechmos import dnsmos as dnsmos_mod
+        global _DNS
+        if _DNS is None:
+            _DNS = dnsmos_mod
+        import numpy as _np
+        wav16 = _np.interp(_np.linspace(0, len(x) - 1, int(len(x) * 16000 / sr)),
+                           _np.arange(len(x)), x).astype("float32")
+        d = _DNS.run(wav16, 16000)
+        return max(0.0, min(float(d.get("ovrl_mos", 2.5)), 4.5)) / 4.5
+    except Exception:
+        return 0.5
+
+
+_DNS = None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cands", required=True)
@@ -115,7 +134,7 @@ def main():
                 "file": os.path.basename(f),
                 "sim": round(sim, 4),
                 "asr": round(1.0 - min(tm["wer"], 1.0), 4),
-                "natural": 0.5,  # placeholder до DNSMOS/human-калибровки (S13)
+                "natural": round(naturalness_score(x, sr), 3),
                 "loud": round(loudness_score(x), 3),
                 "pause": round(pause_score(x, sr), 3),
                 "rep_pen": round(repetition_penalty(heard), 2),
