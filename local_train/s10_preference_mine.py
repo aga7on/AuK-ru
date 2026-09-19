@@ -72,6 +72,7 @@ EMO_PACKS = {
     "emotion_ru_s7_5750": "emotion_s7_5750_judge_results.jsonl",
     "emotion_ru_s7_6750": "emotion_s7_6750_judge_results.jsonl",
     "emotion_ru_s8_7750": "emotion_s8_7750_judge_results.jsonl",
+    "emotion_ru_s8b_8500": "emotion_s8b_8500_judge_results.jsonl",
 }
 for pack, jf in EMO_PACKS.items():
     res = jd(os.path.join(AUK, "local_tests", pack, "results.json")) or []
