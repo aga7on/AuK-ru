@@ -305,3 +305,14 @@
 > ROADMAP.md. Hard cases добыты: local_train/hard_cases/hard_cases_ru_v1.jsonl (41 текст;
 > substitution 35, judge_verdict_bad 9, ending_mangle 8, sim_ok_diction_bad 5;
 > loudness-разброс между seeds = 0 — normalize_rms закрыл проблему).
+
+> **S9 Russian frontend (19.09, ПРОВЕРЕНО)**: ru_frontend.py (rutextnorm + tech-prespell +
+> abbr-dots + safe_accentize с анти-респеллингом) подключён в run_generate(normalize=True).
+> Benchmark hard_cases_ru.jsonl = 241 (10 категорий × 20 + 41 mined). Пробы v1→v4 на s7@5750:
+> wer_mean 0.319→0.255 (wer_norm); date 0.075, phone 0.111, money 0.083, units 0.150,
+> number 0.122, mined 0.000 — гейты закрыты. Остаток — модельный уровень (ООО, code_switch 0.55,
+> сверхдлинные слова). abbr_form_probe: точечная форма «м.г.у.» — единственная произносимая.
+> S9_FRONTEND.md, wer_norm.py, frontend_probe.py, abbr_form_probe.py.
+> **S8 запущен 21:15** (v8_s8_mix 66501 строк/90.6ч: hard×3 replay + clone×2 + emo/tool 1:1,
+> resume от s7@5750, цель 7750, seed 8, watchdog). Contamination-чек: eval-тексты в train не
+> попали (3 исторических leak зафиксированы).
