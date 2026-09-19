@@ -316,3 +316,11 @@
 > **S8 запущен 21:15** (v8_s8_mix 66501 строк/90.6ч: hard×3 replay + clone×2 + emo/tool 1:1,
 > resume от s7@5750, цель 7750, seed 8, watchdog). Contamination-чек: eval-тексты в train не
 > попали (3 исторических leak зафиксированы).
+
+> **S8 ОБУЧЕН (23:24)**: model_7750.pt целый; merged auk_s8_7750.safetensors (5839 МБ,
+> sha256 ff0ed7ab…, зарегистрирован в full_sha256.json). Gate-пайплайн (s8_gate.ps1, detached)
+> запущен: 6 генераций → objective → 4 судейских прогона → aggregate_s8.py → S8_RESULTS.md.
+> **S10 prep**: preference-данные v1 = 74 пары (56 артефактных + 18 mined composite),
+> first-shot gap composite +0.026 (0.7526→0.7789); S10_DESIGN.md (RFT первым методом).
+> **S13 prep**: pairwise A/B builder (40 пар s7-vs-s8, LISTEN.csv + SECRET_pair_map.csv,
+> .gitignore исключает secret; генерация после merge s8). ERRORS.MD #4 (float32 JSON, дважды).
