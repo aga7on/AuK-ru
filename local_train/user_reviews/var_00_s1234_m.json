@@ -1,0 +1,6 @@
+{
+  "sample": "var_00_s1234_m",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"file_name": "var_00_s1234_m.wav", "text_fidelity": 10, "endings": 10, "naturalness": 8, "prosody": 7, "accent": "Standard Russian", "palatalization": 10, "stress": 9, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "The sentence is articulated clearly with correct grammar. However, there is a slightly noticeable micro-pause after 'работает', which interrupts the natural flow of the phrase 'работает в банке'. The intonation on the date 'с 2026 года' is adequate but lacks the subtle dynamic variation of a native speaker.", "overall": 8, "verdict": "Good"}
+}

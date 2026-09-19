@@ -1,0 +1,85 @@
+# AuK — русская LoRA-адаптация (Ru)
+
+Форк [Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK) (MIT) —
+инструктивная TTS/аудио-модель (Flux2Edit + Qwen2.5-Omni-3B + BigVGANFlowVAE) —
+с русской адаптацией через цепочку LoRA-обучения.
+
+> ВНИМАНИЕ: это **форк с локальными изменениями** для русского языка и эмоциональной
+> выразительности. Веса и датасеты **не входят** в этот репозиторий; обученные модели
+> опубликованы на Hugging Face: [aga7on/AuK-ru](https://huggingface.co/aga7on/AuK-ru).
+> Аудио-референсы и датасеты остаются приватными.
+>
+> Оригинальный README апстрима: https://github.com/Tencent-Hunyuan/AuK
+
+## Что внутри
+
+- `src/` — код модели + инференс (изменения и дополнения к апстриму):
+  - `infer_auk.py` — инференс: авто-обрезка длинных референсов (`max_ref_seconds=30`),
+    нормализация громкости (`normalize_rms`, RMS −20 dBFS);
+  - `quality.py` — объективные замеры (WER через GigaAM-ASR, DSP-метрики);
+  - `ru_translit.py` — транслитерация (этап s0);
+  - `gigaam_ctc.py` — локальный ASR-контроль (GigaAM).
+- `local_train/` — конфиги, скрипты слияния/обучения/оценки, отчёты раундов
+  (без чекпойнтов, датасетов и секретов).
+- `LICENSE` — оригинальная лицензия Tencent (MIT), сохранена как требуется.
+
+## Линейка обучения (доказательная цепочка)
+
+Каждый этап мержится ТОЛЬКО со своей базой (см. `LINEAGE` в отчётах):
+
+| этап | адаптер → база | r/α | описание |
+|---|---|---|---|
+| s0 | — → `auk_base.safetensors` | 16/32 | транслитерация |
+| s1 | `run_ru_s1/model_*.pt` → база s0 | 32/64 | русская речь |
+| s2 (A/B) | `run_s2_*/model_*.pt` → база s1 | 32/64 | пилот, выбор ветки |
+| s3 | → база s2-B | 32/64 | чистовая речь/клонирование |
+| s4 | → база s3 | 32/64 | инструктивный набор |
+| s5 @4500 | → база s4 | 32/64 | каноническая (safety-точка) |
+| s7 | → база s1-10000 | 32/64 | эмоции (микс v7, emo-доля 0.27) |
+
+Пример слияния:
+
+```powershell
+.venv\Scripts\python.exe local_train\merge_lora.py --run_dir local_train\run_s7 `
+  --ckpt local_train\run_s7\model_6750.pt `
+  --out local_train\run_s7\merged\auk_s7_6750.safetensors `
+  --base_ckpt local_train\run_ru_s1\merged\auk_ru_10000.safetensors --lora_r 32 --lora_alpha 64
+```
+
+## Обучение
+
+```powershell
+& .venv\Scripts\accelerate.exe launch --num_processes 1 --num_machines 1 --mixed_precision bf16 `
+  -m auk.train.train --train_jsonl <train.jsonl> --val_jsonl <val.jsonl> `
+  --config <base>\merged\config.yaml --init_ckpt <base>.safetensors `
+  --output_dir <run> --learning_rate 5e-6 --max_updates 6750 --warmup_steps 25 `
+  --frames_threshold 384 --max_samples 2 --save_per_updates 250 --logging_steps 10 `
+  --val_per_updates 250 --seed 7 --lora True --lora_r 32 --lora_alpha 64 `
+  --lora_dropout 0.05 --use_ema False --bf16_transformer True
+```
+
+Resume: скопировать последний хороший `model_N.pt` в `model_last.pt`, перезапустить ту же команду
+(train.py сам рескейлит lr оптимизатора к CLI-значению — важно, см. отчёты).
+
+## Оценка качества
+
+- Автосудья — локальный Gemini-прокси (ключ через env `AUK_GEMINI_KEY`, не коммитится).
+- ASR-контроль — GigaAM (локально).
+- Эмоциональный гейт — Aniemore WavLM; контроль на RESD: **99.3%** (150/150);
+  на синтетических langswap-учителях гейт 17% → гейт верен только для RESD-подобных эмоций.
+- Результаты раундов: `local_train/reports/deepseek_supervised/` (STATUS.md, S5_RESULTS.md и др.).
+
+## Модели
+
+| имя | файл | sha256 |
+|---|---|---|
+| канон s5@4500 | `auk_s5_4500.safetensors` | в model card на HF |
+| s7@5000 / 5750 / 6750 | `auk_s7_*.safetensors` | в model card на HF |
+
+Подробности загрузки и использования — [Hugging Face model card](https://huggingface.co/aga7on/AuK-ru).
+
+## Конфиденциальность
+
+- Голосовые датасеты и референсы пользователя в публичные репозитории **не включаются**.
+- API-ключи — только через переменные окружения; в исходниках ключей нет.
+- `SECRET_map.csv` (слепые тесты) никогда не загружается.

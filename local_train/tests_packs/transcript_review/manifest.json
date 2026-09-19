@@ -1,0 +1,2995 @@
+[
+ {
+  "file": "rv000_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv000_endings.wav",
+  "original": "богота!",
+  "gigaam_heard": "богота",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 1.95,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv001_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv001_endings.wav",
+  "original": "побег. пятыи сезон, пятыи эпизод.",
+  "gigaam_heard": "побег пятый сезон пятый эпизод",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "пятыи",
+    "пятый"
+   ],
+   [
+    "пятыи",
+    "пятый"
+   ]
+  ],
+  "duration": 3.947,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv002_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv002_endings.wav",
+  "original": "ютуб, покажи иа спортс фифа.",
+  "gigaam_heard": "ютуб покажи иа спорт фифа",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "спортс",
+    "спорт"
+   ]
+  ],
+  "duration": 3.278,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv003_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv003_endings.wav",
+  "original": "открои мне ленту. точка возврата.",
+  "gigaam_heard": "открой мне ленту точка возврата",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "открои",
+    "открой"
+   ]
+  ],
+  "duration": 3.06,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv004_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv004_endings.wav",
+  "original": "святая гора, подключи!",
+  "gigaam_heard": "святая гора подключи",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.74,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv005_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv005_endings.wav",
+  "original": "биография.",
+  "gigaam_heard": "биография",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 5.549,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv006_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv006_endings.wav",
+  "original": "где находится филин?",
+  "gigaam_heard": "где находится филин",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.763,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv007_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv007_endings.wav",
+  "original": "диана сергеевна.",
+  "gigaam_heard": "диана сергеевна",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.484,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv008_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv008_endings.wav",
+  "original": "лукиных.",
+  "gigaam_heard": "лукиных",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.322,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv009_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv009_substitutions.wav",
+  "original": "у тебя наидется артхаус.",
+  "gigaam_heard": "у тебя найдется артхаус",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидется",
+    "найдется"
+   ]
+  ],
+  "duration": 2.068,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv010_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv010_endings.wav",
+  "original": "дальше.",
+  "gigaam_heard": "дальше",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.531,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv011_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv011_endings.wav",
+  "original": "областная клиническая стоматологическая поликлиника.",
+  "gigaam_heard": "областная клиническая стоматологическая поликлиника",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.458,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv012_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv012_endings.wav",
+  "original": "время каира.",
+  "gigaam_heard": "время каира",
+  "wer": 0.0,
+  "recall": 1.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 1.62,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv013_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv013_endings.wav",
+  "original": "салют. что у тебя с личнои жизнью?",
+  "gigaam_heard": "салют что у тебя с личной жизнью",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "личнои",
+    "личной"
+   ]
+  ],
+  "duration": 3.831,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv014_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv014_endings.wav",
+  "original": "на карте единыи расчетныи центр.",
+  "gigaam_heard": "на карте единый расчетный центр",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "единыи",
+    "единый"
+   ],
+   [
+    "расчетныи",
+    "расчетный"
+   ]
+  ],
+  "duration": 2.46,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv015_endings.wav",
+  "reason": "endings",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv015_endings.wav",
+  "original": "николаи васильевич!",
+  "gigaam_heard": "николай васильевич",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "николаи",
+    "николай"
+   ]
+  ],
+  "duration": 3.285,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv016_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv016_substitutions.wav",
+  "original": "сбер поставь лил бебе.",
+  "gigaam_heard": "сбер поставь лил бэби",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "бебе",
+    "бэби"
+   ]
+  ],
+  "duration": 3.44,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv017_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv017_substitutions.wav",
+  "original": "закажи мне пожалуиста, чаи. гринфилд с мелиссои.",
+  "gigaam_heard": "закажи мне пожалуйста чай гринфилд с мелиссой",
+  "wer": 0.429,
+  "recall": 0.571,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "пожалуиста",
+    "пожалуйста"
+   ],
+   [
+    "чаи",
+    "чай"
+   ],
+   [
+    "мелиссои",
+    "мелиссой"
+   ]
+  ],
+  "duration": 4.56,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv018_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv018_minor_wer.wav",
+  "original": "хочу посмотреть на смотрешке передачу тв три эич ди.",
+  "gigaam_heard": "хочу посмотреть на смотрешке передачу тв три эйч ди",
+  "wer": 0.111,
+  "recall": 0.889,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "эич",
+    "эйч"
+   ]
+  ],
+  "duration": 3.375,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv019_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv019_substitutions.wav",
+  "original": "пополни мои телефон на пятьсот рублеи.",
+  "gigaam_heard": "пополни мой телефон на пятьсот рублей",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "мои",
+    "мой"
+   ],
+   [
+    "рублеи",
+    "рублей"
+   ]
+  ],
+  "duration": 3.065,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv020_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv020_substitutions.wav",
+  "original": "дима масленников. проверка лаифхаков.",
+  "gigaam_heard": "дима масленников проверка лайфхаков",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "лаифхаков",
+    "лайфхаков"
+   ]
+  ],
+  "duration": 5.619,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv021_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv021_minor_wer.wav",
+  "original": "наити киноработу: камчатка: лекарство от ненависти.",
+  "gigaam_heard": "найди киноработу камчатка лекарство от ненависти",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найди"
+   ]
+  ],
+  "duration": 4.82,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv022_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv022_substitutions.wav",
+  "original": "наити фантастические фильмы, смотреть онлаин.",
+  "gigaam_heard": "найти фантастические фильмы смотреть онлайн",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ],
+   [
+    "онлаин",
+    "онлайн"
+   ]
+  ],
+  "duration": 5.84,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv023_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv023_high_wer.wav",
+  "original": "жан люк годар.",
+  "gigaam_heard": "жанрюк годы",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [
+   "жан"
+  ],
+  "substitutions": [
+   [
+    "люк",
+    "жанрюк"
+   ],
+   [
+    "годар",
+    "годы"
+   ]
+  ],
+  "duration": 2.5,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv024_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv024_substitutions.wav",
+  "original": "джои, клава кока мне пох, пох. хочу послушать эту популярную песню.",
+  "gigaam_heard": "джой клава кока мне бох бох хочу послушать эту популярную песню",
+  "wer": 0.273,
+  "recall": 0.727,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джои",
+    "джой"
+   ],
+   [
+    "пох",
+    "бох"
+   ],
+   [
+    "пох",
+    "бох"
+   ]
+  ],
+  "duration": 6.919,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv025_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv025_substitutions.wav",
+  "original": "скачаи сочувствие госпоже месть. четыре кеи!",
+  "gigaam_heard": "скачай сочувствие госпожи месть четыре кей",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "скачаи",
+    "скачай"
+   ],
+   [
+    "госпоже",
+    "госпожи"
+   ],
+   [
+    "кеи",
+    "кей"
+   ]
+  ],
+  "duration": 5.14,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv026_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv026_substitutions.wav",
+  "original": "ты наидешь у себя на тв канал русскии роман.",
+  "gigaam_heard": "ты найдешь у себя на тв канал русский роман",
+  "wer": 0.222,
+  "recall": 0.778,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидешь",
+    "найдешь"
+   ],
+   [
+    "русскии",
+    "русский"
+   ]
+  ],
+  "duration": 3.436,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv027_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv027_substitutions.wav",
+  "original": "сериал кости. первыи сезон, первая серия, озвучка баибака.",
+  "gigaam_heard": "сериал кости первый сезон первая серия озвучка байбака",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "первыи",
+    "первый"
+   ],
+   [
+    "баибака",
+    "байбака"
+   ]
+  ],
+  "duration": 8.42,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv028_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv028_substitutions.wav",
+  "original": "поисковик, наиди лучшие фильмы жанра. короткометражныи.",
+  "gigaam_heard": "поисковик найди лучшие фильмы жанра короткометражный",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ],
+   [
+    "короткометражныи",
+    "короткометражный"
+   ]
+  ],
+  "duration": 5.4,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv029_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv029_substitutions.wav",
+  "original": "на ютубе оли зе каб.",
+  "gigaam_heard": "на ютубе оли зэ кап",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "зе",
+    "зэ"
+   ],
+   [
+    "каб",
+    "кап"
+   ]
+  ],
+  "duration": 3.41,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv030_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv030_high_wer.wav",
+  "original": "николаи говорков.",
+  "gigaam_heard": "николай говарков",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "николаи",
+    "николай"
+   ],
+   [
+    "говорков",
+    "говарков"
+   ]
+  ],
+  "duration": 2.02,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv031_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv031_minor_wer.wav",
+  "original": "наити канал шоппинг на тв.",
+  "gigaam_heard": "найти канал шоппинг на тв",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 3.715,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv032_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv032_minor_wer.wav",
+  "original": "алиса, наиди лучшие фильмы жанра, ужасы.",
+  "gigaam_heard": "алиса найди лучшие фильмы жанра ужасы",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 3.6,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv033_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv033_minor_wer.wav",
+  "original": "имеется ли у тебя пятнадцать минут воины?",
+  "gigaam_heard": "имеется ли у тебя пятнадцать минут войны",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "воины",
+    "войны"
+   ]
+  ],
+  "duration": 3.2,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv034_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv034_minor_wer.wav",
+  "original": "у тебя наидется фильм жанра боевик.",
+  "gigaam_heard": "у тебя найдется фильм жанра боевик",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидется",
+    "найдется"
+   ]
+  ],
+  "duration": 3.212,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv035_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv035_high_wer.wav",
+  "original": "паранормальное.",
+  "gigaam_heard": "паранормальная",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "паранормальное",
+    "паранормальная"
+   ]
+  ],
+  "duration": 2.113,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv036_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv036_substitutions.wav",
+  "original": "кино. последнии поворот наиди.",
+  "gigaam_heard": "кино последний поворот найди",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "последнии",
+    "последний"
+   ],
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 4.288,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv037_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv037_minor_wer.wav",
+  "original": "наити фильм в жанре фэнтези.",
+  "gigaam_heard": "найти фильм в жанре фэнтези",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 3.8,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv038_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv038_high_wer.wav",
+  "original": "фролово!",
+  "gigaam_heard": "фрелово",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "фролово",
+    "фрелово"
+   ]
+  ],
+  "duration": 4.34,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv039_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv039_high_wer.wav",
+  "original": "перевозе?",
+  "gigaam_heard": "выперевоз",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "перевозе",
+    "выперевоз"
+   ]
+  ],
+  "duration": 2.88,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv040_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv040_minor_wer.wav",
+  "original": "наиди мне фильм бэтмен начало.",
+  "gigaam_heard": "найди мне фильм бэтмен начало",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 4.342,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv041_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv041_minor_wer.wav",
+  "original": "сбер включи. зырики, тв, куклы.",
+  "gigaam_heard": "сбер включи зырики тв кухол",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "куклы",
+    "кухол"
+   ]
+  ],
+  "duration": 2.563,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv042_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv042_substitutions.wav",
+  "original": "маидан на смотрешке.",
+  "gigaam_heard": "майдан на смотрешке",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "маидан",
+    "майдан"
+   ]
+  ],
+  "duration": 1.525,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv043_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv043_minor_wer.wav",
+  "original": "наити стс кидс на смотрешке.",
+  "gigaam_heard": "найти стс кидс на смотрешке",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 2.321,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv044_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv044_minor_wer.wav",
+  "original": "у тебя наидется кино. посланники.",
+  "gigaam_heard": "у тебя найдется кино посланники",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидется",
+    "найдется"
+   ]
+  ],
+  "duration": 3.506,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv045_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv045_minor_wer.wav",
+  "original": "наити фильм. доктор кто. сезон четырнадцать, серия двадцать пять.",
+  "gigaam_heard": "найти фильм доктор кто сезон четырнадцать серия двадцать пять",
+  "wer": 0.125,
+  "recall": 0.875,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 5.247,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv046_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv046_substitutions.wav",
+  "original": "из панка.",
+  "gigaam_heard": "из павка",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "панка",
+    "павка"
+   ]
+  ],
+  "duration": 2.64,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv047_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv047_high_wer.wav",
+  "original": "голубоглазыи микки наити?",
+  "gigaam_heard": "голубоглазый микки найти",
+  "wer": 0.667,
+  "recall": 0.333,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "голубоглазыи",
+    "голубоглазый"
+   ],
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 3.82,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv048_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv048_substitutions.wav",
+  "original": "туманные звезды большои медведицы. хочу смотреть сеичас.",
+  "gigaam_heard": "туманные звезды большой медведицы хочу смотреть сейчас",
+  "wer": 0.286,
+  "recall": 0.714,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "большои",
+    "большой"
+   ],
+   [
+    "сеичас",
+    "сейчас"
+   ]
+  ],
+  "duration": 6.04,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv049_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv049_minor_wer.wav",
+  "original": "фильм маика николса охота на воров.",
+  "gigaam_heard": "фильм майка николса охота на воров",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "маика",
+    "майка"
+   ]
+  ],
+  "duration": 4.76,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv050_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv050_substitutions.wav",
+  "original": "включи песню суперчуитс.",
+  "gigaam_heard": "включи песню супер чуис",
+  "wer": 0.667,
+  "recall": 0.667,
+  "insertions": [
+   "супер"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "суперчуитс",
+    "чуис"
+   ]
+  ],
+  "duration": 5.24,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv051_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv051_substitutions.wav",
+  "original": "даи пять топ.",
+  "gigaam_heard": "тай пять топ",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "даи",
+    "тай"
+   ]
+  ],
+  "duration": 2.182,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv052_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv052_minor_wer.wav",
+  "original": "потуши освещение во всем доме.",
+  "gigaam_heard": "души освещение во всем доме",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "потуши",
+    "души"
+   ]
+  ],
+  "duration": 2.341,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv053_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv053_substitutions.wav",
+  "original": "комедии с дженнои коулман.",
+  "gigaam_heard": "комедии с дженной колман",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "дженнои",
+    "дженной"
+   ],
+   [
+    "коулман",
+    "колман"
+   ]
+  ],
+  "duration": 5.92,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv054_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv054_substitutions.wav",
+  "original": "сбер. какои интситут окончила? кирсанова.",
+  "gigaam_heard": "сбер какой институт окончила кирсанова",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "какои",
+    "какой"
+   ],
+   [
+    "интситут",
+    "институт"
+   ]
+  ],
+  "duration": 3.74,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv055_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv055_substitutions.wav",
+  "original": "наиди фильм в жанре детскии.",
+  "gigaam_heard": "найди фильм в жанре детский",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ],
+   [
+    "детскии",
+    "детский"
+   ]
+  ],
+  "duration": 2.94,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv056_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv056_substitutions.wav",
+  "original": "наиди футбольныи матч манчестер и манчестер сити.",
+  "gigaam_heard": "найди футбольный матч манчестер и манчестер сити",
+  "wer": 0.286,
+  "recall": 0.714,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ],
+   [
+    "футбольныи",
+    "футбольный"
+   ]
+  ],
+  "duration": 5.5,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv057_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv057_substitutions.wav",
+  "original": "адель сергеевна.",
+  "gigaam_heard": "атель сергеевна",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "адель",
+    "атель"
+   ]
+  ],
+  "duration": 3.76,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv058_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv058_minor_wer.wav",
+  "original": "у тебя в списке есть капитан марвел с актером дэном эикроидом.",
+  "gigaam_heard": "у тебя в списке есть капитан марвел с актером дэном эйгрейдом",
+  "wer": 0.091,
+  "recall": 0.909,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "эикроидом",
+    "эйгрейдом"
+   ]
+  ],
+  "duration": 4.356,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv059_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv059_substitutions.wav",
+  "original": "регард ютуб.",
+  "gigaam_heard": "ленард ютуб",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "регард",
+    "ленард"
+   ]
+  ],
+  "duration": 2.56,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv060_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv060_high_wer.wav",
+  "original": "анны викторовны аникинои.",
+  "gigaam_heard": "анный викторовны аникиной",
+  "wer": 0.667,
+  "recall": 0.333,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "анны",
+    "анный"
+   ],
+   [
+    "аникинои",
+    "аникиной"
+   ]
+  ],
+  "duration": 2.901,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv061_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv061_high_wer.wav",
+  "original": "костылева.",
+  "gigaam_heard": "костынева",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "костылева",
+    "костынева"
+   ]
+  ],
+  "duration": 2.16,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv062_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv062_high_wer.wav",
+  "original": "переключение на джои.",
+  "gigaam_heard": "переключи меня на джой",
+  "wer": 1.0,
+  "recall": 0.333,
+  "insertions": [
+   "переключи"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "переключение",
+    "меня"
+   ],
+   [
+    "джои",
+    "джой"
+   ]
+  ],
+  "duration": 2.133,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv063_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv063_substitutions.wav",
+  "original": "треки на ютьюбе.",
+  "gigaam_heard": "треки на ютубе",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "ютьюбе",
+    "ютубе"
+   ]
+  ],
+  "duration": 1.936,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv064_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv064_minor_wer.wav",
+  "original": "открыть шаблоны. мои номер телефона оплатить.",
+  "gigaam_heard": "открыть шаблоны мой номер телефона оплатить",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "мои",
+    "мой"
+   ]
+  ],
+  "duration": 5.48,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv065_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv065_high_wer.wav",
+  "original": "швецову.",
+  "gigaam_heard": "швецовым",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "швецову",
+    "швецовым"
+   ]
+  ],
+  "duration": 1.94,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv066_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv066_substitutions.wav",
+  "original": "галактика, блокбастер питер уэин.",
+  "gigaam_heard": "галактика клок бастер питер уэйн",
+  "wer": 0.75,
+  "recall": 0.5,
+  "insertions": [
+   "клок"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "блокбастер",
+    "бастер"
+   ],
+   [
+    "уэин",
+    "уэйн"
+   ]
+  ],
+  "duration": 7.244,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv067_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv067_high_wer.wav",
+  "original": "джои, включи программиста.",
+  "gigaam_heard": "джой включи рограмисса",
+  "wer": 0.667,
+  "recall": 0.333,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джои",
+    "джой"
+   ],
+   [
+    "программиста",
+    "рограмисса"
+   ]
+  ],
+  "duration": 2.637,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv068_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv068_numbers.wav",
+  "original": "ассистент. мне нужно две булки хлеба белого и два. две банки оливок и банку маслин с доставкои на дом.",
+  "gigaam_heard": "ассистент мне нужно две булки хлеба белого и две банки оливок и банку маслин с доставкой на дом",
+  "wer": 0.111,
+  "recall": 0.889,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "#4",
+    "#2"
+   ],
+   [
+    "доставкои",
+    "доставкой"
+   ]
+  ],
+  "duration": 10.14,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv069_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv069_high_wer.wav",
+  "original": "что было в мезоамерика?",
+  "gigaam_heard": "что пыловинесамерика",
+  "wer": 0.75,
+  "recall": 0.25,
+  "insertions": [],
+  "deletions": [
+   "было",
+   "в"
+  ],
+  "substitutions": [
+   [
+    "мезоамерика",
+    "пыловинесамерика"
+   ]
+  ],
+  "duration": 6.36,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv070_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv070_minor_wer.wav",
+  "original": "наиди канал с новыми клипами.",
+  "gigaam_heard": "найди канал с новыми клипами",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 3.44,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv071_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv071_substitutions.wav",
+  "original": "мам, помоги мне наити мои любимыи тв контент.",
+  "gigaam_heard": "мам помоги мне найти мой любимый тв контент",
+  "wer": 0.375,
+  "recall": 0.625,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ],
+   [
+    "мои",
+    "мой"
+   ],
+   [
+    "любимыи",
+    "любимый"
+   ]
+  ],
+  "duration": 4.04,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv072_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv072_high_wer.wav",
+  "original": "джои, какои валютои расплачиваются в норфолке!",
+  "gigaam_heard": "джой какой валютой расплачиваются в норбуе",
+  "wer": 0.667,
+  "recall": 0.333,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джои",
+    "джой"
+   ],
+   [
+    "какои",
+    "какой"
+   ],
+   [
+    "валютои",
+    "валютой"
+   ],
+   [
+    "норфолке",
+    "норбуе"
+   ]
+  ],
+  "duration": 3.536,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv073_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv073_substitutions.wav",
+  "original": "хочу заказать чаи. липтон.",
+  "gigaam_heard": "хочу заказать чай липтон",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "чаи",
+    "чай"
+   ]
+  ],
+  "duration": 6.28,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv074_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv074_substitutions.wav",
+  "original": "спао, ингосстрах.",
+  "gigaam_heard": "курс пао ингосстрах",
+  "wer": 1.0,
+  "recall": 0.5,
+  "insertions": [
+   "курс"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "спао",
+    "пао"
+   ]
+  ],
+  "duration": 3.38,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv075_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv075_high_wer.wav",
+  "original": "федоровои.",
+  "gigaam_heard": "федоровой",
+  "wer": 1.0,
+  "recall": 0.0,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "федоровои",
+    "федоровой"
+   ]
+  ],
+  "duration": 3.16,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv076_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv076_substitutions.wav",
+  "original": "афина. поставь паул гэи.",
+  "gigaam_heard": "афина поставь паул гэйв",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "гэи",
+    "гэйв"
+   ]
+  ],
+  "duration": 4.04,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv077_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv077_substitutions.wav",
+  "original": "даи посмотреть матч англиискои премьер лиги бернли против манчестера.",
+  "gigaam_heard": "дай посмотреть матч английской премьер лиги бернли против манчестера",
+  "wer": 0.222,
+  "recall": 0.778,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "даи",
+    "дай"
+   ],
+   [
+    "англиискои",
+    "английской"
+   ]
+  ],
+  "duration": 4.884,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv078_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv078_substitutions.wav",
+  "original": "фильм нат гео мегазаводы, бентли включаи.",
+  "gigaam_heard": "фильм нат гео мегазавода бенкли включай",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "мегазаводы",
+    "мегазавода"
+   ],
+   [
+    "бентли",
+    "бенкли"
+   ],
+   [
+    "включаи",
+    "включай"
+   ]
+  ],
+  "duration": 5.8,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv079_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv079_substitutions.wav",
+  "original": "фильм знаменитого режиссера джеимса кэмерона про корабль, которыи столкнулся с аисбергом и затонул.",
+  "gigaam_heard": "фильм знаменитого режиссера джеймса кэмерона про корабль который столкнулся с айсбергом и затонул",
+  "wer": 0.231,
+  "recall": 0.769,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джеимса",
+    "джеймса"
+   ],
+   [
+    "которыи",
+    "который"
+   ],
+   [
+    "аисбергом",
+    "айсбергом"
+   ]
+  ],
+  "duration": 12.12,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv080_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv080_substitutions.wav",
+  "original": "богатые и бедные. наиди!",
+  "gigaam_heard": "богатые и бедные найди",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 3.04,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv081_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv081_minor_wer.wav",
+  "original": "включи маию кристалинскую. зимняя песенка.",
+  "gigaam_heard": "включи майю кристалинскую зимняя песенка",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "маию",
+    "майю"
+   ]
+  ],
+  "duration": 3.76,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv082_high_wer.wav",
+  "reason": "high_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv082_high_wer.wav",
+  "original": "джои, океи гугл, наиди мне детективныи фильм.",
+  "gigaam_heard": "джой окей гугл найди мне детективный фильм",
+  "wer": 0.571,
+  "recall": 0.429,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джои",
+    "джой"
+   ],
+   [
+    "океи",
+    "окей"
+   ],
+   [
+    "наиди",
+    "найди"
+   ],
+   [
+    "детективныи",
+    "детективный"
+   ]
+  ],
+  "duration": 6.134,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv083_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv083_substitutions.wav",
+  "original": "бэтэ воис в ютубе.",
+  "gigaam_heard": "бэтэ войс в ютубе",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "воис",
+    "войс"
+   ]
+  ],
+  "duration": 7.106,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv084_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv084_substitutions.wav",
+  "original": "у тебя наидется драма.",
+  "gigaam_heard": "у тебя найдется драма",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидется",
+    "найдется"
+   ]
+  ],
+  "duration": 2.64,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv085_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv085_insertions.wav",
+  "original": "закинуть по номеру телефона.",
+  "gigaam_heard": "закинуть по номеру телефона рублейле",
+  "wer": 0.25,
+  "recall": 1.0,
+  "insertions": [
+   "рублейле"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.76,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv086_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv086_substitutions.wav",
+  "original": "закажи четыре упаковки сухариков, флинт с сметанои и зеленью и одну маленькую упаковку чипсов леис с паприкои.",
+  "gigaam_heard": "закажи четыре упаковки сухариков клинт с сметаной и зеленью и одну маленькую упаковку чипсов лейс с паприкой",
+  "wer": 0.235,
+  "recall": 0.765,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "флинт",
+    "клинт"
+   ],
+   [
+    "сметанои",
+    "сметаной"
+   ],
+   [
+    "леис",
+    "лейс"
+   ],
+   [
+    "паприкои",
+    "паприкой"
+   ]
+  ],
+  "duration": 16.486,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv087_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv087_minor_wer.wav",
+  "original": "кинолента с беном стиллером, которая называется боилерная.",
+  "gigaam_heard": "кинолента с беном стиллером которая называется буйлерная",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "боилерная",
+    "буйлерная"
+   ]
+  ],
+  "duration": 4.18,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv088_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv088_minor_wer.wav",
+  "original": "поставь фильм человек паук вдали от дома.",
+  "gigaam_heard": "поставь фильм человек паук удали от дома",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "вдали",
+    "удали"
+   ]
+  ],
+  "duration": 2.6,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv089_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv089_substitutions.wav",
+  "original": "юрия дмитриевича заицева.",
+  "gigaam_heard": "юрия дмитриевича зайцева",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "заицева",
+    "зайцева"
+   ]
+  ],
+  "duration": 3.68,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv090_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv090_substitutions.wav",
+  "original": "помоги нам наити встречу вест хэм с астон виллои.",
+  "gigaam_heard": "помоги нам найти встречу вест хэм с астон виллой",
+  "wer": 0.222,
+  "recall": 0.778,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ],
+   [
+    "виллои",
+    "виллой"
+   ]
+  ],
+  "duration": 3.8,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv091_substitutions.wav",
+  "reason": "substitutions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv091_substitutions.wav",
+  "original": "прошу наити фильм матрица.",
+  "gigaam_heard": "прошу найти фильм матрица",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 4.946,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv092_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv092_minor_wer.wav",
+  "original": "включи вэбспун точка. ру на ютьюбе.",
+  "gigaam_heard": "включи вэбспун точка ру на ютюбе",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "ютьюбе",
+    "ютюбе"
+   ]
+  ],
+  "duration": 4.62,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv093_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv093_minor_wer.wav",
+  "original": "часть один шестого сезона: ганнибал.",
+  "gigaam_heard": "часть один шестого сезона каникулы",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "ганнибал",
+    "каникулы"
+   ]
+  ],
+  "duration": 3.3,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv094_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv094_minor_wer.wav",
+  "original": "сезон десять. сериал люк кеидж. серия двенадцать.",
+  "gigaam_heard": "сезон десять сериал люк кейдж серия двенадцать",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "кеидж",
+    "кейдж"
+   ]
+  ],
+  "duration": 4.34,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv095_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv095_minor_wer.wav",
+  "original": "можешь показать кино, как выити замуж за миллионера. два, сезон, пять.",
+  "gigaam_heard": "можешь показать кино как выйти замуж за миллионера два сезон пять",
+  "wer": 0.091,
+  "recall": 0.909,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "выити",
+    "выйти"
+   ]
+  ],
+  "duration": 6.094,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv096_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv096_minor_wer.wav",
+  "original": "хочу смотреть сеичас ленту жанра триллер.",
+  "gigaam_heard": "хочу смотреть сейчас ленту жанра триллер",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "сеичас",
+    "сейчас"
+   ]
+  ],
+  "duration": 3.784,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv097_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv097_minor_wer.wav",
+  "original": "запусти сериал озарк. сезон шесть.",
+  "gigaam_heard": "запусти сериал озрк сезон шесть",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "озарк",
+    "озрк"
+   ]
+  ],
+  "duration": 2.88,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv098_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv098_sound_drop.wav",
+  "original": "пожалуиста, приобретите мне в магазине, в магните или в пятерке, кофе. растворимыи цикории называется лантэль. упаковка бумажная. пожалуиста.",
+  "gigaam_heard": "пожалуйста приобретите мне в магазине в магните или в пятерке коферастворимый цикорий называется лантель упаковка бумажная пожалуйста",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [
+   "кофе"
+  ],
+  "substitutions": [
+   [
+    "пожалуиста",
+    "пожалуйста"
+   ],
+   [
+    "растворимыи",
+    "коферастворимый"
+   ],
+   [
+    "цикории",
+    "цикорий"
+   ],
+   [
+    "лантэль",
+    "лантель"
+   ],
+   [
+    "пожалуиста",
+    "пожалуйста"
+   ]
+  ],
+  "duration": 17.68,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv099_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv099_minor_wer.wav",
+  "original": "на каком языке написана мурзилка?",
+  "gigaam_heard": "на каком языке написана уи",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "мурзилка",
+    "уи"
+   ]
+  ],
+  "duration": 2.937,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv100_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv100_minor_wer.wav",
+  "original": "наиди популярные фильмы в жанре мультфильм.",
+  "gigaam_heard": "найди популярные фильмы в жанре мультфильм",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 2.74,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv101_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv101_minor_wer.wav",
+  "original": "наиди популярные фильмы в жанре комедия.",
+  "gigaam_heard": "найди популярные фильмы в жанре комедия",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наиди",
+    "найди"
+   ]
+  ],
+  "duration": 4.78,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv102_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv102_minor_wer.wav",
+  "original": "афина. включи пис, баи пис.",
+  "gigaam_heard": "афина включи пис май пис",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "баи",
+    "май"
+   ]
+  ],
+  "duration": 3.32,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv103_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv103_minor_wer.wav",
+  "original": "даи мне посмотреть на тв телеканал шансон.",
+  "gigaam_heard": "дай мне посмотреть на тв телеканал шансон",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "даи",
+    "дай"
+   ]
+  ],
+  "duration": 6.46,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv104_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv104_minor_wer.wav",
+  "original": "у тебя наидется том и джерри.",
+  "gigaam_heard": "у тебя найдется том и джерри",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наидется",
+    "найдется"
+   ]
+  ],
+  "duration": 3.1,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv105_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv105_minor_wer.wav",
+  "original": "покажи геракл фулл, эич ди.",
+  "gigaam_heard": "покажи геракл фулл эйч ди",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "эич",
+    "эйч"
+   ]
+  ],
+  "duration": 3.62,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv106_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv106_minor_wer.wav",
+  "original": "есть ли у тебя, жерар депардье?",
+  "gigaam_heard": "есть ли у тебя журар депардье",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "жерар",
+    "журар"
+   ]
+  ],
+  "duration": 3.146,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv107_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv107_minor_wer.wav",
+  "original": "сбер. мне нужна выписка с моего вклада за последние полгода.",
+  "gigaam_heard": "сбер мне нужна выписка с моего входа за последние полгода",
+  "wer": 0.1,
+  "recall": 0.9,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "вклада",
+    "входа"
+   ]
+  ],
+  "duration": 3.789,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv108_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv108_minor_wer.wav",
+  "original": "тв в подсобном помещении. уменьши звук.",
+  "gigaam_heard": "тавай в подсобном помещении уменьши звук",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "тв",
+    "тавай"
+   ]
+  ],
+  "duration": 3.0,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv109_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv109_minor_wer.wav",
+  "original": "салют. включи таимер на пятнадцать минут.",
+  "gigaam_heard": "салют включи таймер на пятнадцать минут",
+  "wer": 0.167,
+  "recall": 0.833,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "таимер",
+    "таймер"
+   ]
+  ],
+  "duration": 3.099,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv110_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv110_numbers.wav",
+  "original": "кири. серия тридцать.",
+  "gigaam_heard": "кири серия тридцатьшесть",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "#30",
+    "тридцатьшесть"
+   ]
+  ],
+  "duration": 6.92,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv111_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv111_minor_wer.wav",
+  "original": "у тебя есть стив джобс?",
+  "gigaam_heard": "у тебя есть стив брокс",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "джобс",
+    "брокс"
+   ]
+  ],
+  "duration": 4.295,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv112_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv112_insertions.wav",
+  "original": "могут ли мне предоставить информацию подтверждения заказа в электронном виде?",
+  "gigaam_heard": "могут ли мне предоставить информацию о подтверждении заказа в электронном виде",
+  "wer": 0.2,
+  "recall": 0.9,
+  "insertions": [
+   "о"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "подтверждения",
+    "подтверждении"
+   ]
+  ],
+  "duration": 4.34,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv113_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv113_minor_wer.wav",
+  "original": "салют. сколько собак планировал отправить в поход? нонсен!",
+  "gigaam_heard": "салют сколько собак планировал отправить в поход нансен",
+  "wer": 0.125,
+  "recall": 0.875,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "нонсен",
+    "нансен"
+   ]
+  ],
+  "duration": 5.25,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv114_minor_wer.wav",
+  "reason": "minor_wer",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv114_minor_wer.wav",
+  "original": "привет! подскажи, где здесь наити камеру хранения?",
+  "gigaam_heard": "привет подскажи где здесь найти камеру хранения",
+  "wer": 0.143,
+  "recall": 0.857,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "наити",
+    "найти"
+   ]
+  ],
+  "duration": 5.48,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv115_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv115_sound_drop.wav",
+  "original": "включаи бридж. ти ви классик на телевизоре.",
+  "gigaam_heard": "включай бридж тв классик на телевизоре",
+  "wer": 0.429,
+  "recall": 0.571,
+  "insertions": [],
+  "deletions": [
+   "ти"
+  ],
+  "substitutions": [
+   [
+    "включаи",
+    "включай"
+   ],
+   [
+    "ви",
+    "тв"
+   ]
+  ],
+  "duration": 3.32,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv116_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv116_sound_drop.wav",
+  "original": "принесите, пожалуиста, бургер ки эф си.",
+  "gigaam_heard": "принесите пожалуйста бургер киэф си",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "ки"
+  ],
+  "substitutions": [
+   [
+    "пожалуиста",
+    "пожалуйста"
+   ],
+   [
+    "эф",
+    "киэф"
+   ]
+  ],
+  "duration": 7.42,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv117_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv117_insertions.wav",
+  "original": "салют. переведи лизе сообщением долг.",
+  "gigaam_heard": "салют переведи лизе с сообщением долг",
+  "wer": 0.2,
+  "recall": 1.0,
+  "insertions": [
+   "с"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.907,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv118_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv118_sound_drop.wav",
+  "original": "замена масла фольксваген поло, седан.",
+  "gigaam_heard": "замена масла фольксваген полоседан",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [
+   "поло"
+  ],
+  "substitutions": [
+   [
+    "седан",
+    "полоседан"
+   ]
+  ],
+  "duration": 5.94,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv119_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv119_sound_drop.wav",
+  "original": "афина. поставь группу пу саша, рэп! п у, саша. рэп!",
+  "gigaam_heard": "афина поставь группу пу саша рэп пу саша рэп",
+  "wer": 0.2,
+  "recall": 0.8,
+  "insertions": [],
+  "deletions": [
+   "п"
+  ],
+  "substitutions": [
+   [
+    "у",
+    "пу"
+   ]
+  ],
+  "duration": 3.78,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv120_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv120_sound_drop.wav",
+  "original": "салют! включи бои эпик!",
+  "gigaam_heard": "салют включи бойэпик",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "бои"
+  ],
+  "substitutions": [
+   [
+    "эпик",
+    "бойэпик"
+   ]
+  ],
+  "duration": 2.44,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv121_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv121_sound_drop.wav",
+  "original": "лук репчатыи, пол килограмма. закажи с доставкои на дом.",
+  "gigaam_heard": "лук репчатый полкилограмма закажи с доставкой на дом",
+  "wer": 0.444,
+  "recall": 0.556,
+  "insertions": [],
+  "deletions": [
+   "репчатыи"
+  ],
+  "substitutions": [
+   [
+    "пол",
+    "репчатый"
+   ],
+   [
+    "килограмма",
+    "полкилограмма"
+   ],
+   [
+    "доставкои",
+    "доставкой"
+   ]
+  ],
+  "duration": 6.083,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv122_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv122_sound_drop.wav",
+  "original": "кошачии корм. про план джуниор для котят с курицеи четыреста грамм.",
+  "gigaam_heard": "кошачий корм прован джуниор для котят с курицей четыреста грамм",
+  "wer": 0.364,
+  "recall": 0.636,
+  "insertions": [],
+  "deletions": [
+   "про"
+  ],
+  "substitutions": [
+   [
+    "кошачии",
+    "кошачий"
+   ],
+   [
+    "план",
+    "прован"
+   ],
+   [
+    "курицеи",
+    "курицей"
+   ]
+  ],
+  "duration": 7.36,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv123_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv123_insertions.wav",
+  "original": "афина. можно ли при сколиозе давать нагрузку на спину в зале или лучше тянуться на турникекакие методы лечения?",
+  "gigaam_heard": "афина можно ли при сколиозе давать нагрузку на спину в зале или лучше тянуться на турнике какие методы лечения",
+  "wer": 0.111,
+  "recall": 0.944,
+  "insertions": [
+   "турнике"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "турникекакие",
+    "какие"
+   ]
+  ],
+  "duration": 9.1,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv124_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv124_sound_drop.wav",
+  "original": "салют ноа кахан видео.",
+  "gigaam_heard": "салют ноакахан видео",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "ноа"
+  ],
+  "substitutions": [
+   [
+    "кахан",
+    "ноакахан"
+   ]
+  ],
+  "duration": 5.22,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv125_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv125_numbers.wav",
+  "original": "время работы автомодульнольчетыре.",
+  "gigaam_heard": "время работы автомодуль ноль четыре",
+  "wer": 0.667,
+  "recall": 0.667,
+  "insertions": [
+   "автомодуль"
+  ],
+  "deletions": [],
+  "substitutions": [
+   [
+    "автомодульнольчетыре",
+    "#4"
+   ]
+  ],
+  "duration": 3.68,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv126_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv126_sound_drop.wav",
+  "original": "когда у грефа день рождения?",
+  "gigaam_heard": "когда у грефа деняцки",
+  "wer": 0.4,
+  "recall": 0.6,
+  "insertions": [],
+  "deletions": [
+   "день"
+  ],
+  "substitutions": [
+   [
+    "рождения",
+    "деняцки"
+   ]
+  ],
+  "duration": 2.391,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv127_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv127_insertions.wav",
+  "original": "салют. брать ли зонтик сегодня?",
+  "gigaam_heard": "а салют брать ли зонтик сегодня",
+  "wer": 0.2,
+  "recall": 1.0,
+  "insertions": [
+   "а"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.621,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv128_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv128_insertions.wav",
+  "original": "фэнтези.",
+  "gigaam_heard": "ста фэнтези",
+  "wer": 1.0,
+  "recall": 1.0,
+  "insertions": [
+   "#100"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 1.532,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv129_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv129_sound_drop.wav",
+  "original": "поищи пиф паф, крошка фор кеи?",
+  "gigaam_heard": "поищи пивка крошка фор кей",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "пиф"
+  ],
+  "substitutions": [
+   [
+    "паф",
+    "пивка"
+   ],
+   [
+    "кеи",
+    "кей"
+   ]
+  ],
+  "duration": 2.647,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv130_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv130_insertions.wav",
+  "original": "ильдар олегович.",
+  "gigaam_heard": "ов ильдар олегович",
+  "wer": 0.5,
+  "recall": 1.0,
+  "insertions": [
+   "ов"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.46,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv131_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv131_sound_drop.wav",
+  "original": "какие тарифы по моеи вип карте?",
+  "gigaam_heard": "какие тарифы по моей випкарте",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "моеи"
+  ],
+  "substitutions": [
+   [
+    "вип",
+    "моей"
+   ],
+   [
+    "карте",
+    "випкарте"
+   ]
+  ],
+  "duration": 3.068,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv132_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv132_sound_drop.wav",
+  "original": "пинк флоид: концерт в помпеи включи.",
+  "gigaam_heard": "пинк флой концент помпеи включи",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [
+   "флоид"
+  ],
+  "substitutions": [
+   [
+    "концерт",
+    "флой"
+   ],
+   [
+    "в",
+    "концент"
+   ]
+  ],
+  "duration": 4.0,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv133_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv133_sound_drop.wav",
+  "original": "скачать часть тридцать девятая четвертого сезона. ты боишься темноты?",
+  "gigaam_heard": "скачать часть тридцать девятая четвертого сезона поребайся темноты",
+  "wer": 0.222,
+  "recall": 0.778,
+  "insertions": [],
+  "deletions": [
+   "ты"
+  ],
+  "substitutions": [
+   [
+    "боишься",
+    "поребайся"
+   ]
+  ],
+  "duration": 6.18,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv134_sound_drop.wav",
+  "reason": "sound_drop",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv134_sound_drop.wav",
+  "original": "хочу смотреть сеичас интервью эм эм севен, геимс ютюб.",
+  "gigaam_heard": "хочу смотреть сейчас интервью эмэм севен геймс ютюб",
+  "wer": 0.444,
+  "recall": 0.556,
+  "insertions": [],
+  "deletions": [
+   "эм"
+  ],
+  "substitutions": [
+   [
+    "сеичас",
+    "сейчас"
+   ],
+   [
+    "эм",
+    "эмэм"
+   ],
+   [
+    "геимс",
+    "геймс"
+   ]
+  ],
+  "duration": 5.588,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv135_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv135_insertions.wav",
+  "original": "сбер. вы слышали это?",
+  "gigaam_heard": "сбер а вы слышали это",
+  "wer": 0.25,
+  "recall": 1.0,
+  "insertions": [
+   "а"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 2.88,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv136_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv136_insertions.wav",
+  "original": "я поцеловал вампира.",
+  "gigaam_heard": "уг я поцеловал вампира",
+  "wer": 0.333,
+  "recall": 1.0,
+  "insertions": [
+   "уг"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 7.12,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv137_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv137_insertions.wav",
+  "original": "измени условия по моему кредиту втб.",
+  "gigaam_heard": "измени условия по моему кредиту в втб",
+  "wer": 0.167,
+  "recall": 1.0,
+  "insertions": [
+   "в"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 3.377,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv138_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv138_insertions.wav",
+  "original": "афина: отклонить вызов маши.",
+  "gigaam_heard": "афина отклонить вызов маши маша",
+  "wer": 0.25,
+  "recall": 1.0,
+  "insertions": [
+   "маша"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 3.111,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv139_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv139_insertions.wav",
+  "original": "салют. почему мы не помним наше детство?",
+  "gigaam_heard": "конечно ясам мо салют почему мы не помним наше детство",
+  "wer": 0.429,
+  "recall": 1.0,
+  "insertions": [
+   "конечно",
+   "ясам",
+   "мо"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 4.114,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv140_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv140_insertions.wav",
+  "original": "шесть, шестьсот шестьдесят семь. двести четырнадцать двенадцать, десять.",
+  "gigaam_heard": "сьст шесть шестьсот шестьдесят семь двести четырнадцать двенадцать десять",
+  "wer": 1.0,
+  "recall": 1.0,
+  "insertions": [
+   "сьст"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 12.66,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv141_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv141_insertions.wav",
+  "original": "пополнить баланс телефона.",
+  "gigaam_heard": "пополнить баланс мобильного телефона",
+  "wer": 0.333,
+  "recall": 1.0,
+  "insertions": [
+   "мобильного"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 3.297,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv142_insertions.wav",
+  "reason": "insertions",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv142_insertions.wav",
+  "original": "валюта в гвинее.",
+  "gigaam_heard": "валюта ки в гвинее",
+  "wer": 0.333,
+  "recall": 1.0,
+  "insertions": [
+   "ки"
+  ],
+  "deletions": [],
+  "substitutions": [],
+  "duration": 3.66,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv143_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv143_numbers.wav",
+  "original": "тринадцать фунтов в баксах.",
+  "gigaam_heard": "сто тринадцать фунтов в баксах",
+  "wer": 0.25,
+  "recall": 0.75,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "#13",
+    "#113"
+   ]
+  ],
+  "duration": 4.0,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv144_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv144_numbers.wav",
+  "original": "серия шестнадцать, сезон одиннадцатыи кукольныи дом.",
+  "gigaam_heard": "серия шестнадцать сезон одиннадцать кукольный дом",
+  "wer": 0.333,
+  "recall": 0.667,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "одиннадцатыи",
+    "#11"
+   ],
+   [
+    "кукольныи",
+    "кукольный"
+   ]
+  ],
+  "duration": 3.74,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ },
+ {
+  "file": "rv145_numbers.wav",
+  "reason": "numbers",
+  "audio": "G:\\AI\\AuK\\local_train\\tests_packs\\transcript_review\\rv145_numbers.wav",
+  "original": "двадцать третии эпизод. сезон один. склифософскии.",
+  "gigaam_heard": "двадцать третий эпизод сезон одинн плифосовский",
+  "wer": 0.5,
+  "recall": 0.5,
+  "insertions": [],
+  "deletions": [],
+  "substitutions": [
+   [
+    "третии",
+    "третий"
+   ],
+   [
+    "#1",
+    "одинн"
+   ],
+   [
+    "склифософскии",
+    "плифосовский"
+   ]
+  ],
+  "duration": 3.065,
+  "question": "Сравни транскрипты: какая версия верная? [оригинал/GigaAM/оба не точны/не решено]"
+ }
+]

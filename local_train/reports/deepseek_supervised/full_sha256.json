@@ -1,0 +1,72 @@
+{
+ "upstream_base": {
+  "path": "G:\\AI\\AuK\\ckpts\\AuK\\auk_base.safetensors",
+  "sha256": "29c65c0c6045e8d8fb454019f99c9680508f553fc98fa143feaca3711d0b8614",
+  "size": 6122209092
+ },
+ "s0_merged_best": {
+  "path": "G:\\AI\\AuK\\local_train\\run_ru\\auk_ru_best.safetensors",
+  "sha256": "bb63701168eda0138e08fbce0e3a57ff6ee5fa48e252b9cfc5773156a9ae2aa6",
+  "size": 6122209092
+ },
+ "s1_merged_10000": {
+  "path": "G:\\AI\\AuK\\local_train\\run_ru_s1\\merged\\auk_ru_10000.safetensors",
+  "sha256": "a9ac0b81f5159ce707afc31e4897be2236716163144447092f7a0e0908642a24",
+  "size": 6122209092
+ },
+ "s1_adapter_10000": {
+  "path": "G:\\AI\\AuK\\local_train\\run_ru_s1\\model_10000.pt",
+  "sha256": "b4891ab6bc50982242a0e41e465c846c63dec741c4503a292b3bcf2bf30b2e16",
+  "size": 615779975
+ },
+ "s2_A250": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_250.safetensors",
+  "sha256": "7785d8d6217ac8a0676cec9467a5e677562c35830b362b5544406588b97e1397",
+  "size": 6122209092
+ },
+ "s2_A500": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_500.safetensors",
+  "sha256": "c3d0bc47413f27e12e8d13bf0ed9f81dc4fe43ade67ba446738cb078049cfe1e",
+  "size": 6122209092
+ },
+ "s2_B250": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_250.safetensors",
+  "sha256": "f794d8e445d968ae2db82558c083f9dcb1d991d5e03a4fdcd07f08946e120ee8",
+  "size": 6122209092
+ },
+ "s2_B500": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_500.safetensors",
+  "sha256": "2cef557ee9be95c5bb5748c51265b7e57ce3f613923bb1c3177e4f9de8c8daf2",
+  "size": 6122209092
+ },
+ "s2_A_adapter_250": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\model_250.pt",
+  "sha256": "df28aae41eb1d240514f831ba4d70c3be4a4b8cf420eeae0b038e545722d4138",
+  "size": 615776619
+ },
+ "s2_A_adapter_500": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\model_500.pt",
+  "sha256": "071b26f6b5ef6dc8d6b2c68a99d48a273d35ce2df46079a46cac8c1fb7501f96",
+  "size": 615776619
+ },
+ "s2_B_adapter_250": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\model_250.pt",
+  "sha256": "698adaab1a2d2276d0fa1d0614bf0e3ccc6e2e9542260abb996aad3c629a6bad",
+  "size": 615776619
+ },
+ "s2_B_adapter_500": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\model_500.pt",
+  "sha256": "aa08cba4d9c432df010776dd2c3c12d0b270a9b99556a1b4b5370a967c49d145",
+  "size": 615776619
+ },
+ "s3_B2_2000_merged": {
+  "path": "G:\\AI\\AuK\\local_train\\run_s3_B2\\merged\\auk_s3_2000.safetensors",
+  "sha256": "95d43715208c1ba26775fbd908198db0396a2b88697c3d6c77796f30b065c841",
+  "lineage": "u10000 + run_s3_B2/model_2000.pt (init=B@500 adapter, LR 1e-5, 2000 upd)"
+ },
+ "s4_4000_merged": "44e111d06e105ce934e31ff313e63eea383000f06ed53b828d8e9fff360d66e3",
+ "s5_6000_merged": "5bbac68950034063396fff4682638bb1580e2d29471881a74f11fdc2866292b4",
+ "s5_4500_merged": "8402771e742a4f19f49fe63212b1650fe8d461561072e28526c94195756bd316",
+ "s6_5000": "eb3fd2dd49b73609906146beaa484135c304b7eb2493cbaf4561c59cd9af5991",
+ "s6_6000": "b33e6c55eba4a9e36d70c996cee630b45f1fca90e011e07865e1045fd2fef4e5"
+}

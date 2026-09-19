@@ -1,0 +1,6 @@
+{
+  "sample": "u7750",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"text_fidelity": 10, "endings": 10, "naturalness": 9, "prosody": 8, "accent": "Standard Russian", "palatalization": 10, "stress": 9, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "The sentence is grammatically correct and clear. Prosody is slightly flat, typical of standard TTS, with a minor lack of emphatic stress on 'ещё более важную' which would be expected in human speech to highlight the comparative importance.", "overall": 9, "verdict": "Good"}
+}

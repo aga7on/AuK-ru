@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_39",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_tgt.wav"
+  ],
+  "sha256": [
+    "d8c0f4196b8be8e02525982602831e70e9fa2ac7726fa4920724cd564295720c",
+    "f798339326b1a2dc3d78f5d20fcc9fdb2c9190dc87986b0ac3d20c2237c51214"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Стоимость подарочного сертификата",
+        "transcript_b": "Стоимость доставки завтрака в номер",
+        "evidence": "Одинаковый женский голос с идентичным тембром, высотой тона, резонансными характеристиками и характерной артикуляцией (в частности, одинаковое интонирование слова «Стоимость»).",
+        "limitations": "Краткость речевых фрагментов, наличие фонового голоса в начале записи A."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Стоимость подарочного сертификата\",\n  \"transcript_b\": \"Стоимость доставки завтрака в номер\",\n  \"evidence\": \"Одинаковый женский голос с идентичным тембром, высотой тона, резонансными характеристиками и характерной артикуляцией (в частности, одинаковое интонирование слова «Стоимость»).\",\n  \"limitations\": \"Краткость речевых фрагментов, наличие фонового голоса в начале записи A.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 136,
+        "total_tokens": 1841,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1166
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Стоимость доставки завтрака в номер",
+        "transcript_b": "Стоимость подарочного сертификата",
+        "evidence": "Одинаковый женский тембр, схожая высота основного тона, формантные характеристики и практически идентичная артикуляция и интонационный рисунок на совпадающем слове «Стоимость».",
+        "limitations": "Краткость фрагментов речи, наличие слабо различимой посторонней речи в самом начале аудио B."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Стоимость доставки завтрака в номер\",\n  \"transcript_b\": \"Стоимость подарочного сертификата\",\n  \"evidence\": \"Одинаковый женский тембр, схожая высота основного тона, формантные характеристики и практически идентичная артикуляция и интонационный рисунок на совпадающем слове «Стоимость».\",\n  \"limitations\": \"Краткость фрагментов речи, наличие слабо различимой посторонней речи в самом начале аудио B.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 133,
+        "total_tokens": 1447,
+        "completion_tokens_details": {
+          "reasoning_tokens": 775
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

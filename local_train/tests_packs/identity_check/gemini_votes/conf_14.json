@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_14",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_tgt.wav"
+  ],
+  "sha256": [
+    "1269efd5bb5feac1ac39d0425c68d79163391472b7ce96602f482df093eb771b",
+    "8e547b34225fbbcd2a165a926353c4a44a182180ca8448512be3ce35b388f61a"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Сколько стоит тысяча швейцарских франков в Москве?",
+        "transcript_b": "Сколько стоит обменять бразильский реал в Тинькофф?",
+        "evidence": "Схожий женский голос с идентичным мягким тембром, высотой основного тона, формантной окраской и схожей вопросительной интонацией.",
+        "limitations": "Небольшая продолжительность записей и разный набор произносимых слов."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько стоит тысяча швейцарских франков в Москве?\",\n  \"transcript_b\": \"Сколько стоит обменять бразильский реал в Тинькофф?\",\n  \"evidence\": \"Схожий женский голос с идентичным мягким тембром, высотой основного тона, формантной окраской и схожей вопросительной интонацией.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный набор произносимых слов.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 518,
+        "completion_tokens": 136,
+        "total_tokens": 1204,
+        "completion_tokens_details": {
+          "reasoning_tokens": 550
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Сколько стоит обменять бразильский реал в Тинькофф",
+        "transcript_b": "Сколько стоит тысяча швейцарских франков в Москве",
+        "evidence": "Одинаковый женский тембр голоса, схожая высота основного тона, идентичный темп речи и артикуляция, а также одинаковая интонация во вводной фразе «Сколько стоит».",
+        "limitations": "Небольшая длительность аудиозаписей не позволяет гарантировать стопроцентную биометрическую точность."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько стоит обменять бразильский реал в Тинькофф\",\n  \"transcript_b\": \"Сколько стоит тысяча швейцарских франков в Москве\",\n  \"evidence\": \"Одинаковый женский тембр голоса, схожая высота основного тона, идентичный темп речи и артикуляция, а также одинаковая интонация во вводной фразе «Сколько стоит».\",\n  \"limitations\": \"Небольшая длительность аудиозаписей не позволяет гарантировать стопроцентную биометрическую точность.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 518,
+        "completion_tokens": 152,
+        "total_tokens": 1294,
+        "completion_tokens_details": {
+          "reasoning_tokens": 624
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

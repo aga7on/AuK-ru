@@ -1,0 +1,5 @@
+$env:PYTHONUTF8 = "1"
+Set-Location "G:\AI\AuK"
+"=== METRICS EXT START $(Get-Date) ===" | Out-File -Append -Encoding utf8 "G:\AI\_tmp\dataset_build2.log"
+& ".venv\Scripts\python.exe" "local_train\build_dataset.py" --stage b --candidates 82588 --workers 8 *>> "G:\AI\_tmp\dataset_build2.log"
+"=== METRICS EXT DONE $(Get-Date) ===" | Out-File -Append -Encoding utf8 "G:\AI\_tmp\dataset_build2.log"

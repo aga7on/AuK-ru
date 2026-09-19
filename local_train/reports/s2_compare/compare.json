@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-09-16T16:33:49",
+ "train_facts": {
+  "A": {
+   "updates": 500,
+   "speech_n": 680,
+   "tools_n": 0,
+   "speech_h_tgt": 0.75,
+   "tools_h_tgt": 0.0,
+   "speech_h_ref": 0.37,
+   "tools_h_ref": 0.0
+  },
+  "B": {
+   "updates": 500,
+   "speech_n": 526,
+   "tools_n": 138,
+   "speech_h_tgt": 0.6,
+   "tools_h_tgt": 0.15,
+   "speech_h_ref": 0.29,
+   "tools_h_ref": 0.15
+  }
+ },
+ "wall": {
+  "A": "2026-09-16 04:39:38 -> 2026-09-16 04:47:53",
+  "B": "2026-09-16 05:22:29 -> 2026-09-16 05:30:09"
+ },
+ "rows": [
+  {
+   "id": "u10000",
+   "label": "чистый u10000",
+   "tts_ok": 0.292,
+   "clone_ok": 0.24,
+   "tool_ok": 0.371,
+   "wer_tts": 1.04,
+   "wer_clone": 0.958,
+   "wer_tool": 0.432,
+   "sim_tts": 0.793,
+   "sim_clone": 0.777,
+   "leaks": 37,
+   "phon": {
+    "n": 16,
+    "wer_mean": 0.227
+   }
+  },
+  {
+   "id": "A@250",
+   "label": "пилот A, u250",
+   "tts_ok": 0.667,
+   "clone_ok": 0.48,
+   "tool_ok": 0.371,
+   "wer_tts": 0.309,
+   "wer_clone": 0.428,
+   "wer_tool": 0.407,
+   "sim_tts": 0.768,
+   "sim_clone": 0.713,
+   "leaks": 12,
+   "phon": {
+    "n": 16,
+    "wer_mean": 0.098
+   }
+  },
+  {
+   "id": "A@500",
+   "label": "пилот A, u500",
+   "tts_ok": 0.542,
+   "clone_ok": 0.52,
+   "tool_ok": 0.371,
+   "wer_tts": 0.4,
+   "wer_clone": 0.349,
+   "wer_tool": 0.433,
+   "sim_tts": 0.775,
+   "sim_clone": 0.719,
+   "leaks": 12,
+   "phon": {
+    "n": 16,
+    "wer_mean": 0.155
+   }
+  },
+  {
+   "id": "B@250",
+   "label": "пилот B, u250",
+   "tts_ok": 0.458,
+   "clone_ok": 0.28,
+   "tool_ok": 0.4,
+   "wer_tts": 0.547,
+   "wer_clone": 0.689,
+   "wer_tool": 0.395,
+   "sim_tts": 0.776,
+   "sim_clone": 0.723,
+   "leaks": 18,
+   "phon": {
+    "n": 16,
+    "wer_mean": 0.144
+   }
+  },
+  {
+   "id": "B@500",
+   "label": "пилот B, u500",
+   "tts_ok": 0.667,
+   "clone_ok": 0.48,
+   "tool_ok": 0.486,
+   "wer_tts": 0.19,
+   "wer_clone": 0.422,
+   "wer_tool": 0.305,
+   "sim_tts": 0.769,
+   "sim_clone": 0.726,
+   "leaks": 9,
+   "phon": {
+    "n": 16,
+    "wer_mean": 0.155
+   }
+  }
+ ]
+}

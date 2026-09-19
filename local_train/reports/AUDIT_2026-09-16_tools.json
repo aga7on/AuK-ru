@@ -1,0 +1,255 @@
+{
+  "data_s2_tools_v2/train": {
+    "rows": 21000,
+    "ops": {
+      "speed_down": 3000,
+      "speed_up": 3000,
+      "pitch_up": 3000,
+      "pitch_down": 3000,
+      "noise_add": 3000,
+      "volume_down": 3000,
+      "volume_up": 3000
+    }
+  },
+  "data_s2_tools_v2/val": {
+    "rows": 3500,
+    "ops": {
+      "volume_up": 500,
+      "speed_down": 500,
+      "speed_up": 500,
+      "noise_add": 500,
+      "volume_down": 500,
+      "pitch_down": 500,
+      "pitch_up": 500
+    }
+  },
+  "data_s2_full/train": {
+    "rows": 17506,
+    "ops": {
+      "tts": 17506
+    }
+  },
+  "data_s2_full/val": {
+    "rows": 65,
+    "ops": {
+      "tts": 65
+    }
+  },
+  "data_s2_v2/train": {
+    "rows": 543,
+    "ops": {
+      "tts": 543
+    }
+  },
+  "data_s2_v2/val": {
+    "rows": 73,
+    "ops": {
+      "tts": 73
+    }
+  },
+  "volume_up_train": {
+    "stats": {
+      "checked": 3000,
+      "nonlinear": 129,
+      "gain_not_6db": 992,
+      "not_positive_gain": 292,
+      "source_peak_ge_0999": 168
+    },
+    "examples": [
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_train_1b91adc64677d486.wav",
+        "db": -0.4455,
+        "max_linear_error": 2.9096670448147677e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "1b91adc64677d486",
+          "speaker_cluster": 2497,
+          "source_split": "train",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_train_0e112eb0006d434c.wav",
+        "db": 0.7474,
+        "max_linear_error": 3.0619154083866285e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "0e112eb0006d434c",
+          "speaker_cluster": 18153,
+          "source_split": "train",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_train_4f25a53103a394c6.wav",
+        "db": 5.9779,
+        "max_linear_error": 8.234139916911756e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "4f25a53103a394c6",
+          "speaker_cluster": 3171,
+          "source_split": "train",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_train_2e08a5739e6960a5.wav",
+        "db": 0.1877,
+        "max_linear_error": 3.066879008833956e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "2e08a5739e6960a5",
+          "speaker_cluster": 11654,
+          "source_split": "train",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_train_a8d92a3a4eda6620.wav",
+        "db": -0.4455,
+        "max_linear_error": 2.9017454021285083e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "a8d92a3a4eda6620",
+          "speaker_cluster": 13979,
+          "source_split": "train",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      }
+    ]
+  },
+  "volume_up_val": {
+    "stats": {
+      "checked": 500,
+      "nonlinear": 26,
+      "gain_not_6db": 186,
+      "not_positive_gain": 58,
+      "source_peak_ge_0999": 34
+    },
+    "examples": [
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_val_2a241fcf6ff5bb72.wav",
+        "db": 5.8918,
+        "max_linear_error": 5.5716420392174556e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "2a241fcf6ff5bb72",
+          "speaker_cluster": 8179,
+          "source_split": "val",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_val_152e06e6e76d6a1f.wav",
+        "db": 2.1428,
+        "max_linear_error": 3.1194619120600287e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "152e06e6e76d6a1f",
+          "speaker_cluster": 8728,
+          "source_split": "val",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_val_9ca7c70dc1970281.wav",
+        "db": 1.3642,
+        "max_linear_error": 3.0508973122442273e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "9ca7c70dc1970281",
+          "speaker_cluster": 8189,
+          "source_split": "val",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_val_7335c786d833f424.wav",
+        "db": 1.6527,
+        "max_linear_error": 3.0609434505335376e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "7335c786d833f424",
+          "speaker_cluster": 4475,
+          "source_split": "val",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      },
+      {
+        "file": "G:\\AI\\AuK\\local_train\\data_s2_tools_v2\\volume_up_val_31b0dad573746ed2.wav",
+        "db": 3.3988,
+        "max_linear_error": 3.053148609122314e-05,
+        "instruction": "Raise the volume by 6 decibels",
+        "meta": {
+          "synthetic": true,
+          "op": "volume_up",
+          "params": {
+            "gain_db": 6.0
+          },
+          "source_clip_id": "31b0dad573746ed2",
+          "speaker_cluster": 255,
+          "source_split": "val",
+          "seed": 9,
+          "tool_type": "synthetic"
+        }
+      }
+    ]
+  },
+  "tools_val_vs_data_s2_full_train_paths": 15,
+  "tools_val_vs_data_s2_v2_train_paths": 0,
+  "tools_val_ids_in_selection_train": 500
+}

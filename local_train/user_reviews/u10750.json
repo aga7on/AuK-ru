@@ -1,0 +1,7 @@
+{
+  "sample": "u10750",
+  "source": "user",
+  "date": "2026-09-14",
+  "user_note": "update_10750_gen.wav: слово «развитие» съедает «зв». (instruct-режим, val-сэмпл)",
+  "verdict_json": {"overall": 3, "verdict": "доработка", "issues": "«развитие» → потеря «зв» (instruct-режим)."}
+}

@@ -1,0 +1,37 @@
+[
+ {
+  "tag": "sber_reproduce",
+  "heard": "сбербер мальдива сбер давай купим мне мопед",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_sber_reproduce.wav"
+ },
+ {
+  "tag": "sber_product",
+  "heard": "сбер штанди романтьева значит друба",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_sber_product.wav"
+ },
+ {
+  "tag": "ref1",
+  "heard": "привет бронев ателе по предоплате",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_ref1.wav"
+ },
+ {
+  "tag": "ref2",
+  "heard": "свежая петруша доставка на дом",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_ref2.wav"
+ },
+ {
+  "tag": "ref3",
+  "heard": "афина кали перси кали перси",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_ref3.wav"
+ },
+ {
+  "tag": "ref4",
+  "heard": "фильм как динамит холстяка",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_ref4.wav"
+ },
+ {
+  "tag": "ref5",
+  "heard": "в клуку исте канал ру",
+  "path": "G:\\AI\\AuK\\local_train\\diagnostics\\initchk_ref5.wav"
+ }
+]

@@ -1,0 +1,92 @@
+{
+ "schema": "diag-1",
+ "created_by": "toolkit_inventory_worker",
+ "authorization": "root-authorized small synthesis diagnostic; 3 fixtures x 3 controls = 9 WAVs",
+ "run_config": {
+  "seed": 1234,
+  "nfe": 64,
+  "cfg_strength": 2.0,
+  "trim": false,
+  "bestofn": 1,
+  "dtype": "bf16",
+  "cpu_offload": true,
+  "faithful": "no clipping normalization, no silence trim",
+  "one_engine_at_a_time": true
+ },
+ "output_root": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\toolkit_inventory_worker\\diag_out",
+ "fixtures": [
+  {
+   "id": "diag_pitch_en_up2",
+   "task": "pitch_edit",
+   "language": "en",
+   "instruction": "Raise the pitch by 2 semitones.",
+   "ref": "G:\\AI\\AuK\\assets\\demo-input-audio\\pitch\\pitch-1-input.wav",
+   "ref_required": true,
+   "gen_seconds": 5.5,
+   "expected": "voiced F0 ratio ~ +2.0 semitones; content preserved",
+   "source": {
+    "sr": 24000,
+    "channels": 2,
+    "frames": 132000,
+    "duration_s": 5.5,
+    "rms": 0.0345,
+    "active_frame_ratio": 0.5639,
+    "sha256": "e3ce8f28ff59246d328ac2ed44f4cf0ba20492228dad1ac53f63743378be6d47"
+   }
+  },
+  {
+   "id": "diag_zeroshot_en",
+   "task": "zero_shot_tts",
+   "language": "en",
+   "instruction": "Say the following with the same voice: 'The northern lights shimmered above the frozen lake while we watched in silence.'",
+   "ref": "G:\\AI\\AuK\\assets\\demo-input-audio\\zero-shot-tts\\ref.wav",
+   "ref_required": true,
+   "gen_seconds": 7.0,
+   "expected": "intelligible target text in ref voice; sufficient duration; no ref-word echo",
+   "source": {
+    "sr": 24000,
+    "channels": 1,
+    "frames": 238800,
+    "duration_s": 9.95,
+    "rms": 0.04359,
+    "active_frame_ratio": 0.8651,
+    "sha256": "ce1f449813c5769b6a4790fd50dac98a74a696795ee6b82c35068a11c147e79a"
+   }
+  },
+  {
+   "id": "diag_instructtts_en_noref",
+   "task": "instruct_tts",
+   "language": "en",
+   "instruction": "Based on the following description: \"A calm, clear adult female narrator with a warm, measured delivery and a slight smile in her voice, speaking at a natural pace with crisp articulation.\", generate speech content \"The ancient clockmaker wound the brass key three times before sunrise.\".",
+   "ref": null,
+   "ref_required": false,
+   "gen_seconds": 5.0,
+   "expected": "intelligible English; calm clear female narrator; ~4.5-5.0 s; no-reference path",
+   "source": null
+  }
+ ],
+ "controls": {
+  "upstream_base": {
+   "ckpt": "G:\\AI\\AuK\\ckpts\\AuK\\auk_base.safetensors",
+   "config": "G:\\AI\\AuK\\ckpts\\AuK\\config.yaml",
+   "sha256_full_expected": "29c65c0c6045e8d8fb454019f99c9680508f553fc98fa143feaca3711d0b8614",
+   "exists": true
+  },
+  "s1_u10000": {
+   "ckpt": "G:\\AI\\AuK\\local_train\\run_ru_s1\\merged\\auk_ru_10000.safetensors",
+   "config": "G:\\AI\\AuK\\local_train\\run_ru_s1\\merged\\config.yaml",
+   "sha256_full_expected": "a9ac0b81f5159ce707afc31e4897be2236716163144447092f7a0e0908642a24",
+   "exists": true
+  },
+  "s2_B500": {
+   "ckpt": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_500.safetensors",
+   "config": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\config.yaml",
+   "sha256_full_expected": "2cef557ee9be95c5bb5748c51265b7e57ce3f613923bb1c3177e4f9de8c8daf2",
+   "exists": true
+  }
+ },
+ "code_sha256": {
+  "build_diag_pack.py": "cbc8ca3dd4e80001581ee922bc6d85dd820a3e7983759b12f83187ff9c778fc0"
+ },
+ "validation_errors": []
+}

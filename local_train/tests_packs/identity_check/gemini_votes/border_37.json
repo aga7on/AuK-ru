@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_37",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_tgt.wav"
+  ],
+  "sha256": [
+    "9db696d5cee251a7956c5e5fc9ed8e0d210135f49acb60421cb1a787b66f567c",
+    "e233d99d22da976b14884dd89d1ba2da81dacd3775e82090a97d20e230a6b194"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Найти фильм в жанре музыкальный",
+        "transcript_b": "Вруби фильм Джорджа Миллера",
+        "evidence": "Одинаковый женский тембр, схожая высота основного тона, вокальная формантная структура и идентичная артикуляция согласных и гласных (особенно заметно на повторяющемся слове «фильм»).",
+        "limitations": "Краткость аудиозаписей и ограниченный контекст речевого материала."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Найти фильм в жанре музыкальный\",\n  \"transcript_b\": \"Вруби фильм Джорджа Миллера\",\n  \"evidence\": \"Одинаковый женский тембр, схожая высота основного тона, вокальная формантная структура и идентичная артикуляция согласных и гласных (особенно заметно на повторяющемся слове «фильм»).\",\n  \"limitations\": \"Краткость аудиозаписей и ограниченный контекст речевого материала.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 494,
+        "completion_tokens": 139,
+        "total_tokens": 1451,
+        "completion_tokens_details": {
+          "reasoning_tokens": 818
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Вруби фильм Джорджа Миллера",
+        "transcript_b": "Найти фильм в жанре музыкальный",
+        "evidence": "Одинаковый женский тембр голоса, совпадение высоты основного тона, резонанса и артикуляционных привычек при произнесении согласных и гласных звуков.",
+        "limitations": "Небольшая продолжительность записей и разные произносимые фразы."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Вруби фильм Джорджа Миллера\",\n  \"transcript_b\": \"Найти фильм в жанре музыкальный\",\n  \"evidence\": \"Одинаковый женский тембр голоса, совпадение высоты основного тона, резонанса и артикуляционных привычек при произнесении согласных и гласных звуков.\",\n  \"limitations\": \"Небольшая продолжительность записей и разные произносимые фразы.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 494,
+        "completion_tokens": 129,
+        "total_tokens": 1072,
+        "completion_tokens_details": {
+          "reasoning_tokens": 449
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

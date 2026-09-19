@@ -1,0 +1,7 @@
+{
+  "sample": "u9250",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "user_note": "В u9250 пропущен мягкий знак, тогда как в u9000 он поставлен верно (судья дал palat=10 — расхождение с человеческой оценкой).",
+  "verdict_json": {"file_name": "update_9250_gen.wav", "text_fidelity": 10, "endings": 10, "naturalness": 9, "prosody": 8, "accent": "Standard Russian", "palatalization": 10, "stress": 9, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "The sentence is articulated clearly with correct grammar and stress placement. The prosody is generally good, though the emphasis on 'ещё более важную' could be slightly stronger to fully convey the comparative nuance intended by the text. Overall, a very clean generation.", "overall": 9, "verdict": "Good"}
+}

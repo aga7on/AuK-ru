@@ -1,0 +1,9 @@
+{
+  "sample": "pause_analysis",
+  "source": "objective (pause_stats.py)",
+  "date": "2026-09-14",
+  "target": {"internal_pause": 0.19, "lead": 0.31, "tail": 0.23, "speech": 4.19, "total": 4.94},
+  "gen_findings": "Внутренняя пауза 0.36–0.63с (в ~2-3x больше эталона) ИЛИ пауза переносится в начало/конец: u15250 lead 0.71с (речь сжата до 3.51с), u10000 tail 0.59с. u14750 — выравнивание почти как у эталона (speech 4.24, lead 0.10/tail 0.14).",
+  "fix": "silence_trim.py: lead<=0.15, tail<=0.20, int cap 0.35 (кроссфейд 10мс). A/B: local_tests\\pause_trim\\update_15250_gen.wav (4.94->4.38с).",
+  "verdict_json": {"overall": null, "verdict": "ожидает слуха", "issues": "Избыточное молчание (начальная пауза/внутренние) — стабильный дефект по чекпоинтам."}
+}

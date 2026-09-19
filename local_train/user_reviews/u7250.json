@@ -1,0 +1,7 @@
+{
+  "sample": "u7250",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"text_fidelity": 5, "endings": 3, "naturalness": 4, "prosody": 5, "accent": 7, "palatalization": 6, "stress": 6, "voice_similarity": null, "artifacts": 8, "truncated": false, "words_dropped": ["развитие"], "words_mangled": [{"correct": "развитие", "heard": "разитие"}], "issues": "Пропущено слово «развитие», произнесено как «разитие»; концы слов смазаны, слышна лёгкая песочность; интонация устойчивая, но неестественная; акцент лёгкий, мягкие согласные искажены.", "overall": 6, "verdict": "доработка"},
+  "verdict_json_v2": {"filename": "update_7250_gen.wav", "text_fidelity": 4, "endings": 3, "naturalness": 4, "prosody": 5, "accent": 7, "palatalization": 6, "stress": 6, "voice_similarity": null, "artifacts": 8, "truncated": false, "words_dropped": [], "words_mangled": [{"correct": "развитие", "heard": "разитие"}], "issues": "Слово «развитие» искажено (пропущен слог «ви»), звучит как «разитие»; окончания слов смазаны, интонация механическая с легким акцентом.", "overall": 5, "verdict": "доработка"}
+}

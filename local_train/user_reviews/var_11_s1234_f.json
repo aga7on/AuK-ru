@@ -1,0 +1,7 @@
+{
+  "sample": "var_11_s1234_f",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"file_name": "sample_rock_jazz_window.wav", "text_fidelity": 9, "endings": 10, "naturalness": 7, "prosody": 6, "accent": "Standard Russian", "palatalization": 10, "stress": 8, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "The sentence is grammatically correct. However, the loanwords 'Рок-н-рол' and 'джаз' are pronounced with heavy Russian phonetic adaptation (e.g., 'рок' with a hard back vowel, 'н-рол' as a single syllable unit). As per your note, they lack the authentic English phonetics (e.g., the diphthong in 'roll' or the specific stress pattern of 'Rock and Roll'), making them sound somewhat localized rather than true-to-source.", "overall": 7, "verdict": "Good"},
+  "comment": "it's var_11_s1234_f"
+}

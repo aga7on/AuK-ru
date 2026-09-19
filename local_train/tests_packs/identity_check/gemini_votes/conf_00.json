@@ -1,0 +1,52 @@
+{
+  "pair_id": "conf_00",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_tgt.wav"
+  ],
+  "sha256": [
+    "09d5b7beebbdaa62ce48b0942821b3588fd303dfb56ff3b4da3992facab32482",
+    "d9cfb6beeea0f38940efb5f8cdbd4962edfae52083b750c85923d0ce92877f68"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "error": "ValueError: substring not found"
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "15 минут поставь скорость обдува на кондиционере на средний",
+        "transcript_b": "Навык, что тут посмотреть, давай играть в",
+        "evidence": "Схожий подростковый/детский голос с одинаковым тембром, высотой основного тона, легким носовым призвуком и идентичной артикуляцией.",
+        "limitations": "Небольшая длительность записей не позволяет заявить о стопроцентной биометрической точности."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"15 минут поставь скорость обдува на кондиционере на средний\",\n  \"transcript_b\": \"Навык, что тут посмотреть, давай играть в\",\n  \"evidence\": \"Схожий подростковый/детский голос с одинаковым тембром, высотой основного тона, легким носовым призвуком и идентичной артикуляцией.\",\n  \"limitations\": \"Небольшая длительность записей не позволяет заявить о стопроцентной биометрической точности.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 503,
+        "completion_tokens": 144,
+        "total_tokens": 1555,
+        "completion_tokens_details": {
+          "reasoning_tokens": 908
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "request_failed",
+  "failed_attempts": [
+    {
+      "order_index": 0,
+      "result": {
+        "error": "ValueError: substring not found"
+      }
+    }
+  ]
+}

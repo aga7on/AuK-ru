@@ -1,0 +1,402 @@
+[
+ {
+  "pair_id": "conf_00",
+  "sim": 0.753,
+  "cluster": 9220,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_ref.wav",
+  "ref_text": "навык. что тут посмотреть? даваи играть в.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_tgt.wav",
+  "tgt_text": "на пятнадцать минут поставь скорость обдува на кондиционере на среднии.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_01",
+  "sim": 0.713,
+  "cluster": 8483,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i01_ref.wav",
+  "ref_text": "показываи сериал подпольная империя. сезон пять.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i01_tgt.wav",
+  "tgt_text": "включи мне сериал обмани меня. эпизод девятнадцать.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_02",
+  "sim": 0.754,
+  "cluster": 342,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i02_ref.wav",
+  "ref_text": "ты наидешь у себя сериал. маша и медведь. двенадцатая серия.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i02_tgt.wav",
+  "tgt_text": "покажи мне сериал миллиарды!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_03",
+  "sim": 0.741,
+  "cluster": 22226,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_ref.wav",
+  "ref_text": "андрея александровича шерстнева.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_tgt.wav",
+  "tgt_text": "андрее владимировиче андрееве.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_04",
+  "sim": 0.757,
+  "cluster": 766,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i04_ref.wav",
+  "ref_text": "где находится ао банк сгб.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i04_tgt.wav",
+  "tgt_text": "рядом национальная библиотека республики татарстан.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_05",
+  "sim": 0.798,
+  "cluster": 6282,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_ref.wav",
+  "ref_text": "практическая магия. покажи!",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_tgt.wav",
+  "tgt_text": "включи кино невероятные приключения фарика.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_06",
+  "sim": 0.735,
+  "cluster": 1723,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i06_ref.wav",
+  "ref_text": "вячеслав валентинович федоров.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i06_tgt.wav",
+  "tgt_text": "а какои сегодня курс бакса?",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_07",
+  "sim": 0.702,
+  "cluster": 25261,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i07_ref.wav",
+  "ref_text": "алиса, закажи мне чаи нури пакетированныи. двадцать пять пакетиков.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i07_tgt.wav",
+  "tgt_text": "алиса, закажи сосиски охотничьи.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_08",
+  "sim": 0.825,
+  "cluster": 208,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i08_ref.wav",
+  "ref_text": "где находится профессорская клиника?",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i08_tgt.wav",
+  "tgt_text": "на карте инфекционная клиническая больница номер двадцать три.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_09",
+  "sim": 0.744,
+  "cluster": 15258,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i09_ref.wav",
+  "ref_text": "призрак свободы ищи.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i09_tgt.wav",
+  "tgt_text": "заблудившиеся.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_10",
+  "sim": 0.776,
+  "cluster": 6358,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_ref.wav",
+  "ref_text": "покажи фильм. люди, места, вещи.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_tgt.wav",
+  "tgt_text": "кинчик восемь недель спустя покажи!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_11",
+  "sim": 0.71,
+  "cluster": 17363,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_ref.wav",
+  "ref_text": "поезд в пусан.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_tgt.wav",
+  "tgt_text": "малефисента?",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_12",
+  "sim": 0.82,
+  "cluster": 10451,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i12_ref.wav",
+  "ref_text": "выведи мне серию один шестого сезона мистер робот.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i12_tgt.wav",
+  "tgt_text": "эпизод тридцать два сезона, три сериала. молодежка.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_13",
+  "sim": 0.804,
+  "cluster": 16726,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_ref.wav",
+  "ref_text": "хочу телеканал малыш тв на смотрешке.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_tgt.wav",
+  "tgt_text": "включи на тв канал, малыш!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_14",
+  "sim": 0.787,
+  "cluster": 9776,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_ref.wav",
+  "ref_text": "сколько стоит тысяча швеицарских франков в москве?",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_tgt.wav",
+  "tgt_text": "сколько стоит обменять бразильскии реал в тинькофф?",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_15",
+  "sim": 0.763,
+  "cluster": 15085,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_ref.wav",
+  "ref_text": "фильм с участием леонардо ди каприо.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_tgt.wav",
+  "tgt_text": "фильм с участием тома круза.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_16",
+  "sim": 0.71,
+  "cluster": 11980,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i16_ref.wav",
+  "ref_text": "сколько будет на наши двести пятьдесят евро.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i16_tgt.wav",
+  "tgt_text": "полина федоровна минаева.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_17",
+  "sim": 0.778,
+  "cluster": 547,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_ref.wav",
+  "ref_text": "врубаи телеканал вместе. рф на телевизоре.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_tgt.wav",
+  "tgt_text": "чарли браун. месть болвана!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_18",
+  "sim": 0.768,
+  "cluster": 1398,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_ref.wav",
+  "ref_text": "тряпка для мытья полов из микрофибры.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_tgt.wav",
+  "tgt_text": "тесс плежа двадцать пять пакетиков.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "conf_19",
+  "sim": 0.731,
+  "cluster": 13843,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_ref.wav",
+  "ref_text": "александру сергеевичу горбачу.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_tgt.wav",
+  "tgt_text": "илюхи! ананьева.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_20",
+  "sim": 0.597,
+  "cluster": 8720,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i20_ref.wav",
+  "ref_text": "конец детства. эпизод тридцать семь.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i20_tgt.wav",
+  "tgt_text": "оплатить мобильныи телефон.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_21",
+  "sim": 0.588,
+  "cluster": 10404,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_ref.wav",
+  "ref_text": "включи ю. два.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_tgt.wav",
+  "tgt_text": "ю. два.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_22",
+  "sim": 0.597,
+  "cluster": 19769,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_ref.wav",
+  "ref_text": "курс россииского рубля к лире.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_tgt.wav",
+  "tgt_text": "главныи курс австралииского доллара к фунту стерлингу.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_23",
+  "sim": 0.584,
+  "cluster": 7718,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_ref.wav",
+  "ref_text": "эдуард леонидович разыков.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_tgt.wav",
+  "tgt_text": "сколько сегодня стоит биткоин?",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_24",
+  "sim": 0.564,
+  "cluster": 3823,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_ref.wav",
+  "ref_text": "включи все серии доктора кто.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_tgt.wav",
+  "tgt_text": "наиди фильм аванпост!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_25",
+  "sim": 0.568,
+  "cluster": 260,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i25_ref.wav",
+  "ref_text": "сыр белебеевскии. заказать четыреста грамм.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i25_tgt.wav",
+  "tgt_text": "включи, капитан филлипс. четырка!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_26",
+  "sim": 0.594,
+  "cluster": 12501,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i26_ref.wav",
+  "ref_text": "лен тв.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i26_tgt.wav",
+  "tgt_text": "включи фильм нимани.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_27",
+  "sim": 0.57,
+  "cluster": 4406,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_ref.wav",
+  "ref_text": "кинолента ультра эич ди на окко.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_tgt.wav",
+  "tgt_text": "джои, кто делает в аду?",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_28",
+  "sim": 0.562,
+  "cluster": 22789,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_ref.wav",
+  "ref_text": "да не!",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_tgt.wav",
+  "tgt_text": "подключи!",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_29",
+  "sim": 0.578,
+  "cluster": 23543,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i29_ref.wav",
+  "ref_text": "перевод маме.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i29_tgt.wav",
+  "tgt_text": "перевод жене.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_30",
+  "sim": 0.563,
+  "cluster": 18687,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i30_ref.wav",
+  "ref_text": "салют. ого! спасибо.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i30_tgt.wav",
+  "tgt_text": "сбер. у меня в жизни много проблем.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_31",
+  "sim": 0.579,
+  "cluster": 8681,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i31_ref.wav",
+  "ref_text": "расскажи, когда достиг самои большои скорости на сноуборде?",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i31_tgt.wav",
+  "tgt_text": "я хочу наити забытые вещи.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_32",
+  "sim": 0.564,
+  "cluster": 7095,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i32_ref.wav",
+  "ref_text": "сбер. включи воспоминания о тебе, анакондаз.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i32_tgt.wav",
+  "tgt_text": "принц персии, пески времени запусти.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_33",
+  "sim": 0.579,
+  "cluster": 11723,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i33_ref.wav",
+  "ref_text": "переростки. серия двадцать три.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i33_tgt.wav",
+  "tgt_text": "наити, как я встретил вашу маму.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_34",
+  "sim": 0.565,
+  "cluster": 7672,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i34_ref.wav",
+  "ref_text": "на какие средства существует википедия?",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i34_tgt.wav",
+  "tgt_text": "привет. помоги мне заказать трансфер в аэропорт.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_35",
+  "sim": 0.588,
+  "cluster": 14430,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_ref.wav",
+  "ref_text": "у тебя в запасе есть фильм. приличные люди.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_tgt.wav",
+  "tgt_text": "искать кино. я, снова я и мама.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_36",
+  "sim": 0.557,
+  "cluster": 529,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_ref.wav",
+  "ref_text": "покажи мне сериал половое воспитание.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_tgt.wav",
+  "tgt_text": "почти человек. серия восемь.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_37",
+  "sim": 0.597,
+  "cluster": 80,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_ref.wav",
+  "ref_text": "наити фильм в жанре музыкальныи.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_tgt.wav",
+  "tgt_text": "вруби фильм джорджа миллера.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_38",
+  "sim": 0.564,
+  "cluster": 9260,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i38_ref.wav",
+  "ref_text": "афина, отмени перевод со вклада на карту.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i38_tgt.wav",
+  "tgt_text": "джои, хочу внести наличные на карту. наиди мне ближаишии банкомат.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ },
+ {
+  "pair_id": "border_39",
+  "sim": 0.581,
+  "cluster": 2178,
+  "ref_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_ref.wav",
+  "ref_text": "стоимость подарочного сертификата.",
+  "tgt_file": "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_tgt.wav",
+  "tgt_text": "стоимость доставки завтрака в номер.",
+  "question": "Один человек говорит в обоих файлах? [да/нет/не уверен]"
+ }
+]

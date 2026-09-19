@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_11",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_tgt.wav"
+  ],
+  "sha256": [
+    "4401620f7e541d05f90a734e901daa8d15f379837e8196cd2a1bb644d1f560be",
+    "a78081df1811b37056354864901ab0cc94d12053a7bcc3c006b759f20f7919b5"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Поезд в Пусан",
+        "transcript_b": "Малефисента",
+        "evidence": "Схожий мужской тембр голоса, одинаковая высота основного тона, близкие резонансные характеристики и характерная манера артикуляции.",
+        "limitations": "Краткость фрагментов и разный набор произносимых слов не дают возможности гарантировать абсолютную биометрическую точность."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Поезд в Пусан\",\n  \"transcript_b\": \"Малефисента\",\n  \"evidence\": \"Схожий мужской тембр голоса, одинаковая высота основного тона, близкие резонансные характеристики и характерная манера артикуляции.\",\n  \"limitations\": \"Краткость фрагментов и разный набор произносимых слов не дают возможности гарантировать абсолютную биометрическую точность.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 124,
+        "total_tokens": 2032,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1479
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Малефисента",
+        "transcript_b": "Поезд в Пусан",
+        "evidence": "Схожий женский голос с мягким, слегка приглушённым тембром, одинаковой высотой основного тона, резонансными характеристиками и манерой произношения.",
+        "limitations": "Короткая длительность записей и произнесение отдельных фраз в спокойной манере ограничивают полноту анализа просодии."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Малефисента\",\n  \"transcript_b\": \"Поезд в Пусан\",\n  \"evidence\": \"Схожий женский голос с мягким, слегка приглушённым тембром, одинаковой высотой основного тона, резонансными характеристиками и манерой произношения.\",\n  \"limitations\": \"Короткая длительность записей и произнесение отдельных фраз в спокойной манере ограничивают полноту анализа просодии.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 138,
+        "total_tokens": 1368,
+        "completion_tokens_details": {
+          "reasoning_tokens": 801
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

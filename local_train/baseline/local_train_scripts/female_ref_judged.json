@@ -1,0 +1,104 @@
+[
+ {
+  "path": "G:\\AI\\kyutai-ru\\data\\ru_wav\\common_voice_ru_19797308.mp3.wav",
+  "text": "Необходимо также поддерживать сбалансированное соотношение между двумя этими категориями членов Совета.",
+  "metrics": {
+   "ovrl": 3.532,
+   "sig": 3.767,
+   "f0": 186.0,
+   "dur": 8.184,
+   "silence": 0.227
+  },
+  "judge": {
+   "female": false,
+   "naturalness": 10,
+   "clarity": 10,
+   "noise_or_artifacts": false,
+   "comment": "clear"
+  }
+ },
+ {
+  "path": "X:\\MediaForge\\kyutai-ru-data\\ru_wav\\1df29be2f076cd74.wav",
+  "text": "день ну блин у меня просто такое детское вот осталось впечатление я не хочу как-то приобщать",
+  "metrics": {
+   "ovrl": 3.527,
+   "sig": 3.759,
+   "f0": 188.2,
+   "dur": 6.0,
+   "silence": 0.23
+  },
+  "judge": {
+   "female": true,
+   "naturalness": 8,
+   "clarity": 9,
+   "noise_or_artifacts": false,
+   "comment": "short"
+  }
+ },
+ {
+  "path": "X:\\MediaForge\\kyutai-ru-data\\ru_wav\\afe0b8982ca659c7.wav",
+  "text": "ну и только потом уже встаю вот такой у меня утренний ритуал каждый день уже на протяжении не первого года",
+  "metrics": {
+   "ovrl": 3.523,
+   "sig": 3.77,
+   "f0": 229.7,
+   "dur": 7.5,
+   "silence": 0.155
+  },
+  "judge": {
+   "female": true,
+   "naturalness": 9,
+   "clarity": 9,
+   "noise_or_artifacts": false,
+   "comment": "short"
+  }
+ },
+ {
+  "path": "G:\\AI\\kyutai-ru\\data\\ru_wav\\common_voice_ru_19797718.mp3.wav",
+  "text": "Мы должны решительно и не откладывая на потом придать ускорение затормозившемуся процессу реформ.",
+  "metrics": {
+   "ovrl": 3.521,
+   "sig": 3.749,
+   "f0": 192.0,
+   "dur": 7.2,
+   "silence": 0.178
+  },
+  "judge": {
+   "female": false,
+   "naturalness": 10,
+   "clarity": 10,
+   "noise_or_artifacts": false,
+   "comment": "clear"
+  }
+ },
+ {
+  "path": "G:\\AI\\kyutai-ru\\data\\ru_wav\\common_voice_ru_20719929.mp3.wav",
+  "text": "Любые пояснения в отношении авторства докладов Комитета следует направлять Секретарю Комитета.",
+  "metrics": {
+   "ovrl": 3.506,
+   "sig": 3.714,
+   "f0": 192.0,
+   "dur": 5.664,
+   "silence": 0.223
+  },
+  "judge": null
+ },
+ {
+  "path": "X:\\MediaForge\\kyutai-ru-data\\ru_wav\\b9d5ac1e674ce106.wav",
+  "text": "я вообще не понимаю наших учителей потому что мне кажется то что они роботы они вообще не спят зачем делать уроки восемь тридцать",
+  "metrics": {
+   "ovrl": 3.502,
+   "sig": 3.738,
+   "f0": 202.5,
+   "dur": 8.742,
+   "silence": 0.178
+  },
+  "judge": {
+   "female": true,
+   "naturalness": 10,
+   "clarity": 10,
+   "noise_or_artifacts": false,
+   "comment": "short"
+  }
+ }
+]

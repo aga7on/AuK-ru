@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_21",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_tgt.wav"
+  ],
+  "sha256": [
+    "58db2e9b4a6d8b6c96097645f2204d2c39d4457bef5cb2478d7b73380deda040",
+    "bcb276b75ec7ae8d4fff2fa11f82f90ae9ee65f834051ff4f4c62cce46ca03c0"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "uncertain",
+        "transcript_a": "Включи U2",
+        "transcript_b": "U2",
+        "evidence": "В аудиозаписи A речь практически шепотная, с преобладанием шумового компонента и отсутствием стабильного основного тона. В аудиозаписи B используется нормальная модальная фонация в женском регистре.",
+        "limitations": "Различные типы голосообразования (шепот против обычной речи) и крайне малая длительность записей (1–2 слова) не позволяют провести надежное сравнение индивидуальных тембральных характеристик."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Включи U2\",\n  \"transcript_b\": \"U2\",\n  \"evidence\": \"В аудиозаписи A речь практически шепотная, с преобладанием шумового компонента и отсутствием стабильного основного тона. В аудиозаписи B используется нормальная модальная фонация в женском регистре.\",\n  \"limitations\": \"Различные типы голосообразования (шепот против обычной речи) и крайне малая длительность записей (1–2 слова) не позволяют провести надежное сравнение индивидуальных тембральных характеристик.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 466,
+        "completion_tokens": 154,
+        "total_tokens": 2239,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1619
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Ю два",
+        "transcript_b": "Включи Ю два",
+        "evidence": "Оба фрагмента принадлежат одной и той же женщине; совпадают тембральная окраска, высота основного тона, мягкая интонация и характерная артикуляция сочетания «Ю два».",
+        "limitations": "Краткость аудиозаписей и небольшой объем речевого материала."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Ю два\",\n  \"transcript_b\": \"Включи Ю два\",\n  \"evidence\": \"Оба фрагмента принадлежат одной и той же женщине; совпадают тембральная окраска, высота основного тона, мягкая интонация и характерная артикуляция сочетания «Ю два».\",\n  \"limitations\": \"Краткость аудиозаписей и небольшой объем речевого материала.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 466,
+        "completion_tokens": 122,
+        "total_tokens": 1217,
+        "completion_tokens_details": {
+          "reasoning_tokens": 629
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

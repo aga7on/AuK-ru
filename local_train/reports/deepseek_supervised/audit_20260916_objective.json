@@ -1,0 +1,190 @@
+﻿{
+ "main": [
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\u0_control",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 120,
+   "manifest_uniq_ids": 120,
+   "run_params": true,
+   "run_status": "ok",
+   "run_ckpt": "G:\\AI\\AuK\\local_train\\run_ru_s1\\merged\\auk_ru_10000.safetensors",
+   "run_ckpt_exists": true,
+   "run_ckpt_sha16_claimed": "4f3eca357e96c273",
+   "run_ckpt_sha16_actual": "4f3eca357e96c273",
+   "wav_n": 120,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\s2_A_250",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 120,
+   "manifest_uniq_ids": 120,
+   "run_params": true,
+   "run_status": "ok",
+   "run_ckpt": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_250.safetensors",
+   "run_ckpt_exists": true,
+   "run_ckpt_sha16_claimed": "c17d3b62e895feff",
+   "run_ckpt_sha16_actual": "c17d3b62e895feff",
+   "wav_n": 120,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\s2_A_500",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 120,
+   "manifest_uniq_ids": 120,
+   "run_params": true,
+   "run_status": "ok",
+   "run_ckpt": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_500.safetensors",
+   "run_ckpt_exists": true,
+   "run_ckpt_sha16_claimed": "f1bc15582c227b1a",
+   "run_ckpt_sha16_actual": "f1bc15582c227b1a",
+   "wav_n": 120,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\s2_B_250",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 120,
+   "manifest_uniq_ids": 120,
+   "run_params": true,
+   "run_status": "ok",
+   "run_ckpt": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_250.safetensors",
+   "run_ckpt_exists": true,
+   "run_ckpt_sha16_claimed": "b9a064fcb6d0b28e",
+   "run_ckpt_sha16_actual": "b9a064fcb6d0b28e",
+   "wav_n": 120,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\s2_B_500",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 120,
+   "manifest_uniq_ids": 120,
+   "run_params": true,
+   "run_status": "ok",
+   "run_ckpt": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_500.safetensors",
+   "run_ckpt_exists": true,
+   "run_ckpt_sha16_claimed": "10cdd9872b0235ea",
+   "run_ckpt_sha16_actual": "10cdd9872b0235ea",
+   "wav_n": 120,
+   "missing_wav": [],
+   "extra_wav": []
+  }
+ ],
+ "phon": [
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\phon_u10000",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 16,
+   "manifest_uniq_ids": 16,
+   "run_params": false,
+   "wav_n": 16,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\phon_A_250",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 16,
+   "manifest_uniq_ids": 16,
+   "run_params": false,
+   "wav_n": 16,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\phon_A_500",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 16,
+   "manifest_uniq_ids": 16,
+   "run_params": false,
+   "wav_n": 16,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\phon_B_250",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 16,
+   "manifest_uniq_ids": 16,
+   "run_params": false,
+   "wav_n": 16,
+   "missing_wav": [],
+   "extra_wav": []
+  },
+  {
+   "dir": "G:\\AI\\AuK\\local_tests\\phon_B_500",
+   "exists": true,
+   "manifest": true,
+   "manifest_n": 16,
+   "manifest_uniq_ids": 16,
+   "run_params": false,
+   "wav_n": 16,
+   "missing_wav": [],
+   "extra_wav": []
+  }
+ ],
+ "blind": {
+  "files": 685,
+  "wav_n": 685,
+  "by_group": {
+   "capability": 60,
+   "tool": 175,
+   "tts": 240,
+   "phonetics": 80,
+   "clone": 125,
+   "phrase_training": 5
+  },
+  "by_variant": {
+   "u10000": 137,
+   "A@500": 137,
+   "B@250": 137,
+   "A@250": 137,
+   "B@500": 137
+  },
+  "form_filled": 0
+ },
+ "merged_after_remerge": {
+  "A@250": {
+   "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_250.safetensors",
+   "exists": true,
+   "sha16": "c17d3b62e895feff"
+  },
+  "A@500": {
+   "path": "G:\\AI\\AuK\\local_train\\run_s2_A\\merged\\auk_s2_A_500.safetensors",
+   "exists": true,
+   "sha16": "f1bc15582c227b1a"
+  },
+  "B@250": {
+   "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_250.safetensors",
+   "exists": true,
+   "sha16": "b9a064fcb6d0b28e"
+  },
+  "B@500": {
+   "path": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_500.safetensors",
+   "exists": true,
+   "sha16": "10cdd9872b0235ea"
+  }
+ },
+ "adapters": {
+  "A_250": true,
+  "A_500": true,
+  "B_250": true,
+  "B_500": true
+ },
+ "sha16_definition": "sha256 of first 2048 MB only (verify_eval_run.py::sha16)"
+}

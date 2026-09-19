@@ -1,0 +1,6 @@
+{
+  "sample": "vol_own_m_p1",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"file_name": "vol_own_m_p1.wav", "text_fidelity": 10, "endings": 10, "naturalness": 7, "prosody": 6, "accent": "Standard Russian", "palatalization": 10, "stress": 9, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "Phrase handled well phonetically. Prosody is somewhat flat and lacks the warm, inviting intonation; the pause between the two sentences feels slightly mechanical rather than conversational.", "overall": 7, "verdict": "Good"}
+}

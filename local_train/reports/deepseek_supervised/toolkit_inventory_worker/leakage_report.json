@@ -1,0 +1,1161 @@
+{
+ "train_sets": {
+  "local_train/data/train.jsonl": 20569,
+  "local_train/data/val.jsonl": 256,
+  "local_train/data_s2_full/train.jsonl": 24640,
+  "local_train/data_s2_full/val.jsonl": 87,
+  "local_train/data_s2_tools_v3/train.jsonl": 27807,
+  "local_train/data_s2_tools_v3/val.jsonl": 3442
+ },
+ "packs": {
+  "local_tests/eval_pack/pack.json": {
+   "n_refs": 120,
+   "n_in_train": 0,
+   "n_seen_any": 60,
+   "leaked_ids": [
+    "clone00",
+    "clone01",
+    "clone02",
+    "clone03",
+    "clone04",
+    "clone05",
+    "clone06",
+    "clone07",
+    "clone08",
+    "clone09",
+    "clone10",
+    "clone11",
+    "clone12",
+    "clone13",
+    "clone14",
+    "clone15",
+    "clone16",
+    "clone17",
+    "clone18",
+    "clone19",
+    "clone20",
+    "clone21",
+    "clone22",
+    "clone23",
+    "clone24",
+    "tool_noise_add_0",
+    "tool_volume_down_0",
+    "tool_speed_down_0",
+    "tool_pitch_down_0",
+    "tool_volume_down_1",
+    "tool_pitch_up_0",
+    "tool_pitch_down_1",
+    "tool_speed_down_1",
+    "tool_pitch_up_1",
+    "tool_noise_add_1",
+    "tool_speed_down_2",
+    "tool_pitch_down_2",
+    "tool_pitch_up_2",
+    "tool_volume_up_0",
+    "tool_pitch_down_3",
+    "tool_speed_down_3",
+    "tool_speed_up_0",
+    "tool_speed_down_4",
+    "tool_speed_up_1",
+    "tool_pitch_up_3",
+    "tool_pitch_down_4",
+    "tool_noise_add_2",
+    "tool_volume_down_2",
+    "tool_pitch_up_4",
+    "tool_noise_add_3",
+    "tool_noise_add_4",
+    "tool_volume_down_3",
+    "tool_volume_up_1",
+    "tool_speed_up_2",
+    "tool_speed_up_3",
+    "tool_volume_down_4",
+    "tool_volume_up_2",
+    "tool_speed_up_4",
+    "tool_volume_up_3",
+    "tool_volume_up_4"
+   ],
+   "rows": [
+    {
+     "id": "tts00_clusters_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts01_clusters_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts02_clusters_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts03_clusters_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts04_clusters_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts05_clusters_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts06_soft_sign_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts07_soft_sign_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts08_soft_sign_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts09_soft_sign_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts10_soft_sign_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts11_soft_sign_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts12_reduction_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts13_reduction_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts14_reduction_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts15_reduction_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts16_reduction_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts17_reduction_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts18_numerals_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts19_numerals_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts20_numerals_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts21_numerals_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts22_numerals_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts23_numerals_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts24_names_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts25_names_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts26_names_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts27_names_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts28_names_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts29_names_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts30_prosody_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts31_prosody_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts32_prosody_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts33_prosody_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts34_prosody_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts35_prosody_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts36_baseline_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts37_baseline_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts38_baseline_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts39_baseline_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts40_baseline_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts41_baseline_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts42_hard_words_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts43_hard_words_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts44_hard_words_user_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts45_hard_words_nat_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts46_hard_words_alt_male",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_male2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "tts47_hard_words_alt_female",
+     "kind": "tts",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_female2.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "clone00",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\089bf683be3d9ed6.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone01",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\45cc9d96e6beeb10.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone02",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\e44ffbeacd10bb40.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone03",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4b9403b96794e12f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone04",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6260181ab302eaa5.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone05",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8163fa019249fb68.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone06",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\a8d86bce5c9881b5.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone07",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5f05752d99b2c3f3.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone08",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\59d61a76a3143c94.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone09",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\054d89e961c647fd.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone10",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\7bb5ed9d6c525aa0.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone11",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\0e2c1013dd42789a.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone12",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1eb95e61ff6cfd8d.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone13",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\83ec06422203f1c6.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone14",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\79ad0b4d247dc3e9.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone15",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\e05ffbf1861ea7e6.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone16",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\0272faa59600c62d.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone17",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\bd196f883afe50be.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone18",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\e503ead3dc675d10.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone19",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f73a68562bb736ca.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone20",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\16954afac9199814.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone21",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\e470bc7250e3a13f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone22",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\a82a3666c87ce4aa.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone23",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\58d3efe8ff3e49cf.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "clone24",
+     "kind": "clone",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\60392ad6bbdc289c.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_full/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_noise_add_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_down_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_down_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_down_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_down_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_up_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_down_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_down_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_up_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_noise_add_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_down_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_down_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_up_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_up_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_down_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_down_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_up_0",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_down_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_up_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_up_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_down_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_noise_add_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_down_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_pitch_up_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_noise_add_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_noise_add_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_down_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_up_1",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_up_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_up_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_down_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_up_2",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_speed_up_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_up_3",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "tool_volume_up_4",
+     "kind": "tool",
+     "ref": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+     "in_train": false,
+     "seen_in_sets": [
+      "local_train/data_s2_tools_v3/val.jsonl"
+     ]
+    },
+    {
+     "id": "cap_emotion_happy",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_emotion_sad",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_emotion_angry",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_whisper",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_speech_edit",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_deaccent",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_enhancement",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_quality",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_speed_12",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_pitch_up",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_nonverbal_breath",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "cap_vocal_extraction",
+     "kind": "capability",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    }
+   ]
+  },
+  "local_tests/phonetic_pack/pack.json": {
+   "n_refs": 16,
+   "n_in_train": 0,
+   "n_seen_any": 0,
+   "leaked_ids": [],
+   "rows": [
+    {
+     "id": "ph00_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph01_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph02_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph03_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph04_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph05_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph06_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph07_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph08_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph09_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph10_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph11_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph12_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph13_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph14_user_male",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\user_ref.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    },
+    {
+     "id": "ph15_nat_female",
+     "kind": "phonetics",
+     "ref": "G:\\AI\\AuK\\local_tests\\ref_ru.wav",
+     "in_train": false,
+     "seen_in_sets": []
+    }
+   ]
+  }
+ }
+}

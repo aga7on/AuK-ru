@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_17",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_tgt.wav"
+  ],
+  "sha256": [
+    "594f460d51f63f50b84aca4c825e32f50bfc697d06dfb4fce5c25398b78713ad",
+    "3a3a3ff9a0b1c0ca15c90717467f892c4113655673ef1791957a7d7f3a6d9346"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Врубай телеканал Вместе РФ на телевизоре",
+        "transcript_b": "Чарли Браун: Месть болвана",
+        "evidence": "Оба фрагмента принадлежат одному взрослому мужчине со схожей базовой высотой тона, одинаковым тембральным окрасом с заметным гортанным призвуком (vocal fry) и идентичной манерой артикуляции.",
+        "limitations": "Небольшая продолжительность записей и фиксированный характер фраз налагают естественные ограничения на биометрическую оценку."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Врубай телеканал Вместе РФ на телевизоре\",\n  \"transcript_b\": \"Чарли Браун: Месть болвана\",\n  \"evidence\": \"Оба фрагмента принадлежат одному взрослому мужчине со схожей базовой высотой тона, одинаковым тембральным окрасом с заметным гортанным призвуком (vocal fry) и идентичной манерой артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность записей и фиксированный характер фраз налагают естественные ограничения на биометрическую оценку.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 498,
+        "completion_tokens": 159,
+        "total_tokens": 1403,
+        "completion_tokens_details": {
+          "reasoning_tokens": 746
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "different",
+        "transcript_a": "Чарли Браун месть болвана",
+        "transcript_b": "Врубай телеканал Вместе РФ на телевизоре",
+        "evidence": "Спикер в аудио A обладает более низким основным тоном с легкой хрипотцой и выраженным грудным резонансом, тогда как в аудио B звучит более высокий, чистый и звонкий мужской голос с иной формантной окраской.",
+        "limitations": "Небольшая продолжительность записей и разный лексический материал не позволяют провести исчерпывающий биометрический анализ."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Чарли Браун месть болвана\",\n  \"transcript_b\": \"Врубай телеканал Вместе РФ на телевизоре\",\n  \"evidence\": \"Спикер в аудио A обладает более низким основным тоном с легкой хрипотцой и выраженным грудным резонансом, тогда как в аудио B звучит более высокий, чистый и звонкий мужской голос с иной формантной окраской.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный лексический материал не позволяют провести исчерпывающий биометрический анализ.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 498,
+        "completion_tokens": 163,
+        "total_tokens": 2144,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1483
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

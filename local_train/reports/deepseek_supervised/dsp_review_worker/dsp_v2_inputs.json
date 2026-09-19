@@ -1,0 +1,1889 @@
+[
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_up_0",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_up_0.wav",
+  "sha256_source": "b71200d2bb637914a8dc6c7984eb4baf411a6636284c582a957543459c7a7f50",
+  "sha256_output": "39cd91f5dd0cc7e233bb646a7c616663413f1759f1b81cb1c0c4f404dea619d3"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_up_0",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_up_0.wav",
+  "sha256_source": "b71200d2bb637914a8dc6c7984eb4baf411a6636284c582a957543459c7a7f50",
+  "sha256_output": "349a9c29752c121b2433e43881a7aa801884cd126095b30f3ef6a600ce828b12"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_up_0",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_up_0.wav",
+  "sha256_source": "b71200d2bb637914a8dc6c7984eb4baf411a6636284c582a957543459c7a7f50",
+  "sha256_output": "afd914cb434d5cc050df4eee3d644baa9d4ca9f55e036f5cb23554f45cb6b3fd"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_up_0",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_up_0.wav",
+  "sha256_source": "b71200d2bb637914a8dc6c7984eb4baf411a6636284c582a957543459c7a7f50",
+  "sha256_output": "52dc965474ac29043995c50257552ff40a717a2d5317a99588c4a189f4d67a20"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_up_0",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d58406bd4974f59b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_up_0.wav",
+  "sha256_source": "b71200d2bb637914a8dc6c7984eb4baf411a6636284c582a957543459c7a7f50",
+  "sha256_output": "382caf3259c0d51ae3a1b2c4b936b964a467b173845419dbf256c4b7d6647f0b"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_up_1",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "b21794f88ce88736157bae6843b815653ced6b48a3a74020921f42de0075c1b3"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_up_1",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "b9f63a94a7fb43d859c2bcd1f10396b8d0e34b1278f0fe4d84bacb4f89038f6e"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_up_1",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "a04834fbcb6524674758cddab02e142baf56ac9289225c6739da614336bf5753"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_up_1",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "d1cbaecb7655c342d7ecf3e6ee837249c36b7fe1e7a27cb854348f185996ba4d"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_up_1",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "40520892571c21732e2e52ea9b872013f78c5a59f0f77a1ad6614651d410e80e"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_up_2",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_up_2.wav",
+  "sha256_source": "55faed59b99b0186eed3de3bcb8c0d265e962c32bee638116e1202950ed499c8",
+  "sha256_output": "2d8e7bf94b476373707afe4d26abc94d5cbafb5e8c169d5ca53b2e7ffcb9acb3"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_up_2",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_up_2.wav",
+  "sha256_source": "55faed59b99b0186eed3de3bcb8c0d265e962c32bee638116e1202950ed499c8",
+  "sha256_output": "7fda861ddec13a60dfcdc52914ae62718879db329b089c43b0d8c13c871fa4b0"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_up_2",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_up_2.wav",
+  "sha256_source": "55faed59b99b0186eed3de3bcb8c0d265e962c32bee638116e1202950ed499c8",
+  "sha256_output": "1f2c930a062ecd9ffe47ffb87054f67d1b2e2be5d302b90c7ab9d23b7f735aab"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_up_2",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_up_2.wav",
+  "sha256_source": "55faed59b99b0186eed3de3bcb8c0d265e962c32bee638116e1202950ed499c8",
+  "sha256_output": "ae530e0b7d98bb7a70578489b44a4860f574ed3e780d88f7d785d23015ce68ef"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_up_2",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\70b5d67432265608.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_up_2.wav",
+  "sha256_source": "55faed59b99b0186eed3de3bcb8c0d265e962c32bee638116e1202950ed499c8",
+  "sha256_output": "28f3cf5227c99b70f1606c4c6c58b703f8a32ae6bde253dcae3961cd62917905"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_up_3",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_up_3.wav",
+  "sha256_source": "14d38de80c8c0c317c0bb95fe4ad52e0b0610f98ffdc1b66e9a840c7bb5f22de",
+  "sha256_output": "690b8293467c94d642474ed3a8e3fb1ca0d1d22d83ebd822b6e7d5f06f7a4a87"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_up_3",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_up_3.wav",
+  "sha256_source": "14d38de80c8c0c317c0bb95fe4ad52e0b0610f98ffdc1b66e9a840c7bb5f22de",
+  "sha256_output": "5610b045e47df7ec387078f15eacb70554f90faa02e243a9c997ec438092ecff"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_up_3",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_up_3.wav",
+  "sha256_source": "14d38de80c8c0c317c0bb95fe4ad52e0b0610f98ffdc1b66e9a840c7bb5f22de",
+  "sha256_output": "f39c0b50749a0a81c77f7430e8b14c2d0e1fd84bfcddeb0dc15e253177743fb4"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_up_3",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_up_3.wav",
+  "sha256_source": "14d38de80c8c0c317c0bb95fe4ad52e0b0610f98ffdc1b66e9a840c7bb5f22de",
+  "sha256_output": "bb26110ba04cd3649e7dab33f706cfc63ec507bd8c832804c7b9c254973eeab0"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_up_3",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\462c0f14acf4bd7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_up_3.wav",
+  "sha256_source": "14d38de80c8c0c317c0bb95fe4ad52e0b0610f98ffdc1b66e9a840c7bb5f22de",
+  "sha256_output": "1f0698e5dd87f5b513571fa5336fe31f29efdf21c5fae45cd7fc97808fe861bf"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_up_4",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_up_4.wav",
+  "sha256_source": "7ba26f354ad5bc5d68391d636833df97fe1e4e2d43d76630c7267da05cc11567",
+  "sha256_output": "5e7fcdc2c3803a684838a39322d84404e67e418512ff7053f67ae1162acb03e5"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_up_4",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_up_4.wav",
+  "sha256_source": "7ba26f354ad5bc5d68391d636833df97fe1e4e2d43d76630c7267da05cc11567",
+  "sha256_output": "7a9e68034b5989638c323c4c7d0cabdedde60a0a4a59487e581c67dc5e6adde1"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_up_4",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_up_4.wav",
+  "sha256_source": "7ba26f354ad5bc5d68391d636833df97fe1e4e2d43d76630c7267da05cc11567",
+  "sha256_output": "a3711dc0d81e6b74d15a042c8de3e1e0759c3d53c74932b110985ae7241d3b98"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_up_4",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_up_4.wav",
+  "sha256_source": "7ba26f354ad5bc5d68391d636833df97fe1e4e2d43d76630c7267da05cc11567",
+  "sha256_output": "ce75e759862703cf366bf4a3f3652840d702a13314ef4da82f70d71986cca7fd"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_up_4",
+  "op": "volume_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6353d2ccaa1750fc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_up_4.wav",
+  "sha256_source": "7ba26f354ad5bc5d68391d636833df97fe1e4e2d43d76630c7267da05cc11567",
+  "sha256_output": "40d157805bbcb4ec69788453ea96532fe43188eab6617a3b3d6b755f0b86bf24"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_down_0",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_down_0.wav",
+  "sha256_source": "6ea9680080f80bd962f35e7f7db6547656b9e20f879143e45f1e634722576d6a",
+  "sha256_output": "442f75381995cfffc5a2c31be6f161d346ad2ff1d57ede5b62685eea4899ff71"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_down_0",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_down_0.wav",
+  "sha256_source": "6ea9680080f80bd962f35e7f7db6547656b9e20f879143e45f1e634722576d6a",
+  "sha256_output": "b2eaf0e49c1183bdd93bc25cf323b4992526646353ded0a801acd87e1dd34ef9"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_down_0",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_down_0.wav",
+  "sha256_source": "6ea9680080f80bd962f35e7f7db6547656b9e20f879143e45f1e634722576d6a",
+  "sha256_output": "12c42876689ef8c423474d311fb3a005105066c3654d675863cbe7941bc9386f"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_down_0",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_down_0.wav",
+  "sha256_source": "6ea9680080f80bd962f35e7f7db6547656b9e20f879143e45f1e634722576d6a",
+  "sha256_output": "e52be52a95bc3f444f5c73df8de909925080cff1a1952746542ec4a8c351dc77"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_down_0",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8c18e64de573c05f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_down_0.wav",
+  "sha256_source": "6ea9680080f80bd962f35e7f7db6547656b9e20f879143e45f1e634722576d6a",
+  "sha256_output": "4295e4d79e11ac74981164c28ae62b7eed752cf8aab514eddd5acbd387e56b37"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_down_1",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_down_1.wav",
+  "sha256_source": "3a2a0bdf17fefd792af539748768746aa28dc3121c0f1f128ee6b78c1e6cc97f",
+  "sha256_output": "c92a241ea72c076058a40d5742e9a1b0d328aab12a1ac0d64d3826c03b1aa91d"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_down_1",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_down_1.wav",
+  "sha256_source": "3a2a0bdf17fefd792af539748768746aa28dc3121c0f1f128ee6b78c1e6cc97f",
+  "sha256_output": "04b37e559f08f9c33a5b6d4939f82e15ed3d507793514114813bca77f46932f9"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_down_1",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_down_1.wav",
+  "sha256_source": "3a2a0bdf17fefd792af539748768746aa28dc3121c0f1f128ee6b78c1e6cc97f",
+  "sha256_output": "fd89598f1061812af6be5704269f567ed6c67e4075ad3a48a4736f3f10780f87"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_down_1",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_down_1.wav",
+  "sha256_source": "3a2a0bdf17fefd792af539748768746aa28dc3121c0f1f128ee6b78c1e6cc97f",
+  "sha256_output": "969a27f63ed769f2835cded7d1110c171f0c9250cdad8214fea9902b3afad9cf"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_down_1",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d968df8ec02fea26.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_down_1.wav",
+  "sha256_source": "3a2a0bdf17fefd792af539748768746aa28dc3121c0f1f128ee6b78c1e6cc97f",
+  "sha256_output": "4c3c42fab9906bee90e6fee5126830752b7dedeac6c08582d7f4bbed7f67fa55"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_down_2",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_down_2.wav",
+  "sha256_source": "74823c8d6e474e424a9c3389a49a053acacb0e74f36eee2a4febd7e8cc8a3898",
+  "sha256_output": "a6c77ae4e145506f956d5ffe015fd394f7ec1dd20c739b6e5060eb764e59d850"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_down_2",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_down_2.wav",
+  "sha256_source": "74823c8d6e474e424a9c3389a49a053acacb0e74f36eee2a4febd7e8cc8a3898",
+  "sha256_output": "022ab1ce4a412284f6f492a37b1d157ece48031ed417700ec17ba06caf38b3fb"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_down_2",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_down_2.wav",
+  "sha256_source": "74823c8d6e474e424a9c3389a49a053acacb0e74f36eee2a4febd7e8cc8a3898",
+  "sha256_output": "3ad339b6fa2d200f5bfec6ecc4a8fda297ab21d69e934d21bd7e737e4a0fd97a"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_down_2",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_down_2.wav",
+  "sha256_source": "74823c8d6e474e424a9c3389a49a053acacb0e74f36eee2a4febd7e8cc8a3898",
+  "sha256_output": "cbb5614dcf5edaaa8f6308b27d1410d51a1c86d6941f6ff51f8634e36dbfe234"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_down_2",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\96380841a754abc2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_down_2.wav",
+  "sha256_source": "74823c8d6e474e424a9c3389a49a053acacb0e74f36eee2a4febd7e8cc8a3898",
+  "sha256_output": "86f6b9b662c1164f4cea0d4053263628472c2126657ad64c2cee74b36e4c0d78"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_down_3",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_down_3.wav",
+  "sha256_source": "abb05663f96ddb9684176b83e7c81a38df879cf35efab74b6c3181f0a947901b",
+  "sha256_output": "8257adfca4900916c81e367daa94635e72b47ae6d6e1e182909b64ed333e54bc"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_down_3",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_down_3.wav",
+  "sha256_source": "abb05663f96ddb9684176b83e7c81a38df879cf35efab74b6c3181f0a947901b",
+  "sha256_output": "1e76f0d7238cebf3b28c5335143280eae1a174031e88df41e8056b7cf9d6d44e"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_down_3",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_down_3.wav",
+  "sha256_source": "abb05663f96ddb9684176b83e7c81a38df879cf35efab74b6c3181f0a947901b",
+  "sha256_output": "58092d1224da203ecd895fa28141bf64962f43c586f40c5a7939503ff7c91b05"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_down_3",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_down_3.wav",
+  "sha256_source": "abb05663f96ddb9684176b83e7c81a38df879cf35efab74b6c3181f0a947901b",
+  "sha256_output": "7c5be8a494808e62b36383db16cfdcd7ee3712ad966998220088c0dae7ba3b1d"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_down_3",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c08b2da27221d4f2.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_down_3.wav",
+  "sha256_source": "abb05663f96ddb9684176b83e7c81a38df879cf35efab74b6c3181f0a947901b",
+  "sha256_output": "e853340beb1928d821126a6b09f9a18ded2336e6189897d6585a2e8488ad4f2b"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_volume_down_4",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_volume_down_4.wav",
+  "sha256_source": "af9b6e56f12c998a5337a829e765c4d4061ff931cc7bcf94c54681f75df78d09",
+  "sha256_output": "33a8984feb10f375080cc3e1cdf1cf8a703c39757af614f481c9dc76878b4551"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_volume_down_4",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_volume_down_4.wav",
+  "sha256_source": "af9b6e56f12c998a5337a829e765c4d4061ff931cc7bcf94c54681f75df78d09",
+  "sha256_output": "7313648a4f27be492c5ca6f8c63b9aba9728cd9f0da41c4cf995fb27291fd945"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_volume_down_4",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_volume_down_4.wav",
+  "sha256_source": "af9b6e56f12c998a5337a829e765c4d4061ff931cc7bcf94c54681f75df78d09",
+  "sha256_output": "264f053ed7da31b46d5c12356c2490ddf7647a5cec85792e0986cd5d7d9b9de6"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_volume_down_4",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_volume_down_4.wav",
+  "sha256_source": "af9b6e56f12c998a5337a829e765c4d4061ff931cc7bcf94c54681f75df78d09",
+  "sha256_output": "bf1bc484e757dbb86e108e23165a5a1e861ad683f15d732a8a586b1600271a98"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_volume_down_4",
+  "op": "volume_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c7b4d6a624391571.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_volume_down_4.wav",
+  "sha256_source": "af9b6e56f12c998a5337a829e765c4d4061ff931cc7bcf94c54681f75df78d09",
+  "sha256_output": "211ba1cc6804e42ea8b705acb518b01d8170c7a1ab8989f9e5781b09a1226e22"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_up_0",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_up_0.wav",
+  "sha256_source": "c2c52b859875dc18afeb4252def5b1b900d5732382a45dc075e30fdd7cfce20a",
+  "sha256_output": "4944a633b098777e4dad3bec21a8e44fb8116850f04e4508172bc688a1b3f784"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_up_0",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_up_0.wav",
+  "sha256_source": "c2c52b859875dc18afeb4252def5b1b900d5732382a45dc075e30fdd7cfce20a",
+  "sha256_output": "c3b226655ef20a228ee445b6e98cd4ebcbc2ca1b916a6ba5df2e58403bd866b6"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_up_0",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_up_0.wav",
+  "sha256_source": "c2c52b859875dc18afeb4252def5b1b900d5732382a45dc075e30fdd7cfce20a",
+  "sha256_output": "83c9c97164ce60955ee4859effdf8479a25c01ae03b0c94ea7fcf7dd09ac8e97"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_up_0",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_up_0.wav",
+  "sha256_source": "c2c52b859875dc18afeb4252def5b1b900d5732382a45dc075e30fdd7cfce20a",
+  "sha256_output": "5e23eb63f5da629cca9fa1c8fdfd26de884cfedf06f6ebdd958d78008288443e"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_up_0",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\97b3aff0633a8d48.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_up_0.wav",
+  "sha256_source": "c2c52b859875dc18afeb4252def5b1b900d5732382a45dc075e30fdd7cfce20a",
+  "sha256_output": "e683fdc7cc66d683df42f3670b1760791cb940b5c5eeab5782c3869673802e8f"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_up_1",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_up_1.wav",
+  "sha256_source": "2575e8fc48ab177a489e125889b9b193a05f4f8aaf0dd7c51f402c7a99221acf",
+  "sha256_output": "0faa1f862f5193b6385b4112f64996dc3f0ee4390e798a14b270ac1ade8192b3"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_up_1",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_up_1.wav",
+  "sha256_source": "2575e8fc48ab177a489e125889b9b193a05f4f8aaf0dd7c51f402c7a99221acf",
+  "sha256_output": "2cf7a4bc2e005b27382f3c045c212823c9ae4446b9eaeb2f583d361294fa148d"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_up_1",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_up_1.wav",
+  "sha256_source": "2575e8fc48ab177a489e125889b9b193a05f4f8aaf0dd7c51f402c7a99221acf",
+  "sha256_output": "81627bb13e018740662c5b34491ba2c51b3b9e6a99f0f6e002c5cdd2bf1ca9a3"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_up_1",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_up_1.wav",
+  "sha256_source": "2575e8fc48ab177a489e125889b9b193a05f4f8aaf0dd7c51f402c7a99221acf",
+  "sha256_output": "e4afe566aa4772ac2ec7f3e87be6494011c0440fa622a606aad0935028d54aa8"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_up_1",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5a2ea70bcda5600b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_up_1.wav",
+  "sha256_source": "2575e8fc48ab177a489e125889b9b193a05f4f8aaf0dd7c51f402c7a99221acf",
+  "sha256_output": "f015336ef581a86dd286ba40bb24a7bcfa7aafa53dca3700315c1d833b2a70ea"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_up_2",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_up_2.wav",
+  "sha256_source": "8ce90458a7c2221c9fc69f52a5889951c2c13233adcd3aeb8422c0e6c0b88421",
+  "sha256_output": "489bc8c088360c0221f9d8ec23c27455e6af35e0cebd33949dafd92e883d2ded"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_up_2",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_up_2.wav",
+  "sha256_source": "8ce90458a7c2221c9fc69f52a5889951c2c13233adcd3aeb8422c0e6c0b88421",
+  "sha256_output": "fc796fc029fd35a451b0a01c429d8a4aae2b08e75d8250cfcc243d24298c8cc7"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_up_2",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_up_2.wav",
+  "sha256_source": "8ce90458a7c2221c9fc69f52a5889951c2c13233adcd3aeb8422c0e6c0b88421",
+  "sha256_output": "f3f27e83033ae865b5296f1a830495b0efb13e512c8b77d6f72b141c05b20a76"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_up_2",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_up_2.wav",
+  "sha256_source": "8ce90458a7c2221c9fc69f52a5889951c2c13233adcd3aeb8422c0e6c0b88421",
+  "sha256_output": "d2e6e4e7c6239d555a8a6fb56cfe0b8b3049a5f68789caf672860c14b48b36a1"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_up_2",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\4632713d68a464f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_up_2.wav",
+  "sha256_source": "8ce90458a7c2221c9fc69f52a5889951c2c13233adcd3aeb8422c0e6c0b88421",
+  "sha256_output": "436f41211c967ac0056a7fee397eb84f8eadc8f30f432c591f2caf703dfe03b6"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_up_3",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_up_3.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "be17abf60fa89a09b232c74c54abb745343a3bda51940966878177ee88e4bb55"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_up_3",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_up_3.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "3a6be4cd9e408ea9a05c05e4a5e3252b6c12379e5464d33b3b72145acb775a5f"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_up_3",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_up_3.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "3ef260765aa3e3a1bb50b04af711ca1ba5d3f69b585e1a2e261bca070710ee54"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_up_3",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_up_3.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "346ddc5d30da178ba81dc258b4fc8ba17304f10ac6dad6c5ae0db48bdfb41d7f"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_up_3",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_up_3.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "20acca83107d4304807fce75948234806b999c13651265d2fa87c3c12ccc58f4"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_up_4",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_up_4.wav",
+  "sha256_source": "fb3aad19331d6ccca72ea382e57de578bdf30d6edc79db33960bcb159980d456",
+  "sha256_output": "2b069186798bc915620a802d3ec25b25e112e869226a9bb46bc4023d20433a2d"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_up_4",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_up_4.wav",
+  "sha256_source": "fb3aad19331d6ccca72ea382e57de578bdf30d6edc79db33960bcb159980d456",
+  "sha256_output": "6a036d5b5b5cbd348751679e0450c26708f275baed1f02c978a440ae1265881f"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_up_4",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_up_4.wav",
+  "sha256_source": "fb3aad19331d6ccca72ea382e57de578bdf30d6edc79db33960bcb159980d456",
+  "sha256_output": "0ff5cecb15690b51f5262d54ab48a36f1ca27d2290d29a28b293d8c1c7cb3d32"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_up_4",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_up_4.wav",
+  "sha256_source": "fb3aad19331d6ccca72ea382e57de578bdf30d6edc79db33960bcb159980d456",
+  "sha256_output": "d741a97a077742dfdbbb2aace4fb285c46225ddbc0dffaaeb8856b0207e1bffe"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_up_4",
+  "op": "speed_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9f652133bbfce45e.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_up_4.wav",
+  "sha256_source": "fb3aad19331d6ccca72ea382e57de578bdf30d6edc79db33960bcb159980d456",
+  "sha256_output": "03f0e742375d4b959404f4ce5ba13285ab1fe77e3b564e60f2e4949c3f8c8e00"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_down_0",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_down_0.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "891790397a1ad7f65a48355381e21814bdd748da4cab1692f58e6f444782031e"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_down_0",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_down_0.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "7776a2da001bd63f57edb763ffefa1cac49a13ed6a823642919214d06548c945"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_down_0",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_down_0.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "df5bacd9cbf9ddfc10cd0f8c7a76734a8de355decb76f0dd1120d58513ac4491"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_down_0",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_down_0.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "d26f1807fc1cbe10ddbf9560dbff81f12098446bffab176ce2814e802434a414"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_down_0",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_down_0.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "db9bdf2ce73fcf4a7f3fd2b94b0502db15ebf7373e66743a064da30b58a69862"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_down_1",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_down_1.wav",
+  "sha256_source": "242d93cb3e901e9643c0e149c5a5d0727bb717da1cb1944f5ad24e2817c691d2",
+  "sha256_output": "604ad95cbfe4abacd9c8b1982be451c4cd167fe1419a1c22782df9d543734ec5"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_down_1",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_down_1.wav",
+  "sha256_source": "242d93cb3e901e9643c0e149c5a5d0727bb717da1cb1944f5ad24e2817c691d2",
+  "sha256_output": "cc945b03063dee37d678f1ac0b09c4fd60a57d04a35c64d07b4e0460f9a41750"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_down_1",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_down_1.wav",
+  "sha256_source": "242d93cb3e901e9643c0e149c5a5d0727bb717da1cb1944f5ad24e2817c691d2",
+  "sha256_output": "23be5d21abab21f3a6735d4782b9562fb964f5add55bf6a40297d4358b67ec6f"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_down_1",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_down_1.wav",
+  "sha256_source": "242d93cb3e901e9643c0e149c5a5d0727bb717da1cb1944f5ad24e2817c691d2",
+  "sha256_output": "93f6f72a96c773ee0be68a3a547d4f2d5fb2b22f58b14e6bc7aeeda4f302870e"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_down_1",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\d01342573d695a7f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_down_1.wav",
+  "sha256_source": "242d93cb3e901e9643c0e149c5a5d0727bb717da1cb1944f5ad24e2817c691d2",
+  "sha256_output": "cb97f8aaf4776a9b24537d6238ca49c44bee542ebee5a0e6919b20d623abeaf8"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_down_2",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_down_2.wav",
+  "sha256_source": "b7d5cc61bc7fb5184241072bf107b6fbdc328ead884bbe5d2bbe5155d84c6a33",
+  "sha256_output": "c6102f712ad4a126163f91f996654616d8ef5c033ca08556c782e87e545785aa"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_down_2",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_down_2.wav",
+  "sha256_source": "b7d5cc61bc7fb5184241072bf107b6fbdc328ead884bbe5d2bbe5155d84c6a33",
+  "sha256_output": "5d1bdeb8de9f0fe2ba7e27fae7a1b7da9258008eaec8ee691998331bc970cff8"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_down_2",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_down_2.wav",
+  "sha256_source": "b7d5cc61bc7fb5184241072bf107b6fbdc328ead884bbe5d2bbe5155d84c6a33",
+  "sha256_output": "ac11385ea50e2d896cd61278f4917870d0394ea28a9e929b6f7c3e6fa4fb281c"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_down_2",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_down_2.wav",
+  "sha256_source": "b7d5cc61bc7fb5184241072bf107b6fbdc328ead884bbe5d2bbe5155d84c6a33",
+  "sha256_output": "c37748aa2f8fc06ae15b63cdca987a98ef555603957e50d9c43e7e3d65f55139"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_down_2",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1230035f65d62565.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_down_2.wav",
+  "sha256_source": "b7d5cc61bc7fb5184241072bf107b6fbdc328ead884bbe5d2bbe5155d84c6a33",
+  "sha256_output": "9460a926efebe7f23b00a90ec6c43d32746b0f838d2e36a5e526221b9d6cb8a1"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_down_3",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_down_3.wav",
+  "sha256_source": "698c5f422bd05847b4658ddad1fe9e41471a1f537777966c893840d2391968bf",
+  "sha256_output": "c5f109fc3c878b494a93f53265cbcf2b99295a3eb9b97b0cedabbf8765f82ec7"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_down_3",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_down_3.wav",
+  "sha256_source": "698c5f422bd05847b4658ddad1fe9e41471a1f537777966c893840d2391968bf",
+  "sha256_output": "0ddbc0cdbfe3ce83fae29bd4a9d335f3af06ad0a038cdfd56cb9f39627a03a4e"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_down_3",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_down_3.wav",
+  "sha256_source": "698c5f422bd05847b4658ddad1fe9e41471a1f537777966c893840d2391968bf",
+  "sha256_output": "2c58e7bb9d3b97b55bb7e30caf3af4b39d7d21e6f0ab7e269dd2da3b50383f7a"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_down_3",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_down_3.wav",
+  "sha256_source": "698c5f422bd05847b4658ddad1fe9e41471a1f537777966c893840d2391968bf",
+  "sha256_output": "5edd17e66e352ab64cbdcdcb9ec43a5aa3eee1d53fc198fa8c9e87c1e9619ac0"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_down_3",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\31511297e5435f84.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_down_3.wav",
+  "sha256_source": "698c5f422bd05847b4658ddad1fe9e41471a1f537777966c893840d2391968bf",
+  "sha256_output": "d26cea9bd41e54eafba91e6a66a5874aa1b60cf3bea24230fe0cd3d0b8d405c2"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_speed_down_4",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_speed_down_4.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "b729e67f7017fc8b2de150d51dcab39d10cd1964e17f7f66bec3d2f2605079f2"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_speed_down_4",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_speed_down_4.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "42db2914e343f2d4232db39a6ce0fe82b0a74601ae020ca8f364cdf5ca6b2d5e"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_speed_down_4",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_speed_down_4.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "432775e7174d80ebb2e6136667f92de19af5749019c6acabd1ceb42d578fa064"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_speed_down_4",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_speed_down_4.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "a6af69c374e08f4d4c4e9e27a2460dbfc53dda17d50e0575941449092909aed6"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_speed_down_4",
+  "op": "speed_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\aabace5c93d6112f.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_speed_down_4.wav",
+  "sha256_source": "9978d2d3a60c5b6ab8b49d9029b6d32f7f1b42fa0b27dbd885fdca11e59919b0",
+  "sha256_output": "fc046a9ac8cec8b913802b773040f817971a1d6786cc078d2e4310d0c8a0dcf3"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_up_0",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_up_0.wav",
+  "sha256_source": "f5abc6072890015cc431c7fafd375dc779068c40ab4cbcd42d2aea6a2d1b1eaf",
+  "sha256_output": "edc3f1520ec3e9fa9bf1ed1d58e1c519426f7f792f17180a8978438844061d1f"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_up_0",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_up_0.wav",
+  "sha256_source": "f5abc6072890015cc431c7fafd375dc779068c40ab4cbcd42d2aea6a2d1b1eaf",
+  "sha256_output": "f4ac9fac873900adb839fc30f5b8a2256bbd64ca5308e5454959ca63fcb3f3ae"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_up_0",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_up_0.wav",
+  "sha256_source": "f5abc6072890015cc431c7fafd375dc779068c40ab4cbcd42d2aea6a2d1b1eaf",
+  "sha256_output": "95e2632adb4163a460c7ca6e14b825639a57dd9c7c68419f19986480f9619968"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_up_0",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_up_0.wav",
+  "sha256_source": "f5abc6072890015cc431c7fafd375dc779068c40ab4cbcd42d2aea6a2d1b1eaf",
+  "sha256_output": "2a65913f00648a2d71ee2293487c5707be82637aeb250fa46af58da20a649bae"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_up_0",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\b9675fd285017f3c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_up_0.wav",
+  "sha256_source": "f5abc6072890015cc431c7fafd375dc779068c40ab4cbcd42d2aea6a2d1b1eaf",
+  "sha256_output": "ec407259a2713f752d99ceede21cfc6c3d2a50a4a48ad87d3d4962d5ec4c9dd1"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_up_1",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "fa68664a292653227253b9494f754d4d649f1c97445b948b2a029d7a1c53edaa"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_up_1",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "cba31faf5ab5f01b8d4d64457236c3d15a00244f1dc0d767b2ec839a7aff6084"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_up_1",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "6800e5e4f6b650d4e022afda4e24e5e15595ee0f4f76e332560c9c98894f6508"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_up_1",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "d4196f7821164e55d4d24f6c0eeb2479f6190dc7a6173312c660b00dbccb5805"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_up_1",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_up_1.wav",
+  "sha256_source": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+  "sha256_output": "e7a9db3cebab588eca9a0289c6eb6d457d765450362c0b89fc9a9edd7091502d"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_up_2",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_up_2.wav",
+  "sha256_source": "9219c2620a2885474c3cda2b74b0069323273fa0a518f44db735baea7324b992",
+  "sha256_output": "e345405f2d1c2a1368e99757f24c0daf4625990bc041bdaa6bb4b450dbf7b633"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_up_2",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_up_2.wav",
+  "sha256_source": "9219c2620a2885474c3cda2b74b0069323273fa0a518f44db735baea7324b992",
+  "sha256_output": "b0df0f319853336248ddc86738dacccd8cda712021f3db45cdb3dc184eb32bf9"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_up_2",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_up_2.wav",
+  "sha256_source": "9219c2620a2885474c3cda2b74b0069323273fa0a518f44db735baea7324b992",
+  "sha256_output": "0acd7fe0f0078f65389159f85a9a4562c849ee3d339e67c9e05eac2e40e054bc"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_up_2",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_up_2.wav",
+  "sha256_source": "9219c2620a2885474c3cda2b74b0069323273fa0a518f44db735baea7324b992",
+  "sha256_output": "73b35ab2ce3998531cb3ed8afbc28827a55c2fdfcbc868d4eff6bc584c38471a"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_up_2",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\5708d4136f2b7ed0.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_up_2.wav",
+  "sha256_source": "9219c2620a2885474c3cda2b74b0069323273fa0a518f44db735baea7324b992",
+  "sha256_output": "ccc901c901ed1b515ba125d95f307b0168922bd212057860927e0828b2d88b51"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_up_3",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_up_3.wav",
+  "sha256_source": "54e13437cdd078d23e45066c922b9cb77b50a8f8bfa92aa6275cf1e9d904faaf",
+  "sha256_output": "38259530828d9f0ad8fcec53d6f2832eb18ebcf5f00e286d2d89b9fb47516e5a"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_up_3",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_up_3.wav",
+  "sha256_source": "54e13437cdd078d23e45066c922b9cb77b50a8f8bfa92aa6275cf1e9d904faaf",
+  "sha256_output": "06a2680ddbd1f304bccbd6ab9158ba85fe30eeb44690721c744ff327d4068940"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_up_3",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_up_3.wav",
+  "sha256_source": "54e13437cdd078d23e45066c922b9cb77b50a8f8bfa92aa6275cf1e9d904faaf",
+  "sha256_output": "9375a46aa81660a6e93e8fcc5623cc9df7a60aa3dfdc5639e3a14e83618c7559"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_up_3",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_up_3.wav",
+  "sha256_source": "54e13437cdd078d23e45066c922b9cb77b50a8f8bfa92aa6275cf1e9d904faaf",
+  "sha256_output": "7d7a5fe1406977084009c994157af2bff8f194b756e12ea51177a5b7fca46360"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_up_3",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\c35655e295e643f8.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_up_3.wav",
+  "sha256_source": "54e13437cdd078d23e45066c922b9cb77b50a8f8bfa92aa6275cf1e9d904faaf",
+  "sha256_output": "c83a3c2aa8f0c4fbb0b42ece8b43894fef80660e741a2ad6314b484e28275e8e"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_up_4",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_up_4.wav",
+  "sha256_source": "4c7d27163b1068889384d6cdfa762008fe97a1da026d3db33aa114afbef17ad4",
+  "sha256_output": "0166d672572b6fca835dadc0c5eafc2747d2276ca7e87d0270d439f2485f02dc"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_up_4",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_up_4.wav",
+  "sha256_source": "4c7d27163b1068889384d6cdfa762008fe97a1da026d3db33aa114afbef17ad4",
+  "sha256_output": "d9ceaa7e9c61df5aee352b453c7d3086b7d71d2730e64d9bca23170898c2250a"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_up_4",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_up_4.wav",
+  "sha256_source": "4c7d27163b1068889384d6cdfa762008fe97a1da026d3db33aa114afbef17ad4",
+  "sha256_output": "389c392a0095856909cd6e58ab9da4a8db41b7aa1bece27bfda535c261e00df8"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_up_4",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_up_4.wav",
+  "sha256_source": "4c7d27163b1068889384d6cdfa762008fe97a1da026d3db33aa114afbef17ad4",
+  "sha256_output": "f91532897ca21d7d9328ba590f6744bcf9fd50f672d4239ee73d9360e22ddd37"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_up_4",
+  "op": "pitch_up",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\1dbcd4189c763815.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_up_4.wav",
+  "sha256_source": "4c7d27163b1068889384d6cdfa762008fe97a1da026d3db33aa114afbef17ad4",
+  "sha256_output": "5aec32fb7c5013b36b9db17dacf83a059e670089375ec794c106a3dace3fdb6e"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_down_0",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_down_0.wav",
+  "sha256_source": "2f42f3512c798e1a56ef3b3c54d4ae82150e58d940527e57059ff6b9d1373d69",
+  "sha256_output": "c7acb3f655a6ec5e3954d1f2fab75c6ac4077298ba8cab8cb27e262678f66252"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_down_0",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_down_0.wav",
+  "sha256_source": "2f42f3512c798e1a56ef3b3c54d4ae82150e58d940527e57059ff6b9d1373d69",
+  "sha256_output": "b8ccc662d61ae26ec5bed8acbe56066fae6fe0a95b2755ddb78e1e0bc76d4242"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_down_0",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_down_0.wav",
+  "sha256_source": "2f42f3512c798e1a56ef3b3c54d4ae82150e58d940527e57059ff6b9d1373d69",
+  "sha256_output": "2e4618413627f76e5ef3b8468c2a1444e1f5ef51659551ed02113902ae649043"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_down_0",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_down_0.wav",
+  "sha256_source": "2f42f3512c798e1a56ef3b3c54d4ae82150e58d940527e57059ff6b9d1373d69",
+  "sha256_output": "b9a064a39df16e527422de022bf56bd4c9c907deb33fe5c9042b7b7b8451a2ce"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_down_0",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\ab9ca31e73a93a85.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_down_0.wav",
+  "sha256_source": "2f42f3512c798e1a56ef3b3c54d4ae82150e58d940527e57059ff6b9d1373d69",
+  "sha256_output": "73dbbdce912dc7671b8439492accef1b0790746dffc21b319da97cb9d20b74ff"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_down_1",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_down_1.wav",
+  "sha256_source": "10c20b907ee8a4d4e580284b8d8cfdaf964f64087e42070b4a56a429bc1fad86",
+  "sha256_output": "55d4aa6ba1e10b85a28e8434d8308b1ed6275672b7184aecbe9de85453b4704c"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_down_1",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_down_1.wav",
+  "sha256_source": "10c20b907ee8a4d4e580284b8d8cfdaf964f64087e42070b4a56a429bc1fad86",
+  "sha256_output": "0760238c6dc9536d99d0a49a68e673941e10f9902925a5c5efbc79e3f4297f1d"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_down_1",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_down_1.wav",
+  "sha256_source": "10c20b907ee8a4d4e580284b8d8cfdaf964f64087e42070b4a56a429bc1fad86",
+  "sha256_output": "f627c215c404ad903e83bc44f43645f1bc278bd1eb244d18032d1a0f7673e0bd"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_down_1",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_down_1.wav",
+  "sha256_source": "10c20b907ee8a4d4e580284b8d8cfdaf964f64087e42070b4a56a429bc1fad86",
+  "sha256_output": "18701a5b83a648ad2894d2bc36736c55bb357967b2bae757913db2541c00a6e3"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_down_1",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f28144f067671132.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_down_1.wav",
+  "sha256_source": "10c20b907ee8a4d4e580284b8d8cfdaf964f64087e42070b4a56a429bc1fad86",
+  "sha256_output": "9634651b83aaec9aa17a9d9b6b379e83d915add376788ee18f626acf8dc40fa3"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_down_2",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_down_2.wav",
+  "sha256_source": "3cb317e3e2087e315afb17e284cdbcacae83f039f1a4a94db1f4bfb5f8e2ee9f",
+  "sha256_output": "1b7bd9c5920b3bd0cca752a7964d5fe5f97d5446e747780de5dea7c1319b0794"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_down_2",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_down_2.wav",
+  "sha256_source": "3cb317e3e2087e315afb17e284cdbcacae83f039f1a4a94db1f4bfb5f8e2ee9f",
+  "sha256_output": "634338a34f661362b5b223de1aa28a30ea3eeea37c9e7369c0c3c1fe082521a0"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_down_2",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_down_2.wav",
+  "sha256_source": "3cb317e3e2087e315afb17e284cdbcacae83f039f1a4a94db1f4bfb5f8e2ee9f",
+  "sha256_output": "4e40598c82493ab6133b8805a9191170cde64391bb91d2c0560603580b77145b"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_down_2",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_down_2.wav",
+  "sha256_source": "3cb317e3e2087e315afb17e284cdbcacae83f039f1a4a94db1f4bfb5f8e2ee9f",
+  "sha256_output": "b02d6650cc53741263897db40d498c4de37a198ec121b6a3706f77b4dd2e0e0e"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_down_2",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6132e1419ddc6b7b.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_down_2.wav",
+  "sha256_source": "3cb317e3e2087e315afb17e284cdbcacae83f039f1a4a94db1f4bfb5f8e2ee9f",
+  "sha256_output": "8acd110a358d23a4560e52c2d9e52974a9247aafc038a1268c59cf1240ff1eb3"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_down_3",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_down_3.wav",
+  "sha256_source": "7144719ed831f5eb179d7f73c01ab7fd5589a534d15af59656cbcb6945980ef0",
+  "sha256_output": "f7186bde59f808f3a7e2d2b4a191306965f23a5cbb329f8505ee71310dd81dfd"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_down_3",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_down_3.wav",
+  "sha256_source": "7144719ed831f5eb179d7f73c01ab7fd5589a534d15af59656cbcb6945980ef0",
+  "sha256_output": "25e64d71a1b30d32e82b1b8375bf529920127cfe8dc638c8833421aea9badb6d"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_down_3",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_down_3.wav",
+  "sha256_source": "7144719ed831f5eb179d7f73c01ab7fd5589a534d15af59656cbcb6945980ef0",
+  "sha256_output": "b8ea84b2adff847d24ef79951adedc7f7f281cfe28eb1b8994e3824f89b5bf67"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_down_3",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_down_3.wav",
+  "sha256_source": "7144719ed831f5eb179d7f73c01ab7fd5589a534d15af59656cbcb6945980ef0",
+  "sha256_output": "f464d58a112255680f9b8bf32c9f146b2810645bf38c317387bff0ab7ccd6e47"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_down_3",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\f51749d49a5a23c5.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_down_3.wav",
+  "sha256_source": "7144719ed831f5eb179d7f73c01ab7fd5589a534d15af59656cbcb6945980ef0",
+  "sha256_output": "cb17f0b1a92c348830ce4dabce04e485bc001328e3099dcf069d84e854e500cd"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_pitch_down_4",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_pitch_down_4.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "f38cbddc4f4b799e28ba98d0140e6581f489e7d15fffa7429b0235db5514a4be"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_pitch_down_4",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_pitch_down_4.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "f39eebf4343377a0fceb1733236356febf177cc2691d6728e70cf716eeeff721"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_pitch_down_4",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_pitch_down_4.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "ba2f0a0ece163f577ab4db9ca2c3d1794dd1de1c8fcda55b4832a3a17ab2a8c4"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_pitch_down_4",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_pitch_down_4.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "351e8f60ee46d4fa0c99f6ddcdc7636a1cc4853a3bbceb19b74dfd2072aa42eb"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_pitch_down_4",
+  "op": "pitch_down",
+  "source_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\8dfad27e9419d48c.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_pitch_down_4.wav",
+  "sha256_source": "e60e54937185df56eac8c228a2b7b839cb3cec46b28768b15af82054b7f97408",
+  "sha256_output": "7ae09e4707be596ecbf08c2f009abbe4ed272ec603a46f2bffefd0052e5ba8a4"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_noise_add_0",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_noise_add_0.wav",
+  "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+  "sha256_output": "9eee40af188e1464df7b22f03c19528a1372e2d8dc6ab6e02340c01cdafb24ff",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+   "clip_id": "9599fc9ae0deaf01",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+   "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_noise_add_0",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_noise_add_0.wav",
+  "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+  "sha256_output": "75074add7ba808eee469ad1b94ed9073f562b9028e4ac115d9c530310074f63e",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+   "clip_id": "9599fc9ae0deaf01",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+   "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_noise_add_0",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_noise_add_0.wav",
+  "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+  "sha256_output": "d30e4d92fe0a6af301dbce40939ed3730849633aa60c9f012e52c137fee84e9f",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+   "clip_id": "9599fc9ae0deaf01",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+   "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_noise_add_0",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_noise_add_0.wav",
+  "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+  "sha256_output": "6a728f5bd0357296b8d9285882f0c9e79ae93ce45f3f5d93f2a600631bfb296f",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+   "clip_id": "9599fc9ae0deaf01",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+   "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_noise_add_0",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_noise_add_0.wav",
+  "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+  "sha256_output": "62f68bfaf3f65ab338858560a4a2c29179bb9af02d4ed63f1e8a9ebb3d0d33ed",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+   "clip_id": "9599fc9ae0deaf01",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+   "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+   "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_noise_add_1",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_noise_add_1.wav",
+  "sha256_source": "727db2b5d01dce044ae2eec3dd0cb0087bdef7e72a4cc4151e85714a0233fc94",
+  "sha256_output": "ead3807b38ed9f92664ba8f15f68d3017969b9697fe70a241329da467b87d6c7",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+   "clip_id": "6f665f58d8dce21a",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "dataset_target_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6f665f58d8dce21a.wav",
+   "kyutai_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "resolved_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_noise_add_1",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_noise_add_1.wav",
+  "sha256_source": "727db2b5d01dce044ae2eec3dd0cb0087bdef7e72a4cc4151e85714a0233fc94",
+  "sha256_output": "773d0b87a28389aba008b6797346ebf75343253848383e79dba10e7693914c79",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+   "clip_id": "6f665f58d8dce21a",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "dataset_target_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6f665f58d8dce21a.wav",
+   "kyutai_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "resolved_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_noise_add_1",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_noise_add_1.wav",
+  "sha256_source": "727db2b5d01dce044ae2eec3dd0cb0087bdef7e72a4cc4151e85714a0233fc94",
+  "sha256_output": "3b2889982094265b09ca0a69df4ad65b63268b98be5a995437c156ac615b5e53",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+   "clip_id": "6f665f58d8dce21a",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "dataset_target_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6f665f58d8dce21a.wav",
+   "kyutai_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "resolved_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_noise_add_1",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_noise_add_1.wav",
+  "sha256_source": "727db2b5d01dce044ae2eec3dd0cb0087bdef7e72a4cc4151e85714a0233fc94",
+  "sha256_output": "0f429b16f8631c43ee8d0fd4b43bd44b1df0f8ee547f400ad4cc196658d5be2b",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+   "clip_id": "6f665f58d8dce21a",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "dataset_target_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6f665f58d8dce21a.wav",
+   "kyutai_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "resolved_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_noise_add_1",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_noise_add_1.wav",
+  "sha256_source": "727db2b5d01dce044ae2eec3dd0cb0087bdef7e72a4cc4151e85714a0233fc94",
+  "sha256_output": "2267672c10fbbebe97e1e9c1161761586105a5c6848c36530da93e43c3a1f19b",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_6f665f58d8dce21a.wav",
+   "clip_id": "6f665f58d8dce21a",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "dataset_target_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\6f665f58d8dce21a.wav",
+   "kyutai_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_6f665f58d8dce21a.wav",
+   "resolved_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "bbab144442715c8d3883a6685cc43ce94c1af1935dfaf40953a20c50b075f1ec"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_noise_add_2",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_noise_add_2.wav",
+  "sha256_source": "63159876ba4e1e15df39b412f22e6055b8cbcf47823aaca19e1dd5ab066a79a6",
+  "sha256_output": "934f1d2b1689addd8b63c745e23c3aa36ee7152f9799a18665af408a0ef800a4",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+   "clip_id": "218abd71759f0df1",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "dataset_target_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+   "kyutai_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "resolved_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_noise_add_2",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_noise_add_2.wav",
+  "sha256_source": "63159876ba4e1e15df39b412f22e6055b8cbcf47823aaca19e1dd5ab066a79a6",
+  "sha256_output": "7d64958e389f13c8e5b63f7d5fd5c258b32d07746e5c502393ceab45aee5ac8a",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+   "clip_id": "218abd71759f0df1",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "dataset_target_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+   "kyutai_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "resolved_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_noise_add_2",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_noise_add_2.wav",
+  "sha256_source": "63159876ba4e1e15df39b412f22e6055b8cbcf47823aaca19e1dd5ab066a79a6",
+  "sha256_output": "7954259bf6575ae88f7bad56bd4865ff4ce6152fe137ac8a43fdf3cf9e4047f5",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+   "clip_id": "218abd71759f0df1",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "dataset_target_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+   "kyutai_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "resolved_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_noise_add_2",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_noise_add_2.wav",
+  "sha256_source": "63159876ba4e1e15df39b412f22e6055b8cbcf47823aaca19e1dd5ab066a79a6",
+  "sha256_output": "45015b871765880938305c6637b64e13fa4b003743c0fc899b9636d3889b5d0b",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+   "clip_id": "218abd71759f0df1",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "dataset_target_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+   "kyutai_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "resolved_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_noise_add_2",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_noise_add_2.wav",
+  "sha256_source": "63159876ba4e1e15df39b412f22e6055b8cbcf47823aaca19e1dd5ab066a79a6",
+  "sha256_output": "56b1746718c0bad38cb0adcbf9c9a0a373d023cc1f960a289e70ff10d27b3e9a",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_218abd71759f0df1.wav",
+   "clip_id": "218abd71759f0df1",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "dataset_target_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\218abd71759f0df1.wav",
+   "kyutai_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_218abd71759f0df1.wav",
+   "resolved_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "2ada9ce7e9c72346dbac9a04001b8b8ddd2767341b3a6a5b117262db57ff7e05"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_noise_add_3",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_noise_add_3.wav",
+  "sha256_source": "e69e6c7e16592cde0e1bc9c0c31d8d543e56ad1d4ff675cf0e0d12b15c58ce15",
+  "sha256_output": "9a7701c1f4e7bf510a0bd786f9e8a76039de90bfdac0f3eca61ccd47e0ed5ce7",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+   "clip_id": "3119aa72033210dc",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "dataset_target_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\3119aa72033210dc.wav",
+   "kyutai_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "resolved_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_noise_add_3",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_noise_add_3.wav",
+  "sha256_source": "e69e6c7e16592cde0e1bc9c0c31d8d543e56ad1d4ff675cf0e0d12b15c58ce15",
+  "sha256_output": "aa24d0048c44ae6eb29922a2c7090dc4dabaf08029b8384d28a9af05c47a822e",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+   "clip_id": "3119aa72033210dc",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "dataset_target_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\3119aa72033210dc.wav",
+   "kyutai_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "resolved_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_noise_add_3",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_noise_add_3.wav",
+  "sha256_source": "e69e6c7e16592cde0e1bc9c0c31d8d543e56ad1d4ff675cf0e0d12b15c58ce15",
+  "sha256_output": "4a903e2094df8ba5264f46a700c5cd4e5f9f807337c0418033c05cb0a8060429",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+   "clip_id": "3119aa72033210dc",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "dataset_target_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\3119aa72033210dc.wav",
+   "kyutai_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "resolved_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_noise_add_3",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_noise_add_3.wav",
+  "sha256_source": "e69e6c7e16592cde0e1bc9c0c31d8d543e56ad1d4ff675cf0e0d12b15c58ce15",
+  "sha256_output": "bb3013dceb06d7331199ecec939eb7f1ee0634b9a66894844a5fdbeac47ce58c",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+   "clip_id": "3119aa72033210dc",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "dataset_target_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\3119aa72033210dc.wav",
+   "kyutai_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "resolved_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_noise_add_3",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_noise_add_3.wav",
+  "sha256_source": "e69e6c7e16592cde0e1bc9c0c31d8d543e56ad1d4ff675cf0e0d12b15c58ce15",
+  "sha256_output": "b779a3efbeb67dec712c8e7942f97328142694ca72c551e94a938d4c2b6a5929",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_3119aa72033210dc.wav",
+   "clip_id": "3119aa72033210dc",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "dataset_target_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\3119aa72033210dc.wav",
+   "kyutai_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_3119aa72033210dc.wav",
+   "resolved_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b96bc0841276899b303cfc12b857f09ec17c57abb83c59e3b81690ce18318496"
+ },
+ {
+  "variant": "u10000",
+  "task_id": "tool_noise_add_4",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\u0_control\\tool_noise_add_4.wav",
+  "sha256_source": "f1d6f7dc56ef793266679250bc6b7eb585f881e8c6a411db5bb3a8bdf9240293",
+  "sha256_output": "13b5d666b122f9cdc849e3bf48906e399b1ccfdc3107a9dfab40919da6340771",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+   "clip_id": "fb002afa83c68324",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "dataset_target_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\fb002afa83c68324.wav",
+   "kyutai_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "resolved_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679"
+ },
+ {
+  "variant": "A@250",
+  "task_id": "tool_noise_add_4",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_250\\tool_noise_add_4.wav",
+  "sha256_source": "f1d6f7dc56ef793266679250bc6b7eb585f881e8c6a411db5bb3a8bdf9240293",
+  "sha256_output": "8b8f690255afc0b7998571ed29503e534398e4550ec4b092f1c8f5516f73a170",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+   "clip_id": "fb002afa83c68324",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "dataset_target_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\fb002afa83c68324.wav",
+   "kyutai_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "resolved_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679"
+ },
+ {
+  "variant": "A@500",
+  "task_id": "tool_noise_add_4",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_A_500\\tool_noise_add_4.wav",
+  "sha256_source": "f1d6f7dc56ef793266679250bc6b7eb585f881e8c6a411db5bb3a8bdf9240293",
+  "sha256_output": "90a539217afadf68a42a6f15ee893a879f08ad0f18e0b4d95e3b977d2ceeaa11",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+   "clip_id": "fb002afa83c68324",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "dataset_target_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\fb002afa83c68324.wav",
+   "kyutai_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "resolved_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679"
+ },
+ {
+  "variant": "B@250",
+  "task_id": "tool_noise_add_4",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_250\\tool_noise_add_4.wav",
+  "sha256_source": "f1d6f7dc56ef793266679250bc6b7eb585f881e8c6a411db5bb3a8bdf9240293",
+  "sha256_output": "2ba9f97dbb8d43dafa60c60c00264b475d08af7e2c1e8d31df4043bc031d53e7",
+  "clean_provenance": {
+   "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+   "clip_id": "fb002afa83c68324",
+   "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "dataset_target_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\fb002afa83c68324.wav",
+   "kyutai_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_fb002afa83c68324.wav",
+   "resolved_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679",
+   "target_equals_kyutai": true,
+   "evidence": "dataset_target"
+  },
+  "clean_sha256": "b8c51f851a544cf5bad71a6712a9f6052a555cd812e737e8c0721ac161dac679"
+ },
+ {
+  "variant": "B@500",
+  "task_id": "tool_noise_add_4",
+  "op": "noise_add",
+  "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_fb002afa83c68324.wav",
+  "output_path": "G:\\AI\\AuK\\local_tests\\s2_B_500\\tool_noise_add_4.wav",
+  "sha256_source": "f1d6f7dc56ef793266679250bc6b7eb585f881e8c6a411db5bb3a8bdf9240293",
+  "sha256_output": "e9fa1f7989b409fbb743c5fd6cbf5339ef8e91c5eefe0ee432b85589c05581a8"
+ }
+]

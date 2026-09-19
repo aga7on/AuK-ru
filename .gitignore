@@ -1,0 +1,69 @@
+# Model weights / checkpoints (distributed separately, not via git).
+# Keep the empty ckpts/ dir so users can drop downloaded weights straight in.
+ckpts/*
+!ckpts/.gitkeep
+*.safetensors
+*.pt
+*.ckpt
+*.bin
+agent_space/
+gradio/
+eval/
+assets/after_pe/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+tmp/
+# Virtual envs
+.venv/
+.venv-*/
+venv/
+env/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# local scratch
+gongfeng.html
+
+# Local credentials and environment overrides. Keep only placeholder examples.
+.env
+.env.*
+!.env.example
+
+# internal docs (local only, not published)
+agent_docs/
+docs/EXP.md
+docs/analysis/
+docs/session/
+docs/task/
+CLAUDE.md
+AGENTS.md
+
+# --- AuK-ru additions (private local training artifacts) ---
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.parquet
+*.zip
+local_train/run_*/
+local_train/data_s2_full/
+local_train/data_s2_tools_v*/
+local_train/data_s2*/
+local_train/corpus/
+local_train/data/
+**/SECRET_map.csv
+tmp_pub/

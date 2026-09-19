@@ -1,0 +1,6 @@
+{
+  "sample": "var_19_s1234_f",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"file_name": "var_19_s1234_f.wav", "text_fidelity": 10, "endings": 10, "naturalness": 8, "prosody": 7, "accent": "Standard Russian", "palatalization": 10, "stress": 9, "voice_similarity": null, "artifacts": 0, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "The pronunciation is accurate and the female voice sounds clear. However, the intonation pattern is slightly monotonous, lacking the typical rising-falling contour often used in public announcements to emphasize key information like 'через 15 минут' or 'с третьего пути'. The pacing is a bit uniform.", "overall": 8, "verdict": "Good"}
+}

@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_10",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_tgt.wav"
+  ],
+  "sha256": [
+    "fb294e2041908cce8b07a4c5d7f7c0631cf45b3444250574cf6c0ba989aa6c1f",
+    "eb1b650ac9836686d34b798c3ac241c832981aadaeef376ba61a4e5bd3337f47"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Покажи фильм Люди, места, вещи",
+        "transcript_b": "Кинчик 8 недель спустя покажи",
+        "evidence": "Идентичный мужской тембр голоса, близкая высота основного тона, сходная резонансная окраска и характерная расслабленная манера артикуляции (особенно слышно на общем слове «покажи»).",
+        "limitations": "Относительно короткая длительность записей и неполное совпадение произносимого текста."
+      },
+      "raw": "{\"audio_access\":true,\"label\":\"same\",\"transcript_a\":\"Покажи фильм Люди, места, вещи\",\"transcript_b\":\"Кинчик 8 недель спустя покажи\",\"evidence\":\"Идентичный мужской тембр голоса, близкая высота основного тона, сходная резонансная окраска и характерная расслабленная манера артикуляции (особенно слышно на общем слове «покажи»).\",\"limitations\":\"Относительно короткая длительность записей и неполное совпадение произносимого текста.\"}",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 507,
+        "completion_tokens": 118,
+        "total_tokens": 1386,
+        "completion_tokens_details": {
+          "reasoning_tokens": 761
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Кинчик 8 недель спустя покажи",
+        "transcript_b": "Покажи фильм Люди, места, вещи",
+        "evidence": "Схожий диапазон основного тона, совпадающие индивидуальные тембральные особенности с характерной легкой назализацией, идентичный вокальный резонанс и схожая артикуляционная динамика.",
+        "limitations": "Небольшая продолжительность речевых фрагментов, несовпадающий лексический состав и различия в интонационном рисунке."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Кинчик 8 недель спустя покажи\",\n  \"transcript_b\": \"Покажи фильм Люди, места, вещи\",\n  \"evidence\": \"Схожий диапазон основного тона, совпадающие индивидуальные тембральные особенности с характерной легкой назализацией, идентичный вокальный резонанс и схожая артикуляционная динамика.\",\n  \"limitations\": \"Небольшая продолжительность речевых фрагментов, несовпадающий лексический состав и различия в интонационном рисунке.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 507,
+        "completion_tokens": 149,
+        "total_tokens": 2368,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1712
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

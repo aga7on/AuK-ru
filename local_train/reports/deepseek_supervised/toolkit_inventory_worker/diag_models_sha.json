@@ -1,0 +1,26 @@
+{
+ "upstream_base": {
+  "ckpt": "G:\\AI\\AuK\\ckpts\\AuK\\auk_base.safetensors",
+  "sha256_full": "29c65c0c6045e8d8fb454019f99c9680508f553fc98fa143feaca3711d0b8614",
+  "sha256_full_expected": "29c65c0c6045e8d8fb454019f99c9680508f553fc98fa143feaca3711d0b8614",
+  "matches_manifest": true,
+  "size": 6122209092,
+  "hash_seconds": 4.4
+ },
+ "s1_u10000": {
+  "ckpt": "G:\\AI\\AuK\\local_train\\run_ru_s1\\merged\\auk_ru_10000.safetensors",
+  "sha256_full": "a9ac0b81f5159ce707afc31e4897be2236716163144447092f7a0e0908642a24",
+  "sha256_full_expected": "a9ac0b81f5159ce707afc31e4897be2236716163144447092f7a0e0908642a24",
+  "matches_manifest": true,
+  "size": 6122209092,
+  "hash_seconds": 4.5
+ },
+ "s2_B500": {
+  "ckpt": "G:\\AI\\AuK\\local_train\\run_s2_B\\merged\\auk_s2_B_500.safetensors",
+  "sha256_full": "2cef557ee9be95c5bb5748c51265b7e57ce3f613923bb1c3177e4f9de8c8daf2",
+  "sha256_full_expected": "2cef557ee9be95c5bb5748c51265b7e57ce3f613923bb1c3177e4f9de8c8daf2",
+  "matches_manifest": true,
+  "size": 6122209092,
+  "hash_seconds": 4.6
+ }
+}

@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_19",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_tgt.wav"
+  ],
+  "sha256": [
+    "86ddaf15cda2d1ae59b91a99c5391204f13cd96a8332d63d3744c6f514ebea14",
+    "3ba72368f6118c387e0c3404a06589bcf8270aeffb0396fcb628c1f410de5451"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Александру Сергеевичу Горбачу",
+        "transcript_b": "Илюхе Ананьева",
+        "evidence": "Оба фрагмента принадлежат одной женщине: совпадают индивидуальный тембр голоса, высота основного тона, формантные особенности и интонационный рисунок.",
+        "limitations": "Краткость записей и произнесение отдельных словосочетаний не позволяют гарантировать абсолютную биометрическую точность."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Александру Сергеевичу Горбачу\",\n  \"transcript_b\": \"Илюхе Ананьева\",\n  \"evidence\": \"Оба фрагмента принадлежат одной женщине: совпадают индивидуальный тембр голоса, высота основного тона, формантные особенности и интонационный рисунок.\",\n  \"limitations\": \"Краткость записей и произнесение отдельных словосочетаний не позволяют гарантировать абсолютную биометрическую точность.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 466,
+        "completion_tokens": 133,
+        "total_tokens": 1378,
+        "completion_tokens_details": {
+          "reasoning_tokens": 779
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Илюхи Ананьева",
+        "transcript_b": "Александру Сергеевичу Горбачу",
+        "evidence": "Схожий женский тембр, близкая высота основного тона, одинаковая формантная окраска, артикуляционные особенности и интонация дикторского чтения.",
+        "limitations": "Небольшая продолжительность фрагментов, непересекающийся лексический состав."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Илюхи Ананьева\",\n  \"transcript_b\": \"Александру Сергеевичу Горбачу\",\n  \"evidence\": \"Схожий женский тембр, близкая высота основного тона, одинаковая формантная окраска, артикуляционные особенности и интонация дикторского чтения.\",\n  \"limitations\": \"Небольшая продолжительность фрагментов, непересекающийся лексический состав.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 466,
+        "completion_tokens": 127,
+        "total_tokens": 1218,
+        "completion_tokens_details": {
+          "reasoning_tokens": 625
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

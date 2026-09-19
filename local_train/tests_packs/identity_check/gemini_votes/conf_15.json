@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_15",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_tgt.wav"
+  ],
+  "sha256": [
+    "c4c05201385b8ff373e17fd949c18199f682a6ba106db4be4c1dbd3de85c24f5",
+    "969a845dc7a9452fdef838951f555846ebf1d34b330d40d749803d0c36a40c8c"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Фильм с участием Леонардо Ди Каприо",
+        "transcript_b": "Фильм с участием Тома Круза",
+        "evidence": "Одинаковый мужской тембр, близкая высота основного тона, идентичная манера артикуляции и интонационный контур на повторяющемся фрагменте «Фильм с участием».",
+        "limitations": "Краткость записей, отсутствие экспертной биометрической точности."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Фильм с участием Леонардо Ди Каприо\",\n  \"transcript_b\": \"Фильм с участием Тома Круза\",\n  \"evidence\": \"Одинаковый мужской тембр, близкая высота основного тона, идентичная манера артикуляции и интонационный контур на повторяющемся фрагменте «Фильм с участием».\",\n  \"limitations\": \"Краткость записей, отсутствие экспертной биометрической точности.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 545,
+        "completion_tokens": 135,
+        "total_tokens": 1190,
+        "completion_tokens_details": {
+          "reasoning_tokens": 510
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Фильм с участием Тома Круза",
+        "transcript_b": "Фильм с участием Леонардо Ди Каприо",
+        "evidence": "Оба фрагмента демонстрируют одинаковый мужской тембр, близкий основной тон, характерную хрипотцу и идентичную артикуляцию и интонацию во фразе «Фильм с участием».",
+        "limitations": "Краткость аудиозаписей и акустические особенности среды записи не позволяют дать абсолютную биометрическую гарантию."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Фильм с участием Тома Круза\",\n  \"transcript_b\": \"Фильм с участием Леонардо Ди Каприо\",\n  \"evidence\": \"Оба фрагмента демонстрируют одинаковый мужской тембр, близкий основной тон, характерную хрипотцу и идентичную артикуляцию и интонацию во фразе «Фильм с участием».\",\n  \"limitations\": \"Краткость аудиозаписей и акустические особенности среды записи не позволяют дать абсолютную биометрическую гарантию.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 545,
+        "completion_tokens": 149,
+        "total_tokens": 1162,
+        "completion_tokens_details": {
+          "reasoning_tokens": 468
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

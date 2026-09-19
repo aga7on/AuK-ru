@@ -1,0 +1,884 @@
+{
+  "suites": [
+    {
+      "path": "local_tests",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "exp2_transcripts.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "exp3_transcripts.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 54.20640589569161,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\ab_final",
+      "wav_count": 20,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 20,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results_gemini.json",
+          "records": 20,
+          "mean_judge_overall": 7.1,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 99.20095833333332,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\bestofn",
+      "wav_count": 0,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 15,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "picked_gigaam.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "scoring_gigaam.json",
+          "records": 15,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 0,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\bestofn\\best_gigaam",
+      "wav_count": 5,
+      "json": [],
+      "audio_seconds": 25.439999999999998,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\bestofn\\cand",
+      "wav_count": 15,
+      "json": [],
+      "audio_seconds": 76.32,
+      "near_full_scale_files": [
+        "c03_s42.wav"
+      ]
+    },
+    {
+      "path": "local_tests\\capability_probe",
+      "wav_count": 12,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 12,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 96.69025,
+      "near_full_scale_files": [
+        "cap_deaccent.wav"
+      ]
+    },
+    {
+      "path": "local_tests\\e2e_suite",
+      "wav_count": 10,
+      "json": [
+        {
+          "name": "report.json",
+          "records": 9,
+          "mean_judge_overall": null,
+          "status_counts": {
+            "WARN": 6,
+            "PASS": 3
+          }
+        }
+      ],
+      "audio_seconds": 51.22012500000001,
+      "near_full_scale_files": [
+        "emotion_happy.wav",
+        "tts_04.wav"
+      ]
+    },
+    {
+      "path": "local_tests\\keeper",
+      "wav_count": 17,
+      "json": [],
+      "audio_seconds": 85.93999999999998,
+      "near_full_scale_files": [
+        "u4250_liked_gen.wav",
+        "u8250_near_perfect_gen.wav",
+        "u9250_softsign_missing_gen.wav"
+      ]
+    },
+    {
+      "path": "local_tests\\pause_trim",
+      "wav_count": 4,
+      "json": [],
+      "audio_seconds": 18.810083333333335,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\respell4_ab",
+      "wav_count": 18,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 13,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results_gemini.json",
+          "records": 13,
+          "mean_judge_overall": 5.3076923076923075,
+          "status_counts": {}
+        },
+        {
+          "name": "results_gemini_voted.json",
+          "records": 2,
+          "mean_judge_overall": 5.0,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 84.05041666666666,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\softl2_ab",
+      "wav_count": 12,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 12,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 12,
+          "mean_judge_overall": 4.833333333333333,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 66.0,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_tests\\voices_u18000",
+      "wav_count": 20,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 20,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 121.820625,
+      "near_full_scale_files": [
+        "alt_male_proiznoshenie.wav",
+        "alt_male_prosody_sea.wav",
+        "alt_male_val_razvitie.wav",
+        "alt_male_vstrecha_objavlenie.wav",
+        "nat_female_polzovanie_names.wav",
+        "nat_female_proiznoshenie.wav",
+        "nat_female_prosody_sea.wav",
+        "nat_female_val_razvitie.wav",
+        "nat_female_vstrecha_objavlenie.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\base_u0",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 7.666666666666667,
+          "status_counts": {}
+        },
+        {
+          "name": "results_v2.json",
+          "records": 6,
+          "mean_judge_overall": 6.5,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u1250",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 7.666666666666667,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u2750",
+      "wav_count": 2,
+      "json": [],
+      "audio_seconds": 14.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u3000",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 7.666666666666667,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u3500",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 6.833333333333333,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u4000",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 6.666666666666667,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\lora_u750",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 8.0,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru\\evals\\micro_cyr",
+      "wav_count": 6,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 6,
+          "mean_judge_overall": 6.5,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 42.5,
+      "near_full_scale_files": []
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u10000",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 9.125,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u13400",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 8.625,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u14750",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 8.5,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_5.wav",
+        "gen_6.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u15750",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 9.125,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u16500",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u16750",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 8.625,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_3.wav",
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u17250",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_1.wav",
+        "gen_3.wav",
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_6.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u17480",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_1.wav",
+        "gen_3.wav",
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_6.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u19290",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 8.625,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_5.wav",
+        "gen_6.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u19880",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 8.625,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u20780",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 9.125,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_3.wav",
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\run_ru_s1\\evals\\lora_u21500",
+      "wav_count": 8,
+      "json": [
+        {
+          "name": "manifest.json",
+          "records": 8,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "results.json",
+          "records": 8,
+          "mean_judge_overall": 9.125,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 41.52,
+      "near_full_scale_files": [
+        "gen_4.wav",
+        "gen_5.wav",
+        "gen_7.wav"
+      ]
+    },
+    {
+      "path": "local_train\\user_reviews",
+      "wav_count": 0,
+      "json": [
+        {
+          "name": "autopsy_gemini_verdicts.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "autopsy_real_verdicts.json",
+          "records": 10,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "instruct_name_ab_verdicts.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "keeper_jury_scores.json",
+          "records": 7,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "lingo_ab_full_verdict.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "par_p0_dur085_s7.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "par_p1_cur_s1234.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "par_p1_nfe64_s7.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "pause_analysis.json",
+          "records": 7,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "phrase_ivan_petrov_numerals.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "razv_repro_verdict.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "respell3_gigaam_screen.json",
+          "records": 7,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "respell3_verdicts.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "softl_verdict.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "stress_variants_verdict.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u10000.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u10750.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u11500.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u12250.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u13250.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u15250.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u15500.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u18000.json",
+          "records": 6,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u7250.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u7750.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u9250.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "u9500.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "val_samples_10000_13000_jury_scores.json",
+          "records": 7,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "variations_v3_feedback.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "var_00_s1234_m.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "var_00_s7.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "var_11_s1234_f.json",
+          "records": 5,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "var_19_s1234_f.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "voices_u18000.json",
+          "records": 9,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "vol_own_m_p0.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        },
+        {
+          "name": "vol_own_m_p1.json",
+          "records": 4,
+          "mean_judge_overall": null,
+          "status_counts": {}
+        }
+      ],
+      "audio_seconds": 0,
+      "near_full_scale_files": []
+    }
+  ],
+  "json_errors": [],
+  "audio_errors": [],
+  "syntax_errors": [],
+  "dataset": {
+    "train": {
+      "rows": 20569,
+      "hours": 30.622058611111278,
+      "user_audio_rows": 0,
+      "missing_targets": 0
+    },
+    "val": {
+      "rows": 256,
+      "hours": 0.39149305555555547,
+      "user_audio_rows": 0,
+      "missing_targets": 0
+    },
+    "shared_target_paths": 0
+  },
+  "metric_probes": {
+    "repeat_perfect": 1.5,
+    "insertion": 1.0,
+    "wrong_order": 1.0,
+    "english_wrong": 1.0,
+    "silence_pause_excess": 0.0,
+    "short_audio": "IndexError: index 100 is out of bounds for axis 0 with size 100"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "sample": "var_00_s7",
+  "source": "user+qwen35omni",
+  "date": "2026-09-14",
+  "verdict_json": {"file_name": "var_00_s7.wav", "text_fidelity": 10, "endings": 10, "naturalness": 7, "prosody": 6, "accent": "Standard Russian", "palatalization": 10, "stress": 8, "voice_similarity": null, "artifacts": 1, "truncated": false, "words_dropped": [], "words_mangled": [], "issues": "There is an unnatural pause between 'банке' and 'с', breaking the syntactic flow. The intonation on '2026 года' sounds slightly robotic and lacks the natural falling contour expected at the end of a declarative sentence.", "overall": 7, "verdict": "Good"}
+}

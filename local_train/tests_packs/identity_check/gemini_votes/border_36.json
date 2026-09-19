@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_36",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_tgt.wav"
+  ],
+  "sha256": [
+    "93d80ce035f47bbf63c59dfe5e83610d5f7d6a25bf337eb9c2a528002b82dd50",
+    "f0d93f2d1147e50786163e0b975ed0640744c9def186bb61755915542da1d43b"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "uncertain",
+        "transcript_a": "Покажи мне сериал Половое воспитание.",
+        "transcript_b": "Пусти сериал, серия восемь.",
+        "evidence": "В обоих фрагментах слышен мужской голос схожего тембра и высоты. Однако в записи A используется обычная модальная речь, а в записи B — приглушённый полушёпот с выраженным вокальным фраем (скрипом), что искажает формантную картину и основной тон.",
+        "limitations": "Краткая продолжительность записей и значительное различие в способе голосообразования (обычный голос против шёпота/скрипучего регистра) препятствуют надёжной идентификации диктора."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Покажи мне сериал Половое воспитание.\",\n  \"transcript_b\": \"Пусти сериал, серия восемь.\",\n  \"evidence\": \"В обоих фрагментах слышен мужской голос схожего тембра и высоты. Однако в записи A используется обычная модальная речь, а в записи B — приглушённый полушёпот с выраженным вокальным фраем (скрипом), что искажает формантную картину и основной тон.\",\n  \"limitations\": \"Краткая продолжительность записей и значительное различие в способе голосообразования (обычный голос против шёпота/скрипучего регистра) препятствуют надёжной идентификации диктора.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 464,
+        "completion_tokens": 190,
+        "total_tokens": 2832,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2178
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Включи Человек в сером 8",
+        "transcript_b": "Покажи мне сериал Половое воспитание",
+        "evidence": "Оба фрагмента принадлежат одному мужчине с низким основным тоном, схожим резонансом, характерной расслабленной артикуляцией и выраженным скрипучим регистром (vocal fry).",
+        "limitations": "Краткость записей и различия в фоновом шуме."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи Человек в сером 8\",\n  \"transcript_b\": \"Покажи мне сериал Половое воспитание\",\n  \"evidence\": \"Оба фрагмента принадлежат одному мужчине с низким основным тоном, схожим резонансом, характерной расслабленной артикуляцией и выраженным скрипучим регистром (vocal fry).\",\n  \"limitations\": \"Краткость записей и различия в фоновом шуме.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 464,
+        "completion_tokens": 140,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 673
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

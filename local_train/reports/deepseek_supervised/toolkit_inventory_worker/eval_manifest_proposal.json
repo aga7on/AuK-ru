@@ -1,0 +1,1269 @@
+{
+ "schema_version": "1.0",
+ "generated_by": "toolkit_inventory_worker (bounded DeepSeek v4.1 Flash)",
+ "date": "2026-09-16",
+ "purpose": "Heldout-evaluation fixture proposal for ORIGINAL upstream AuK capabilities, with paired controls (upstream base vs Russian s1 u10000) on language-appropriate tasks. Read-only research; no generation was run.",
+ "controls": {
+  "upstream_base": {
+   "path": "ckpts/AuK/auk_base.safetensors",
+   "role": "original capability reference",
+   "size_bytes": 6122209092,
+   "sha256_full": "29c65c0c6045e8d8fb454019f99c9680508f553fc98fa143feaca3711d0b8614",
+   "sha256_first_2GiB_partial": "cf5a4ec2530eb714946bfc715c3959492c759bef98ae3cf639c4222b5d4de873",
+   "hash_note": "partial value is sha256 of the first 2 GiB only; use sha256_full for identity"
+  },
+  "s1_u10000": {
+   "path": "local_train/run_ru_s1/merged/auk_ru_10000.safetensors",
+   "role": "Russian-adapted control (BASELINE.md:31-35)",
+   "size_bytes": 6122209092,
+   "sha256_full": "a9ac0b81f5159ce707afc31e4897be2236716163144447092f7a0e0908642a24",
+   "sha256_first_2GiB_partial": "4f3eca357e96c273f473cba4bbc7b0abb77c09f1fadaa7a9db3494c631c68ee0",
+   "hash_note": "partial value is sha256 of the first 2 GiB only"
+  },
+  "s2_B500": {
+   "path": "local_train/run_s2_B/merged/auk_s2_B_500.safetensors",
+   "role": "s2 B@500 adapted control",
+   "size_bytes": 6122209092,
+   "sha256_full": "2cef557ee9be95c5bb5748c51265b7e57ce3f613923bb1c3177e4f9de8c8daf2"
+  }
+ },
+ "run_protocol": {
+  "shared": "identical instruction, source path, seed, gen_seconds and nfe/cfg for every control; export output wav + sha256 + model alias + prompt_version",
+  "seed": 1234,
+  "nfe": 64,
+  "cfg_strength": 2.0,
+  "trim": false,
+  "harness_reference": "local_train/run_eval_pack.py (protocol trim=False, bestofn=1, NFE=64, CFG=2.0, seed=1234)"
+ },
+ "metric_tooling": {
+  "perceptual_judge": "Gemini audio judge via local proxy (root delegates judging; human listening OPTIONAL, not a blocker)",
+  "objective_magnitude": "sibling corrected DSP: local_train/reports/deepseek_supervised/dsp_review_worker/dsp_core_v2.py; the older tool_dsp_measure.py is SUPERSEDED (do not use its SNR/preservation corr as a pass metric)",
+  "corr_warning": "raw waveform correlation is NOT voice similarity and NOT content correctness; do not use it as such",
+  "russian_content": "src/auk/infer/quality.py wer_metrics (NOT recall)",
+  "speaker_similarity": "local_train/speaker_embed.py (wespeaker ONNX cosine)",
+  "zh_en_content": "no local ASR; Gemini judge + optional human"
+ },
+ "fixtures": [
+  {
+   "id": "smoke_upstream_pitch_up2",
+   "capability": "Acoustic Editing: Pitch",
+   "task_type": "pitch_edit",
+   "subtype": "increase",
+   "language": "en",
+   "instruction": "Raise the pitch by 2 semitones.",
+   "source_path": "assets/demo-input-audio/pitch/pitch-1-input.wav",
+   "source_provenance": "upstream git HEAD 0dfd4d3, assets/demo-input-audio (Tencent-Hunyuan/AuK)",
+   "source_sha256": "e3ce8f28ff59246d328ac2ed44f4cf0ba20492228dad1ac53f63743378be6d47",
+   "source_duration_s": 5.5,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length: omit gen_seconds (infer_auk.py:287-291 falls back to source length)",
+   "reference_control": {
+    "expected_ref_property": "source exists, has active speech, no clipping",
+    "control_check": "DSP source active-frames >= 5 (tool_dsp_measure.speech_mask)"
+   },
+   "expected_target_rule": "output voiced median F0 / source voiced median F0 == +2.0 semitones (+/-0.5); speech-preservation active correlation high; no clipping increase",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English demo asset; not present in local_train/data*, data_s2_full*, data_s2_tools_v3* (leakage_report.json train_sets); unknown vs upstream AuK pretraining Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "semitones_delta",
+    "tool": "dsp_review_worker/dsp_core_v2.py (supersedes tool_dsp_measure.py for magnitude)",
+    "absolute_criterion": "semitones in [1.5, 2.5]",
+    "paired_criterion": "s1_u10000 semitones within +/-0.75 of upstream_base and same sign"
+   },
+   "invalid_input_rules": [
+    "source has no active speech (n_active < 5)",
+    "fewer than 10 voiced frames in input or output",
+    "output contains NaN/Inf"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "smoke_ru_pitch_up2_heldout_ref",
+   "capability": "Acoustic Editing: Pitch (Russian-adapted control smoke)",
+   "task_type": "pitch_edit",
+   "subtype": "increase",
+   "language": "en",
+   "instruction": "Raise the pitch by 2 semitones.",
+   "source_path": "local_tests/ref_ru.wav",
+   "source_provenance": "local recording in local_tests (untracked); NOT in local_train/data*, data_s2_full*, data_s2_tools_v3*",
+   "source_sha256": "4a49278de42fe5168b435c2acbf2b74e5eb4e8a09cb5d5d59464cfd778a74fa0",
+   "source_duration_s": 8.742,
+   "source_sr": 24000,
+   "source_channels": 1,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "active speech present",
+    "control_check": "n_active >= 5"
+   },
+   "expected_target_rule": "semitones +2.0 (+/-0.5); content preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "leakage_report.json: local_tests refs have seen_in_sets=[]; origin is a local recording, speaker identity unknown Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "semitones_delta",
+    "tool": "dsp_review_worker/dsp_core_v2.py (supersedes tool_dsp_measure.py for magnitude)",
+    "absolute_criterion": "semitones in [1.5, 2.5]",
+    "paired_criterion": "s1_u10000 within +/-0.75 of upstream_base"
+   },
+   "invalid_input_rules": [
+    "no active speech",
+    "insufficient voiced frames",
+    "NaN/Inf output"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_zero_shot_tts_en",
+   "capability": "Speech Generation: Zero-shot TTS",
+   "task_type": "zero_shot_tts",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Say the following with the same voice: 'Ladies and gentlemen, it's an honor to have the opportunity to address such a distinguished audience'",
+   "source_path": "assets/demo-input-audio/zero-shot-tts/ref.wav",
+   "source_provenance": "upstream git HEAD 0dfd4d3",
+   "source_sha256": "ce1f449813c5769b6a4790fd50dac98a74a696795ee6b82c35068a11c147e79a",
+   "source_duration_s": 9.95,
+   "source_sr": 24000,
+   "source_channels": 1,
+   "input_modality": "ref_audio+text",
+   "gen_seconds": 6.0,
+   "duration_rule": "explicit gen_seconds per COOKBOOK.md:99",
+   "reference_control": {
+    "expected_ref_property": "clean single-speaker English reference",
+    "control_check": "well-formed wav, speech present"
+   },
+   "expected_target_rule": "intelligible English rendering of the target text; no echo of reference words; voice similarity to ref",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "English upstream asset absent from Russian train sets; unknown vs upstream pretrain Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "blind_content_and_similarity",
+    "tool": "human blind rubric + speaker_embed.py cosine",
+    "absolute_criterion": "text_accuracy >= 8/10 AND voice_similarity >= 7/10 (Gemini judge)",
+    "paired_criterion": "s1_u10000 not worse than upstream_base by >1.0 on either field; ref_word_leak == 0"
+   },
+   "invalid_input_rules": [
+    "ref missing or <0.3 s",
+    "ref contains no speech",
+    "empty target text"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_instruct_tts_zh_noref",
+   "capability": "Speech Generation: Instruct TTS",
+   "task_type": "instruct_tts",
+   "subtype": null,
+   "language": "zh",
+   "instruction": "Based on the following description: \"一位二十多岁的女性，面对刚到家的伴侣，以温柔、关心且略带撒娇的语气轻声诉说。她的声音柔和亲密，语速稍缓，音量适中，音色甜美自然，在短语结尾处语调温暖地上扬。她正向伴侣问候回家，并温柔询问今日工作如何。\", generate speech content \"Welcome home, how was work today?\".",
+   "source_path": null,
+   "source_provenance": "text-only (no media) per COOKBOOK.md:114-144",
+   "source_sha256": null,
+   "source_duration_s": null,
+   "source_sr": null,
+   "source_channels": null,
+   "input_modality": "text_only_no_audio (runtime appends |<no_prompt_audio>|, infer_auk.py:279-284)",
+   "gen_seconds": 5.0,
+   "duration_rule": "text-only => explicit gen_seconds; target text is English (text_language=en). 5.0 s for the 10-word sentence at a slow/gentle pace. Do NOT claim Chinese-output coverage.",
+   "reference_control": {
+    "expected_ref_property": "none",
+    "control_check": "messages contain no type=audio item"
+   },
+   "expected_target_rule": "intelligible ENGLISH rendering of 'Welcome home, how was work today?' (~7 words) at a slow, gentle pace, ~4.5-5.0 s; style female/gentle/soft",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "text-only; no recording involved Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "blind_content_style_naturalness",
+    "tool": "human blind rubric",
+    "absolute_criterion": "text_accuracy >= 8/10 AND naturalness >= 7/10",
+    "paired_criterion": "s1_u10000 not worse than upstream_base by >1.0"
+   },
+   "invalid_input_rules": [
+    "empty style_desc or text",
+    "gen_seconds unset or <= 0",
+    "an audio item present would make it zero_shot_tts instead"
+   ],
+   "status": "valid",
+   "instruction_language": "zh",
+   "text_language": "en",
+   "note": "Corrected: the original draft labelled this zh and used 1.7 s, inconsistent with the slow/gentle style and English target text."
+  },
+  {
+   "id": "orig_content_edit_replace_en",
+   "capability": "Content Editing: Speech Content Editing",
+   "task_type": "content_edit",
+   "subtype": "replace",
+   "language": "en",
+   "instruction": "Replace 'but accepting what we cannot have' with 'and living well with dreams unmet'.",
+   "source_path": "assets/demo-input-audio/content-edit/content.wav",
+   "source_provenance": "upstream git HEAD 0dfd4d3; anchor string declared in COOKBOOK.md:168",
+   "source_sha256": "bccf948d9eac33166af526fb1041dc3de8eb8b75f398aba97b61b59f73db0ef2",
+   "source_duration_s": 7.014,
+   "source_sr": 40000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 7.0,
+   "duration_rule": "content_scaled; COOKBOOK.md:171 passes gen_seconds=7.0",
+   "reference_control": {
+    "expected_ref_property": "source must CONTAIN the anchor phrase exactly",
+    "control_check": "human/ASR confirmation that 'but accepting what we cannot have' is audible before scoring"
+   },
+   "expected_target_rule": "new phrase present, old phrase absent, voice/content otherwise preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets; unknown vs upstream pretrain Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "edit_success_by_human",
+    "tool": "human blind rubric",
+    "absolute_criterion": "new phrase clearly present AND old phrase absent (the Gemini judge agree)",
+    "paired_criterion": "s1_u10000 edit success not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "anchor/target word NOT present in source (would be a no-op/undefined edit)",
+    "empty orig or new",
+    "source missing"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_vocal_edit_lyrics_en",
+   "capability": "Content Editing: Lyric Editing",
+   "task_type": "vocal_edit",
+   "subtype": "replace",
+   "language": "en",
+   "instruction": "Change \"rear view\" to \"like you\" in the vocal recording.",
+   "source_path": "assets/demo-input-audio/vocal-edit/vocaledit-en-1-input.wav",
+   "source_provenance": "upstream git HEAD 0dfd4d3",
+   "source_sha256": "607187b34d7b721932a9fc9361e9bd00af6202e39d07464e57979b2222564aaf",
+   "source_duration_s": 5.74,
+   "source_sr": 24000,
+   "source_channels": 1,
+   "input_modality": "acappella_vocals+instruction",
+   "gen_seconds": null,
+   "duration_rule": "content_scaled; Cookbook example omits gen_seconds -> source length",
+   "reference_control": {
+    "expected_ref_property": "MUST be a cappella isolated vocal (COOKBOOK.md:188-190); source must contain 'rear view'",
+    "control_check": "verify no accompaniment and anchor presence before scoring"
+   },
+   "expected_target_rule": "sung 'like you' replaces 'rear view'; melody and voice preserved; instrumental absence unchanged",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream asset absent from Russian train sets; whether truly a cappella is UNKNOWN (assumed per Cookbook) Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "lyric_edit_by_human",
+    "tool": "human blind rubric",
+    "absolute_criterion": "new lyric clearly sung AND old lyric absent AND melody preserved (Gemini judge)",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "input has instrumental accompaniment (must be acappella)",
+    "source lacks 'rear view'",
+    "speech-only source"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_speed_edit_150",
+   "capability": "Acoustic Editing: Speed",
+   "task_type": "speed_edit",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Adjust the speech speed to 1.5x.",
+   "source_path": "assets/demo-input-audio/speed/speed-edit-1-input.wav",
+   "source_sha256": "e1a745c75248933ce92f27cdf6260eb55ebe2b41f95683819e707b5519395479",
+   "source_duration_s": 11.0,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 6.86,
+   "duration_rule": "speed_scaled = 11.0*0.91/... ; COOKBOOK.md:256 gen_seconds=6.86",
+   "reference_control": {
+    "expected_ref_property": "active speech present",
+    "control_check": "n_active >= 5"
+   },
+   "expected_target_rule": "active-speech duration ratio source/output == 1.5 (+/-0.15); content preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "speed_rate",
+    "tool": "dsp_review_worker/dsp_core_v2.py measure_one('speed_up')",
+    "absolute_criterion": "rate in [1.35, 1.65]",
+    "paired_criterion": "s1_u10000 rate within +/-0.15 of upstream_base"
+   },
+   "invalid_input_rules": [
+    "no active speech",
+    "speed outside documented set {0.5,0.75,1.25,1.5,2.0}",
+    "gen_seconds omitted"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_volume_edit_up10",
+   "capability": "Acoustic Editing: Volume",
+   "task_type": "volume_edit",
+   "subtype": "increase",
+   "language": "en",
+   "instruction": "Increase the volume by 10 dB.",
+   "source_path": "assets/demo-input-audio/energy/energy-edit-1-input.wav",
+   "source_sha256": "88b07b07c4ddb4e5cd87d79f642f5f266f1dfd6194d321aeef67071b95613316",
+   "source_duration_s": 5.5,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "headroom for +10 dB without clipping (peak <= ~0.3)",
+    "control_check": "peak check before scoring; else mark invalid"
+   },
+   "expected_target_rule": "active-speech RMS delta == +10 dB (+/-2); clipping ratio not increased",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "volume_delta_db",
+    "tool": "dsp_review_worker/dsp_core_v2.py measure_one('volume_up')",
+    "absolute_criterion": "delta_db in [8.0, 12.0]; clip_out <= clip_in + 1e-4",
+    "paired_criterion": "s1_u10000 delta_db within +/-3 dB of upstream_base"
+   },
+   "invalid_input_rules": [
+    "insufficient headroom causes clipping",
+    "no active speech",
+    "gain not in documented {5,10,15}"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_emotion_happy_en",
+   "capability": "Paralinguistic: Emotion",
+   "task_type": "emotion_edit",
+   "subtype": "happy",
+   "language": "en",
+   "instruction": "Change the emotion to happy.",
+   "source_path": "assets/demo-input-audio/emotion-edit/en-1-input.wav",
+   "source_sha256": "9156254f3927f2e44e2f3f84d7a86c0a11ae187ef1f1d5fd810a0f1491aaca88",
+   "source_duration_s": 6.32,
+   "source_sr": 24000,
+   "source_channels": 1,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "neutral/known-emotion speech",
+    "control_check": "speech present"
+   },
+   "expected_target_rule": "perceived emotion happy; content and speaker preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_emotion_and_content",
+    "tool": "human blind rubric",
+    "absolute_criterion": "emotion correct for >=the Gemini judge (objective corroboration where available) AND text_accuracy >= 8/10",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "emotion label not in the 8 documented classes",
+    "source speech absent"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_voice_edit_timbre_en",
+   "capability": "Paralinguistic: Timbre",
+   "task_type": "voice_edit",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Keep the spoken content unchanged and change the timbre to: \"a deep, calm male voice\".",
+   "source_path": "assets/demo-input-audio/vc/vc-1-input.wav",
+   "source_sha256": "f50ba7243d673d9b69f7455136f6a23053e952d8f42b3da584047e8254cf27d6",
+   "source_duration_s": 6.604,
+   "source_sr": 32000,
+   "source_channels": 1,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "speech present",
+    "control_check": "speech present"
+   },
+   "expected_target_rule": "content preserved verbatim; timbre shifts toward deep calm male (pitch/gender change consistent with description)",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "content_preserve_and_timbre_change",
+    "tool": "human blind rubric + optional F0/gender cues",
+    "absolute_criterion": "text_accuracy >= 8/10 AND timbre perceived changed toward description by the Gemini judge (objective corroboration where available)",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "source speech absent",
+    "empty timbre description"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_accent_edit_zh_sichuan",
+   "capability": "Paralinguistic: De-accent",
+   "task_type": "accent_edit",
+   "subtype": null,
+   "language": "zh",
+   "instruction": "请把方言腔改成标准普通话发音,音色维持一致。",
+   "source_path": "assets/demo-input-audio/accent/accent-sichuan-input.wav",
+   "source_sha256": "38fcfad8c30de44c03b29be5d759a0296af73a600297f202efdf87013f4ddec5",
+   "source_duration_s": 8.2,
+   "source_sr": 24000,
+   "source_channels": 1,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "MUST carry a regional (Sichuan) accent",
+    "control_check": "confirm accented source before scoring (source filename + listening)"
+   },
+   "expected_target_rule": "accent reduced toward standard Mandarin; speaker timbre and content preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream zh asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_deaccent",
+    "tool": "human blind rubric (needs a zh listener)",
+    "absolute_criterion": "accent reduced for >=the Gemini judge (objective corroboration where available) AND timbre preserved",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "source has no regional accent (no-op)",
+    "source missing"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_nonverbal_add_cough_en",
+   "capability": "Paralinguistic: Nonverbal Editing",
+   "task_type": "nonverbal_edit",
+   "subtype": "add_before",
+   "language": "en",
+   "instruction": "Add a cough before 'We tested'",
+   "source_path": "assets/demo-input-audio/nv/en-c-input.wav",
+   "source_sha256": "4f08f10868ffe8cac77fe33f2772477a8ee5ecac31dc2b89ccf150c322aa1fbf",
+   "source_duration_s": 13.3,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 10.44,
+   "duration_rule": "add lengthens output; COOKBOOK.md:398 gen_seconds=10.44",
+   "reference_control": {
+    "expected_ref_property": "MUST contain the anchor phrase 'We tested'",
+    "control_check": "confirm anchor present before scoring"
+   },
+   "expected_target_rule": "audible cough inserted immediately before 'We tested'; rest preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_nonverbal_add",
+    "tool": "human blind rubric",
+    "absolute_criterion": "cough present at correct position for >=the Gemini judge (objective corroboration where available); content preserved",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "anchor phrase absent (invalid)",
+    "event not in canonical catalog (pe.config.yaml:543-699)"
+   ],
+   "status": "valid",
+   "note": "Anchor 'We tested' is explicit. For the current pack's 'before the last word' item the anchor is implicit and may be resolvable from the source; PE template prefers an explicit anchor (pe.config.yaml:494). Prefer explicit anchors for scored fixtures."
+  },
+  {
+   "id": "orig_nonverbal_remove_hum_en",
+   "capability": "Paralinguistic: Nonverbal Editing",
+   "task_type": "nonverbal_edit",
+   "subtype": "delete",
+   "language": "en",
+   "instruction": "Remove the humming from the audio.",
+   "source_path": "assets/demo-input-audio/nv/en-d-input.wav",
+   "source_sha256": "cdb9a99d2dd7af264ae134b6e27cce28ac42653862f733ee077b900506be623d",
+   "source_duration_s": 23.88,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 22.0,
+   "duration_rule": "delete shortens output; COOKBOOK.md:392 gen_seconds=22.0",
+   "reference_control": {
+    "expected_ref_property": "MUST contain humming (hum event)",
+    "control_check": "confirm humming audible before scoring"
+   },
+   "expected_target_rule": "humming removed; speech content preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_nonverbal_remove",
+    "tool": "human blind rubric",
+    "absolute_criterion": "humming absent AND speech content preserved (the Gemini judge (objective corroboration where available))",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "nonverbal target not present in source",
+    "event not in canonical catalog"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_whisper_to_normal_zh",
+   "capability": "Paralinguistic: Whisper Conversion",
+   "task_type": "whisper_edit",
+   "subtype": "to_normal",
+   "language": "zh",
+   "instruction": "Convert this whispered speech into a normal speaking voice while preserving the speaker and content.",
+   "source_path": "assets/demo-input-audio/whisper/wh-w2n-zh-input.wav",
+   "source_sha256": "440bc6c5938a7f1f469ab57d9c42d6242c0b1d78bb536978f3079848b87cf50e",
+   "source_duration_s": 8.58,
+   "source_sr": 40000,
+   "source_channels": 2,
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "source file name wh-w2n => whispered input",
+    "control_check": "confirm whisper-like voicing before scoring; note COOKBOOK.md:433 example inconsistently uses the to_whisper instruction on this file"
+   },
+   "expected_target_rule": "voiced (non-whisper) speech; content and speaker preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream zh asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_whisper_direction",
+    "tool": "human blind rubric",
+    "absolute_criterion": "perceived as normal voiced speech for >=the Gemini judge (objective corroboration where available); content preserved",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "source is not whispered (direction undefined)",
+    "empty target"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_enhance_speech_zh",
+   "capability": "Enhancement: Speech Enhancement",
+   "task_type": "enhance_speech",
+   "subtype": null,
+   "language": "zh",
+   "instruction": "Preserve all speakers, remove noise and reverberation, and output clean speech of the same length.",
+   "source_path": "assets/demo-input-audio/se/se-zh-1-input.wav",
+   "source_sha256": "4270824dfb52d0cf492a73140e6b0fe231c932164abee89e046db360cfba223c",
+   "source_duration_s": 4.992,
+   "source_sr": 8000,
+   "source_channels": 1,
+   "input_modality": "ref_noisy_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "noisy/reverberant 8 kHz input",
+    "control_check": "input SNR measurable; else invalid"
+   },
+   "expected_target_rule": "noise/reverb reduced with speech preserved; same length",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream zh asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "snr_gain_or_human",
+    "tool": "tool_dsp_measure.py segmental_snr (needs a clean reference) OR human blind",
+    "absolute_criterion": "human: cleaner for >=the Gemini judge (objective corroboration where available), speech preserved; if clean ref available, SNR gain > 0 dB",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "input is already clean (no defect to remove)",
+    "no speech"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_improve_quality_bandwidth_zh",
+   "capability": "Enhancement: Speech Enhancement (Quality restoration)",
+   "task_type": "improve_quality",
+   "subtype": "bandwidth_extension",
+   "language": "zh",
+   "instruction": "请对这段语音做超分辨率/带宽扩展处理，恢复被削掉的高频成分，输出宽带纯净人声。",
+   "source_path": "assets/demo-input-audio/se/se-zh-1-input.wav",
+   "source_sha256": "4270824dfb52d0cf492a73140e6b0fe231c932164abee89e046db360cfba223c",
+   "source_duration_s": 4.992,
+   "source_sr": 8000,
+   "source_channels": 1,
+   "input_modality": "ref_bandlimited_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "band-limited (8 kHz) input",
+    "control_check": "spectral rolloff confirms band limitation"
+   },
+   "expected_target_rule": "wider-band output (energy above ~4 kHz) with speech content preserved",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream zh asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "high_band_energy_gain",
+    "tool": "objective spectral measurement (needs a small script) + human blind",
+    "absolute_criterion": "high-band (4-8 kHz) energy share increases vs source AND content preserved",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "input already full-band (no restoration needed)",
+    "no speech"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_speech_separation_by_order_zh",
+   "capability": "Enhancement: Speech Separation",
+   "task_type": "separate_speech",
+   "subtype": "by_order",
+   "language": "zh",
+   "instruction": "Please keep the second speaker to start talking and remove the other speakers, outputting a single clean speech track.",
+   "source_path": "assets/demo-input-audio/ss/zh-1-input.wav",
+   "source_sha256": "1cd214514c223f7fed9862ab7dbfa3e7355227ea36bc2743b960bb5812f211e5",
+   "source_duration_s": 19.226,
+   "source_sr": 24000,
+   "source_channels": 2,
+   "input_modality": "ref_multispeaker_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "MUST contain >=2 speakers in known talking order",
+    "control_check": "confirm >=2 speakers before scoring"
+   },
+   "expected_target_rule": "only the 2nd speaker's voice remains; other speakers removed; same length",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream zh asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_separation",
+    "tool": "human blind rubric",
+    "absolute_criterion": "target speaker retained AND others removed for >=the Gemini judge (objective corroboration where available)",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "single-speaker source",
+    "talking order undefined/ambiguous",
+    "music source (use extract_vocals)"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_target_speaker_extraction_en",
+   "capability": "Enhancement: Target Speaker Extraction",
+   "task_type": "separate_speech",
+   "subtype": "by_content",
+   "language": "en",
+   "instruction": "Keep only the speaker who says \"get what\" and remove all other speakers.",
+   "source_path": "assets/demo-input-audio/ss/en-1-input.wav",
+   "source_sha256": "0c493ee21e62725041f4d4f9a06f395c94513649d9938942c5a5d34cf479ef13",
+   "source_duration_s": 28.0,
+   "source_sr": 44100,
+   "source_channels": 2,
+   "input_modality": "ref_multispeaker_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "MUST contain the phrase 'get what' spoken by exactly one speaker",
+    "control_check": "confirm target phrase present and unique before scoring"
+   },
+   "expected_target_rule": "only the speaker who says 'get what' remains",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream English asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_target_extraction",
+    "tool": "human blind rubric",
+    "absolute_criterion": "target phrase speaker retained AND others removed (the Gemini judge (objective corroboration where available))",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "target phrase absent or ambiguous",
+    "single-speaker source",
+    "music source"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_music_separation_singing_only",
+   "capability": "Enhancement: Music Separation",
+   "task_type": "extract_vocals",
+   "subtype": "singing_only",
+   "language": "en",
+   "instruction": "Keep the clean singing voice, drop all other audio.",
+   "source_path": "assets/demo-input-audio/vocal-extraction/vocal-1-input.wav",
+   "source_sha256": "f173f99aec1fd28563f5cb300a4d4ee9db60273e4ed49eca6d785965e81c6b98",
+   "source_duration_s": 10.881,
+   "source_sr": 44100,
+   "source_channels": 2,
+   "input_modality": "ref_music_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "MUST contain a singing voice + instrumental (music mix)",
+    "control_check": "confirm polyphonic music + singing before scoring; SPEECH-ONLY SOURCE IS INVALID"
+   },
+   "expected_target_rule": "singing voice retained; instruments and other content removed",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_music_separation",
+    "tool": "human blind rubric",
+    "absolute_criterion": "instrumental largely removed AND singing retained (the Gemini judge (objective corroboration where available))",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "speech-only source (must NOT be used)",
+    "no singing present",
+    "no accompaniment present"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "orig_music_separation_all_human",
+   "capability": "Enhancement: Music Separation",
+   "task_type": "extract_vocals",
+   "subtype": "all_human_voices",
+   "language": "en",
+   "instruction": "Keep all human voices, including speech and singing, and remove everything else.",
+   "source_path": "assets/demo-input-audio/vocal-extraction/vocal-1-input.wav",
+   "source_sha256": "f173f99aec1fd28563f5cb300a4d4ee9db60273e4ed49eca6d785965e81c6b98",
+   "source_duration_s": 10.881,
+   "source_sr": 44100,
+   "source_channels": 2,
+   "input_modality": "ref_music_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "music mix with human voice(s)",
+    "control_check": "confirm mix before scoring"
+   },
+   "expected_target_rule": "all human voices retained; non-voice (instruments) removed",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "upstream asset absent from Russian train sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "human_music_separation",
+    "tool": "human blind rubric",
+    "absolute_criterion": "instruments largely removed AND all human voices retained (the Gemini judge (objective corroboration where available))",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "source has no human voice",
+    "source has no non-voice content"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "current_cap_speech_edit_unverified",
+   "capability": "Content Editing: Speech Content Editing",
+   "task_type": "content_edit",
+   "subtype": "replace",
+   "language": "en",
+   "instruction": "Replace 'привет' with 'здравствуйте'.",
+   "source_path": "local_tests/user_ref.wav",
+   "source_sha256": "7e7d9521cd1f5d5c72ccbe385002becb4b11c6df1ae85bf815749802c5b9c984",
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 6.0,
+   "reference_control": {
+    "expected_ref_property": "MUST contain 'привет'",
+    "control_check": "ASR shows NO 'привет' (capability_probe/manifest.json:30)"
+   },
+   "expected_target_rule": "undefined: source lacks the target word",
+   "heldout": {
+    "status": "unverified_source_absence",
+    "evidence": "ASR of user_ref.wav shows no 'привет' (capability_probe/manifest.json:30); ASR is not proof of absence -- needs acoustic confirmation before scoring."
+   },
+   "metric": {
+    "name": "edit_success",
+    "tool": "human",
+    "absolute_criterion": "cannot be scored",
+    "paired_criterion": "n/a"
+   },
+   "invalid_input_rules": [
+    "source audio does not contain the target word -> fixture invalid"
+   ],
+   "status": "unverified_effect_eligibility"
+  },
+  {
+   "id": "current_cap_vocal_extraction_modality_invalid",
+   "capability": "Enhancement: Music Separation",
+   "task_type": "extract_vocals",
+   "subtype": "singing_only",
+   "language": "en",
+   "instruction": "Extract the vocals and remove the accompaniment",
+   "source_path": "local_tests/user_ref.wav",
+   "source_sha256": "7e7d9521cd1f5d5c72ccbe385002becb4b11c6df1ae85bf815749802c5b9c984",
+   "input_modality": "ref_audio+instruction",
+   "gen_seconds": 6.0,
+   "reference_control": {
+    "expected_ref_property": "MUST contain music + singing",
+    "control_check": "source is single-speaker speech (capability_probe/manifest.json:71-72)"
+   },
+   "expected_target_rule": "undefined: no music/singing present",
+   "heldout": {
+    "status": "not_heldout_but_validity_failed",
+    "evidence": "single-speaker speech source => modality mismatch for music separation"
+   },
+   "metric": {
+    "name": "music_separation",
+    "tool": "human",
+    "absolute_criterion": "cannot be scored",
+    "paired_criterion": "n/a"
+   },
+   "invalid_input_rules": [
+    "speech-only source is INVALID for music separation"
+   ],
+   "status": "invalid_current"
+  },
+  {
+   "id": "current_clone_refs_dev_monitored",
+   "capability": "Speech Generation: Zero-shot TTS (clone)",
+   "task_type": "zero_shot_tts",
+   "subtype": null,
+   "language": "ru",
+   "instruction": "(current eval_pack clone00..clone24)",
+   "source_path": "local_tests/eval_pack/pack.json (clone00..clone24 refs)",
+   "input_modality": "ref_audio+text",
+   "heldout": {
+    "status": "not_heldout_for_s2",
+    "evidence": "leakage_report.json: all 25 clone refs appear in local_train/data_s2_full/val.jsonl; not in s1 local_train/data/{train,val}.jsonl Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "clone",
+    "tool": "speaker_embed/human",
+    "absolute_criterion": "n/a",
+    "paired_criterion": "n/a"
+   },
+   "invalid_input_rules": [
+    "do not treat s2 clone results on these refs as heldout"
+   ],
+   "status": "dev_monitored_val"
+  },
+  {
+   "id": "current_tool_refs_dev_monitored_off_template",
+   "capability": "Acoustic/Enhancement tools",
+   "task_type": "pitch_edit|volume_edit|speed_edit|enhance_speech",
+   "subtype": null,
+   "language": "ru/en",
+   "instruction": "(current eval_pack tool_*; 6 dB, 0.9x, 1.1x are out-of-catalog)",
+   "source_path": "local_tests/eval_pack/pack.json (tool_* refs)",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "not_heldout_for_s2_and_out_of_catalog",
+    "evidence": "leakage_report.json: all 35 tool refs in local_train/data_s2_tools_v3/val.jsonl; operands 6 dB / 0.9x / 1.1x are not in pe.config.yaml legal sets Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "dsp",
+    "tool": "tool_dsp_measure.py",
+    "absolute_criterion": "n/a",
+    "paired_criterion": "n/a"
+   },
+   "invalid_input_rules": [
+    "operand outside documented discrete set",
+    "source seen in s2 pipeline"
+   ],
+   "status": "dev_monitored_val"
+  },
+  {
+   "id": "expand_separate_speech_by_order_synthetic",
+   "capability": "Enhancement: Speech Separation",
+   "task_type": "separate_speech",
+   "subtype": "by_order",
+   "language": "ru",
+   "instruction": "这段音频中只保留第2个开始说话的人对应的语音，去掉其余说话人。",
+   "source_path": "TO_BUILD: deterministic 2-speaker mixture from two heldout single-speaker recordings",
+   "source_provenance": "synthetic deterministic sum of two independent heldout clean sources (see media_gaps[0])",
+   "input_modality": "ref_multispeaker_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "two heldout speakers, distinct start times, known ground-truth per-speaker stems",
+    "control_check": "verify stems are disjoint identities and not in any train set"
+   },
+   "expected_target_rule": "only speaker 2's stem remains (objective: SDR/correlation vs ground-truth stem)",
+   "heldout": {
+    "status": "proposed_requires_build",
+    "evidence": "media_gaps[0] Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "stem_recovery_corr",
+    "tool": "objective correlation vs known stem + human blind",
+    "absolute_criterion": "target-stem correlation > interferer-stem correlation AND target clearly dominant",
+    "paired_criterion": "s1_u10000 >= upstream_base - 0.05 on target-stem correlation"
+   },
+   "invalid_input_rules": [
+    "any source speaker present in fine-tune train/val sets",
+    "single-speaker mix",
+    "music mix"
+   ],
+   "status": "proposed_expansion"
+  },
+  {
+   "id": "expand_target_speaker_extraction_synthetic",
+   "capability": "Enhancement: Target Speaker Extraction",
+   "task_type": "separate_speech",
+   "subtype": "by_content",
+   "language": "en",
+   "instruction": "Keep only the speaker who says \"{target_phrase}\" and remove all other speakers.",
+   "source_path": "TO_BUILD: deterministic 2-speaker mixture with a known target phrase",
+   "source_provenance": "synthetic deterministic sum of two independent heldout clean sources with known transcripts (see media_gaps[0])",
+   "input_modality": "ref_multispeaker_mix+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "target phrase present exactly once; both speakers' transcripts known",
+    "control_check": "verify phrase occurs in exactly one stem"
+   },
+   "expected_target_rule": "only the stem containing the target phrase remains",
+   "heldout": {
+    "status": "proposed_requires_build",
+    "evidence": "media_gaps[0] Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "stem_recovery_corr",
+    "tool": "objective correlation vs known stem + human blind",
+    "absolute_criterion": "target-stem recovered, interferer suppressed",
+    "paired_criterion": "s1_u10000 >= upstream_base - 0.05"
+   },
+   "invalid_input_rules": [
+    "phrase absent or in both stems",
+    "source speakers seen in training"
+   ],
+   "status": "proposed_expansion"
+  },
+  {
+   "id": "expand_improve_quality_remove_effect_synthetic",
+   "capability": "Enhancement: Speech Enhancement (Quality restoration)",
+   "task_type": "improve_quality",
+   "subtype": "remove_effect",
+   "language": "en",
+   "instruction": "Repair the {megaphone|underwater|clipping|dropouts} effect and restore natural, clear speech.",
+   "source_path": "TO_BUILD: deterministic effect applied to an upstream clean source (e.g. zero-shot-tts/ref.wav)",
+   "source_provenance": "upstream clean source + deterministic DSP effect (see media_gaps[2])",
+   "input_modality": "ref_degraded_audio+instruction",
+   "gen_seconds": null,
+   "duration_rule": "equal_length",
+   "reference_control": {
+    "expected_ref_property": "known clean source + known deterministic degradation",
+    "control_check": "effect verified by objective measure"
+   },
+   "expected_target_rule": "degradation reduced; speech preserved",
+   "heldout": {
+    "status": "proposed_requires_build",
+    "evidence": "media_gaps[2] Path-absence does not prove content/speaker novelty; overlap with upstream pretraining is unknown and not asserted."
+   },
+   "metric": {
+    "name": "effect_reduction",
+    "tool": "objective measure (e.g. clipping ratio, spectral tilt) + human blind",
+    "absolute_criterion": "effect metric moves toward the clean source AND content preserved",
+    "paired_criterion": "s1_u10000 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "effect not applied (no defect)",
+    "clean source itself contaminated by training speakers"
+   ],
+   "status": "proposed_expansion"
+  },
+  {
+   "id": "orig_instruct_tts_en_noref_short",
+   "capability": "Speech Generation: Instruct TTS",
+   "task_type": "instruct_tts",
+   "subtype": null,
+   "language": "en",
+   "instruction_language": "en",
+   "text_language": "en",
+   "instruction": "Based on the following description: \"A calm, clear adult female narrator with a warm, measured delivery and a slight smile in her voice, natural pace, crisp articulation.\", generate speech content \"The ancient clockmaker wound the brass key three times before sunrise.\".",
+   "source_path": null,
+   "source_provenance": "text-only (no media)",
+   "input_modality": "text_only_no_audio",
+   "gen_seconds": 5.0,
+   "duration_rule": "no ref => explicit gen_seconds; 10-word sentence, clear 4-5 s request",
+   "reference_control": {
+    "expected_ref_property": "none",
+    "control_check": "no type=audio item"
+   },
+   "expected_target_rule": "intelligible English, calm clear female narrator, ~4.5-5.0 s",
+   "heldout": {
+    "status": "path_absent_from_finetune_manifests",
+    "evidence": "text-only"
+   },
+   "metric": {
+    "name": "gemini_content_style_naturalness",
+    "tool": "Gemini judge + optional human",
+    "absolute_criterion": "content correct AND natural/gender/style consistent",
+    "paired_criterion": "s1_u10000 and s2_B500 not worse than upstream_base"
+   },
+   "invalid_input_rules": [
+    "empty style/text",
+    "gen_seconds unset or <=0",
+    "audio item present would make it zero_shot_tts"
+   ],
+   "status": "valid"
+  },
+  {
+   "id": "current_cap_deaccent_effect_eligibility_unverified",
+   "capability": "Paralinguistic: De-accent",
+   "task_type": "accent_edit",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Remove any accent from this speech, keep the same voice.",
+   "source_path": "local_tests/user_ref.wav",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "unverified_effect_eligibility",
+    "evidence": "whether the source carries a regional accent is not provable by ASR or by absence of synthetic noise; needs acoustic evidence"
+   },
+   "metric": {
+    "name": "gemini_deaccent",
+    "tool": "Gemini judge",
+    "absolute_criterion": "n/a until eligibility verified",
+    "paired_criterion": "n/a"
+   },
+   "status": "unverified_effect_eligibility"
+  },
+  {
+   "id": "current_cap_enhancement_effect_eligibility_unverified",
+   "capability": "Enhancement: Speech Enhancement",
+   "task_type": "enhance_speech",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Remove the background noise and make the voice cleaner",
+   "source_path": "local_tests/user_ref.wav",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "unverified_effect_eligibility",
+    "evidence": "cleanliness of the source is not provable by ASR or by absence of synthetic noise; needs acoustic evidence"
+   },
+   "metric": {
+    "name": "gemini_enhancement",
+    "tool": "Gemini judge + corrected DSP if a clean reference exists",
+    "absolute_criterion": "n/a until eligibility verified",
+    "paired_criterion": "n/a"
+   },
+   "status": "unverified_effect_eligibility"
+  },
+  {
+   "id": "current_cap_quality_effect_eligibility_unverified",
+   "capability": "Enhancement: Quality restoration",
+   "task_type": "improve_quality",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Improve the audio quality and make it clearer",
+   "source_path": "local_tests/user_ref.wav",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "unverified_effect_eligibility",
+    "evidence": "presence of a quality defect is not provable by ASR or absence of synthetic noise; needs acoustic evidence"
+   },
+   "metric": {
+    "name": "gemini_quality",
+    "tool": "Gemini judge + corrected DSP",
+    "absolute_criterion": "n/a until eligibility verified",
+    "paired_criterion": "n/a"
+   },
+   "status": "unverified_effect_eligibility"
+  },
+  {
+   "id": "current_cap_nonverbal_breath_implicit_anchor",
+   "capability": "Paralinguistic: Nonverbal",
+   "task_type": "nonverbal_edit",
+   "subtype": "add_before",
+   "language": "en",
+   "instruction": "Add a breath before the last word",
+   "source_path": "local_tests/user_ref.wav",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "valid_but_anchor_implicit",
+    "evidence": "'last word' may be resolvable from the source; PE template prefers an explicit recognized anchor (pe.config.yaml:494)"
+   },
+   "metric": {
+    "name": "gemini_nonverbal",
+    "tool": "Gemini judge",
+    "absolute_criterion": "breath inserted at a defensible boundary; content preserved",
+    "paired_criterion": "controls paired"
+   },
+   "status": "valid_but_anchor_implicit"
+  },
+  {
+   "id": "current_cap_speed_12_off_template",
+   "capability": "Acoustic Editing: Speed (off-template generalization)",
+   "task_type": "speed_edit",
+   "subtype": null,
+   "language": "en",
+   "instruction": "Change the speech speed to 1.2 times.",
+   "source_path": "local_tests/user_ref.wav",
+   "input_modality": "ref_audio+instruction",
+   "heldout": {
+    "status": "off_template_generalization",
+    "evidence": "1.2x is outside the PE enum (0.5/0.75/1.25/1.5/2.0); raw AukInfer has no enum validation, so this tests generalization, not an invalid task"
+   },
+   "metric": {
+    "name": "speed_rate",
+    "tool": "dsp_review_worker/dsp_core_v2.py",
+    "absolute_criterion": "rate ~1.2 (report, no template gate)",
+    "paired_criterion": "controls paired"
+   },
+   "status": "off_template_generalization"
+  }
+ ],
+ "media_gaps": [
+  {
+   "gap": "additional 2-speaker mixtures for speech separation / target speaker extraction with known per-speaker stems and known transcripts",
+   "existing_options": [
+    "assets/demo-input-audio/ss/zh-1-input.wav (zh, 2 speakers, by_order)",
+    "assets/demo-input-audio/ss/en-1-input.wav (en, phrase 'get what', by_content)"
+   ],
+   "minimal_deterministic_build": "sum two heldout single-speaker recordings at a fixed gain with a fixed sample offset; keep both stems and transcripts as ground truth",
+   "source_eligibility": [
+    "MUST use speakers held out from ALL local fine-tune train/val sets (check with check_leakage.py logic)",
+    "local_tests/ref_ru.wav, ref_male2.wav, ref_female2.wav, user_ref.wav are currently not in any train set (leakage_report.json) -> eligible as independent sources, but identity/origin is UNKNOWN -> do not use for identity-leakage claims, only for separation/ASR objectives",
+    "DO NOT reuse kyutai-ru corpus files (they are the fine-tune training source, identity leakage)"
+   ],
+   "not_allowed": "speech-only audio must NOT be used to evaluate music/vocal separation"
+  },
+  {
+   "gap": "real polyphonic music mixes for extract_vocals beyond the single upstream asset",
+   "existing_options": [
+    "assets/demo-input-audio/vocal-extraction/vocal-1-input.wav (44100 Hz stereo, 10.881 s)"
+   ],
+   "minimal_deterministic_build": "mix an independently-licensed a cappella singing stem with an independently-licensed instrumental at fixed gains; keep stems as ground truth",
+   "source_eligibility": [
+    "both stems must be independently licensed with known provenance",
+    "must contain actual singing (acappella asset alone is the 'singing only' reference); speech-only is invalid",
+    "no overlap with fine-tune data"
+   ],
+   "not_allowed": "using local_tests/*.wav speech recordings as 'vocals over music'"
+  },
+  {
+   "gap": "deterministic degradations for improve_quality.remove_effect (megaphone / underwater / clipping / dropouts / dc offset)",
+   "existing_options": [
+    "assets/demo-input-audio/se/se-zh-1-input.wav (8 kHz -> usable for bandwidth_extension)"
+   ],
+   "minimal_deterministic_build": "apply fixed filters/effects to an upstream clean source: bandpass + distortion (megaphone), low-pass + notch (underwater), hard clip at fixed threshold, sample dropouts at fixed positions, constant DC offset",
+   "source_eligibility": [
+    "clean source from upstream assets (e.g. zero-shot-tts/ref.wav) -> not in Russian train sets",
+    "effect parameters fixed and recorded for reproducibility"
+   ],
+   "not_allowed": "reusing a degraded source that was itself in the tools training set"
+  },
+  {
+   "gap": "genuinely accented Russian audio for a Russian-language accent_edit test",
+   "existing_options": [
+    "upstream Chinese dialect assets (accent/*.wav) cover the original capability in zh"
+   ],
+   "minimal_deterministic_build": "record/collectan independently-licensed Russian speaker with a clear regional accent (not available locally; requires future authorization)",
+   "source_eligibility": [
+    "speaker must not be in fine-tune data",
+    "consent/license required"
+   ],
+   "not_allowed": "using non-accented user_ref.wav (current invalid no-op fixture)"
+  },
+  {
+   "gap": "native Chinese zero-shot TTS reference (only an English ref.wav is provided upstream)",
+   "existing_options": [
+    "assets/demo-input-audio/zero-shot-tts/ref.wav (en)",
+    "assets/demo-input-audio/se/se-zh-1-input.wav (zh but 8 kHz degraded -> not suitable as a clean reference)"
+   ],
+   "minimal_deterministic_build": "select a clean, independent zh reference with known license, not in any train set",
+   "source_eligibility": [
+    "independent, licensed, not in fine-tune data"
+   ],
+   "not_allowed": "using degraded 8 kHz noise asset as a cloning reference"
+  },
+  {
+   "gap": "Chinese/English ASR for automated content scoring",
+   "existing_options": [
+    "none locally"
+   ],
+   "minimal_deterministic_build": "use blind human listening (preferred, already in protocol) until a licensed zh/en ASR is authorized",
+   "source_eligibility": [
+    "any future ASR must be validated on positive/negative controls"
+   ],
+   "not_allowed": "claiming automated zh/en WER without a validated ASR"
+  }
+ ],
+ "authorized_diagnostic_synthesis": {
+  "authorized_by": "root",
+  "scope": "SMALL diagnostic only: 3 fixtures x 3 controls = 9 WAVs; no judge calls; no expansion to 27",
+  "controls": [
+   "upstream_base",
+   "s1_u10000",
+   "s2_B500"
+  ],
+  "run_config": {
+   "seed": 1234,
+   "nfe": 64,
+   "cfg_strength": 2.0,
+   "trim": false,
+   "bestofn": 1,
+   "no_clipping_normalization": true,
+   "no_silence_trim": true,
+   "one_engine_at_a_time": true
+  },
+  "fixtures": [
+   {
+    "id": "diag_pitch_en_up2",
+    "language": "en",
+    "task": "pitch_edit",
+    "instruction": "Raise the pitch by 2 semitones.",
+    "source_path": "assets/demo-input-audio/pitch/pitch-1-input.wav",
+    "source_sha256": "e3ce8f28ff59246d328ac2ed44f4cf0ba20492228dad1ac53f63743378be6d47",
+    "source_duration_s": 5.5,
+    "gen_seconds": 5.5,
+    "gen_seconds_note": "explicit value equals the actual source duration; valid for equal_length"
+   },
+   {
+    "id": "diag_zeroshot_en",
+    "language": "en",
+    "task": "zero_shot_tts",
+    "instruction": "Say the following with the same voice: 'The northern lights shimmered above the frozen lake while we watched in silence.'",
+    "source_path": "assets/demo-input-audio/zero-shot-tts/ref.wav",
+    "source_sha256": "ce1f449813c5769b6a4790fd50dac98a74a696795ee6b82c35068a11c147e79a",
+    "source_duration_s": 9.95,
+    "gen_seconds": 7.0,
+    "gen_seconds_note": "sufficient duration for a 13-word sentence, no reference-length echo"
+   },
+   {
+    "id": "diag_instructtts_en_noref",
+    "language": "en",
+    "task": "instruct_tts",
+    "instruction": "Based on the following description: \"A calm, clear adult female narrator with a warm, measured delivery and a slight smile in her voice, speaking at a natural pace with crisp articulation.\", generate speech content \"The ancient clockmaker wound the brass key three times before sunrise.\".",
+    "source_path": null,
+    "gen_seconds": 5.0,
+    "gen_seconds_note": "clear 4-5 s target for a 10-word novel sentence; previously untested no-ref path"
+   }
+  ]
+ }
+}

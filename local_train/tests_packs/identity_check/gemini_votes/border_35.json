@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_35",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_tgt.wav"
+  ],
+  "sha256": [
+    "1410aeb9310368a2e2239a1ef2772086bae3e1537b2ad997ce9d4d294f8a0a87",
+    "d4ba799c03f7f8c0deeacd9b86e76453d4417eac64916636be07791c68f259a0"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "У тебя в запасе есть фильм Приличные люди?",
+        "transcript_b": "Искать кино Я, снова я и мама",
+        "evidence": "Оба фрагмента принадлежат мужскому голосу с одинаковым низким основным тоном, выраженной скрипучестью (vocal fry), сходным тембром и манерой артикуляции.",
+        "limitations": "Краткость записей и спокойная монотонная речь накладывают естественные ограничения на категоричность вывода."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"У тебя в запасе есть фильм Приличные люди?\",\n  \"transcript_b\": \"Искать кино Я, снова я и мама\",\n  \"evidence\": \"Оба фрагмента принадлежат мужскому голосу с одинаковым низким основным тоном, выраженной скрипучестью (vocal fry), сходным тембром и манерой артикуляции.\",\n  \"limitations\": \"Краткость записей и спокойная монотонная речь накладывают естественные ограничения на категоричность вывода.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 472,
+        "completion_tokens": 144,
+        "total_tokens": 1389,
+        "completion_tokens_details": {
+          "reasoning_tokens": 773
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "different",
+        "transcript_a": "Искать кино. Я, снова я и мама.",
+        "transcript_b": "У тебя в запасе есть фильм Приличные люди?",
+        "evidence": "Различная базовая высота основного тона (в записи B голос более низкий и баритональный), а также отличающиеся формантные и тембральные характеристики голосового тракта.",
+        "limitations": "Небольшая продолжительность аудиозаписей и разное содержание высказываний."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Искать кино. Я, снова я и мама.\",\n  \"transcript_b\": \"У тебя в запасе есть фильм Приличные люди?\",\n  \"evidence\": \"Различная базовая высота основного тона (в записи B голос более низкий и баритональный), а также отличающиеся формантные и тембральные характеристики голосового тракта.\",\n  \"limitations\": \"Небольшая продолжительность аудиозаписей и разное содержание высказываний.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 472,
+        "completion_tokens": 135,
+        "total_tokens": 2170,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1563
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

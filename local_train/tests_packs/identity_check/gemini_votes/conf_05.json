@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_05",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_tgt.wav"
+  ],
+  "sha256": [
+    "7e7daddb9d8ebb443d2d5d65751ca38e23cf75a51582c65917b7d4965f304d92",
+    "ee59581ad85cac8bc5d75e408b49d09cad85c8e0ac6554a3128f8b705313b972"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Практическая магия покажи",
+        "transcript_b": "Включи кино Невероятные приключения Фарика",
+        "evidence": "Одинаковый мужской голос со схожим низким основным тоном, плотным грудным тембром, резонансом и характерной расслабленной интонацией.",
+        "limitations": "Краткость записей и различия в темпе речи ограничивают полноту акустического анализа."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Практическая магия покажи\",\n  \"transcript_b\": \"Включи кино Невероятные приключения Фарика\",\n  \"evidence\": \"Одинаковый мужской голос со схожим низким основным тоном, плотным грудным тембром, резонансом и характерной расслабленной интонацией.\",\n  \"limitations\": \"Краткость записей и различия в темпе речи ограничивают полноту акустического анализа.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 134,
+        "total_tokens": 1373,
+        "completion_tokens_details": {
+          "reasoning_tokens": 811
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Включи кино Невероятные приключения Фарика",
+        "transcript_b": "Практическая магия покажи",
+        "evidence": "Оба фрагмента принадлежат одному и тому же мужскому голосу со схожим низким основным тоном, одинаковыми тембральными характеристиками, манерой речи и вокальным резонансом.",
+        "limitations": "Небольшая длительность записей и различие во фразах не позволяют гарантировать стопроцентную биометрическую точность."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи кино Невероятные приключения Фарика\",\n  \"transcript_b\": \"Практическая магия покажи\",\n  \"evidence\": \"Оба фрагмента принадлежат одному и тому же мужскому голосу со схожим низким основным тоном, одинаковыми тембральными характеристиками, манерой речи и вокальным резонансом.\",\n  \"limitations\": \"Небольшая длительность записей и различие во фразах не позволяют гарантировать стопроцентную биометрическую точность.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 146,
+        "total_tokens": 1229,
+        "completion_tokens_details": {
+          "reasoning_tokens": 655
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

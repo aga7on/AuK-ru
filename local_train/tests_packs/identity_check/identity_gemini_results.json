@@ -1,0 +1,2433 @@
+[
+  {
+    "pair_id": "conf_00",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i00_tgt.wav"
+    ],
+    "sha256": [
+      "09d5b7beebbdaa62ce48b0942821b3588fd303dfb56ff3b4da3992facab32482",
+      "d9cfb6beeea0f38940efb5f8cdbd4962edfae52083b750c85923d0ce92877f68"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "error": "ValueError: substring not found"
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "15 минут поставь скорость обдува на кондиционере на средний",
+          "transcript_b": "Навык, что тут посмотреть, давай играть в",
+          "evidence": "Схожий подростковый/детский голос с одинаковым тембром, высотой основного тона, легким носовым призвуком и идентичной артикуляцией.",
+          "limitations": "Небольшая длительность записей не позволяет заявить о стопроцентной биометрической точности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"15 минут поставь скорость обдува на кондиционере на средний\",\n  \"transcript_b\": \"Навык, что тут посмотреть, давай играть в\",\n  \"evidence\": \"Схожий подростковый/детский голос с одинаковым тембром, высотой основного тона, легким носовым призвуком и идентичной артикуляцией.\",\n  \"limitations\": \"Небольшая длительность записей не позволяет заявить о стопроцентной биометрической точности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 503,
+          "completion_tokens": 144,
+          "total_tokens": 1555,
+          "completion_tokens_details": {
+            "reasoning_tokens": 908
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "request_failed",
+    "failed_attempts": [
+      {
+        "order_index": 0,
+        "result": {
+          "error": "ValueError: substring not found"
+        }
+      }
+    ]
+  },
+  {
+    "pair_id": "conf_01",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i01_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i01_tgt.wav"
+    ],
+    "sha256": [
+      "45f2e42a69b75800f3b3d377964893b66401933486b4cac3e990c3162e339e9e",
+      "ea32cecc2f636d0c21c92c8acc6ea66d82e706a943c11f6f8cf103b18c3382a2"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Показывай сериал Подпольная империя сезон 5",
+          "transcript_b": "Включи мне сериал Обмани меня эпизод 19",
+          "evidence": "Одинаковый мужской голос со схожим базовым тоном, идентичной тембральной окраской, характерной легкой хрипотцой в нижнем регистре и совпадающей артикуляционной манерой (в частности, при произнесении слова «сериал»).",
+          "limitations": "Небольшая продолжительность записей и ограниченный объем сравниваемого речевого материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Показывай сериал Подпольная империя сезон 5\",\n  \"transcript_b\": \"Включи мне сериал Обмани меня эпизод 19\",\n  \"evidence\": \"Одинаковый мужской голос со схожим базовым тоном, идентичной тембральной окраской, характерной легкой хрипотцой в нижнем регистре и совпадающей артикуляционной манерой (в частности, при произнесении слова «сериал»).\",\n  \"limitations\": \"Небольшая продолжительность записей и ограниченный объем сравниваемого речевого материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 479,
+          "completion_tokens": 162,
+          "total_tokens": 1481,
+          "completion_tokens_details": {
+            "reasoning_tokens": 840
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи мне сериал Обмани меня эпизод девятнадцать",
+          "transcript_b": "Показывай сериал Подпольная империя сезон пять",
+          "evidence": "Оба фрагмента демонстрируют одинаковый низкий мужской тембр с характерным легким расслабленным субтоном, близкой высотой основного тона и идентичной манерой артикуляции.",
+          "limitations": "Краткость записей и командный характер речи ограничивают полноту фонетического анализа."
+        },
+        "raw": "{\"audio_access\":true,\"label\":\"same\",\"transcript_a\":\"Включи мне сериал Обмани меня эпизод девятнадцать\",\"transcript_b\":\"Показывай сериал Подпольная империя сезон пять\",\"evidence\":\"Оба фрагмента демонстрируют одинаковый низкий мужской тембр с характерным легким расслабленным субтоном, близкой высотой основного тона и идентичной манерой артикуляции.\",\"limitations\":\"Краткость записей и командный характер речи ограничивают полноту фонетического анализа.\"}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 479,
+          "completion_tokens": 116,
+          "total_tokens": 1448,
+          "completion_tokens_details": {
+            "reasoning_tokens": 853
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_02",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i02_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i02_tgt.wav"
+    ],
+    "sha256": [
+      "4cc4a56c5af6993cec03e626882dcf88d5fc8a2d27de7d353a55c135ae6462c1",
+      "130e9b5ab863b9b863350959e63f7c72c4dc5be662ccb1ded69852e1e4d3535b"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Ты найдёшь у себя сериал Маша и Медведь двенадцатая серия",
+          "transcript_b": "Покажи мне сериал Миллиарды",
+          "evidence": "Оба фрагмента озвучены одним молодым женским голосом со схожей высотой основного тона, индивидуальной тембральной окраской, легкой назализацией и одинаковой манерой артикуляции.",
+          "limitations": "Краткость аудиозаписей и несовпадение произносимых фраз ограничивают объем сравниваемого фонетического материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Ты найдёшь у себя сериал Маша и Медведь двенадцатая серия\",\n  \"transcript_b\": \"Покажи мне сериал Миллиарды\",\n  \"evidence\": \"Оба фрагмента озвучены одним молодым женским голосом со схожей высотой основного тона, индивидуальной тембральной окраской, легкой назализацией и одинаковой манерой артикуляции.\",\n  \"limitations\": \"Краткость аудиозаписей и несовпадение произносимых фраз ограничивают объем сравниваемого фонетического материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 552,
+          "completion_tokens": 158,
+          "total_tokens": 1207,
+          "completion_tokens_details": {
+            "reasoning_tokens": 497
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Покажи мне сериал Миллиарды",
+          "transcript_b": "Ты найдёшь у себя сериал Маша и Медведь двенадцатая серия",
+          "evidence": "Оба образца демонстрируют идентичный женский шёпот с совпадающими формантными резонансами голосового тракта, сходным темпом и схожей артикуляцией согласных звуков (в частности, шипящих и свистящих).",
+          "limitations": "Шёпотный характер произнесения исключает анализ основного тона (F0) и вибрации голосовых связок; записи имеют небольшую длительность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Покажи мне сериал Миллиарды\",\n  \"transcript_b\": \"Ты найдёшь у себя сериал Маша и Медведь двенадцатая серия\",\n  \"evidence\": \"Оба образца демонстрируют идентичный женский шёпот с совпадающими формантными резонансами голосового тракта, сходным темпом и схожей артикуляцией согласных звуков (в частности, шипящих и свистящих).\",\n  \"limitations\": \"Шёпотный характер произнесения исключает анализ основного тона (F0) и вибрации голосовых связок; записи имеют небольшую длительность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 552,
+          "completion_tokens": 173,
+          "total_tokens": 2899,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2174
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_03",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_tgt.wav"
+    ],
+    "sha256": [
+      "1309d6169f7f8f6f6bfb82a06ed91fee88f1d2d9b4bddecf32f55a25a83f7a38",
+      "a3cdb5cd3d53fc23ddb0c408070b3508d77291606463ff1e3e8756e463753748"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Андрея Александровича Шерстнёва",
+          "transcript_b": "Андрея Владимировича Андреева",
+          "evidence": "Один и тот же женский голос с совпадающим тембром, схожей высотой основного тона, резонансными характеристиками и идентичной манерой интонирования и произношения слова «Андрея».",
+          "limitations": "Небольшая продолжительность записей и ограниченный контекст произнесения имён собственных."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Андрея Александровича Шерстнёва\",\n  \"transcript_b\": \"Андрея Владимировича Андреева\",\n  \"evidence\": \"Один и тот же женский голос с совпадающим тембром, схожей высотой основного тона, резонансными характеристиками и идентичной манерой интонирования и произношения слова «Андрея».\",\n  \"limitations\": \"Небольшая продолжительность записей и ограниченный контекст произнесения имён собственных.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 583,
+          "completion_tokens": 141,
+          "total_tokens": 1401,
+          "completion_tokens_details": {
+            "reasoning_tokens": 677
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Андрея Владимировича Андрееви",
+          "transcript_b": "Андрея Александровича Шерстнёва",
+          "evidence": "В обеих записях звучит женский голос с практически идентичным мягким тембром, одинаковой высотой тона, легкой придыхательностью и схожей манерой интонирования и артикуляции.",
+          "limitations": "Небольшая продолжительность звучания и шаблонный характер произнесенных фраз."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Андрея Владимировича Андрееви\",\n  \"transcript_b\": \"Андрея Александровича Шерстнёва\",\n  \"evidence\": \"В обеих записях звучит женский голос с практически идентичным мягким тембром, одинаковой высотой тона, легкой придыхательностью и схожей манерой интонирования и артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность звучания и шаблонный характер произнесенных фраз.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 583,
+          "completion_tokens": 139,
+          "total_tokens": 1520,
+          "completion_tokens_details": {
+            "reasoning_tokens": 798
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_04",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i04_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i04_tgt.wav"
+    ],
+    "sha256": [
+      "4ed41b716fb71dad0bc0077ddd2729c1355070ff20b28e9d1ce0ba183f58ec05",
+      "41c3d2e19dd51e842754834a6acab9dc59801cff8177bcfb115ac8e8e0e62e7a"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Где находится АО Банк СГБ?",
+          "transcript_b": "Рядом Национальная библиотека Республики Татарстан",
+          "evidence": "Оба фрагмента принадлежат женскому голосу с идентичной высотой основного тона, схожим мягким тембром, одинаковыми формантными характеристиками и сопоставимой артикуляционной динамикой.",
+          "limitations": "Краткость записей и разное текстовое содержание не позволяют сделать абсолютно достоверный биометрический вывод."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Где находится АО Банк СГБ?\",\n  \"transcript_b\": \"Рядом Национальная библиотека Республики Татарстан\",\n  \"evidence\": \"Оба фрагмента принадлежат женскому голосу с идентичной высотой основного тона, схожим мягким тембром, одинаковыми формантными характеристиками и сопоставимой артикуляционной динамикой.\",\n  \"limitations\": \"Краткость записей и разное текстовое содержание не позволяют сделать абсолютно достоверный биометрический вывод.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 495,
+          "completion_tokens": 145,
+          "total_tokens": 1150,
+          "completion_tokens_details": {
+            "reasoning_tokens": 510
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Рядом Национальная библиотека Республики Татарстан",
+          "transcript_b": "Где находится АО Банк СГБ",
+          "evidence": "Одинаковый женский голос с близкой высотой основного тона, схожим тембральным окрасом, формантными характеристиками и естественной манерой интонирования.",
+          "limitations": "Короткая длительность аудиозаписей и наличие слабого фонового шума не позволяют гарантировать абсолютную биометрическую точность."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Рядом Национальная библиотека Республики Татарстан\",\n  \"transcript_b\": \"Где находится АО Банк СГБ\",\n  \"evidence\": \"Одинаковый женский голос с близкой высотой основного тона, схожим тембральным окрасом, формантными характеристиками и естественной манерой интонирования.\",\n  \"limitations\": \"Короткая длительность аудиозаписей и наличие слабого фонового шума не позволяют гарантировать абсолютную биометрическую точность.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 495,
+          "completion_tokens": 139,
+          "total_tokens": 1425,
+          "completion_tokens_details": {
+            "reasoning_tokens": 791
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_05",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i05_tgt.wav"
+    ],
+    "sha256": [
+      "7e7daddb9d8ebb443d2d5d65751ca38e23cf75a51582c65917b7d4965f304d92",
+      "ee59581ad85cac8bc5d75e408b49d09cad85c8e0ac6554a3128f8b705313b972"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Практическая магия покажи",
+          "transcript_b": "Включи кино Невероятные приключения Фарика",
+          "evidence": "Одинаковый мужской голос со схожим низким основным тоном, плотным грудным тембром, резонансом и характерной расслабленной интонацией.",
+          "limitations": "Краткость записей и различия в темпе речи ограничивают полноту акустического анализа."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Практическая магия покажи\",\n  \"transcript_b\": \"Включи кино Невероятные приключения Фарика\",\n  \"evidence\": \"Одинаковый мужской голос со схожим низким основным тоном, плотным грудным тембром, резонансом и характерной расслабленной интонацией.\",\n  \"limitations\": \"Краткость записей и различия в темпе речи ограничивают полноту акустического анализа.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 428,
+          "completion_tokens": 134,
+          "total_tokens": 1373,
+          "completion_tokens_details": {
+            "reasoning_tokens": 811
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи кино Невероятные приключения Фарика",
+          "transcript_b": "Практическая магия покажи",
+          "evidence": "Оба фрагмента принадлежат одному и тому же мужскому голосу со схожим низким основным тоном, одинаковыми тембральными характеристиками, манерой речи и вокальным резонансом.",
+          "limitations": "Небольшая длительность записей и различие во фразах не позволяют гарантировать стопроцентную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи кино Невероятные приключения Фарика\",\n  \"transcript_b\": \"Практическая магия покажи\",\n  \"evidence\": \"Оба фрагмента принадлежат одному и тому же мужскому голосу со схожим низким основным тоном, одинаковыми тембральными характеристиками, манерой речи и вокальным резонансом.\",\n  \"limitations\": \"Небольшая длительность записей и различие во фразах не позволяют гарантировать стопроцентную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 428,
+          "completion_tokens": 146,
+          "total_tokens": 1229,
+          "completion_tokens_details": {
+            "reasoning_tokens": 655
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_06",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i06_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i06_tgt.wav"
+    ],
+    "sha256": [
+      "602c9af41507a5eab7036819e568402d0b19988d16060e16453d2d006427f025",
+      "5579beda226e98912fe4acd413e06de6bab99718617672d8f18f29ab9ea7d664"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Вячеслав Валентинович Фёдоров",
+          "transcript_b": "А какой сегодня курс бакса?",
+          "evidence": "Оба фрагмента озвучены одним женским голосом с совпадающими тембральными характеристиками, высотой основного тона, формантной структурой и манерой произношения.",
+          "limitations": "Различный интонационный контекст (официальное перечисление ФИО и разговорный вопрос) и небольшая общая длительность записей."
+        },
+        "raw": "```json\n{\"audio_access\":true,\"label\":\"same\",\"transcript_a\":\"Вячеслав Валентинович Фёдоров\",\"transcript_b\":\"А какой сегодня курс бакса?\",\"evidence\":\"Оба фрагмента озвучены одним женским голосом с совпадающими тембральными характеристиками, высотой основного тона, формантной структурой и манерой произношения.\",\"limitations\":\"Различный интонационный контекст (официальное перечисление ФИО и разговорный вопрос) и небольшая общая длительность записей.\"}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 122,
+          "total_tokens": 1228,
+          "completion_tokens_details": {
+            "reasoning_tokens": 624
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "А какой сегодня курс бакса?",
+          "transcript_b": "Вячеслав Валентинович Фёдоров",
+          "evidence": "Обе записи принадлежат женскому голосу со схожим естественным тембром, высотой основного тона, формантным окрасом и одинаковой артикуляцией свистящих согласных.",
+          "limitations": "Различный контекст высказываний (вопросительная фраза и чтение имени собственного) и небольшая продолжительность записей не дают оснований для биометрической уверенности."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"А какой сегодня курс бакса?\",\n  \"transcript_b\": \"Вячеслав Валентинович Фёдоров\",\n  \"evidence\": \"Обе записи принадлежат женскому голосу со схожим естественным тембром, высотой основного тона, формантным окрасом и одинаковой артикуляцией свистящих согласных.\",\n  \"limitations\": \"Различный контекст высказываний (вопросительная фраза и чтение имени собственного) и небольшая продолжительность записей не дают оснований для биометрической уверенности.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 148,
+          "total_tokens": 2715,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2085
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_07",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i07_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i07_tgt.wav"
+    ],
+    "sha256": [
+      "7ddaf1f597ebcf1523739d7ca045c55743a80167d1ca698ec1b75f07166cf022",
+      "d6d7580a20eeed16849c0de12b6e5da4051ee69f7e6c7b2b2b66445a5f3990a9"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Алиса, закажи мне чай Нури пакетированный 25 пакетиков.",
+          "transcript_b": "Алиса, закажи сосиски охотничьи.",
+          "evidence": "Оба фрагмента принадлежат взрослому мужчине со схожей высотой основного тона, тембром, резонансными характеристиками и идентичной интонацией и артикуляцией в обращении «Алиса, закажи».",
+          "limitations": "Краткость речевых отрезков и различия в фоновой акустике ограничивают полноту сравнения; оценка носит вероятностный характер."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Алиса, закажи мне чай Нури пакетированный 25 пакетиков.\",\n  \"transcript_b\": \"Алиса, закажи сосиски охотничьи.\",\n  \"evidence\": \"Оба фрагмента принадлежат взрослому мужчине со схожей высотой основного тона, тембром, резонансными характеристиками и идентичной интонацией и артикуляцией в обращении «Алиса, закажи».\",\n  \"limitations\": \"Краткость речевых отрезков и различия в фоновой акустике ограничивают полноту сравнения; оценка носит вероятностный характер.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 462,
+          "completion_tokens": 175,
+          "total_tokens": 1422,
+          "completion_tokens_details": {
+            "reasoning_tokens": 785
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Алиса, закажи сосиски охотничьи.",
+          "transcript_b": "Алиса, закажи мне чай Нури пакетированный 25 пакетиков.",
+          "evidence": "Схожий мужской тембр голоса, одинаковая высота основного тона, резонансные характеристики и идентичная манера артикуляции и интонирования.",
+          "limitations": "Небольшая продолжительность записей и фоновые шумы в аудио B не позволяют гарантировать абсолютную биометрическую достоверность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Алиса, закажи сосиски охотничьи.\",\n  \"transcript_b\": \"Алиса, закажи мне чай Нури пакетированный 25 пакетиков.\",\n  \"evidence\": \"Схожий мужской тембр голоса, одинаковая высота основного тона, резонансные характеристики и идентичная манера артикуляции и интонирования.\",\n  \"limitations\": \"Небольшая продолжительность записей и фоновые шумы в аудио B не позволяют гарантировать абсолютную биометрическую достоверность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 462,
+          "completion_tokens": 150,
+          "total_tokens": 1529,
+          "completion_tokens_details": {
+            "reasoning_tokens": 917
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_08",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i08_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i08_tgt.wav"
+    ],
+    "sha256": [
+      "1bf3897547cbd600423376c1ad994dc16ac0b55aa44adec47dc541ded0fa5093",
+      "4b5354849e782432b7ed89653ea3e3afb0fe0db73d4e49f5cbdd1251aa2cd43e"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Где находится Профессорская клиника?",
+          "transcript_b": "на карте Инфекционная клиническая больница номер 23",
+          "evidence": "Оба фрагмента принадлежат одному и тому же мужскому голосу со схожими тембральными характеристиками, высотой основного тона, резонансом и характерной спокойной манерой произношения.",
+          "limitations": "Небольшая длительность аудиозаписей и отсутствие ярких эмоциональных модуляций ограничивают объем акустического материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Где находится Профессорская клиника?\",\n  \"transcript_b\": \"на карте Инфекционная клиническая больница номер 23\",\n  \"evidence\": \"Оба фрагмента принадлежат одному и тому же мужскому голосу со схожими тембральными характеристиками, высотой основного тона, резонансом и характерной спокойной манерой произношения.\",\n  \"limitations\": \"Небольшая длительность аудиозаписей и отсутствие ярких эмоциональных модуляций ограничивают объем акустического материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 148,
+          "total_tokens": 1165,
+          "completion_tokens_details": {
+            "reasoning_tokens": 574
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "на карте инфекционная клиническая больница номер двадцать три",
+          "transcript_b": "где находится профессорская клиника",
+          "evidence": "Оба фрагмента озвучены мужским голосом с идентичным мягким тембром, схожей высотой основного тона, формантной окраской и спокойной размеренной дикцией.",
+          "limitations": "Краткость речевых отрезков и разный набор произнесённых слов не позволяют сделать абсолютный биометрический вывод."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"на карте инфекционная клиническая больница номер двадцать три\",\n  \"transcript_b\": \"где находится профессорская клиника\",\n  \"evidence\": \"Оба фрагмента озвучены мужским голосом с идентичным мягким тембром, схожей высотой основного тона, формантной окраской и спокойной размеренной дикцией.\",\n  \"limitations\": \"Краткость речевых отрезков и разный набор произнесённых слов не позволяют сделать абсолютный биометрический вывод.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 144,
+          "total_tokens": 1140,
+          "completion_tokens_details": {
+            "reasoning_tokens": 553
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_09",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i09_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i09_tgt.wav"
+    ],
+    "sha256": [
+      "c6f3e40403a01b1bfe28313b5055ad15676e804cf98434840b366907403f1c80",
+      "13cf3164212a820ecf7eca072e3a69f0a7377bf6599afd898d44e53945708595"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Призрак свободы ищи",
+          "transcript_b": "Заблудившийся",
+          "evidence": "Одинаковый низкий мужской тембр (баритональный регистр) с характерной вокальной крепитацией (vocal fry) на гласных. Идентичные формантные резонансы, мягкая приглушенная подача и близкая артикуляционная манера.",
+          "limitations": "Малая длительность записей (в аудио B представлено всего одно слово) сужает объем доступного фонетического материала; категорический вывод не имеет биометрической точности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Призрак свободы ищи\",\n  \"transcript_b\": \"Заблудившийся\",\n  \"evidence\": \"Одинаковый низкий мужской тембр (баритональный регистр) с характерной вокальной крепитацией (vocal fry) на гласных. Идентичные формантные резонансы, мягкая приглушенная подача и близкая артикуляционная манера.\",\n  \"limitations\": \"Малая длительность записей (в аудио B представлено всего одно слово) сужает объем доступного фонетического материала; категорический вывод не имеет биометрической точности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 460,
+          "completion_tokens": 167,
+          "total_tokens": 2893,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2266
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Заблудившиеся",
+          "transcript_b": "Призрак свободы ищи",
+          "evidence": "Оба фрагмента демонстрируют одинаковый низкий мужской тембр, специфическую приглушённую манеру подачи с выраженным придыханием и идентичные резонансные характеристики голосового тракта.",
+          "limitations": "Малая продолжительность записей и полушёпотная манера речи ограничивают разнообразие фонетического и динамического материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Заблудившиеся\",\n  \"transcript_b\": \"Призрак свободы ищи\",\n  \"evidence\": \"Оба фрагмента демонстрируют одинаковый низкий мужской тембр, специфическую приглушённую манеру подачи с выраженным придыханием и идентичные резонансные характеристики голосового тракта.\",\n  \"limitations\": \"Малая продолжительность записей и полушёпотная манера речи ограничивают разнообразие фонетического и динамического материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 460,
+          "completion_tokens": 140,
+          "total_tokens": 2994,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2394
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_10",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i10_tgt.wav"
+    ],
+    "sha256": [
+      "fb294e2041908cce8b07a4c5d7f7c0631cf45b3444250574cf6c0ba989aa6c1f",
+      "eb1b650ac9836686d34b798c3ac241c832981aadaeef376ba61a4e5bd3337f47"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Покажи фильм Люди, места, вещи",
+          "transcript_b": "Кинчик 8 недель спустя покажи",
+          "evidence": "Идентичный мужской тембр голоса, близкая высота основного тона, сходная резонансная окраска и характерная расслабленная манера артикуляции (особенно слышно на общем слове «покажи»).",
+          "limitations": "Относительно короткая длительность записей и неполное совпадение произносимого текста."
+        },
+        "raw": "{\"audio_access\":true,\"label\":\"same\",\"transcript_a\":\"Покажи фильм Люди, места, вещи\",\"transcript_b\":\"Кинчик 8 недель спустя покажи\",\"evidence\":\"Идентичный мужской тембр голоса, близкая высота основного тона, сходная резонансная окраска и характерная расслабленная манера артикуляции (особенно слышно на общем слове «покажи»).\",\"limitations\":\"Относительно короткая длительность записей и неполное совпадение произносимого текста.\"}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 507,
+          "completion_tokens": 118,
+          "total_tokens": 1386,
+          "completion_tokens_details": {
+            "reasoning_tokens": 761
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Кинчик 8 недель спустя покажи",
+          "transcript_b": "Покажи фильм Люди, места, вещи",
+          "evidence": "Схожий диапазон основного тона, совпадающие индивидуальные тембральные особенности с характерной легкой назализацией, идентичный вокальный резонанс и схожая артикуляционная динамика.",
+          "limitations": "Небольшая продолжительность речевых фрагментов, несовпадающий лексический состав и различия в интонационном рисунке."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Кинчик 8 недель спустя покажи\",\n  \"transcript_b\": \"Покажи фильм Люди, места, вещи\",\n  \"evidence\": \"Схожий диапазон основного тона, совпадающие индивидуальные тембральные особенности с характерной легкой назализацией, идентичный вокальный резонанс и схожая артикуляционная динамика.\",\n  \"limitations\": \"Небольшая продолжительность речевых фрагментов, несовпадающий лексический состав и различия в интонационном рисунке.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 507,
+          "completion_tokens": 149,
+          "total_tokens": 2368,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1712
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_11",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i11_tgt.wav"
+    ],
+    "sha256": [
+      "4401620f7e541d05f90a734e901daa8d15f379837e8196cd2a1bb644d1f560be",
+      "a78081df1811b37056354864901ab0cc94d12053a7bcc3c006b759f20f7919b5"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Поезд в Пусан",
+          "transcript_b": "Малефисента",
+          "evidence": "Схожий мужской тембр голоса, одинаковая высота основного тона, близкие резонансные характеристики и характерная манера артикуляции.",
+          "limitations": "Краткость фрагментов и разный набор произносимых слов не дают возможности гарантировать абсолютную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Поезд в Пусан\",\n  \"transcript_b\": \"Малефисента\",\n  \"evidence\": \"Схожий мужской тембр голоса, одинаковая высота основного тона, близкие резонансные характеристики и характерная манера артикуляции.\",\n  \"limitations\": \"Краткость фрагментов и разный набор произносимых слов не дают возможности гарантировать абсолютную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 429,
+          "completion_tokens": 124,
+          "total_tokens": 2032,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1479
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Малефисента",
+          "transcript_b": "Поезд в Пусан",
+          "evidence": "Схожий женский голос с мягким, слегка приглушённым тембром, одинаковой высотой основного тона, резонансными характеристиками и манерой произношения.",
+          "limitations": "Короткая длительность записей и произнесение отдельных фраз в спокойной манере ограничивают полноту анализа просодии."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Малефисента\",\n  \"transcript_b\": \"Поезд в Пусан\",\n  \"evidence\": \"Схожий женский голос с мягким, слегка приглушённым тембром, одинаковой высотой основного тона, резонансными характеристиками и манерой произношения.\",\n  \"limitations\": \"Короткая длительность записей и произнесение отдельных фраз в спокойной манере ограничивают полноту анализа просодии.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 429,
+          "completion_tokens": 138,
+          "total_tokens": 1368,
+          "completion_tokens_details": {
+            "reasoning_tokens": 801
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_12",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i12_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i12_tgt.wav"
+    ],
+    "sha256": [
+      "932cf5c538571196c40cdc35d074969c20199aa7b02d68e4212af9c32a97c8eb",
+      "3b19054805fc136dc9338f342e9133fda9f55e9872c844ba711ba87790c0e816"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Выведи мне серию один шестого сезона Мистер Робот",
+          "transcript_b": "Эпизод тридцать два сезона три сериала Молодёжка",
+          "evidence": "В обоих фрагментах звучит один и тот же мужской голос, говорящий тихим приглушенным полушепотом с характерной низкочастотной скрипучей фонацией (vocal fry). Наблюдается идентичный тембр, одинаковые резонансные свойства голосового тракта и артикуляция, в частности при произнесении совпадающего слова «сезона».",
+          "limitations": "Приглушенная речь с преобладанием субгармоник и шума дыхания маскирует стандартные формантные частоты; небольшая длительность аудиозаписей."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Выведи мне серию один шестого сезона Мистер Робот\",\n  \"transcript_b\": \"Эпизод тридцать два сезона три сериала Молодёжка\",\n  \"evidence\": \"В обоих фрагментах звучит один и тот же мужской голос, говорящий тихим приглушенным полушепотом с характерной низкочастотной скрипучей фонацией (vocal fry). Наблюдается идентичный тембр, одинаковые резонансные свойства голосового тракта и артикуляция, в частности при произнесении совпадающего слова «сезона».\",\n  \"limitations\": \"Приглушенная речь с преобладанием субгармоник и шума дыхания маскирует стандартные формантные частоты; небольшая длительность аудиозаписей.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 506,
+          "completion_tokens": 201,
+          "total_tokens": 3618,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2911
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Эпизод тридцать два сезона три сериала Молодёжка",
+          "transcript_b": "Выведи мне серию один шестого сезона Мистер Робот",
+          "evidence": "В обеих записях звучит низкий мужской голос с очень характерным штробасом (vocal fry), сильным придыханием и одинаковыми резонансными особенностями голосового тракта. Наблюдается идентичная манера произношения и артикуляционная динамика.",
+          "limitations": "Небольшая продолжительность аудиозаписей, присутствие фонового шума и специфический режим фонации (хриплый полушёпот) ограничивают анализ полного диапазона голоса."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Эпизод тридцать два сезона три сериала Молодёжка\",\n  \"transcript_b\": \"Выведи мне серию один шестого сезона Мистер Робот\",\n  \"evidence\": \"В обеих записях звучит низкий мужской голос с очень характерным штробасом (vocal fry), сильным придыханием и одинаковыми резонансными особенностями голосового тракта. Наблюдается идентичная манера произношения и артикуляционная динамика.\",\n  \"limitations\": \"Небольшая продолжительность аудиозаписей, присутствие фонового шума и специфический режим фонации (хриплый полушёпот) ограничивают анализ полного диапазона голоса.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 506,
+          "completion_tokens": 191,
+          "total_tokens": 3588,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2891
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_13",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_tgt.wav"
+    ],
+    "sha256": [
+      "0c3dee558b0fb9714647fafed233456717b648d2bbb7a9df9fec061baa5a8c33",
+      "0982e124ea9a2c19a5120265ca53d518c38528d3cc266d2eb922aef70ea4ee66"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Хочу телеканал Малыш ТВ на Смотрёшке",
+          "transcript_b": "Включи на ТВ канал Малыш",
+          "evidence": "В аудио A звучит женский голос с высокой основной частотой тона и более ярким тембром, тогда как в аудио B представлен мужской голос с существенно более низким регистром и выраженным грудным резонансом.",
+          "limitations": "Небольшая длительность аудиозаписей."
+        },
+        "raw": "```json\n{\"audio_access\":true,\"label\":\"different\",\"transcript_a\":\"Хочу телеканал Малыш ТВ на Смотрёшке\",\"transcript_b\":\"Включи на ТВ канал Малыш\",\"evidence\":\"В аудио A звучит женский голос с высокой основной частотой тона и более ярким тембром, тогда как в аудио B представлен мужской голос с существенно более низким регистром и выраженным грудным резонансом.\",\"limitations\":\"Небольшая длительность аудиозаписей.\"}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 448,
+          "completion_tokens": 117,
+          "total_tokens": 1107,
+          "completion_tokens_details": {
+            "reasoning_tokens": 542
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи на ТВ канал Малыш",
+          "transcript_b": "Хочу телеканал Малыш ТВ на Матрёшке",
+          "evidence": "Схожий молодой женский/подростковый тембр, совпадающий диапазон основного тона, идентичные резонансные характеристики голосового тракта и одинаковая артикуляция (в частности, звучание шипящих и гласных в слове «Малыш»).",
+          "limitations": "Короткая длительность записей и неполное лексическое совпадение фраз не позволяют сделать абсолютный биометрический вывод."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи на ТВ канал Малыш\",\n  \"transcript_b\": \"Хочу телеканал Малыш ТВ на Матрёшке\",\n  \"evidence\": \"Схожий молодой женский/подростковый тембр, совпадающий диапазон основного тона, идентичные резонансные характеристики голосового тракта и одинаковая артикуляция (в частности, звучание шипящих и гласных в слове «Малыш»).\",\n  \"limitations\": \"Короткая длительность записей и неполное лексическое совпадение фраз не позволяют сделать абсолютный биометрический вывод.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 448,
+          "completion_tokens": 167,
+          "total_tokens": 1977,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1362
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_14",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i14_tgt.wav"
+    ],
+    "sha256": [
+      "1269efd5bb5feac1ac39d0425c68d79163391472b7ce96602f482df093eb771b",
+      "8e547b34225fbbcd2a165a926353c4a44a182180ca8448512be3ce35b388f61a"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Сколько стоит тысяча швейцарских франков в Москве?",
+          "transcript_b": "Сколько стоит обменять бразильский реал в Тинькофф?",
+          "evidence": "Схожий женский голос с идентичным мягким тембром, высотой основного тона, формантной окраской и схожей вопросительной интонацией.",
+          "limitations": "Небольшая продолжительность записей и разный набор произносимых слов."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько стоит тысяча швейцарских франков в Москве?\",\n  \"transcript_b\": \"Сколько стоит обменять бразильский реал в Тинькофф?\",\n  \"evidence\": \"Схожий женский голос с идентичным мягким тембром, высотой основного тона, формантной окраской и схожей вопросительной интонацией.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный набор произносимых слов.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 518,
+          "completion_tokens": 136,
+          "total_tokens": 1204,
+          "completion_tokens_details": {
+            "reasoning_tokens": 550
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Сколько стоит обменять бразильский реал в Тинькофф",
+          "transcript_b": "Сколько стоит тысяча швейцарских франков в Москве",
+          "evidence": "Одинаковый женский тембр голоса, схожая высота основного тона, идентичный темп речи и артикуляция, а также одинаковая интонация во вводной фразе «Сколько стоит».",
+          "limitations": "Небольшая длительность аудиозаписей не позволяет гарантировать стопроцентную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько стоит обменять бразильский реал в Тинькофф\",\n  \"transcript_b\": \"Сколько стоит тысяча швейцарских франков в Москве\",\n  \"evidence\": \"Одинаковый женский тембр голоса, схожая высота основного тона, идентичный темп речи и артикуляция, а также одинаковая интонация во вводной фразе «Сколько стоит».\",\n  \"limitations\": \"Небольшая длительность аудиозаписей не позволяет гарантировать стопроцентную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 518,
+          "completion_tokens": 152,
+          "total_tokens": 1294,
+          "completion_tokens_details": {
+            "reasoning_tokens": 624
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_15",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i15_tgt.wav"
+    ],
+    "sha256": [
+      "c4c05201385b8ff373e17fd949c18199f682a6ba106db4be4c1dbd3de85c24f5",
+      "969a845dc7a9452fdef838951f555846ebf1d34b330d40d749803d0c36a40c8c"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Фильм с участием Леонардо Ди Каприо",
+          "transcript_b": "Фильм с участием Тома Круза",
+          "evidence": "Одинаковый мужской тембр, близкая высота основного тона, идентичная манера артикуляции и интонационный контур на повторяющемся фрагменте «Фильм с участием».",
+          "limitations": "Краткость записей, отсутствие экспертной биометрической точности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Фильм с участием Леонардо Ди Каприо\",\n  \"transcript_b\": \"Фильм с участием Тома Круза\",\n  \"evidence\": \"Одинаковый мужской тембр, близкая высота основного тона, идентичная манера артикуляции и интонационный контур на повторяющемся фрагменте «Фильм с участием».\",\n  \"limitations\": \"Краткость записей, отсутствие экспертной биометрической точности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 545,
+          "completion_tokens": 135,
+          "total_tokens": 1190,
+          "completion_tokens_details": {
+            "reasoning_tokens": 510
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Фильм с участием Тома Круза",
+          "transcript_b": "Фильм с участием Леонардо Ди Каприо",
+          "evidence": "Оба фрагмента демонстрируют одинаковый мужской тембр, близкий основной тон, характерную хрипотцу и идентичную артикуляцию и интонацию во фразе «Фильм с участием».",
+          "limitations": "Краткость аудиозаписей и акустические особенности среды записи не позволяют дать абсолютную биометрическую гарантию."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Фильм с участием Тома Круза\",\n  \"transcript_b\": \"Фильм с участием Леонардо Ди Каприо\",\n  \"evidence\": \"Оба фрагмента демонстрируют одинаковый мужской тембр, близкий основной тон, характерную хрипотцу и идентичную артикуляцию и интонацию во фразе «Фильм с участием».\",\n  \"limitations\": \"Краткость аудиозаписей и акустические особенности среды записи не позволяют дать абсолютную биометрическую гарантию.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 545,
+          "completion_tokens": 149,
+          "total_tokens": 1162,
+          "completion_tokens_details": {
+            "reasoning_tokens": 468
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_16",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i16_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i16_tgt.wav"
+    ],
+    "sha256": [
+      "632dbf0f860fb3cfd740161bd5622af9d18e69a78c5d46a44b19daa937b7bb34",
+      "7204370f084345b8ebc7d17d0fdfe56e580921e2b20b5010885a0c13119368db"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Сколько будет на наши 250 евро?",
+          "transcript_b": "Полина Фёдоровна Минаева",
+          "evidence": "Оба фрагмента принадлежат женскому голосу с идентичным тембром, схожей высотой основного тона, общими резонансными характеристиками и ровной интонацией.",
+          "limitations": "Краткость записей и несовпадение фонетического материала ограничивают точность сопоставления."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько будет на наши 250 евро?\",\n  \"transcript_b\": \"Полина Фёдоровна Минаева\",\n  \"evidence\": \"Оба фрагмента принадлежат женскому голосу с идентичным тембром, схожей высотой основного тона, общими резонансными характеристиками и ровной интонацией.\",\n  \"limitations\": \"Краткость записей и несовпадение фонетического материала ограничивают точность сопоставления.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 462,
+          "completion_tokens": 137,
+          "total_tokens": 1407,
+          "completion_tokens_details": {
+            "reasoning_tokens": 808
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Полина Фёдоровна Минаева",
+          "transcript_b": "Сколько будет на наши двести пятьдесят евро?",
+          "evidence": "В обоих образцах звучит женский голос со схожими общими тембральными характеристиками. Однако в аудио A речь монотонная и звучит в более низком регистре при зачитывании ФИО, тогда как в аудио B представлена живая вопросительная интонация с более высокой частотой основного тона.",
+          "limitations": "Различный словарный состав, существенная разница в интонационном рисунке и небольшая длительность аудиозаписей не позволяют с уверенностью подтвердить или опровергнуть совпадение дикторов без биометрической точности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Полина Фёдоровна Минаева\",\n  \"transcript_b\": \"Сколько будет на наши двести пятьдесят евро?\",\n  \"evidence\": \"В обоих образцах звучит женский голос со схожими общими тембральными характеристиками. Однако в аудио A речь монотонная и звучит в более низком регистре при зачитывании ФИО, тогда как в аудио B представлена живая вопросительная интонация с более высокой частотой основного тона.\",\n  \"limitations\": \"Различный словарный состав, существенная разница в интонационном рисунке и небольшая длительность аудиозаписей не позволяют с уверенностью подтвердить или опровергнуть совпадение дикторов без биометрической точности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 462,
+          "completion_tokens": 196,
+          "total_tokens": 6141,
+          "completion_tokens_details": {
+            "reasoning_tokens": 5483
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_17",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i17_tgt.wav"
+    ],
+    "sha256": [
+      "594f460d51f63f50b84aca4c825e32f50bfc697d06dfb4fce5c25398b78713ad",
+      "3a3a3ff9a0b1c0ca15c90717467f892c4113655673ef1791957a7d7f3a6d9346"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Врубай телеканал Вместе РФ на телевизоре",
+          "transcript_b": "Чарли Браун: Месть болвана",
+          "evidence": "Оба фрагмента принадлежат одному взрослому мужчине со схожей базовой высотой тона, одинаковым тембральным окрасом с заметным гортанным призвуком (vocal fry) и идентичной манерой артикуляции.",
+          "limitations": "Небольшая продолжительность записей и фиксированный характер фраз налагают естественные ограничения на биометрическую оценку."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Врубай телеканал Вместе РФ на телевизоре\",\n  \"transcript_b\": \"Чарли Браун: Месть болвана\",\n  \"evidence\": \"Оба фрагмента принадлежат одному взрослому мужчине со схожей базовой высотой тона, одинаковым тембральным окрасом с заметным гортанным призвуком (vocal fry) и идентичной манерой артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность записей и фиксированный характер фраз налагают естественные ограничения на биометрическую оценку.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 498,
+          "completion_tokens": 159,
+          "total_tokens": 1403,
+          "completion_tokens_details": {
+            "reasoning_tokens": 746
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Чарли Браун месть болвана",
+          "transcript_b": "Врубай телеканал Вместе РФ на телевизоре",
+          "evidence": "Спикер в аудио A обладает более низким основным тоном с легкой хрипотцой и выраженным грудным резонансом, тогда как в аудио B звучит более высокий, чистый и звонкий мужской голос с иной формантной окраской.",
+          "limitations": "Небольшая продолжительность записей и разный лексический материал не позволяют провести исчерпывающий биометрический анализ."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Чарли Браун месть болвана\",\n  \"transcript_b\": \"Врубай телеканал Вместе РФ на телевизоре\",\n  \"evidence\": \"Спикер в аудио A обладает более низким основным тоном с легкой хрипотцой и выраженным грудным резонансом, тогда как в аудио B звучит более высокий, чистый и звонкий мужской голос с иной формантной окраской.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный лексический материал не позволяют провести исчерпывающий биометрический анализ.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 498,
+          "completion_tokens": 163,
+          "total_tokens": 2144,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1483
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_18",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_tgt.wav"
+    ],
+    "sha256": [
+      "e08b9a6ef66fb7b9f9351ac475a218436e7d7ec5f142187b4ce25d046f7234e0",
+      "f6881bc05e576ab13c727e3dde75c4ba9428efcecfed2c1a0af859660cd0b0fa"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Тряпка для мытья полов из микрофибры",
+          "transcript_b": "Тесс Плэже 25 пакетиков",
+          "evidence": "Совпадающий женский тембр с идентичной лёгкой хрипотцой, одинаковый регистр высоты тона, схожий резонанс и темп артикуляции.",
+          "limitations": "Небольшая продолжительность записей, отсутствие экспертного биометрического анализа."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Тряпка для мытья полов из микрофибры\",\n  \"transcript_b\": \"Тесс Плэже 25 пакетиков\",\n  \"evidence\": \"Совпадающий женский тембр с идентичной лёгкой хрипотцой, одинаковый регистр высоты тона, схожий резонанс и темп артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность записей, отсутствие экспертного биометрического анализа.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 606,
+          "completion_tokens": 135,
+          "total_tokens": 1493,
+          "completion_tokens_details": {
+            "reasoning_tokens": 752
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Тесс Плеже двадцать пять пакетиков",
+          "transcript_b": "Тряпка для мытья полов из микрофибры",
+          "evidence": "Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, одинаковым тембральным окрасом, резонансными свойствами голосового тракта и совпадающей манерой произношения.",
+          "limitations": "Небольшая продолжительность записей и разный фонетический состав не позволяют сделать вывод с абсолютной биометрической точностью."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Тесс Плеже двадцать пять пакетиков\",\n  \"transcript_b\": \"Тряпка для мытья полов из микрофибры\",\n  \"evidence\": \"Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, одинаковым тембральным окрасом, резонансными свойствами голосового тракта и совпадающей манерой произношения.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный фонетический состав не позволяют сделать вывод с абсолютной биометрической точностью.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 606,
+          "completion_tokens": 148,
+          "total_tokens": 1956,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1202
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "conf_19",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i19_tgt.wav"
+    ],
+    "sha256": [
+      "86ddaf15cda2d1ae59b91a99c5391204f13cd96a8332d63d3744c6f514ebea14",
+      "3ba72368f6118c387e0c3404a06589bcf8270aeffb0396fcb628c1f410de5451"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Александру Сергеевичу Горбачу",
+          "transcript_b": "Илюхе Ананьева",
+          "evidence": "Оба фрагмента принадлежат одной женщине: совпадают индивидуальный тембр голоса, высота основного тона, формантные особенности и интонационный рисунок.",
+          "limitations": "Краткость записей и произнесение отдельных словосочетаний не позволяют гарантировать абсолютную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Александру Сергеевичу Горбачу\",\n  \"transcript_b\": \"Илюхе Ананьева\",\n  \"evidence\": \"Оба фрагмента принадлежат одной женщине: совпадают индивидуальный тембр голоса, высота основного тона, формантные особенности и интонационный рисунок.\",\n  \"limitations\": \"Краткость записей и произнесение отдельных словосочетаний не позволяют гарантировать абсолютную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 466,
+          "completion_tokens": 133,
+          "total_tokens": 1378,
+          "completion_tokens_details": {
+            "reasoning_tokens": 779
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Илюхи Ананьева",
+          "transcript_b": "Александру Сергеевичу Горбачу",
+          "evidence": "Схожий женский тембр, близкая высота основного тона, одинаковая формантная окраска, артикуляционные особенности и интонация дикторского чтения.",
+          "limitations": "Небольшая продолжительность фрагментов, непересекающийся лексический состав."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Илюхи Ананьева\",\n  \"transcript_b\": \"Александру Сергеевичу Горбачу\",\n  \"evidence\": \"Схожий женский тембр, близкая высота основного тона, одинаковая формантная окраска, артикуляционные особенности и интонация дикторского чтения.\",\n  \"limitations\": \"Небольшая продолжительность фрагментов, непересекающийся лексический состав.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 466,
+          "completion_tokens": 127,
+          "total_tokens": 1218,
+          "completion_tokens_details": {
+            "reasoning_tokens": 625
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_20",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i20_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i20_tgt.wav"
+    ],
+    "sha256": [
+      "a367053b374422e79fc61a0503cabab818310777f1a2e42218d2d7394daaed25",
+      "ef6309655ddb83e9e95953cdf796698d1e682ed54bfef63b930c40f047c479b7"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Конец детства, эпизод тридцать семь",
+          "transcript_b": "Оплатить мобильный телефон",
+          "evidence": "В аудио A голос обладает более плотным, низким тембром с выраженным грудным резонансом и легким вокальным фрайем, тогда как в аудио B голос заметно более светлый, звонкий, с другой формантной структурой и мягкой подачей.",
+          "limitations": "Различные условия записи, уровень фонового шума и стили произнесения (начитка заголовка и формулировка голосовой команды)."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Конец детства, эпизод тридцать семь\",\n  \"transcript_b\": \"Оплатить мобильный телефон\",\n  \"evidence\": \"В аудио A голос обладает более плотным, низким тембром с выраженным грудным резонансом и легким вокальным фрайем, тогда как в аудио B голос заметно более светлый, звонкий, с другой формантной структурой и мягкой подачей.\",\n  \"limitations\": \"Различные условия записи, уровень фонового шума и стили произнесения (начитка заголовка и формулировка голосовой команды).\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 500,
+          "completion_tokens": 167,
+          "total_tokens": 2275,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1608
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Оплатить мобильный телефон",
+          "transcript_b": "Конец шестой эпизод 37",
+          "evidence": "В аудиозаписи A звучит женский голос с более высокой базовой частотой основного тона, звонким и мягким тембром. В аудиозаписи B представлен женский голос с заметно более низким регистром, иной вокальной трактовой резонансностью и более сухой тембральной окраской.",
+          "limitations": "Краткость аудиофрагментов, различие акустической обстановки и отсутствие одинакового лексического материала не позволяют заявить о биометрической категоричности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Оплатить мобильный телефон\",\n  \"transcript_b\": \"Конец шестой эпизод 37\",\n  \"evidence\": \"В аудиозаписи A звучит женский голос с более высокой базовой частотой основного тона, звонким и мягким тембром. В аудиозаписи B представлен женский голос с заметно более низким регистром, иной вокальной трактовой резонансностью и более сухой тембральной окраской.\",\n  \"limitations\": \"Краткость аудиофрагментов, различие акустической обстановки и отсутствие одинакового лексического материала не позволяют заявить о биометрической категоричности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 500,
+          "completion_tokens": 175,
+          "total_tokens": 2190,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1515
+          }
+        }
+      }
+    ],
+    "label": "different",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_21",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i21_tgt.wav"
+    ],
+    "sha256": [
+      "58db2e9b4a6d8b6c96097645f2204d2c39d4457bef5cb2478d7b73380deda040",
+      "bcb276b75ec7ae8d4fff2fa11f82f90ae9ee65f834051ff4f4c62cce46ca03c0"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Включи U2",
+          "transcript_b": "U2",
+          "evidence": "В аудиозаписи A речь практически шепотная, с преобладанием шумового компонента и отсутствием стабильного основного тона. В аудиозаписи B используется нормальная модальная фонация в женском регистре.",
+          "limitations": "Различные типы голосообразования (шепот против обычной речи) и крайне малая длительность записей (1–2 слова) не позволяют провести надежное сравнение индивидуальных тембральных характеристик."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Включи U2\",\n  \"transcript_b\": \"U2\",\n  \"evidence\": \"В аудиозаписи A речь практически шепотная, с преобладанием шумового компонента и отсутствием стабильного основного тона. В аудиозаписи B используется нормальная модальная фонация в женском регистре.\",\n  \"limitations\": \"Различные типы голосообразования (шепот против обычной речи) и крайне малая длительность записей (1–2 слова) не позволяют провести надежное сравнение индивидуальных тембральных характеристик.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 466,
+          "completion_tokens": 154,
+          "total_tokens": 2239,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1619
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Ю два",
+          "transcript_b": "Включи Ю два",
+          "evidence": "Оба фрагмента принадлежат одной и той же женщине; совпадают тембральная окраска, высота основного тона, мягкая интонация и характерная артикуляция сочетания «Ю два».",
+          "limitations": "Краткость аудиозаписей и небольшой объем речевого материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Ю два\",\n  \"transcript_b\": \"Включи Ю два\",\n  \"evidence\": \"Оба фрагмента принадлежат одной и той же женщине; совпадают тембральная окраска, высота основного тона, мягкая интонация и характерная артикуляция сочетания «Ю два».\",\n  \"limitations\": \"Краткость аудиозаписей и небольшой объем речевого материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 466,
+          "completion_tokens": 122,
+          "total_tokens": 1217,
+          "completion_tokens_details": {
+            "reasoning_tokens": 629
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_22",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_tgt.wav"
+    ],
+    "sha256": [
+      "b7d035eb9687d55ba576141c1df146d7a396de3a480cb73a1931f06745c41eaf",
+      "b8d2a87dc5c69c3ad91aee8813e74349012bea56057965b1abf825e7b1fe92c8"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Курс российского рубля к лире",
+          "transcript_b": "Главный курс австралийского доллара к фунту стерлингу",
+          "evidence": "Схожий низкий мужской тембр, одинаковая высота основного тона, формантная окраска и манера артикуляции.",
+          "limitations": "Краткость аудиофрагментов ограничивает полноту акустического анализа и не позволяет гарантировать абсолютную биометрическую достоверность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Курс российского рубля к лире\",\n  \"transcript_b\": \"Главный курс австралийского доллара к фунту стерлингу\",\n  \"evidence\": \"Схожий низкий мужской тембр, одинаковая высота основного тона, формантная окраска и манера артикуляции.\",\n  \"limitations\": \"Краткость аудиофрагментов ограничивает полноту акустического анализа и не позволяет гарантировать абсолютную биометрическую достоверность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 139,
+          "total_tokens": 2038,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1412
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Главный курс австралийского доллара к фунту стерлингов",
+          "transcript_b": "Курс российского рубля к лире",
+          "evidence": "Оба фрагмента принадлежат мужчине с одинаковым низким грудным тембром, схожим основным тоном, одинаковой формантной структурой, характерным вокальным фраем и идентичной артикуляцией согласных.",
+          "limitations": "Краткость аудиозаписей и монотонное чтение коротких информационных фраз."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Главный курс австралийского доллара к фунту стерлингов\",\n  \"transcript_b\": \"Курс российского рубля к лире\",\n  \"evidence\": \"Оба фрагмента принадлежат мужчине с одинаковым низким грудным тембром, схожим основным тоном, одинаковой формантной структурой, характерным вокальным фраем и идентичной артикуляцией согласных.\",\n  \"limitations\": \"Краткость аудиозаписей и монотонное чтение коротких информационных фраз.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 154,
+          "total_tokens": 1297,
+          "completion_tokens_details": {
+            "reasoning_tokens": 656
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_23",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_tgt.wav"
+    ],
+    "sha256": [
+      "04573ff948badd8226b6478078a6410081f8278f9570956a743e1f592f72ec11",
+      "5955bf127fc03bab5f086848060d64144072e4d0d8114bc89729a5c933729ab7"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Эдуард Леонидович Разыков",
+          "transcript_b": "Сколько сегодня стоит биткоин?",
+          "evidence": "В записи A голос характеризуется более высокой базовой частотой основного тона и светлым тембром, тогда как в записи B представлен заметно более низкий мужской голос с выраженным грудным резонансом и другой формантной окраской.",
+          "limitations": "Краткость аудиофрагментов и несовпадение произносимого текста."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Эдуард Леонидович Разыков\",\n  \"transcript_b\": \"Сколько сегодня стоит биткоин?\",\n  \"evidence\": \"В записи A голос характеризуется более высокой базовой частотой основного тона и светлым тембром, тогда как в записи B представлен заметно более низкий мужской голос с выраженным грудным резонансом и другой формантной окраской.\",\n  \"limitations\": \"Краткость аудиофрагментов и несовпадение произносимого текста.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 433,
+          "completion_tokens": 140,
+          "total_tokens": 1489,
+          "completion_tokens_details": {
+            "reasoning_tokens": 916
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Сколько сегодня стоит биткоин",
+          "transcript_b": "Эдуард Леонидович Разыков",
+          "evidence": "Одинаковый низкий тембр голоса, близкая высота основного тона, характерный грудной резонанс и схожая неторопливая манера артикуляции.",
+          "limitations": "Небольшая длительность аудиозаписей и разный текстовый материал не позволяют сделать вывод со стопроцентной биометрической точностью."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько сегодня стоит биткоин\",\n  \"transcript_b\": \"Эдуард Леонидович Разыков\",\n  \"evidence\": \"Одинаковый низкий тембр голоса, близкая высота основного тона, характерный грудной резонанс и схожая неторопливая манера артикуляции.\",\n  \"limitations\": \"Небольшая длительность аудиозаписей и разный текстовый материал не позволяют сделать вывод со стопроцентной биометрической точностью.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 433,
+          "completion_tokens": 136,
+          "total_tokens": 1739,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1170
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_24",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_tgt.wav"
+    ],
+    "sha256": [
+      "52da48396f17f8f0f97fc0cf54693c2b96cba1de628d5677d4d57187dd9c29b6",
+      "3b0a532bfe1030fa554743a38a8878cc2c1d12e13d9b7aab9c8e792daf32944a"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи все серии Доктора Кто",
+          "transcript_b": "Найди фильм Аванпост",
+          "evidence": "Одинаковый женский тембр, схожие формантные характеристики, высота тона, чистота звучания и манера артикуляции.",
+          "limitations": "Краткость аудиозаписей, состоящих из коротких изолированных команд."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи все серии Доктора Кто\",\n  \"transcript_b\": \"Найди фильм Аванпост\",\n  \"evidence\": \"Одинаковый женский тембр, схожие формантные характеристики, высота тона, чистота звучания и манера артикуляции.\",\n  \"limitations\": \"Краткость аудиозаписей, состоящих из коротких изолированных команд.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 490,
+          "completion_tokens": 118,
+          "total_tokens": 1208,
+          "completion_tokens_details": {
+            "reasoning_tokens": 600
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Найди фильм Аванпост",
+          "transcript_b": "Включи все серии Доктора Кто",
+          "evidence": "Оба фрагмента озвучены одним и тем же женским голосом со схожим тембром, высотой основного тона, формантной структурой и одинаковой манерой произношения команд.",
+          "limitations": "Записи короткие, представлены отдельными фразами-командами, что ограничивает разнообразие фонетического контекста."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Найди фильм Аванпост\",\n  \"transcript_b\": \"Включи все серии Доктора Кто\",\n  \"evidence\": \"Оба фрагмента озвучены одним и тем же женским голосом со схожим тембром, высотой основного тона, формантной структурой и одинаковой манерой произношения команд.\",\n  \"limitations\": \"Записи короткие, представлены отдельными фразами-командами, что ограничивает разнообразие фонетического контекста.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 490,
+          "completion_tokens": 140,
+          "total_tokens": 1380,
+          "completion_tokens_details": {
+            "reasoning_tokens": 750
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_25",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i25_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i25_tgt.wav"
+    ],
+    "sha256": [
+      "3e97de94741b2665408d9b08194394884b3d4ba36261fae7bc8472e7ab83636f",
+      "b03ad99d85658c254fbebd0de3c545ecd9868a47a45bedbaf7f74e86527b076b"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Сыр Белебеевский заказать четыреста грамм",
+          "transcript_b": "Включи капитан Филлипс четырка",
+          "evidence": "Оба фрагмента звучат как детские голоса сходного диапазона и тембра. В записи B тон заметно выше и экспрессивнее, однако такие различия могут быть следствием интонации, а сходство — принадлежностью детей одного возраста.",
+          "limitations": "Малая продолжительность записей, разный фонетический состав и эмоциональная подача не позволяют сделать достоверный вывод об идентичности дикторов."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Сыр Белебеевский заказать четыреста грамм\",\n  \"transcript_b\": \"Включи капитан Филлипс четырка\",\n  \"evidence\": \"Оба фрагмента звучат как детские голоса сходного диапазона и тембра. В записи B тон заметно выше и экспрессивнее, однако такие различия могут быть следствием интонации, а сходство — принадлежностью детей одного возраста.\",\n  \"limitations\": \"Малая продолжительность записей, разный фонетический состав и эмоциональная подача не позволяют сделать достоверный вывод об идентичности дикторов.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 526,
+          "completion_tokens": 158,
+          "total_tokens": 2815,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2131
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи капитан Филипс читырка",
+          "transcript_b": "Сыр Белебеевский заказать четыреста грамм",
+          "evidence": "Оба фрагмента записаны одним детским/подростковым женским голосом с совпадающим диапазоном основного тона (230–260 Гц), идентичным резонансом голосового тракта, тембром и одинаковой манерой артикуляции и редукции гласных.",
+          "limitations": "Краткость аудиозаписей и разная интонационная подача накладывают естественные ограничения, исключающие абсолютную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи капитан Филипс читырка\",\n  \"transcript_b\": \"Сыр Белебеевский заказать четыреста грамм\",\n  \"evidence\": \"Оба фрагмента записаны одним детским/подростковым женским голосом с совпадающим диапазоном основного тона (230–260 Гц), идентичным резонансом голосового тракта, тембром и одинаковой манерой артикуляции и редукции гласных.\",\n  \"limitations\": \"Краткость аудиозаписей и разная интонационная подача накладывают естественные ограничения, исключающие абсолютную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 526,
+          "completion_tokens": 178,
+          "total_tokens": 2264,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1560
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_26",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i26_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i26_tgt.wav"
+    ],
+    "sha256": [
+      "dfb4e56aab33d0ff5e5659eea2ea1cb3fe42f6502d0048e7a1d175eaf9e32f97",
+      "9cf8e7a453ebbe477976cf1760085ab3437775f42c55bbaf256a4eb8e848f2fd"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "РЕН ТВ",
+          "transcript_b": "Включи фильм Не мамы",
+          "evidence": "Оба фрагмента демонстрируют идентичный мужской голос с очень близкой высотой основного тона, характерным глубоким грудным резонансом, одинаковой формантной окраской и схожим легким вокальным фрай (штробасом) на спаде интонации.",
+          "limitations": "Малая длительность записи А ограничивает разнообразие фонетического материала для сопоставления."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"РЕН ТВ\",\n  \"transcript_b\": \"Включи фильм Не мамы\",\n  \"evidence\": \"Оба фрагмента демонстрируют идентичный мужской голос с очень близкой высотой основного тона, характерным глубоким грудным резонансом, одинаковой формантной окраской и схожим легким вокальным фрай (штробасом) на спаде интонации.\",\n  \"limitations\": \"Малая длительность записи А ограничивает разнообразие фонетического материала для сопоставления.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 401,
+          "completion_tokens": 147,
+          "total_tokens": 2999,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2451
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Включи фильм не мамы",
+          "transcript_b": "ЛенТВ",
+          "evidence": "В аудио A звучит мужской голос в обычном регистре со средне-низким основным тоном. В аудио B голос звучит значительно ниже с выраженным вокальным фраем (скрипучим регистром). Различие регистров затрудняет прямое сравнение тембральных характеристик.",
+          "limitations": "Крайне малая продолжительность речевых фрагментов (особенно аудио B, состоящего из одного короткого слова) и специфический скрипучий регистр в аудио B не дают достаточного объема акустических данных для надежной идентификации."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Включи фильм не мамы\",\n  \"transcript_b\": \"ЛенТВ\",\n  \"evidence\": \"В аудио A звучит мужской голос в обычном регистре со средне-низким основным тоном. В аудио B голос звучит значительно ниже с выраженным вокальным фраем (скрипучим регистром). Различие регистров затрудняет прямое сравнение тембральных характеристик.\",\n  \"limitations\": \"Крайне малая продолжительность речевых фрагментов (особенно аудио B, состоящего из одного короткого слова) и специфический скрипучий регистр в аудио B не дают достаточного объема акустических данных для надежной идентификации.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 401,
+          "completion_tokens": 183,
+          "total_tokens": 2039,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1455
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_27",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_tgt.wav"
+    ],
+    "sha256": [
+      "17d5af2b99d34f61ca5d63bb5cf2308efe4ea026bfdde0a9c61c8bef2ceab51b",
+      "709806323cc9ebe75298b1d349f1439e8b05dc78bb7a4dbfb896fe357812d56d"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Кинолента Ultra HD на Окко",
+          "transcript_b": "Джой, кто делает воду?",
+          "evidence": "Голоса различаются по высоте основного тона (в аудио A голос заметно более низкий, грудной и глубокий, в аудио B — более высокий), а также по тембру и резонансу голосового тракта.",
+          "limitations": "Краткость фрагментов речи и разная интонационная подача."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Кинолента Ultra HD на Окко\",\n  \"transcript_b\": \"Джой, кто делает воду?\",\n  \"evidence\": \"Голоса различаются по высоте основного тона (в аудио A голос заметно более низкий, грудной и глубокий, в аудио B — более высокий), а также по тембру и резонансу голосового тракта.\",\n  \"limitations\": \"Краткость фрагментов речи и разная интонационная подача.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 468,
+          "completion_tokens": 137,
+          "total_tokens": 1230,
+          "completion_tokens_details": {
+            "reasoning_tokens": 625
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Джой, кто делает воду?",
+          "transcript_b": "Кинолента Ultra HD на Okko",
+          "evidence": "Совпадают диапазон высоты основного тона (низкий мужской регистр), тембральная окраска голоса, резонансные характеристики голосового тракта и спокойная естественная манера артикуляции.",
+          "limitations": "Короткая длительность аудиозаписей и несовпадающий набор произносимых фонем не позволяют провести полный биометрический анализ."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Джой, кто делает воду?\",\n  \"transcript_b\": \"Кинолента Ultra HD на Okko\",\n  \"evidence\": \"Совпадают диапазон высоты основного тона (низкий мужской регистр), тембральная окраска голоса, резонансные характеристики голосового тракта и спокойная естественная манера артикуляции.\",\n  \"limitations\": \"Короткая длительность аудиозаписей и несовпадающий набор произносимых фонем не позволяют провести полный биометрический анализ.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 468,
+          "completion_tokens": 146,
+          "total_tokens": 2325,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1711
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_28",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_tgt.wav"
+    ],
+    "sha256": [
+      "1104382b3c6cc192dda15848a084169e726a64f92f835d4efa63433456a441ee",
+      "af10c2f5c1311ecf5b35b028aa31bed4360adf96a9b8e09688345fa27554020e"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Да не",
+          "transcript_b": "Подключи",
+          "evidence": "Схожий мужской тембр голоса и близкая высота основного тона в обоих фрагментах.",
+          "limitations": "Крайне малая продолжительность речевых отрезков (менее одной секунды каждый) и различное фонетическое наполнение не позволяют достоверно подтвердить или опровергнуть совпадение дикторов."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Да не\",\n  \"transcript_b\": \"Подключи\",\n  \"evidence\": \"Схожий мужской тембр голоса и близкая высота основного тона в обоих фрагментах.\",\n  \"limitations\": \"Крайне малая продолжительность речевых отрезков (менее одной секунды каждый) и различное фонетическое наполнение не позволяют достоверно подтвердить или опровергнуть совпадение дикторов.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 561,
+          "completion_tokens": 129,
+          "total_tokens": 1916,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1226
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Подключи",
+          "transcript_b": "Да не",
+          "evidence": "В обоих фрагментах слышен мужской голос схожего тембра и высоты тона, однако заметных уникальных акустических маркеров выделить не удается.",
+          "limitations": "Слишком короткая продолжительность звучащей речи (менее одной секунды в каждой записи) и отсутствие общих слов или фонем не позволяют надежно установить тождество дикторов."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Подключи\",\n  \"transcript_b\": \"Да не\",\n  \"evidence\": \"В обоих фрагментах слышен мужской голос схожего тембра и высоты тона, однако заметных уникальных акустических маркеров выделить не удается.\",\n  \"limitations\": \"Слишком короткая продолжительность звучащей речи (менее одной секунды в каждой записи) и отсутствие общих слов или фонем не позволяют надежно установить тождество дикторов.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 561,
+          "completion_tokens": 135,
+          "total_tokens": 2361,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1665
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_29",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i29_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i29_tgt.wav"
+    ],
+    "sha256": [
+      "853837125830341e515fbae6372865e901b2321388523b7686922dbe4e4f3877",
+      "9bb951f12b968ebced2e7f7efcf0423b5cf75667cd0273e9509ecca8862b68dc"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Перевод маме.",
+          "transcript_b": "Перевод жене.",
+          "evidence": "Основной говорящий в обоих фрагментах — один и тот же мужчина с идентичным низким тембром, высотой голоса, интонацией и манерой произнесения слова «Перевод».",
+          "limitations": "Краткость произнесённых реплик целевого диктора, присутствие посторонней фоновой речи и шумов салона автомобиля."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Перевод маме.\",\n  \"transcript_b\": \"Перевод жене.\",\n  \"evidence\": \"Основной говорящий в обоих фрагментах — один и тот же мужчина с идентичным низким тембром, высотой голоса, интонацией и манерой произнесения слова «Перевод».\",\n  \"limitations\": \"Краткость произнесённых реплик целевого диктора, присутствие посторонней фоновой речи и шумов салона автомобиля.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 499,
+          "completion_tokens": 139,
+          "total_tokens": 1783,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1145
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Перевод жене. И люди наслаждаются...",
+          "transcript_b": "Наслаждаешься... Перевод маме. Это и есть твоё самое большое в жизни...",
+          "evidence": "Основной говорящий на переднем плане в обеих записях демонстрирует одинаковый тембр голоса, высоту основного тона, схожую манеру артикуляции и интонационный контур при произнесении команды со словом «перевод». Фоновый голос также совпадает по звучанию.",
+          "limitations": "Краткая продолжительность полезного речевого сигнала целевого диктора и наличие фоновой речи."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Перевод жене. И люди наслаждаются...\",\n  \"transcript_b\": \"Наслаждаешься... Перевод маме. Это и есть твоё самое большое в жизни...\",\n  \"evidence\": \"Основной говорящий на переднем плане в обеих записях демонстрирует одинаковый тембр голоса, высоту основного тона, схожую манеру артикуляции и интонационный контур при произнесении команды со словом «перевод». Фоновый голос также совпадает по звучанию.\",\n  \"limitations\": \"Краткая продолжительность полезного речевого сигнала целевого диктора и наличие фоновой речи.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 499,
+          "completion_tokens": 171,
+          "total_tokens": 2805,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2135
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_30",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i30_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i30_tgt.wav"
+    ],
+    "sha256": [
+      "1b45058791c67ffb278d99cad1208f3b23d9e5e503045589c443191002033272",
+      "6c5db5cf246113215e0d9f129e24bb1fe6b8d0a8a893cec18a8c5d0275c75335"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Салют, ого, спасибо.",
+          "transcript_b": "Сбер, у меня в жизни много проблем.",
+          "evidence": "Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, мягким тембром, одинаковой артикуляцией шипящих и гласных звуков, а также идентичными резонансными свойствами.",
+          "limitations": "Небольшая длительность записей и эмоциональное различие высказываний не позволяют сделать вывод со стопроцентной биометрической точностью."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Салют, ого, спасибо.\",\n  \"transcript_b\": \"Сбер, у меня в жизни много проблем.\",\n  \"evidence\": \"Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, мягким тембром, одинаковой артикуляцией шипящих и гласных звуков, а также идентичными резонансными свойствами.\",\n  \"limitations\": \"Небольшая длительность записей и эмоциональное различие высказываний не позволяют сделать вывод со стопроцентной биометрической точностью.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 441,
+          "completion_tokens": 150,
+          "total_tokens": 1235,
+          "completion_tokens_details": {
+            "reasoning_tokens": 644
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Сбер, у меня в жизни много проблем.",
+          "transcript_b": "Салют, ого, спасибо.",
+          "evidence": "В обоих фрагментах звучит женский голос. В записи A тон более низкий, монотонный и сдержанный, с лёгкой придыхательной фонацией на спаде интонации. В записи B голос звучит значительно выше по основному тону, более звонко и эмоционально оживлённо.",
+          "limitations": "Краткость записей, отсутствие общих фонемных последовательностей и сильные различия в эмоциональной экспрессии затрудняют надёжное разделение индивидуального тембра диктора и ситуативной голосовой модуляции."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Сбер, у меня в жизни много проблем.\",\n  \"transcript_b\": \"Салют, ого, спасибо.\",\n  \"evidence\": \"В обоих фрагментах звучит женский голос. В записи A тон более низкий, монотонный и сдержанный, с лёгкой придыхательной фонацией на спаде интонации. В записи B голос звучит значительно выше по основному тону, более звонко и эмоционально оживлённо.\",\n  \"limitations\": \"Краткость записей, отсутствие общих фонемных последовательностей и сильные различия в эмоциональной экспрессии затрудняют надёжное разделение индивидуального тембра диктора и ситуативной голосовой модуляции.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 441,
+          "completion_tokens": 188,
+          "total_tokens": 2700,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2071
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_31",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i31_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i31_tgt.wav"
+    ],
+    "sha256": [
+      "5152bba9dda26a3172dc577061038f04845f82f835eb26fa136656a5ed1ab736",
+      "6ba93ff46f229c2e0a7430c4c8aad943cc4d9323dd38a77042ac0616f52c19fa"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Расскажи, когда достиг самой большой скорости на сноуборде.",
+          "transcript_b": "Я хочу найти забытые вещи.",
+          "evidence": "В аудио A звучит женский голос с более высокой частотой основного тона, чистой модальной фонацией и звонким резонансом. В аудио B представлен голос заметно более низкого регистра с выраженной скрипучей фонацией (vocal fry) и иной тембральной структурой.",
+          "limitations": "Короткая продолжительность фраз, различные акустические условия записи и несовпадающий лексический состав ограничивают возможность детального сравнения."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Расскажи, когда достиг самой большой скорости на сноуборде.\",\n  \"transcript_b\": \"Я хочу найти забытые вещи.\",\n  \"evidence\": \"В аудио A звучит женский голос с более высокой частотой основного тона, чистой модальной фонацией и звонким резонансом. В аудио B представлен голос заметно более низкого регистра с выраженной скрипучей фонацией (vocal fry) и иной тембральной структурой.\",\n  \"limitations\": \"Короткая продолжительность фраз, различные акустические условия записи и несовпадающий лексический состав ограничивают возможность детального сравнения.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 567,
+          "completion_tokens": 172,
+          "total_tokens": 2737,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1998
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Я хочу найти забытые вещи.",
+          "transcript_b": "Расскажи, когда достиг самой большой скорости на сноуборде.",
+          "evidence": "В аудио A женский голос более низкий, с более темным грудным резонансом и выраженным скрипучим призвуком (vocal fry) на спаде интонации. В аудио B голос звучит значительно выше, с более звонким, светлым тембром и более высокой частотой основного тона и формант.",
+          "limitations": "Различная длина фраз, эмоциональный контекст и темп речи, а также отсутствие биометрической точности."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Я хочу найти забытые вещи.\",\n  \"transcript_b\": \"Расскажи, когда достиг самой большой скорости на сноуборде.\",\n  \"evidence\": \"В аудио A женский голос более низкий, с более темным грудным резонансом и выраженным скрипучим призвуком (vocal fry) на спаде интонации. В аудио B голос звучит значительно выше, с более звонким, светлым тембром и более высокой частотой основного тона и формант.\",\n  \"limitations\": \"Различная длина фраз, эмоциональный контекст и темп речи, а также отсутствие биометрической точности.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 567,
+          "completion_tokens": 176,
+          "total_tokens": 2061,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1318
+          }
+        }
+      }
+    ],
+    "label": "different",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_32",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i32_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i32_tgt.wav"
+    ],
+    "sha256": [
+      "e067c3fdebe3819ac2a381feaf4a4f25b935a307826e186a928d96d940214273",
+      "74a578ceb1d6d3bb840f8a1ce156ab30bba0695d15b6f10513df798080eaeff3"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Сбер, включи воспоминания о тебе Анакондаз",
+          "transcript_b": "Принц Персии: Пески времени запусти",
+          "evidence": "В аудио A представлен женский голос со спокойной нейтральной подачей в обычном регистре. В аудио B речь произнесена тихим полушёпотом с выраженным придыханием, что сглаживает резонансные и тональные характеристики.",
+          "limitations": "Различные режимы фонации (нормальная речь против полушёпота) и короткая продолжительность фраз не позволяют объективно сопоставить индивидуальные тембральные черты дикторов."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Сбер, включи воспоминания о тебе Анакондаз\",\n  \"transcript_b\": \"Принц Персии: Пески времени запусти\",\n  \"evidence\": \"В аудио A представлен женский голос со спокойной нейтральной подачей в обычном регистре. В аудио B речь произнесена тихим полушёпотом с выраженным придыханием, что сглаживает резонансные и тональные характеристики.\",\n  \"limitations\": \"Различные режимы фонации (нормальная речь против полушёпота) и короткая продолжительность фраз не позволяют объективно сопоставить индивидуальные тембральные черты дикторов.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 544,
+          "completion_tokens": 180,
+          "total_tokens": 1821,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1097
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Принц Персии Пески времени запусти",
+          "transcript_b": "Сбер, включи воспоминания о тебе Анакондаз",
+          "evidence": "Одинаковый женский тембр голоса, совпадающий диапазон и контур основного тона (средне-высокий регистр с характерным понижением к концу фразы), близкие формантные характеристики и идентичная артикуляция мягких и шипящих согласных.",
+          "limitations": "Небольшая длительность образцов и различия в акустических условиях (в аудио A присутствует реверберация комнаты, аудио B записано ближе к микрофону) исключают абсолютную биометрическую достоверность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Принц Персии Пески времени запусти\",\n  \"transcript_b\": \"Сбер, включи воспоминания о тебе Анакондаз\",\n  \"evidence\": \"Одинаковый женский тембр голоса, совпадающий диапазон и контур основного тона (средне-высокий регистр с характерным понижением к концу фразы), близкие формантные характеристики и идентичная артикуляция мягких и шипящих согласных.\",\n  \"limitations\": \"Небольшая длительность образцов и различия в акустических условиях (в аудио A присутствует реверберация комнаты, аудио B записано ближе к микрофону) исключают абсолютную биометрическую достоверность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 544,
+          "completion_tokens": 183,
+          "total_tokens": 10041,
+          "completion_tokens_details": {
+            "reasoning_tokens": 9314
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_33",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i33_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i33_tgt.wav"
+    ],
+    "sha256": [
+      "8709d279df9844bff7058122ff0c911ad8c1b708490a38a77b2d580cf6707603",
+      "53353c58305dfefbd7df852dc9d37166392055288c60d079af227bfd87594540"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Переростки, серия 23",
+          "transcript_b": "Найти, как я встретил вашу маму",
+          "evidence": "Оба фрагмента озвучены мужским голосом с идентичным низким тембром (баритон), схожей формантной структурой, одинаковой хрипотцой в нижнем регистре и характерной спокойной интонацией голосового запроса.",
+          "limitations": "Короткая продолжительность фрагментов и неполное совпадение фонетического ряда накладывают ограничения; абсолютная биометрическая точность не утверждается."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Переростки, серия 23\",\n  \"transcript_b\": \"Найти, как я встретил вашу маму\",\n  \"evidence\": \"Оба фрагмента озвучены мужским голосом с идентичным низким тембром (баритон), схожей формантной структурой, одинаковой хрипотцой в нижнем регистре и характерной спокойной интонацией голосового запроса.\",\n  \"limitations\": \"Короткая продолжительность фрагментов и неполное совпадение фонетического ряда накладывают ограничения; абсолютная биометрическая точность не утверждается.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 164,
+          "total_tokens": 1392,
+          "completion_tokens_details": {
+            "reasoning_tokens": 732
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "найти как я встретил вашу маму",
+          "transcript_b": "переростки серия 23",
+          "evidence": "Оба фрагмента демонстрируют одинаковый мужской голос с очень схожим низким тембром, одинаковой манерой речи вполголоса близко к микрофону, близкой высотой основного тона и характерным вокальным фраем (скрипом связок).",
+          "limitations": "Небольшая длительность записей, негромкая речь и непересекающийся словарный состав."
+        },
+        "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"найти как я встретил вашу маму\",\n  \"transcript_b\": \"переростки серия 23\",\n  \"evidence\": \"Оба фрагмента демонстрируют одинаковый мужской голос с очень схожим низким тембром, одинаковой манерой речи вполголоса близко к микрофону, близкой высотой основного тона и характерным вокальным фраем (скрипом связок).\",\n  \"limitations\": \"Небольшая длительность записей, негромкая речь и непересекающийся словарный состав.\"\n}",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 151,
+          "total_tokens": 1807,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1160
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_34",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i34_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i34_tgt.wav"
+    ],
+    "sha256": [
+      "59f38a6692b056d3904c815fa48543a71dc945cbf0043f885f66f8c26ad1e2df",
+      "b26d81c62d216f920e38c4ec4b14458a20b3fb02a4c5bef32417df398c295d8d"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "На какие средства существует Википедия?",
+          "transcript_b": "Привет, помоги мне заказать трансфер в аэропорт.",
+          "evidence": "Оба фрагмента озвучены молодым женским или подростковым голосом сходного тембра и высотного диапазона, однако индивидуальных артикуляционных маркеров недостаточно для однозначной идентификации.",
+          "limitations": "Краткость аудиозаписей, различные акустические условия, разная дистанция до микрофона и наличие постороннего голоса в конце аудио B затрудняют надёжное сопоставление."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"На какие средства существует Википедия?\",\n  \"transcript_b\": \"Привет, помоги мне заказать трансфер в аэропорт.\",\n  \"evidence\": \"Оба фрагмента озвучены молодым женским или подростковым голосом сходного тембра и высотного диапазона, однако индивидуальных артикуляционных маркеров недостаточно для однозначной идентификации.\",\n  \"limitations\": \"Краткость аудиозаписей, различные акустические условия, разная дистанция до микрофона и наличие постороннего голоса в конце аудио B затрудняют надёжное сопоставление.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 486,
+          "completion_tokens": 158,
+          "total_tokens": 2121,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1477
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Привет, помоги мне заказать трансфер в аэропорт.",
+          "transcript_b": "На какие средства существует Википедия?",
+          "evidence": "В аудио A звучит взрослый женский голос с более низкой частотой основного тона и грудным тембром. В аудио B зафиксирован более высокий девичий/детский голос с иной формантной структурой и меньшей длиной голосового тракта.",
+          "limitations": "Небольшая продолжительность фрагментов, различия в интонации и произносимом тексте исключают стопроцентную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Привет, помоги мне заказать трансфер в аэропорт.\",\n  \"transcript_b\": \"На какие средства существует Википедия?\",\n  \"evidence\": \"В аудио A звучит взрослый женский голос с более низкой частотой основного тона и грудным тембром. В аудио B зафиксирован более высокий девичий/детский голос с иной формантной структурой и меньшей длиной голосового тракта.\",\n  \"limitations\": \"Небольшая продолжительность фрагментов, различия в интонации и произносимом тексте исключают стопроцентную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 486,
+          "completion_tokens": 163,
+          "total_tokens": 2423,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1774
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_35",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i35_tgt.wav"
+    ],
+    "sha256": [
+      "1410aeb9310368a2e2239a1ef2772086bae3e1537b2ad997ce9d4d294f8a0a87",
+      "d4ba799c03f7f8c0deeacd9b86e76453d4417eac64916636be07791c68f259a0"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "У тебя в запасе есть фильм Приличные люди?",
+          "transcript_b": "Искать кино Я, снова я и мама",
+          "evidence": "Оба фрагмента принадлежат мужскому голосу с одинаковым низким основным тоном, выраженной скрипучестью (vocal fry), сходным тембром и манерой артикуляции.",
+          "limitations": "Краткость записей и спокойная монотонная речь накладывают естественные ограничения на категоричность вывода."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"У тебя в запасе есть фильм Приличные люди?\",\n  \"transcript_b\": \"Искать кино Я, снова я и мама\",\n  \"evidence\": \"Оба фрагмента принадлежат мужскому голосу с одинаковым низким основным тоном, выраженной скрипучестью (vocal fry), сходным тембром и манерой артикуляции.\",\n  \"limitations\": \"Краткость записей и спокойная монотонная речь накладывают естественные ограничения на категоричность вывода.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 472,
+          "completion_tokens": 144,
+          "total_tokens": 1389,
+          "completion_tokens_details": {
+            "reasoning_tokens": 773
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "different",
+          "transcript_a": "Искать кино. Я, снова я и мама.",
+          "transcript_b": "У тебя в запасе есть фильм Приличные люди?",
+          "evidence": "Различная базовая высота основного тона (в записи B голос более низкий и баритональный), а также отличающиеся формантные и тембральные характеристики голосового тракта.",
+          "limitations": "Небольшая продолжительность аудиозаписей и разное содержание высказываний."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Искать кино. Я, снова я и мама.\",\n  \"transcript_b\": \"У тебя в запасе есть фильм Приличные люди?\",\n  \"evidence\": \"Различная базовая высота основного тона (в записи B голос более низкий и баритональный), а также отличающиеся формантные и тембральные характеристики голосового тракта.\",\n  \"limitations\": \"Небольшая продолжительность аудиозаписей и разное содержание высказываний.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 472,
+          "completion_tokens": 135,
+          "total_tokens": 2170,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1563
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_36",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i36_tgt.wav"
+    ],
+    "sha256": [
+      "93d80ce035f47bbf63c59dfe5e83610d5f7d6a25bf337eb9c2a528002b82dd50",
+      "f0d93f2d1147e50786163e0b975ed0640744c9def186bb61755915542da1d43b"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "uncertain",
+          "transcript_a": "Покажи мне сериал Половое воспитание.",
+          "transcript_b": "Пусти сериал, серия восемь.",
+          "evidence": "В обоих фрагментах слышен мужской голос схожего тембра и высоты. Однако в записи A используется обычная модальная речь, а в записи B — приглушённый полушёпот с выраженным вокальным фраем (скрипом), что искажает формантную картину и основной тон.",
+          "limitations": "Краткая продолжительность записей и значительное различие в способе голосообразования (обычный голос против шёпота/скрипучего регистра) препятствуют надёжной идентификации диктора."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Покажи мне сериал Половое воспитание.\",\n  \"transcript_b\": \"Пусти сериал, серия восемь.\",\n  \"evidence\": \"В обоих фрагментах слышен мужской голос схожего тембра и высоты. Однако в записи A используется обычная модальная речь, а в записи B — приглушённый полушёпот с выраженным вокальным фраем (скрипом), что искажает формантную картину и основной тон.\",\n  \"limitations\": \"Краткая продолжительность записей и значительное различие в способе голосообразования (обычный голос против шёпота/скрипучего регистра) препятствуют надёжной идентификации диктора.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 464,
+          "completion_tokens": 190,
+          "total_tokens": 2832,
+          "completion_tokens_details": {
+            "reasoning_tokens": 2178
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Включи Человек в сером 8",
+          "transcript_b": "Покажи мне сериал Половое воспитание",
+          "evidence": "Оба фрагмента принадлежат одному мужчине с низким основным тоном, схожим резонансом, характерной расслабленной артикуляцией и выраженным скрипучим регистром (vocal fry).",
+          "limitations": "Краткость записей и различия в фоновом шуме."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи Человек в сером 8\",\n  \"transcript_b\": \"Покажи мне сериал Половое воспитание\",\n  \"evidence\": \"Оба фрагмента принадлежат одному мужчине с низким основным тоном, схожим резонансом, характерной расслабленной артикуляцией и выраженным скрипучим регистром (vocal fry).\",\n  \"limitations\": \"Краткость записей и различия в фоновом шуме.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 464,
+          "completion_tokens": 140,
+          "total_tokens": 1277,
+          "completion_tokens_details": {
+            "reasoning_tokens": 673
+          }
+        }
+      }
+    ],
+    "label": "uncertain",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_37",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i37_tgt.wav"
+    ],
+    "sha256": [
+      "9db696d5cee251a7956c5e5fc9ed8e0d210135f49acb60421cb1a787b66f567c",
+      "e233d99d22da976b14884dd89d1ba2da81dacd3775e82090a97d20e230a6b194"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Найти фильм в жанре музыкальный",
+          "transcript_b": "Вруби фильм Джорджа Миллера",
+          "evidence": "Одинаковый женский тембр, схожая высота основного тона, вокальная формантная структура и идентичная артикуляция согласных и гласных (особенно заметно на повторяющемся слове «фильм»).",
+          "limitations": "Краткость аудиозаписей и ограниченный контекст речевого материала."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Найти фильм в жанре музыкальный\",\n  \"transcript_b\": \"Вруби фильм Джорджа Миллера\",\n  \"evidence\": \"Одинаковый женский тембр, схожая высота основного тона, вокальная формантная структура и идентичная артикуляция согласных и гласных (особенно заметно на повторяющемся слове «фильм»).\",\n  \"limitations\": \"Краткость аудиозаписей и ограниченный контекст речевого материала.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 139,
+          "total_tokens": 1451,
+          "completion_tokens_details": {
+            "reasoning_tokens": 818
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Вруби фильм Джорджа Миллера",
+          "transcript_b": "Найти фильм в жанре музыкальный",
+          "evidence": "Одинаковый женский тембр голоса, совпадение высоты основного тона, резонанса и артикуляционных привычек при произнесении согласных и гласных звуков.",
+          "limitations": "Небольшая продолжительность записей и разные произносимые фразы."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Вруби фильм Джорджа Миллера\",\n  \"transcript_b\": \"Найти фильм в жанре музыкальный\",\n  \"evidence\": \"Одинаковый женский тембр голоса, совпадение высоты основного тона, резонанса и артикуляционных привычек при произнесении согласных и гласных звуков.\",\n  \"limitations\": \"Небольшая продолжительность записей и разные произносимые фразы.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 129,
+          "total_tokens": 1072,
+          "completion_tokens_details": {
+            "reasoning_tokens": 449
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_38",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i38_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i38_tgt.wav"
+    ],
+    "sha256": [
+      "1448add1fbe25171ccd25a0a45a7e640d7818156276320c7d47d20459348f9eb",
+      "b4f525353d36e60d8237f881255f651845e31b0fc967a29b28cc4a5fd86e25d8"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Афина, отмени перевод со вклада на карту.",
+          "transcript_b": "Джой, хочу внести наличные на карту. Найди мне ближайший банкомат.",
+          "evidence": "Оба фрагмента принадлежат мужчине с одинаковым низким баритональным тембром, схожей высотой основного тона, совпадающей артикуляцией и характерным расщеплением/хрипотцой (vocal fry) в конце фраз.",
+          "limitations": "Краткая продолжительность записей и небольшие различия в акустике помещения не позволяют гарантировать абсолютную биометрическую точность."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Афина, отмени перевод со вклада на карту.\",\n  \"transcript_b\": \"Джой, хочу внести наличные на карту. Найди мне ближайший банкомат.\",\n  \"evidence\": \"Оба фрагмента принадлежат мужчине с одинаковым низким баритональным тембром, схожей высотой основного тона, совпадающей артикуляцией и характерным расщеплением/хрипотцой (vocal fry) в конце фраз.\",\n  \"limitations\": \"Краткая продолжительность записей и небольшие различия в акустике помещения не позволяют гарантировать абсолютную биометрическую точность.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 497,
+          "completion_tokens": 175,
+          "total_tokens": 1429,
+          "completion_tokens_details": {
+            "reasoning_tokens": 757
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Джой, хочу внести наличные на карту. Найди мне ближайший банкомат.",
+          "transcript_b": "Афина, отмени перевод со вклада на карту.",
+          "evidence": "Оба фрагмента принадлежат мужскому голосу с одинаковой высотой основного тона, характерным глубоким грудным резонансом, специфической гортанной хрипотцой (vocal fry) и схожей артикуляцией.",
+          "limitations": "Небольшая продолжительность записей и разный текст не позволяют сделать вывод со стопроцентной биометрической уверенностью."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Джой, хочу внести наличные на карту. Найди мне ближайший банкомат.\",\n  \"transcript_b\": \"Афина, отмени перевод со вклада на карту.\",\n  \"evidence\": \"Оба фрагмента принадлежат мужскому голосу с одинаковой высотой основного тона, характерным глубоким грудным резонансом, специфической гортанной хрипотцой (vocal fry) и схожей артикуляцией.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный текст не позволяют сделать вывод со стопроцентной биометрической уверенностью.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 497,
+          "completion_tokens": 166,
+          "total_tokens": 1471,
+          "completion_tokens_details": {
+            "reasoning_tokens": 808
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  },
+  {
+    "pair_id": "border_39",
+    "model": "gemini-3.8-flash-medium",
+    "source": "Gemini audio assessment; not human ground truth",
+    "files": [
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_ref.wav",
+      "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i39_tgt.wav"
+    ],
+    "sha256": [
+      "d8c0f4196b8be8e02525982602831e70e9fa2ac7726fa4920724cd564295720c",
+      "f798339326b1a2dc3d78f5d20fcc9fdb2c9190dc87986b0ac3d20c2237c51214"
+    ],
+    "orders": [
+      "ref,target",
+      "target,ref"
+    ],
+    "votes": [
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Стоимость подарочного сертификата",
+          "transcript_b": "Стоимость доставки завтрака в номер",
+          "evidence": "Одинаковый женский голос с идентичным тембром, высотой тона, резонансными характеристиками и характерной артикуляцией (в частности, одинаковое интонирование слова «Стоимость»).",
+          "limitations": "Краткость речевых фрагментов, наличие фонового голоса в начале записи A."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Стоимость подарочного сертификата\",\n  \"transcript_b\": \"Стоимость доставки завтрака в номер\",\n  \"evidence\": \"Одинаковый женский голос с идентичным тембром, высотой тона, резонансными характеристиками и характерной артикуляцией (в частности, одинаковое интонирование слова «Стоимость»).\",\n  \"limitations\": \"Краткость речевых фрагментов, наличие фонового голоса в начале записи A.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 539,
+          "completion_tokens": 136,
+          "total_tokens": 1841,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1166
+          }
+        }
+      },
+      {
+        "assessment": {
+          "audio_access": true,
+          "label": "same",
+          "transcript_a": "Стоимость доставки завтрака в номер",
+          "transcript_b": "Стоимость подарочного сертификата",
+          "evidence": "Одинаковый женский тембр, схожая высота основного тона, формантные характеристики и практически идентичная артикуляция и интонационный рисунок на совпадающем слове «Стоимость».",
+          "limitations": "Краткость фрагментов речи, наличие слабо различимой посторонней речи в самом начале аудио B."
+        },
+        "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Стоимость доставки завтрака в номер\",\n  \"transcript_b\": \"Стоимость подарочного сертификата\",\n  \"evidence\": \"Одинаковый женский тембр, схожая высота основного тона, формантные характеристики и практически идентичная артикуляция и интонационный рисунок на совпадающем слове «Стоимость».\",\n  \"limitations\": \"Краткость фрагментов речи, наличие слабо различимой посторонней речи в самом начале аудио B.\"\n}\n```",
+        "response_model": "gemini-3.8-flash-medium",
+        "usage": {
+          "prompt_tokens": 539,
+          "completion_tokens": 133,
+          "total_tokens": 1447,
+          "completion_tokens_details": {
+            "reasoning_tokens": 775
+          }
+        }
+      }
+    ],
+    "label": "same",
+    "review_status": "complete"
+  }
+]

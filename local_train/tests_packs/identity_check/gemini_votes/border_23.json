@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_23",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i23_tgt.wav"
+  ],
+  "sha256": [
+    "04573ff948badd8226b6478078a6410081f8278f9570956a743e1f592f72ec11",
+    "5955bf127fc03bab5f086848060d64144072e4d0d8114bc89729a5c933729ab7"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "different",
+        "transcript_a": "Эдуард Леонидович Разыков",
+        "transcript_b": "Сколько сегодня стоит биткоин?",
+        "evidence": "В записи A голос характеризуется более высокой базовой частотой основного тона и светлым тембром, тогда как в записи B представлен заметно более низкий мужской голос с выраженным грудным резонансом и другой формантной окраской.",
+        "limitations": "Краткость аудиофрагментов и несовпадение произносимого текста."
+      },
+      "raw": "{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Эдуард Леонидович Разыков\",\n  \"transcript_b\": \"Сколько сегодня стоит биткоин?\",\n  \"evidence\": \"В записи A голос характеризуется более высокой базовой частотой основного тона и светлым тембром, тогда как в записи B представлен заметно более низкий мужской голос с выраженным грудным резонансом и другой формантной окраской.\",\n  \"limitations\": \"Краткость аудиофрагментов и несовпадение произносимого текста.\"\n}",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 433,
+        "completion_tokens": 140,
+        "total_tokens": 1489,
+        "completion_tokens_details": {
+          "reasoning_tokens": 916
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Сколько сегодня стоит биткоин",
+        "transcript_b": "Эдуард Леонидович Разыков",
+        "evidence": "Одинаковый низкий тембр голоса, близкая высота основного тона, характерный грудной резонанс и схожая неторопливая манера артикуляции.",
+        "limitations": "Небольшая длительность аудиозаписей и разный текстовый материал не позволяют сделать вывод со стопроцентной биометрической точностью."
+      },
+      "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Сколько сегодня стоит биткоин\",\n  \"transcript_b\": \"Эдуард Леонидович Разыков\",\n  \"evidence\": \"Одинаковый низкий тембр голоса, близкая высота основного тона, характерный грудной резонанс и схожая неторопливая манера артикуляции.\",\n  \"limitations\": \"Небольшая длительность аудиозаписей и разный текстовый материал не позволяют сделать вывод со стопроцентной биометрической точностью.\"\n}",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 433,
+        "completion_tokens": 136,
+        "total_tokens": 1739,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1170
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

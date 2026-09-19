@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_24",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i24_tgt.wav"
+  ],
+  "sha256": [
+    "52da48396f17f8f0f97fc0cf54693c2b96cba1de628d5677d4d57187dd9c29b6",
+    "3b0a532bfe1030fa554743a38a8878cc2c1d12e13d9b7aab9c8e792daf32944a"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Включи все серии Доктора Кто",
+        "transcript_b": "Найди фильм Аванпост",
+        "evidence": "Одинаковый женский тембр, схожие формантные характеристики, высота тона, чистота звучания и манера артикуляции.",
+        "limitations": "Краткость аудиозаписей, состоящих из коротких изолированных команд."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи все серии Доктора Кто\",\n  \"transcript_b\": \"Найди фильм Аванпост\",\n  \"evidence\": \"Одинаковый женский тембр, схожие формантные характеристики, высота тона, чистота звучания и манера артикуляции.\",\n  \"limitations\": \"Краткость аудиозаписей, состоящих из коротких изолированных команд.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 490,
+        "completion_tokens": 118,
+        "total_tokens": 1208,
+        "completion_tokens_details": {
+          "reasoning_tokens": 600
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Найди фильм Аванпост",
+        "transcript_b": "Включи все серии Доктора Кто",
+        "evidence": "Оба фрагмента озвучены одним и тем же женским голосом со схожим тембром, высотой основного тона, формантной структурой и одинаковой манерой произношения команд.",
+        "limitations": "Записи короткие, представлены отдельными фразами-командами, что ограничивает разнообразие фонетического контекста."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Найди фильм Аванпост\",\n  \"transcript_b\": \"Включи все серии Доктора Кто\",\n  \"evidence\": \"Оба фрагмента озвучены одним и тем же женским голосом со схожим тембром, высотой основного тона, формантной структурой и одинаковой манерой произношения команд.\",\n  \"limitations\": \"Записи короткие, представлены отдельными фразами-командами, что ограничивает разнообразие фонетического контекста.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 490,
+        "completion_tokens": 140,
+        "total_tokens": 1380,
+        "completion_tokens_details": {
+          "reasoning_tokens": 750
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

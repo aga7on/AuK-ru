@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_18",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i18_tgt.wav"
+  ],
+  "sha256": [
+    "e08b9a6ef66fb7b9f9351ac475a218436e7d7ec5f142187b4ce25d046f7234e0",
+    "f6881bc05e576ab13c727e3dde75c4ba9428efcecfed2c1a0af859660cd0b0fa"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Тряпка для мытья полов из микрофибры",
+        "transcript_b": "Тесс Плэже 25 пакетиков",
+        "evidence": "Совпадающий женский тембр с идентичной лёгкой хрипотцой, одинаковый регистр высоты тона, схожий резонанс и темп артикуляции.",
+        "limitations": "Небольшая продолжительность записей, отсутствие экспертного биометрического анализа."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Тряпка для мытья полов из микрофибры\",\n  \"transcript_b\": \"Тесс Плэже 25 пакетиков\",\n  \"evidence\": \"Совпадающий женский тембр с идентичной лёгкой хрипотцой, одинаковый регистр высоты тона, схожий резонанс и темп артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность записей, отсутствие экспертного биометрического анализа.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 606,
+        "completion_tokens": 135,
+        "total_tokens": 1493,
+        "completion_tokens_details": {
+          "reasoning_tokens": 752
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Тесс Плеже двадцать пять пакетиков",
+        "transcript_b": "Тряпка для мытья полов из микрофибры",
+        "evidence": "Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, одинаковым тембральным окрасом, резонансными свойствами голосового тракта и совпадающей манерой произношения.",
+        "limitations": "Небольшая продолжительность записей и разный фонетический состав не позволяют сделать вывод с абсолютной биометрической точностью."
+      },
+      "raw": "{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Тесс Плеже двадцать пять пакетиков\",\n  \"transcript_b\": \"Тряпка для мытья полов из микрофибры\",\n  \"evidence\": \"Оба фрагмента озвучены одним женским голосом со сходной высотой основного тона, одинаковым тембральным окрасом, резонансными свойствами голосового тракта и совпадающей манерой произношения.\",\n  \"limitations\": \"Небольшая продолжительность записей и разный фонетический состав не позволяют сделать вывод с абсолютной биометрической точностью.\"\n}",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 606,
+        "completion_tokens": 148,
+        "total_tokens": 1956,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1202
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

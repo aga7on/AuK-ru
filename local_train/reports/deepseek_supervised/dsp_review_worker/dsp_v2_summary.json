@@ -1,0 +1,1849 @@
+{
+ "thresholds": {
+  "frame_s": 0.025,
+  "hop_s": 0.01,
+  "abs_floor_db": -60.0,
+  "rel_floor_db": 30.0,
+  "min_active_frames": 5,
+  "min_frames": 10,
+  "min_dur_s": 0.3,
+  "max_lag_ms": 300.0,
+  "min_env_corr": 0.6,
+  "clip_threshold": 0.985,
+  "low_level_db": -55.0,
+  "min_voiced_frames": 20,
+  "min_paired_frames": 20,
+  "min_voiced_cov": 0.15,
+  "max_dtw_cost": 0.9,
+  "min_content_corr": 0.78,
+  "th_volume_up_db": [
+   3.0,
+   9.0
+  ],
+  "th_volume_down_db": [
+   -9.0,
+   -3.0
+  ],
+  "th_speed_up": [
+   1.0,
+   1.25
+  ],
+  "th_speed_down": [
+   0.8,
+   1.0
+  ],
+  "th_pitch_up_st": [
+   0.8,
+   3.5
+  ],
+  "th_pitch_down_st": [
+   -3.5,
+   -0.8
+  ],
+  "th_noise_floor_reduction_db": 1.0
+ },
+ "ops": {
+  "volume_up": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     2.104,
+     0.907,
+     0.832,
+     0.325,
+     2.116
+    ],
+    "median": 0.907,
+    "q1": 0.832,
+    "q3": 2.104,
+    "min": 0.325,
+    "max": 2.116,
+    "direction_ok_n": 4,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_up_3",
+     "variant": "u10000",
+     "metric": "delta_db",
+     "value": 0.325
+    },
+    "clipped_output_n": 0
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     3.37,
+     1.135,
+     2.602,
+     0.644,
+     2.8
+    ],
+    "median": 2.602,
+    "q1": 1.135,
+    "q3": 2.8,
+    "min": 0.644,
+    "max": 3.37,
+    "direction_ok_n": 5,
+    "within_window_n": 1,
+    "worst": {
+     "task_id": "tool_volume_up_3",
+     "variant": "A@250",
+     "metric": "delta_db",
+     "value": 0.644
+    },
+    "clipped_output_n": 0
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     3.397,
+     1.143,
+     2.376,
+     0.352,
+     2.499
+    ],
+    "median": 2.376,
+    "q1": 1.143,
+    "q3": 2.499,
+    "min": 0.352,
+    "max": 3.397,
+    "direction_ok_n": 4,
+    "within_window_n": 1,
+    "worst": {
+     "task_id": "tool_volume_up_3",
+     "variant": "A@500",
+     "metric": "delta_db",
+     "value": 0.352
+    },
+    "clipped_output_n": 0
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     3.146,
+     1.065,
+     1.819,
+     0.618,
+     2.76
+    ],
+    "median": 1.819,
+    "q1": 1.065,
+    "q3": 2.76,
+    "min": 0.618,
+    "max": 3.146,
+    "direction_ok_n": 5,
+    "within_window_n": 1,
+    "worst": {
+     "task_id": "tool_volume_up_3",
+     "variant": "B@250",
+     "metric": "delta_db",
+     "value": 0.618
+    },
+    "clipped_output_n": 0
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     4.745,
+     1.109,
+     2.156,
+     0.698,
+     3.371
+    ],
+    "median": 2.156,
+    "q1": 1.109,
+    "q3": 3.371,
+    "min": 0.698,
+    "max": 4.745,
+    "direction_ok_n": 5,
+    "within_window_n": 2,
+    "worst": {
+     "task_id": "tool_volume_up_3",
+     "variant": "B@500",
+     "metric": "delta_db",
+     "value": 0.698
+    },
+    "clipped_output_n": 0
+   }
+  },
+  "volume_down": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     -0.965,
+     1.096,
+     -0.47,
+     0.083,
+     1.508
+    ],
+    "median": 0.083,
+    "q1": -0.47,
+    "q3": 1.096,
+    "min": -0.965,
+    "max": 1.508,
+    "direction_ok_n": 1,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_down_4",
+     "variant": "u10000",
+     "metric": "delta_db",
+     "value": 1.508
+    },
+    "clipped_output_n": 0
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     -0.937,
+     1.258,
+     -0.646,
+     0.123,
+     1.499
+    ],
+    "median": 0.123,
+    "q1": -0.646,
+    "q3": 1.258,
+    "min": -0.937,
+    "max": 1.499,
+    "direction_ok_n": 2,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_down_4",
+     "variant": "A@250",
+     "metric": "delta_db",
+     "value": 1.499
+    },
+    "clipped_output_n": 0
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     -1.134,
+     1.231,
+     -0.778,
+     0.049,
+     1.378
+    ],
+    "median": 0.049,
+    "q1": -0.778,
+    "q3": 1.231,
+    "min": -1.134,
+    "max": 1.378,
+    "direction_ok_n": 2,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_down_4",
+     "variant": "A@500",
+     "metric": "delta_db",
+     "value": 1.378
+    },
+    "clipped_output_n": 0
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     -1.157,
+     0.671,
+     -0.899,
+     -0.142,
+     0.854
+    ],
+    "median": -0.142,
+    "q1": -0.899,
+    "q3": 0.671,
+    "min": -1.157,
+    "max": 0.854,
+    "direction_ok_n": 2,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_down_4",
+     "variant": "B@250",
+     "metric": "delta_db",
+     "value": 0.854
+    },
+    "clipped_output_n": 0
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "delta_db",
+    "unit": "dB",
+    "effects": [
+     -1.115,
+     0.831,
+     -0.956,
+     -0.098,
+     0.965
+    ],
+    "median": -0.098,
+    "q1": -0.956,
+    "q3": 0.831,
+    "min": -1.115,
+    "max": 0.965,
+    "direction_ok_n": 2,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_volume_down_4",
+     "variant": "B@500",
+     "metric": "delta_db",
+     "value": 0.965
+    },
+    "clipped_output_n": 0
+   }
+  },
+  "speed_up": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 4,
+    "n_invalid": 1,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 1
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     1.103,
+     1.071,
+     0.839,
+     1.095
+    ],
+    "median": 1.083,
+    "q1": 1.013,
+    "q3": 1.097,
+    "min": 0.839,
+    "max": 1.103,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_speed_up_3",
+     "variant": "u10000",
+     "metric": "rate_proxy",
+     "value": 0.839
+    }
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 2
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     1.097,
+     0.843,
+     1.095
+    ],
+    "median": 1.095,
+    "q1": 0.969,
+    "q3": 1.096,
+    "min": 0.843,
+    "max": 1.097,
+    "direction_ok_n": 2,
+    "within_window_n": 2,
+    "worst": {
+     "task_id": "tool_speed_up_3",
+     "variant": "A@250",
+     "metric": "rate_proxy",
+     "value": 0.843
+    }
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 2
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     1.097,
+     0.843,
+     1.095
+    ],
+    "median": 1.095,
+    "q1": 0.969,
+    "q3": 1.096,
+    "min": 0.843,
+    "max": 1.097,
+    "direction_ok_n": 2,
+    "within_window_n": 2,
+    "worst": {
+     "task_id": "tool_speed_up_3",
+     "variant": "A@500",
+     "metric": "rate_proxy",
+     "value": 0.843
+    }
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 2
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     1.103,
+     1.006,
+     1.098
+    ],
+    "median": 1.098,
+    "q1": 1.052,
+    "q3": 1.1,
+    "min": 1.006,
+    "max": 1.103,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_speed_up_3",
+     "variant": "B@250",
+     "metric": "rate_proxy",
+     "value": 1.006
+    }
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     1.108,
+     1.093,
+     1.081,
+     1.139,
+     1.095
+    ],
+    "median": 1.095,
+    "q1": 1.093,
+    "q3": 1.108,
+    "min": 1.081,
+    "max": 1.139,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_speed_up_2",
+     "variant": "B@500",
+     "metric": "rate_proxy",
+     "value": 1.081
+    }
+   }
+  },
+  "speed_down": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 0,
+    "n_invalid": 5,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 5
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [],
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "min": null,
+    "max": null,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_speed_down_4",
+     "variant": "u10000",
+     "metric": "align_env_corr",
+     "value": -0.068,
+     "note": "no applicable measurement; lowest alignment correlation"
+    }
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 0,
+    "n_invalid": 5,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 5
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [],
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "min": null,
+    "max": null,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_speed_down_4",
+     "variant": "A@250",
+     "metric": "align_env_corr",
+     "value": -0.069,
+     "note": "no applicable measurement; lowest alignment correlation"
+    }
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 0,
+    "n_invalid": 5,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 5
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [],
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "min": null,
+    "max": null,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_speed_down_4",
+     "variant": "A@500",
+     "metric": "align_env_corr",
+     "value": -0.07,
+     "note": "no applicable measurement; lowest alignment correlation"
+    }
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 0,
+    "n_invalid": 5,
+    "invalid_reasons": {
+     "content_not_comparable_rate_proxy_unreliable": 5
+    },
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [],
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "min": null,
+    "max": null,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_speed_down_4",
+     "variant": "B@250",
+     "metric": "align_env_corr",
+     "value": -0.037,
+     "note": "no applicable measurement; lowest alignment correlation"
+    }
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "rate_proxy",
+    "unit": "x",
+    "effects": [
+     0.802,
+     0.901,
+     1.016,
+     0.897,
+     0.94
+    ],
+    "median": 0.901,
+    "q1": 0.897,
+    "q3": 0.94,
+    "min": 0.802,
+    "max": 1.016,
+    "direction_ok_n": 4,
+    "within_window_n": 4,
+    "worst": {
+     "task_id": "tool_speed_down_2",
+     "variant": "B@500",
+     "metric": "rate_proxy",
+     "value": 1.016
+    }
+   }
+  },
+  "pitch_up": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     2.0,
+     2.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "median": 2.0,
+    "q1": 2.0,
+    "q3": 2.0,
+    "min": 2.0,
+    "max": 2.0,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_pitch_up_0",
+     "variant": "u10000",
+     "metric": "semitones",
+     "value": 2.0
+    }
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     2.0,
+     2.0,
+     2.0,
+     1.9,
+     2.0
+    ],
+    "median": 2.0,
+    "q1": 2.0,
+    "q3": 2.0,
+    "min": 1.9,
+    "max": 2.0,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_pitch_up_3",
+     "variant": "A@250",
+     "metric": "semitones",
+     "value": 1.9
+    }
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     2.0,
+     2.0,
+     2.0,
+     1.9,
+     2.0
+    ],
+    "median": 2.0,
+    "q1": 2.0,
+    "q3": 2.0,
+    "min": 1.9,
+    "max": 2.0,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_pitch_up_3",
+     "variant": "A@500",
+     "metric": "semitones",
+     "value": 1.9
+    }
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     2.0,
+     2.0,
+     2.0,
+     1.9,
+     2.0
+    ],
+    "median": 2.0,
+    "q1": 2.0,
+    "q3": 2.0,
+    "min": 1.9,
+    "max": 2.0,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_pitch_up_3",
+     "variant": "B@250",
+     "metric": "semitones",
+     "value": 1.9
+    }
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 5,
+    "n_invalid": 0,
+    "invalid_reasons": {},
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     2.0,
+     2.0,
+     2.0,
+     1.9,
+     1.9
+    ],
+    "median": 2.0,
+    "q1": 1.9,
+    "q3": 2.0,
+    "min": 1.9,
+    "max": 2.0,
+    "direction_ok_n": 5,
+    "within_window_n": 5,
+    "worst": {
+     "task_id": "tool_pitch_up_3",
+     "variant": "B@500",
+     "metric": "semitones",
+     "value": 1.9
+    }
+   }
+  },
+  "pitch_down": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "output_has_no_active_speech": 1,
+     "voiced_content_not_comparable": 1
+    },
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     -2.0,
+     -1.9,
+     -1.9
+    ],
+    "median": -1.9,
+    "q1": -1.95,
+    "q3": -1.9,
+    "min": -2.0,
+    "max": -1.9,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_pitch_down_2",
+     "variant": "u10000",
+     "metric": "semitones",
+     "value": -1.9
+    }
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "output_has_no_active_speech": 1,
+     "voiced_content_not_comparable": 1
+    },
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     -2.0,
+     -1.9,
+     -1.9
+    ],
+    "median": -1.9,
+    "q1": -1.95,
+    "q3": -1.9,
+    "min": -2.0,
+    "max": -1.9,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_pitch_down_2",
+     "variant": "A@250",
+     "metric": "semitones",
+     "value": -1.9
+    }
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "output_has_no_active_speech": 1,
+     "voiced_content_not_comparable": 1
+    },
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     -2.0,
+     -1.9,
+     -1.9
+    ],
+    "median": -1.9,
+    "q1": -1.95,
+    "q3": -1.9,
+    "min": -2.0,
+    "max": -1.9,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_pitch_down_2",
+     "variant": "A@500",
+     "metric": "semitones",
+     "value": -1.9
+    }
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "output_has_no_active_speech": 1,
+     "voiced_content_not_comparable": 1
+    },
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     -2.0,
+     -1.9,
+     -1.9
+    ],
+    "median": -1.9,
+    "q1": -1.95,
+    "q3": -1.9,
+    "min": -2.0,
+    "max": -1.9,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_pitch_down_2",
+     "variant": "B@250",
+     "metric": "semitones",
+     "value": -1.9
+    }
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "output_has_no_active_speech": 1,
+     "voiced_content_not_comparable": 1
+    },
+    "metric": "semitones",
+    "unit": "st",
+    "effects": [
+     -2.0,
+     -1.9,
+     -1.9
+    ],
+    "median": -1.9,
+    "q1": -1.95,
+    "q3": -1.9,
+    "min": -2.0,
+    "max": -1.9,
+    "direction_ok_n": 3,
+    "within_window_n": 3,
+    "worst": {
+     "task_id": "tool_pitch_down_2",
+     "variant": "B@500",
+     "metric": "semitones",
+     "value": -1.9
+    }
+   }
+  },
+  "noise_add": {
+   "u10000": {
+    "n_total": 5,
+    "n_valid": 4,
+    "n_invalid": 1,
+    "invalid_reasons": {
+     "denoise_evidence_inconclusive_alignment_or_groundtruth": 1
+    },
+    "metric": "snr_gain_db",
+    "unit": "dB",
+    "effects": [
+     -5.54,
+     -9.73,
+     -8.12,
+     -5.37
+    ],
+    "median": -6.83,
+    "q1": -8.522,
+    "q3": -5.498,
+    "min": -9.73,
+    "max": -5.37,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_noise_add_2",
+     "variant": "u10000",
+     "metric": "snr_gain_db",
+     "value": -9.73
+    },
+    "applicable_n": 4,
+    "denoise_evidence": [
+     "inconclusive",
+     "segmental_snr_applicable"
+    ],
+    "noise_floor_reduction": [
+     1.8,
+     11.69,
+     14.87,
+     15.12
+    ]
+   },
+   "A@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "denoise_evidence_inconclusive_alignment_or_groundtruth": 2
+    },
+    "metric": "snr_gain_db",
+    "unit": "dB",
+    "effects": [
+     -5.35,
+     -10.37,
+     -8.4
+    ],
+    "median": -8.4,
+    "q1": -9.385,
+    "q3": -6.875,
+    "min": -10.37,
+    "max": -5.35,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_noise_add_2",
+     "variant": "A@250",
+     "metric": "snr_gain_db",
+     "value": -10.37
+    },
+    "applicable_n": 3,
+    "denoise_evidence": [
+     "inconclusive",
+     "segmental_snr_applicable"
+    ],
+    "noise_floor_reduction": [
+     1.47,
+     10.39,
+     13.04
+    ]
+   },
+   "A@500": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "denoise_evidence_inconclusive_alignment_or_groundtruth": 2
+    },
+    "metric": "snr_gain_db",
+    "unit": "dB",
+    "effects": [
+     -5.3,
+     -10.48,
+     -8.51
+    ],
+    "median": -8.51,
+    "q1": -9.495,
+    "q3": -6.905,
+    "min": -10.48,
+    "max": -5.3,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_noise_add_2",
+     "variant": "A@500",
+     "metric": "snr_gain_db",
+     "value": -10.48
+    },
+    "applicable_n": 3,
+    "denoise_evidence": [
+     "inconclusive",
+     "segmental_snr_applicable"
+    ],
+    "noise_floor_reduction": [
+     1.57,
+     10.33,
+     11.5
+    ]
+   },
+   "B@250": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "denoise_evidence_inconclusive_alignment_or_groundtruth": 2
+    },
+    "metric": "snr_gain_db",
+    "unit": "dB",
+    "effects": [
+     -5.26,
+     -10.65,
+     -8.35
+    ],
+    "median": -8.35,
+    "q1": -9.5,
+    "q3": -6.805,
+    "min": -10.65,
+    "max": -5.26,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_noise_add_2",
+     "variant": "B@250",
+     "metric": "snr_gain_db",
+     "value": -10.65
+    },
+    "applicable_n": 3,
+    "denoise_evidence": [
+     "inconclusive",
+     "segmental_snr_applicable"
+    ],
+    "noise_floor_reduction": [
+     1.5,
+     10.32,
+     11.78
+    ]
+   },
+   "B@500": {
+    "n_total": 5,
+    "n_valid": 3,
+    "n_invalid": 2,
+    "invalid_reasons": {
+     "denoise_evidence_inconclusive_alignment_or_groundtruth": 1,
+     "output_has_no_active_speech": 1
+    },
+    "metric": "snr_gain_db",
+    "unit": "dB",
+    "effects": [
+     -5.59,
+     -11.24,
+     -8.18
+    ],
+    "median": -8.18,
+    "q1": -9.71,
+    "q3": -6.885,
+    "min": -11.24,
+    "max": -5.59,
+    "direction_ok_n": 0,
+    "within_window_n": 0,
+    "worst": {
+     "task_id": "tool_noise_add_2",
+     "variant": "B@500",
+     "metric": "snr_gain_db",
+     "value": -11.24
+    },
+    "applicable_n": 3,
+    "denoise_evidence": [
+     "inconclusive",
+     "segmental_snr_applicable"
+    ],
+    "noise_floor_reduction": [
+     0.47,
+     9.85,
+     8.65
+    ]
+   }
+  }
+ },
+ "controls": {
+  "pos_volume_up_6db": {
+   "expectation": "volume_up on exactly +6 dB -> valid and |delta-(6.0)|<=0.6",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_vol_up_6db.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "8e920411d08e87a4b67dffdbbbbb59e1a41d9c80a7798b9efcce1cc859e8ca27",
+    "peak_in": 0.25,
+    "peak_out": 0.49882,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 296,
+    "active_s_in": 2.96,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -23.33,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 0.9999999999999996,
+     "overlap_frames": 369
+    },
+    "gain_median_db": 6.0,
+    "gain_iqr_db": 0.0,
+    "n_gain_frames": 296,
+    "delta_db": 6.0,
+    "metric": "gain_median_db",
+    "direction_ok": true,
+    "within_prospective_window": true,
+    "clipped_output": false,
+    "magnitude_trustworthy": true
+   }
+  },
+  "pos_volume_down_6db": {
+   "expectation": "volume_down on exactly -6 dB -> valid and |delta-(-6.0)|<=0.6",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_down",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_vol_down_6db.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "df1dcbb5b5394450d1507a546b2cf96a9c4894c8e08e9471ab024718d74336f0",
+    "peak_in": 0.25,
+    "peak_out": 0.1253,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 296,
+    "active_s_in": 2.96,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -35.33,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 1.0,
+     "overlap_frames": 369
+    },
+    "gain_median_db": -6.0,
+    "gain_iqr_db": 0.0,
+    "n_gain_frames": 296,
+    "delta_db": -6.0,
+    "metric": "gain_median_db",
+    "direction_ok": true,
+    "within_prospective_window": true,
+    "clipped_output": false,
+    "magnitude_trustworthy": true
+   }
+  },
+  "pos_speed_1.1": {
+   "expectation": "speed_up at rate 1.1 -> valid, comparable, |rate-1.1|<=0.05",
+   "asserted_ok": true,
+   "measured": {
+    "op": "speed_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_speed_1.1.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "active-span proxy (not full content verification); flag invalid when MFCC content-comparability gate fails",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.3581,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "4b3ef2a79ccd9692a321177e36c03f4c624636d3bdee6c367de5d4c7c889dc89",
+    "peak_in": 0.25,
+    "peak_out": 0.23971,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 241,
+    "active_s_in": 2.96,
+    "active_s_out": 2.41,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -31.17,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": -240,
+     "lag_ms": -10.0,
+     "corr": 0.8148156172529468,
+     "overlap_frames": 335
+    },
+    "rate_proxy": 1.1021,
+    "metric": "rate_proxy_span",
+    "rate_proxy_count": 1.2282,
+    "active_span_in_s": 3.67,
+    "active_span_out_s": 3.33,
+    "active_runs_in": 5,
+    "active_runs_out": 5,
+    "dtw_cost": 0.674,
+    "nn_score": 0.873,
+    "content_comparable": true,
+    "proxy_is_conditional": true,
+    "direction_ok": true,
+    "within_prospective_window": true
+   }
+  },
+  "pos_speed_0.9": {
+   "expectation": "speed_down at rate 0.9 -> valid, comparable, |rate-0.9|<=0.05",
+   "asserted_ok": true,
+   "measured": {
+    "op": "speed_down",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_speed_0.9.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "active-span proxy (not full content verification); flag invalid when MFCC content-comparability gate fails",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 4.1043,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "636a9f77918c3878334383b5681cc93d3117821f05f3339f66d8b0a0810860dc",
+    "peak_in": 0.25,
+    "peak_out": 0.19822,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 323,
+    "active_s_in": 2.96,
+    "active_s_out": 3.23,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -32.49,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 960,
+     "lag_ms": 40.0,
+     "corr": 0.7818208832120536,
+     "overlap_frames": 369
+    },
+    "rate_proxy": 0.8995,
+    "metric": "rate_proxy_span",
+    "rate_proxy_count": 0.9164,
+    "active_span_in_s": 3.67,
+    "active_span_out_s": 4.08,
+    "active_runs_in": 5,
+    "active_runs_out": 4,
+    "dtw_cost": 0.666,
+    "nn_score": 0.876,
+    "content_comparable": true,
+    "proxy_is_conditional": true,
+    "direction_ok": true,
+    "within_prospective_window": true
+   }
+  },
+  "pos_pitch_2.0": {
+   "expectation": "pitch_up by +2 st -> valid, |semitones-(2.0)|<=0.8, no octave flag",
+   "asserted_ok": true,
+   "measured": {
+    "op": "pitch_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_pitch_2.0.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "paired voiced-frame median; median-ratio reported for reference",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "6dd01c17abc735cfb22f9346c37ce0048d88bf2b016e48e9bb31c744afb2b8fc",
+    "peak_in": 0.25,
+    "peak_out": 0.21328,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 294,
+    "active_s_in": 2.96,
+    "active_s_out": 2.94,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -32.77,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 240,
+     "lag_ms": 10.0,
+     "corr": 0.9148995344026104,
+     "overlap_frames": 369
+    },
+    "median_f0_in": 126.403,
+    "median_f0_out": 162.981,
+    "semitones_median_ratio": 4.4,
+    "semitones_paired_median": 2.0,
+    "paired_iqr_st": 0.3,
+    "n_paired_frames": 159,
+    "voiced_cov_in": 0.559,
+    "voiced_cov_out": 0.503,
+    "octave_error": false,
+    "comparable": true,
+    "metric": "semitones_paired_median",
+    "semitones": 2.0,
+    "direction_ok": true,
+    "within_prospective_window": true
+   }
+  },
+  "pos_pitch_-2.0": {
+   "expectation": "pitch_down by -2 st -> valid, |semitones-(-2.0)|<=0.8, no octave flag",
+   "asserted_ok": true,
+   "measured": {
+    "op": "pitch_down",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_pitch_-2.0.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "paired voiced-frame median; median-ratio reported for reference",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "6801228000286650a9e94ecc65067999dedf242e972883a208eecda0eb568eef",
+    "peak_in": 0.25,
+    "peak_out": 0.23746,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 289,
+    "active_s_in": 2.96,
+    "active_s_out": 2.89,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -31.72,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 240,
+     "lag_ms": 10.0,
+     "corr": 0.9264656973523333,
+     "overlap_frames": 369
+    },
+    "median_f0_in": 126.403,
+    "median_f0_out": 111.642,
+    "semitones_median_ratio": -2.15,
+    "semitones_paired_median": -2.0,
+    "paired_iqr_st": 0.4,
+    "n_paired_frames": 185,
+    "voiced_cov_in": 0.559,
+    "voiced_cov_out": 0.557,
+    "octave_error": false,
+    "comparable": true,
+    "metric": "semitones_paired_median",
+    "semitones": -2.0,
+    "direction_ok": true,
+    "within_prospective_window": true
+   }
+  },
+  "pos_denoise_perfect": {
+   "expectation": "clean ground truth as output -> applicable and snr_gain_db>0",
+   "asserted_ok": true,
+   "measured": {
+    "op": "noise_add",
+    "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\pos_denoise_clean.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "segmental SNR against the clean clip penalises any synthesis mismatch, not only residual noise; treat as weak evidence",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+    "sha256_output": "9a74fe7be79731a31857eefc7f885db2f57f4794f1b2c55cae99c54f85379050",
+    "peak_in": 0.99997,
+    "peak_out": 0.99997,
+    "clip_in": 1.1e-05,
+    "clip_out": 1.1e-05,
+    "active_frames_in": 367,
+    "active_frames_out": 296,
+    "active_s_in": 3.67,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -18.17,
+    "active_rms_db_out": -17.29,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 0.9998064807640624,
+     "overlap_frames": 369
+    },
+    "clean_provenance": {
+     "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+     "clip_id": "9599fc9ae0deaf01",
+     "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+     "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+     "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+     "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "target_equals_kyutai": true,
+     "evidence": "dataset_target"
+    },
+    "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+    "align_input_vs_clean": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 0.9998064807640624,
+     "overlap_frames": 369
+    },
+    "snr_in_db": 11.85,
+    "snr_out_db": 93.62,
+    "snr_n_active_in": 296,
+    "snr_n_active_out": 296,
+    "preserve_corr": 1.0,
+    "noise_floor_in_db": -36.85,
+    "noise_floor_out_db": -42.43,
+    "noise_floor_reduction_db": 5.58,
+    "speech_level_change_db": -0.04,
+    "clean_non_speech_frames": 71,
+    "snr_gain_db": 81.77,
+    "metric": "snr_gain_db",
+    "denoise_evidence": "segmental_snr_applicable",
+    "direction_ok": true,
+    "noise_floor_ok": true
+   }
+  },
+  "neg_vol_silence": {
+   "expectation": "all-zero output -> invalid, no gain reported",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_vol_silence.wav",
+    "valid": false,
+    "reason": "output_has_no_active_speech",
+    "applicable": null,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "9187e95b916452e23c5b96ea55a98f2aaaab4aead3d4b7127e57c324f793f150",
+    "peak_in": 0.25,
+    "peak_out": 0.0,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 0,
+    "active_s_in": 2.96,
+    "active_s_out": 0.0,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": null,
+    "low_level_output": false
+   }
+  },
+  "neg_vol_nonfinite": {
+   "expectation": "NaN output -> invalid nonfinite",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_vol_nonfinite.wav",
+    "valid": false,
+    "reason": "nonfinite_audio",
+    "applicable": null,
+    "caveat": null
+   }
+  },
+  "neg_vol_unchanged": {
+   "expectation": "0 dB change on volume_up -> valid measurement but outside +6 window, no direction",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_vol_unchanged.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "f1df23a353068bb1469424b7d508cdf7b1a596ecb5ad49595edc054e88933224",
+    "peak_in": 0.25,
+    "peak_out": 0.25,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 296,
+    "active_s_in": 2.96,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -29.33,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 1.0,
+     "overlap_frames": 369
+    },
+    "gain_median_db": 0.0,
+    "gain_iqr_db": 0.0,
+    "n_gain_frames": 296,
+    "delta_db": 0.0,
+    "metric": "gain_median_db",
+    "direction_ok": false,
+    "within_prospective_window": false,
+    "clipped_output": false,
+    "magnitude_trustworthy": true
+   }
+  },
+  "neg_vol_wrongdirection": {
+   "expectation": "wrong direction (-6 dB measured as volume_up) -> direction_ok False",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_vol_wrongdirection.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "6ba99f443891c321cdaf62ed8507bce9d0343d66fecc4f8ae8074bdcf4a3cbb5",
+    "peak_in": 0.25,
+    "peak_out": 0.1253,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 296,
+    "active_s_in": 2.96,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -35.33,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 1.0,
+     "overlap_frames": 369
+    },
+    "gain_median_db": -6.0,
+    "gain_iqr_db": 0.0,
+    "n_gain_frames": 296,
+    "delta_db": -6.0,
+    "metric": "gain_median_db",
+    "direction_ok": false,
+    "within_prospective_window": false,
+    "clipped_output": false,
+    "magnitude_trustworthy": true
+   }
+  },
+  "neg_speed_dropped_words": {
+   "expectation": "speed-up with a dropped middle chunk -> NOT a clean speed pass (invalid or flagged)",
+   "asserted_ok": true,
+   "measured": {
+    "op": "speed_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_speed_dropped_words.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "active-span proxy (not full content verification); flag invalid when MFCC content-comparability gate fails",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 2.5185,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "5f75db8872abd07ac95df914137d1e5adda3a53b0339ec58dae2fbb07f3e4938",
+    "peak_in": 0.25,
+    "peak_out": 0.23971,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 176,
+    "active_s_in": 2.96,
+    "active_s_out": 1.76,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -29.88,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": -240,
+     "lag_ms": -10.0,
+     "corr": 0.7595562511965814,
+     "overlap_frames": 251
+    },
+    "rate_proxy": 1.4798,
+    "metric": "rate_proxy_span",
+    "rate_proxy_count": 1.6818,
+    "active_span_in_s": 3.67,
+    "active_span_out_s": 2.48,
+    "active_runs_in": 5,
+    "active_runs_out": 5,
+    "dtw_cost": 0.797,
+    "nn_score": 0.845,
+    "content_comparable": true,
+    "proxy_is_conditional": true,
+    "direction_ok": true,
+    "within_prospective_window": false
+   }
+  },
+  "neg_speed_delay": {
+   "expectation": "150 ms delay is not a speed change -> rate~1.0 (|rate-1|<=0.05)",
+   "asserted_ok": true,
+   "measured": {
+    "op": "speed_down",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\src_headroom_float.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_speed_delay_150ms.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "active-span proxy (not full content verification); flag invalid when MFCC content-comparability gate fails",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.8439,
+    "sha256_source": "4f685dd1c0cd333a8014eadb2359bfb8a90fde660b9f1f3ede3e3a2926f6b6f9",
+    "sha256_output": "64f029418ff00d3cc1a3d8ca4c025f54947540c93849c373a052a613e48984dc",
+    "peak_in": 0.25,
+    "peak_out": 0.25,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 298,
+    "active_s_in": 2.96,
+    "active_s_out": 2.98,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -29.36,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 3600,
+     "lag_ms": 150.0,
+     "corr": 1.0,
+     "overlap_frames": 369
+    },
+    "rate_proxy": 0.9973,
+    "metric": "rate_proxy_span",
+    "rate_proxy_count": 0.9933,
+    "active_span_in_s": 3.67,
+    "active_span_out_s": 3.68,
+    "active_runs_in": 5,
+    "active_runs_out": 4,
+    "dtw_cost": 0.169,
+    "nn_score": 0.985,
+    "content_comparable": true,
+    "proxy_is_conditional": true,
+    "direction_ok": true,
+    "within_prospective_window": true
+   }
+  },
+  "neg_denoise_delay": {
+   "expectation": "delayed noisy copy -> alignment recovers ~150 ms and snr_gain stays near 0 (no fabricated denoise)",
+   "asserted_ok": true,
+   "measured": {
+    "op": "noise_add",
+    "source_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_denoise_delay_150ms.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": "segmental SNR against the clean clip penalises any synthesis mismatch, not only residual noise; treat as weak evidence",
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.8439,
+    "sha256_source": "28694c7998c5dd372be3cec6ff8498c4e8b58611bdb30f28284338d7bf64ced3",
+    "sha256_output": "dea720623f0d964fc2d19076ba677befef8592dee560add84ac7c3bec7ec0d18",
+    "peak_in": 0.99997,
+    "peak_out": 0.99997,
+    "clip_in": 1.1e-05,
+    "clip_out": 1.1e-05,
+    "active_frames_in": 367,
+    "active_frames_out": 369,
+    "active_s_in": 3.67,
+    "active_s_out": 3.69,
+    "active_rms_db_in": -18.17,
+    "active_rms_db_out": -18.2,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 3600,
+     "lag_ms": 150.0,
+     "corr": 1.0,
+     "overlap_frames": 369
+    },
+    "clean_provenance": {
+     "noisy_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_in_val_9599fc9ae0deaf01.wav",
+     "clip_id": "9599fc9ae0deaf01",
+     "dataset_target_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+     "dataset_target_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "kyutai_path": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\9599fc9ae0deaf01.wav",
+     "kyutai_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "resolved_path": "G:\\AI\\AuK\\local_train\\data_s2_tools_v3\\noise_add_val_9599fc9ae0deaf01.wav",
+     "resolved_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+     "target_equals_kyutai": true,
+     "evidence": "dataset_target"
+    },
+    "clean_sha256": "629f080f977db04ad429f0908e1fc843c75d3b298ac00b83858fef4511f9ecbb",
+    "align_input_vs_clean": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 0.9998064807640624,
+     "overlap_frames": 369
+    },
+    "snr_in_db": 11.85,
+    "snr_out_db": 11.85,
+    "snr_n_active_in": 296,
+    "snr_n_active_out": 296,
+    "preserve_corr": 0.996,
+    "noise_floor_in_db": -36.85,
+    "noise_floor_out_db": -36.85,
+    "noise_floor_reduction_db": 0.0,
+    "speech_level_change_db": 0.0,
+    "clean_non_speech_frames": 71,
+    "snr_gain_db": 0.0,
+    "metric": "snr_gain_db",
+    "denoise_evidence": "segmental_snr_applicable",
+    "direction_ok": false,
+    "noise_floor_ok": false
+   }
+  },
+  "neg_sr_mismatch": {
+   "expectation": "16 kHz output vs 24 kHz source -> resampled flag, gain ~0 (no silent truncation)",
+   "asserted_ok": true,
+   "measured": {
+    "op": "volume_up",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_sr_src_24k.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_sr_out_16k.wav",
+    "valid": true,
+    "reason": null,
+    "applicable": true,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 16000,
+    "resampled": true,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "f1df23a353068bb1469424b7d508cdf7b1a596ecb5ad49595edc054e88933224",
+    "sha256_output": "58a0b51400d94e739c65c88b4b7e5a1e2ba4169dd64a6df300cd8ba4b4af1e45",
+    "peak_in": 0.25,
+    "peak_out": 0.25036,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 296,
+    "active_frames_out": 296,
+    "active_s_in": 2.96,
+    "active_s_out": 2.96,
+    "active_rms_db_in": -29.33,
+    "active_rms_db_out": -29.33,
+    "low_level_output": false,
+    "align": {
+     "lag_samples": 0,
+     "lag_ms": 0.0,
+     "corr": 0.9999999243389592,
+     "overlap_frames": 369
+    },
+    "gain_median_db": -0.0,
+    "gain_iqr_db": 0.0,
+    "n_gain_frames": 296,
+    "delta_db": -0.0,
+    "metric": "gain_median_db",
+    "direction_ok": false,
+    "within_prospective_window": false,
+    "clipped_output": false,
+    "magnitude_trustworthy": true
+   }
+  },
+  "neg_denoise_zero": {
+   "expectation": "zero ground truth/output -> invalid, never counted as perfect denoise",
+   "asserted_ok": true,
+   "measured": {
+    "op": "noise_add",
+    "source_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_zero_clean.wav",
+    "output_path": "G:\\AI\\AuK\\local_train\\reports\\deepseek_supervised\\dsp_review_worker\\controls\\neg_denoise_out_zero.wav",
+    "valid": false,
+    "reason": "source_has_no_active_speech",
+    "applicable": null,
+    "caveat": null,
+    "sr_in": 24000,
+    "sr_out_original": 24000,
+    "resampled": false,
+    "dur_in_s": 3.6939,
+    "dur_out_s": 3.6939,
+    "sha256_source": "9187e95b916452e23c5b96ea55a98f2aaaab4aead3d4b7127e57c324f793f150",
+    "sha256_output": "9187e95b916452e23c5b96ea55a98f2aaaab4aead3d4b7127e57c324f793f150",
+    "peak_in": 0.0,
+    "peak_out": 0.0,
+    "clip_in": 0.0,
+    "clip_out": 0.0,
+    "active_frames_in": 0,
+    "active_frames_out": 0,
+    "active_s_in": 0.0,
+    "active_s_out": 0.0,
+    "active_rms_db_in": null,
+    "active_rms_db_out": null,
+    "low_level_output": false
+   }
+  }
+ }
+}

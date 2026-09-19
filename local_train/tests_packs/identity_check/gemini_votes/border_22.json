@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_22",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i22_tgt.wav"
+  ],
+  "sha256": [
+    "b7d035eb9687d55ba576141c1df146d7a396de3a480cb73a1931f06745c41eaf",
+    "b8d2a87dc5c69c3ad91aee8813e74349012bea56057965b1abf825e7b1fe92c8"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Курс российского рубля к лире",
+        "transcript_b": "Главный курс австралийского доллара к фунту стерлингу",
+        "evidence": "Схожий низкий мужской тембр, одинаковая высота основного тона, формантная окраска и манера артикуляции.",
+        "limitations": "Краткость аудиофрагментов ограничивает полноту акустического анализа и не позволяет гарантировать абсолютную биометрическую достоверность."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Курс российского рубля к лире\",\n  \"transcript_b\": \"Главный курс австралийского доллара к фунту стерлингу\",\n  \"evidence\": \"Схожий низкий мужской тембр, одинаковая высота основного тона, формантная окраска и манера артикуляции.\",\n  \"limitations\": \"Краткость аудиофрагментов ограничивает полноту акустического анализа и не позволяет гарантировать абсолютную биометрическую достоверность.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 487,
+        "completion_tokens": 139,
+        "total_tokens": 2038,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1412
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Главный курс австралийского доллара к фунту стерлингов",
+        "transcript_b": "Курс российского рубля к лире",
+        "evidence": "Оба фрагмента принадлежат мужчине с одинаковым низким грудным тембром, схожим основным тоном, одинаковой формантной структурой, характерным вокальным фраем и идентичной артикуляцией согласных.",
+        "limitations": "Краткость аудиозаписей и монотонное чтение коротких информационных фраз."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Главный курс австралийского доллара к фунту стерлингов\",\n  \"transcript_b\": \"Курс российского рубля к лире\",\n  \"evidence\": \"Оба фрагмента принадлежат мужчине с одинаковым низким грудным тембром, схожим основным тоном, одинаковой формантной структурой, характерным вокальным фраем и идентичной артикуляцией согласных.\",\n  \"limitations\": \"Краткость аудиозаписей и монотонное чтение коротких информационных фраз.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 487,
+        "completion_tokens": 154,
+        "total_tokens": 1297,
+        "completion_tokens_details": {
+          "reasoning_tokens": 656
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

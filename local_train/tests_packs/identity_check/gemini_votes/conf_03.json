@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_03",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i03_tgt.wav"
+  ],
+  "sha256": [
+    "1309d6169f7f8f6f6bfb82a06ed91fee88f1d2d9b4bddecf32f55a25a83f7a38",
+    "a3cdb5cd3d53fc23ddb0c408070b3508d77291606463ff1e3e8756e463753748"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Андрея Александровича Шерстнёва",
+        "transcript_b": "Андрея Владимировича Андреева",
+        "evidence": "Один и тот же женский голос с совпадающим тембром, схожей высотой основного тона, резонансными характеристиками и идентичной манерой интонирования и произношения слова «Андрея».",
+        "limitations": "Небольшая продолжительность записей и ограниченный контекст произнесения имён собственных."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Андрея Александровича Шерстнёва\",\n  \"transcript_b\": \"Андрея Владимировича Андреева\",\n  \"evidence\": \"Один и тот же женский голос с совпадающим тембром, схожей высотой основного тона, резонансными характеристиками и идентичной манерой интонирования и произношения слова «Андрея».\",\n  \"limitations\": \"Небольшая продолжительность записей и ограниченный контекст произнесения имён собственных.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 583,
+        "completion_tokens": 141,
+        "total_tokens": 1401,
+        "completion_tokens_details": {
+          "reasoning_tokens": 677
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Андрея Владимировича Андрееви",
+        "transcript_b": "Андрея Александровича Шерстнёва",
+        "evidence": "В обеих записях звучит женский голос с практически идентичным мягким тембром, одинаковой высотой тона, легкой придыхательностью и схожей манерой интонирования и артикуляции.",
+        "limitations": "Небольшая продолжительность звучания и шаблонный характер произнесенных фраз."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Андрея Владимировича Андрееви\",\n  \"transcript_b\": \"Андрея Александровича Шерстнёва\",\n  \"evidence\": \"В обеих записях звучит женский голос с практически идентичным мягким тембром, одинаковой высотой тона, легкой придыхательностью и схожей манерой интонирования и артикуляции.\",\n  \"limitations\": \"Небольшая продолжительность звучания и шаблонный характер произнесенных фраз.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 583,
+        "completion_tokens": 139,
+        "total_tokens": 1520,
+        "completion_tokens_details": {
+          "reasoning_tokens": 798
+        }
+      }
+    }
+  ],
+  "label": "same",
+  "review_status": "complete"
+}

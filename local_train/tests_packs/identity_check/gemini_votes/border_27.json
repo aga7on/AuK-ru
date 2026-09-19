@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_27",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i27_tgt.wav"
+  ],
+  "sha256": [
+    "17d5af2b99d34f61ca5d63bb5cf2308efe4ea026bfdde0a9c61c8bef2ceab51b",
+    "709806323cc9ebe75298b1d349f1439e8b05dc78bb7a4dbfb896fe357812d56d"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "different",
+        "transcript_a": "Кинолента Ultra HD на Окко",
+        "transcript_b": "Джой, кто делает воду?",
+        "evidence": "Голоса различаются по высоте основного тона (в аудио A голос заметно более низкий, грудной и глубокий, в аудио B — более высокий), а также по тембру и резонансу голосового тракта.",
+        "limitations": "Краткость фрагментов речи и разная интонационная подача."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"different\",\n  \"transcript_a\": \"Кинолента Ultra HD на Окко\",\n  \"transcript_b\": \"Джой, кто делает воду?\",\n  \"evidence\": \"Голоса различаются по высоте основного тона (в аудио A голос заметно более низкий, грудной и глубокий, в аудио B — более высокий), а также по тембру и резонансу голосового тракта.\",\n  \"limitations\": \"Краткость фрагментов речи и разная интонационная подача.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 468,
+        "completion_tokens": 137,
+        "total_tokens": 1230,
+        "completion_tokens_details": {
+          "reasoning_tokens": 625
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Джой, кто делает воду?",
+        "transcript_b": "Кинолента Ultra HD на Okko",
+        "evidence": "Совпадают диапазон высоты основного тона (низкий мужской регистр), тембральная окраска голоса, резонансные характеристики голосового тракта и спокойная естественная манера артикуляции.",
+        "limitations": "Короткая длительность аудиозаписей и несовпадающий набор произносимых фонем не позволяют провести полный биометрический анализ."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Джой, кто делает воду?\",\n  \"transcript_b\": \"Кинолента Ultra HD на Okko\",\n  \"evidence\": \"Совпадают диапазон высоты основного тона (низкий мужской регистр), тембральная окраска голоса, резонансные характеристики голосового тракта и спокойная естественная манера артикуляции.\",\n  \"limitations\": \"Короткая длительность аудиозаписей и несовпадающий набор произносимых фонем не позволяют провести полный биометрический анализ.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 468,
+        "completion_tokens": 146,
+        "total_tokens": 2325,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1711
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

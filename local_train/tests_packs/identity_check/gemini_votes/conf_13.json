@@ -1,0 +1,61 @@
+{
+  "pair_id": "conf_13",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idconf_i13_tgt.wav"
+  ],
+  "sha256": [
+    "0c3dee558b0fb9714647fafed233456717b648d2bbb7a9df9fec061baa5a8c33",
+    "0982e124ea9a2c19a5120265ca53d518c38528d3cc266d2eb922aef70ea4ee66"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "different",
+        "transcript_a": "Хочу телеканал Малыш ТВ на Смотрёшке",
+        "transcript_b": "Включи на ТВ канал Малыш",
+        "evidence": "В аудио A звучит женский голос с высокой основной частотой тона и более ярким тембром, тогда как в аудио B представлен мужской голос с существенно более низким регистром и выраженным грудным резонансом.",
+        "limitations": "Небольшая длительность аудиозаписей."
+      },
+      "raw": "```json\n{\"audio_access\":true,\"label\":\"different\",\"transcript_a\":\"Хочу телеканал Малыш ТВ на Смотрёшке\",\"transcript_b\":\"Включи на ТВ канал Малыш\",\"evidence\":\"В аудио A звучит женский голос с высокой основной частотой тона и более ярким тембром, тогда как в аудио B представлен мужской голос с существенно более низким регистром и выраженным грудным резонансом.\",\"limitations\":\"Небольшая длительность аудиозаписей.\"}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 448,
+        "completion_tokens": 117,
+        "total_tokens": 1107,
+        "completion_tokens_details": {
+          "reasoning_tokens": 542
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "same",
+        "transcript_a": "Включи на ТВ канал Малыш",
+        "transcript_b": "Хочу телеканал Малыш ТВ на Матрёшке",
+        "evidence": "Схожий молодой женский/подростковый тембр, совпадающий диапазон основного тона, идентичные резонансные характеристики голосового тракта и одинаковая артикуляция (в частности, звучание шипящих и гласных в слове «Малыш»).",
+        "limitations": "Короткая длительность записей и неполное лексическое совпадение фраз не позволяют сделать абсолютный биометрический вывод."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"same\",\n  \"transcript_a\": \"Включи на ТВ канал Малыш\",\n  \"transcript_b\": \"Хочу телеканал Малыш ТВ на Матрёшке\",\n  \"evidence\": \"Схожий молодой женский/подростковый тембр, совпадающий диапазон основного тона, идентичные резонансные характеристики голосового тракта и одинаковая артикуляция (в частности, звучание шипящих и гласных в слове «Малыш»).\",\n  \"limitations\": \"Короткая длительность записей и неполное лексическое совпадение фраз не позволяют сделать абсолютный биометрический вывод.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 448,
+        "completion_tokens": 167,
+        "total_tokens": 1977,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1362
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}

@@ -1,0 +1,36 @@
+{
+ "row": {
+  "duration": 4.62,
+  "messages": [
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Reproduce the reference voice and say in Russian: 'сбер. чт+о для м+альцева зн+ачит др+ужба?'"
+     },
+     {
+      "type": "audio",
+      "audio": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\e1c4c07bc9e43175.wav"
+     }
+    ]
+   },
+   {
+    "role": "assistant",
+    "content": [
+     {
+      "type": "audio",
+      "audio_url": "G:\\AI\\kyutai-ru\\data\\ru_wav_mfa\\79a2360be639b490.wav"
+     }
+    ]
+   }
+  ],
+  "split": "train",
+  "meta": {
+   "pair_sim": 0.774,
+   "ref_d": 4.06
+  }
+ },
+ "tgt_md5": "c2abfa08cbc50950e9bd7aeb5e4d4a3a",
+ "ref_md5": "2ea73938998ea4692efdeab58748088d"
+}

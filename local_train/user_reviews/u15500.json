@@ -1,0 +1,8 @@
+{
+  "sample": "val_sample_u15500",
+  "source": "user",
+  "date": "2026-09-14",
+  "user_note": "«update_15500_gen.wav прям уже очень хорошо»",
+  "context": "Кандидат в финалисты; лексикон+NFE64; лучшее пользовательское впечатление в серии.",
+  "verdict_json": {"overall": 9.5, "verdict": "accept", "issues": "—; тренд 15000+ растёт."}
+}

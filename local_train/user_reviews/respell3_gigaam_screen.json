@@ -1,0 +1,30 @@
+{
+  "sample": "respell3_ab_gigaam_screen",
+  "source": "GigaAM-ASR screen on auk_ru_18000.safetensors (seed 1234, trim applied)",
+  "date": "2026-09-14",
+  "note": "GigaAM не различает тонкие дефекты (учитель/сохранения, весенний, решений, смотреть) — recall=1.0 у всех. Ухо судьи решает. GigaAM чётко видит только грубые поломки: v3_soft_clusters (0.6), v2_admin-istrator (0.8), v2_phonetic_full (0.9).",
+  "results": {
+    "p0 (Учитель физики...)": {
+      "v0_default": "recall=1.0 — на u18000 дефект апопсии не воспроизводится?",
+      "v1_uchi-tel_soh-ranenia": "recall=1.0",
+      "v2_uchi-tel_so-hranenia": "recall=1.0",
+      "v3_sah-ranenia_e-nergii": "recall=1.0"
+    },
+    "p1 (Объявление: объём...)": {
+      "v0_default": "recall=1.0",
+      "v1_hyphen_clusters": "recall=1.0",
+      "v2_phonetic_full": "recall=0.9 (вес борщ — выпал 'сь')",
+      "v3_soft_clusters": "recall=0.6 (грубая поломка: опъем, балишой, свеливис)"
+    },
+    "p2 (смотреть)": "все 5 вариантов recall=1.0 (GigaAM слеп к 'смареть')",
+    "p3 (весенний)": "все 3 варианта recall=1.0 (GigaAM слеп к 'визений')",
+    "p4 (решений)": "все 3 варианта recall=1.0 (GigaAM слеп к 'режений')",
+    "p5 (Администратор)": {
+      "v0_default": "recall=1.0",
+      "v1_ad-mi-nistrator": "recall=1.0",
+      "v2_admin-istrator": "recall=0.8 (по завоне)"
+    }
+  },
+  "conclusion": "Лексикон на u18000 работает стабильно (объявление/пользования clean). Дефекты учитель/весенний/решений/смотреть на u18000 не воспроизводятся в GigaAM — нужно ухо судьи для подтверждения. Варианты v3_soft_clusters (r3p1) и v2_admin-istrator (r3p5) — брак, отбракованы.",
+  "verdict_json": {"overall": null, "verdict": "ожидает слуха", "issues": "22 файла ждут вердикта аудио-энкодера."}
+}

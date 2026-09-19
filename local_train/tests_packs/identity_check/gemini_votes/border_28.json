@@ -1,0 +1,61 @@
+{
+  "pair_id": "border_28",
+  "model": "gemini-3.8-flash-medium",
+  "source": "Gemini audio assessment; not human ground truth",
+  "files": [
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_ref.wav",
+    "G:\\AI\\AuK\\local_train\\tests_packs\\identity_check\\idborder_i28_tgt.wav"
+  ],
+  "sha256": [
+    "1104382b3c6cc192dda15848a084169e726a64f92f835d4efa63433456a441ee",
+    "af10c2f5c1311ecf5b35b028aa31bed4360adf96a9b8e09688345fa27554020e"
+  ],
+  "orders": [
+    "ref,target",
+    "target,ref"
+  ],
+  "votes": [
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "uncertain",
+        "transcript_a": "Да не",
+        "transcript_b": "Подключи",
+        "evidence": "Схожий мужской тембр голоса и близкая высота основного тона в обоих фрагментах.",
+        "limitations": "Крайне малая продолжительность речевых отрезков (менее одной секунды каждый) и различное фонетическое наполнение не позволяют достоверно подтвердить или опровергнуть совпадение дикторов."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Да не\",\n  \"transcript_b\": \"Подключи\",\n  \"evidence\": \"Схожий мужской тембр голоса и близкая высота основного тона в обоих фрагментах.\",\n  \"limitations\": \"Крайне малая продолжительность речевых отрезков (менее одной секунды каждый) и различное фонетическое наполнение не позволяют достоверно подтвердить или опровергнуть совпадение дикторов.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 561,
+        "completion_tokens": 129,
+        "total_tokens": 1916,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1226
+        }
+      }
+    },
+    {
+      "assessment": {
+        "audio_access": true,
+        "label": "uncertain",
+        "transcript_a": "Подключи",
+        "transcript_b": "Да не",
+        "evidence": "В обоих фрагментах слышен мужской голос схожего тембра и высоты тона, однако заметных уникальных акустических маркеров выделить не удается.",
+        "limitations": "Слишком короткая продолжительность звучащей речи (менее одной секунды в каждой записи) и отсутствие общих слов или фонем не позволяют надежно установить тождество дикторов."
+      },
+      "raw": "```json\n{\n  \"audio_access\": true,\n  \"label\": \"uncertain\",\n  \"transcript_a\": \"Подключи\",\n  \"transcript_b\": \"Да не\",\n  \"evidence\": \"В обоих фрагментах слышен мужской голос схожего тембра и высоты тона, однако заметных уникальных акустических маркеров выделить не удается.\",\n  \"limitations\": \"Слишком короткая продолжительность звучащей речи (менее одной секунды в каждой записи) и отсутствие общих слов или фонем не позволяют надежно установить тождество дикторов.\"\n}\n```",
+      "response_model": "gemini-3.8-flash-medium",
+      "usage": {
+        "prompt_tokens": 561,
+        "completion_tokens": 135,
+        "total_tokens": 2361,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1665
+        }
+      }
+    }
+  ],
+  "label": "uncertain",
+  "review_status": "complete"
+}
