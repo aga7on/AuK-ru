@@ -67,3 +67,4 @@ local_train/corpus/
 local_train/data/
 **/SECRET_map.csv
 tmp_pub/
+!samples/

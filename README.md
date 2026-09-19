@@ -11,6 +11,37 @@
 >
 > Оригинальный README апстрима: https://github.com/Tencent-Hunyuan/AuK
 
+## Семплы — эмоции (s7@5750)
+
+Пять генераций с эмоциональной инструкцией («say in Russian with a {emotion} tone»),
+референсы — открытые корпусные голоса (не авторов репозитория). Все пять получили
+verdict «годен», overall 9/10 у автосудьи (Gemini):
+
+| файл | голос | эмоция |
+|---|---|---|
+| [`samples/01_female_happy.wav`](samples/01_female_happy.wav) | женский | радость |
+| [`samples/02_female_excited.wav`](samples/02_female_excited.wav) | женский | восторг |
+| [`samples/03_male_sad.wav`](samples/03_male_sad.wav) | мужской | грусть |
+| [`samples/04_male_angry.wav`](samples/04_male_angry.wav) | мужской | злость |
+| [`samples/05_male_fearful.wav`](samples/05_male_fearful.wav) | мужской | страх |
+
+## GATES §1 — s7@5750 (эмоциональный этап, полный прогон 19.09.2026)
+
+| метрика | s5@4500 (канон) | s7@5750 | гейт |
+|---|---|---|---|
+| TTS WER (GigaAM, mean) | 0.081 | **0.077** | ≤0.20 ✅ |
+| TTS first_ok | 0.750 | **0.812** | ≥0.70 ✅ |
+| clone sim (median, 1-seed) | 0.742 | 0.741 | — |
+| clone sim (best-of-3) | 0.763 | **0.771** | ≥0.75 ✅ |
+| clone WER (mean) | 0.055 | 0.079 | ≤0.15 ✅ |
+| DSP (volume/speed/pitch) | 6/6 PASS | 6/6 PASS | ✅ |
+| «китайский акцент» (clone100) | 0/100 | 0/100 | 0 ✅ |
+| Судья: эмо-протокол годен | 36.7% | **48.3%** | — |
+| Судья overall: tts / clone / phonetics | 6.90 / 8.20 / 8.06 | 7.06 / 7.56 / 7.44 | tts +0.16, clone −0.64, phonetics −0.62 |
+
+Эмо-гейт Aniemore на синтетике невалиден (disgust-коллапс, доменный мисматч;
+RESD-контроль 99.3%) — эмоции подтверждены автосудьёй и прослушиванием.
+
 ## Что внутри
 
 - `src/` — код модели + инференс (изменения и дополнения к апстриму):
