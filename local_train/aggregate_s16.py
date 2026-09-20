@@ -71,6 +71,12 @@ for j in ph:
 fp = jd(os.path.join(AUK, "local_tests", "frontend_probe_s16", "results.json")) or []
 fp_ok = [r for r in fp if r.get("status") == "ok"]
 fp_wer = mean([r.get("wer_norm", r.get("wer")) for r in fp_ok])
+fp_cer = mean([r.get("cer_norm") for r in fp_ok if r.get("cer_norm") is not None])
+# CER — валидная метрика для длинных/составных слов (S17 probe: WER 1.0 при CER 0.01)
+# baseline v1.0 (frontend_probe_s9_v4 — та же 33-текстовая проба)
+fpb = jd(os.path.join(AUK, "local_tests", "frontend_probe_s9_v4", "results.json")) or []
+BASE["frontend_cer"] = mean([r.get("cer_norm") for r in fpb
+                             if r.get("status") == "ok" and r.get("cer_norm") is not None])
 
 # --- TTS не-регресс ---
 rep = jd(os.path.join(D, "s16_report", "baseline_report.json")) or {}
@@ -142,7 +148,8 @@ L += ["## Не-регресс v1.0 и frontend", "",
       f"| TTS first_ok | {BASE['first_ok']} | {tts.get('first_ok')} |",
       f"| эмо годен % | {BASE['emo_goden']} | {emo_goden} |",
       f"| clone sim best-of-3 | {BASE['bo3']} | {bo3_med} |",
-      f"| frontend probe wer_mean | {BASE['frontend_wer']} | {fp_wer} |", "",
+      f"| frontend probe wer_mean | {BASE['frontend_wer']} | {fp_wer} |",
+      f"| frontend probe cer_mean (валиднее для длинных слов) | {BASE.get('frontend_cer')} | {fp_cer} |", "",
       "## GATE S16", "", "| условие | значение | вердикт |", "|---|---|---|"]
 np_ = nf = nn = 0
 for name, val, ok in gate:
