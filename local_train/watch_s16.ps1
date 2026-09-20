@@ -23,7 +23,7 @@ function Invoke-Train {
   $log = "$run\train_log$($attempt+1).txt"
   Write-Output ("[watch16 $(Get-Date -Format HH:mm:ss)] attempt {0} -> {1}" -f $attempt, (Split-Path $log -Leaf))
   & G:\AI\AuK\.venv\Scripts\accelerate.exe launch --num_processes 1 --num_machines 1 --mixed_precision bf16 -m auk.train.train `
-    --train_jsonl G:\AI\AuK\local_train\data_s2_full\v16_diction_mix\train.jsonl `
+    --train_jsonl G:\AI\AuK\local_train\data_s2_full\v16b_diction_mix\train.jsonl `
     --val_jsonl G:\AI\AuK\local_train\data_s2_full\v3_s3_mix\val.jsonl `
     --config G:\AI\AuK\local_train\run_s2_B\merged\config.yaml `
     --init_ckpt G:\AI\AuK\local_train\run_ru_s1\merged\auk_ru_10000.safetensors `
