@@ -11,9 +11,15 @@ score = 0.35·sim + 0.25·asr_fidelity + 0.10·loudness + 0.10·pause_quality
   loudness       — |RMS_dB − (−20)| / 20 (клиппинг → штраф в artifacts);
   pause_quality  — 1 при 2 паузах ≤1.2с, штраф за 0 или >4 пауз / паузу >2с;
   repetition     — повторы слов в ASR-транскрипте (n-gram ≥2 подряд) → 0.3;
-  artifacts      — clip_ratio > 2e-4 или пустой/очень короткий выход → 0.3.
+  artifacts      — clip_ratio > 2e-4 или пустой/очень короткий выход → 0.3;
+  mumble_pen     — «жуёт слова» (ASR-прокси, ≤0.15, tie-breaker; КАЛИБРОВАН на human S13,
+                   но слаб: recall 0.50 — GigaAM сам ошибается на hard-текстах).
+                   Для офлайн-гейтов есть judge_mumble_penalty() по осям судьи (recall 0.91).
+                   См. S13_CALIBRATION.md.
 
-Веса — стартовые из ROADMAP S11; калибровка на human A/B (S13) позже.
+Веса — стартовые из ROADMAP S11; калибровка на human A/B (S13) начата: text_fidelity —
+сильнейший коррелят human-флага «жуёт» (r=−0.583). Рeranking не лечит произношение —
+основной путь S16 (фонетический буткемп).
 
 usage:
   python rerank_composite.py --cands <dir> --ref <ref.wav> --text "<целевой текст>" [--json out.json]
@@ -25,6 +31,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 
 import numpy as np
 import soundfile as sf
@@ -92,6 +99,70 @@ def artifact_penalty(x):
     return 0.3 if clip > 2e-4 else 0.0
 
 
+def mumble_penalty(expected, heard):
+    """Штраф «жуёт слова» — КАЛИБРОВАН на human-флагах S13 (S13_CALIBRATION.md).
+
+    Human-флаг «жуёт слова» сильнее всего связан с text_fidelity судьи (r=−0.583),
+    далее verdict==брак (0.544) и n_mangled (0.424). Судейские оси в офлайне недоступны,
+    поэтому используется их ASR-прокси: доля слов целевого текста, отсутствующих/искажённых
+    в распознанном (прокси text_fidelity), + бонус-штраф за редкие подмены (прокси n_subs).
+    Правило-аналог «fid≤6 or mangled≥1 or subs≥1» дало recall 0.91 / precision 0.50.
+
+    ВНИМАНИЕ (validate_mumble_proxy.py, n=80): ASR-прокси ловит лишь recall 0.50 /
+    precision 0.50 — GigaAM сам ошибается на hard-текстах (числа/даты), WER-прокси шумный.
+    Поэтому штраф мал (≤0.15) и служит только tie-breaker. Надёжный детектор «жуёт» —
+    судейские оси (text_fidelity r=−0.583) через judge_mumble_penalty() при доступном
+    Gemini-прокси, либо human-прослушивание. ASR-прокси НЕ замена судье.
+    """
+    import re as _re
+
+    def toks(t):
+        return _re.findall(r"[а-яёa-z]+", (t or "").lower().replace("+", "").replace("ё", "е"))
+
+    exp, hrd = toks(expected), toks(heard)
+    if not exp:
+        return 0.0
+    hc = Counter(hrd)
+    missing = sum(1 for w in exp if hc[w] <= 0)
+    # редкие слова в heard, которых нет в expected — прокси фонемных подмен («свои»→«сои»)
+    ec = Counter(exp)
+    alien = sum(1 for w in hrd if ec[w] <= 0)
+    miss_rate = missing / len(exp)
+    pen = 0.0
+    if miss_rate >= 0.25:      # ≈ text_fidelity ≤ 6
+        pen += 0.10
+    elif miss_rate >= 0.12:
+        pen += 0.05
+    if alien >= 2:             # ≈ n_subs ≥ 1
+        pen += 0.05
+    return round(min(pen, 0.15), 2)
+
+
+def judge_mumble_penalty(judge_obj):
+    """Надёжный детектор «жуёт» по осям судьи v3 (когда Gemini-прокси доступен).
+
+    КАЛИБРОВАН на human-флагах S13 (n=78): composite-правило fid≤6 or mangled≥1 or subs≥1
+    → recall 0.91, precision 0.50; отдельные корреляты: text_fidelity −0.583,
+    verdict==брак 0.544, n_mangled 0.424. Штраф 0.30 при срабатывании (сильный сигнал).
+    """
+    if not judge_obj:
+        return 0.0
+    fid = judge_obj.get("text_fidelity")
+    mangled = len(judge_obj.get("words_mangled") or [])
+    subs = len(judge_obj.get("phoneme_substitutions") or [])
+    brak = judge_obj.get("verdict") == "брак"
+    pen = 0.0
+    if isinstance(fid, int) and fid <= 6:
+        pen += 0.15
+    if mangled >= 1:
+        pen += 0.10
+    if subs >= 1:
+        pen += 0.05
+    if brak:
+        pen += 0.15
+    return round(min(pen, 0.40), 2)
+
+
 def naturalness_score(x, sr):
     """DNSMOS OVRL (speechmos) → 0..1; fallback 0.5 если модуль недоступен."""
     try:
@@ -139,12 +210,14 @@ def main():
                 "pause": round(pause_score(x, sr), 3),
                 "rep_pen": round(repetition_penalty(heard), 2),
                 "art_pen": round(artifact_penalty(x), 2),
+                "mumble_pen": float(mumble_penalty(args.text, heard)),
                 "asr_error": asr_err,
                 "heard": (heard or "")[:120],
             }
             row["score"] = round(float(W["sim"] * row["sim"] + W["asr"] * row["asr"]
                                  + W["natural"] * row["natural"] + W["loud"] * row["loud"]
-                                 + W["pause"] * row["pause"] - row["rep_pen"] - row["art_pen"]), 4)
+                                 + W["pause"] * row["pause"] - row["rep_pen"] - row["art_pen"]
+                                 - row["mumble_pen"]), 4)
             for k in ("sim", "asr", "loud", "pause", "rep_pen", "art_pen"):
                 row[k] = float(row[k])
             rows.append(row)
