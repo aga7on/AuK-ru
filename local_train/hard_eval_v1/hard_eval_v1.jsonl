@@ -1,0 +1,241 @@
+{"id": "fb_000", "category": "number_case", "text": "У нас нет 1423 страниц.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_001", "category": "number_case", "text": "Добавьте 15 грамм соли.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_002", "category": "number_case", "text": "Мы гордимся 27 учениками.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_003", "category": "number_case", "text": "К 8 марта подарили цветы.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_004", "category": "number_case", "text": "Около 1000 человек пришли.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_005", "category": "number_case", "text": "Более 3 млн рублей потрачено.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_006", "category": "number_case", "text": "Свыше 45% голосов учтены.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_007", "category": "number_case", "text": "Между 2 и 3 часами дня.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_008", "category": "number_case", "text": "Благодаря 12 донорам спасли жизнь.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_009", "category": "number_case", "text": "К 2030 году построим школу.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_010", "category": "number_case", "text": "В 1812 году была война.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_011", "category": "number_case", "text": "У 500 сотрудников есть ДМС.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_012", "category": "number_case", "text": "Нет 3 причин отказываться.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_013", "category": "number_case", "text": "Для 90% задач хватит CPU.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_014", "category": "number_case", "text": "Пройдено 12345 шагов.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_015", "category": "number_case", "text": "Долг составил 2,5 млн руб.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_016", "category": "number_case", "text": "Прирост 0,25% за квартал.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_017", "category": "number_case", "text": "−7°C ночью обещают.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_018", "category": "number_case", "text": "От 18 до 65 лет.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_019", "category": "number_case", "text": "2^10 = 1024.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_020", "category": "date_time", "text": "Встреча 21.09.2026 в 14:30.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_021", "category": "date_time", "text": "Срок до 01.01.2027.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_022", "category": "date_time", "text": "Родился 09.05.1945.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_023", "category": "date_time", "text": "Отчёт за 3 квартал 2025 года.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_024", "category": "date_time", "text": "Дедлайн 15/12.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_025", "category": "date_time", "text": "Сегодня 2 января 2026.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_026", "category": "date_time", "text": "Выход 10.10.2026г.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_027", "category": "date_time", "text": "Операция 07.03 в 8:05.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_028", "category": "date_time", "text": "Юбилей 50 лет — 12.06.2026.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_029", "category": "date_time", "text": "Курс с 01.02 по 28.02.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_030", "category": "date_time", "text": "Дата: 31 декабря 2025 г.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_031", "category": "date_time", "text": "Начало в 23:59 31.12.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_032", "category": "date_time", "text": "Эпоха 90-х годов.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_033", "category": "date_time", "text": "В XIX веке это было нормой.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_034", "category": "date_time", "text": "2024-й был високосным.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_035", "category": "date_time", "text": "Релиз запланирован на II квартал.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_036", "category": "date_time", "text": "Смена с 8:00 до 20:00.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_037", "category": "date_time", "text": "Полдень — 12:00.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_038", "category": "date_time", "text": "Через 1,5 часа начнём.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_039", "category": "date_time", "text": "Ровно в 00:00.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_040", "category": "money", "text": "Купи хлеба на 1250 ₽.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_041", "category": "money", "text": "Цена 99,99 $ за штуку.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_042", "category": "money", "text": "Зарплата 150000 руб в месяц.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_043", "category": "money", "text": "Билет стоит €45.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_044", "category": "money", "text": "Курс 89,5 рублей за доллар.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_045", "category": "money", "text": "Скидка 20% на всё до 1000₽.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_046", "category": "money", "text": "Итого к оплате 3456,78 руб.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_047", "category": "money", "text": "Кэшбэк 5% с покупок.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_048", "category": "money", "text": "Перевод 10 тыс. юаней.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_049", "category": "money", "text": "Гонорар 2,5 млн тенге.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_050", "category": "money", "text": "Долг 350 евро.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_051", "category": "money", "text": "Аренда 45000₽ за месяц.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_052", "category": "money", "text": "Курс биткоина 67000 USD.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_053", "category": "money", "text": "Налог 13% с дохода.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_054", "category": "money", "text": "Комиссия 1,5% от суммы.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_055", "category": "money", "text": "Бюджет проекта 12 млрд руб.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_056", "category": "money", "text": "Пенсия 18420 рублей.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_057", "category": "money", "text": "Лот ушёл за £300.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_058", "category": "money", "text": "Оплата 50/50.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_059", "category": "money", "text": "Стоимость 0 руб.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_060", "category": "phone", "text": "Звони +7 (916) 123-45-67.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_061", "category": "phone", "text": "Тел. 8-800-555-35-35 бесплатно.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_062", "category": "phone", "text": "Номер 112.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_063", "category": "phone", "text": "Контакт: +7 495 777-77-77.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_064", "category": "phone", "text": "Моб. 89991234567.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_065", "category": "phone", "text": "Факс (495) 123-4567.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_066", "category": "phone", "text": "Служба 103.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_067", "category": "phone", "text": "WhatsApp +7-903-000-11-22.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_068", "category": "phone", "text": "Горячая линия 8(800)100-20-30.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_069", "category": "phone", "text": "Доб. 145 после гудка.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_070", "category": "phone", "text": "Код города 812.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_071", "category": "phone", "text": "Позвони 911 срочно.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_072", "category": "phone", "text": "Запись по тел. 8-499-111-22-33.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_073", "category": "phone", "text": "Приёмная +7 812 333 44 55.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_074", "category": "phone", "text": "SMS на 7777.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_075", "category": "phone", "text": "Номер +375 29 123 45 67.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_076", "category": "phone", "text": "Звонки с 9 до 18.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_077", "category": "phone", "text": "Телефон 222-22-22.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_078", "category": "phone", "text": "Оператор 09.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_079", "category": "phone", "text": "Справочная 007.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_080", "category": "tech_url", "text": "Заходи на https://example.com/path?q=1.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_081", "category": "tech_url", "text": "Пиши на mail@example.com.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_082", "category": "tech_url", "text": "Читай README.md в репозитории.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_083", "category": "tech_url", "text": "Скачай .apk с сайта.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_084", "category": "tech_url", "text": "Открой C:\\Users\\dev\\file.txt.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_085", "category": "tech_url", "text": "Код на Python 3.10.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_086", "category": "tech_url", "text": "Версия CUDA 12.8 и torch 2.7.1.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_087", "category": "tech_url", "text": "Скачай zip-архив 2,3 ГБ.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_088", "category": "tech_url", "text": "API ключ в .env файле.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_089", "category": "tech_url", "text": "Смотри docs/api.html.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_090", "category": "tech_url", "text": "Ссылка: www.госуслуги.рф.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_091", "category": "tech_url", "text": "Обнови npm-пакет до v2.0.1.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_092", "category": "tech_url", "text": "Формат JSON или YAML.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_093", "category": "tech_url", "text": "База в PostgreSQL 16.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_094", "category": "tech_url", "text": "Деплой через GitHub Actions.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_095", "category": "tech_url", "text": "RTX 6000 и A100 в наличии.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_096", "category": "tech_url", "text": "Qwen2.5-Omni-3B запущен.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_097", "category": "tech_url", "text": "Файл config.yaml изменён.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_098", "category": "tech_url", "text": "Логи в /var/log/syslog.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_099", "category": "tech_url", "text": "Порт 8045 занят.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_100", "category": "abbr_name", "text": "ООО «Ромашка» и ИП Иванов И.И.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_101", "category": "abbr_name", "text": "МГУ им. Ломоносова.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_102", "category": "abbr_name", "text": "договор №42 от 01.02.2025.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_103", "category": "abbr_name", "text": "СПбГУ, ВШЭ и МФТИ.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_104", "category": "abbr_name", "text": "ООН и НАТО обсуждают вопрос.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_105", "category": "abbr_name", "text": "ГОСТ 7.1-2003.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_106", "category": "abbr_name", "text": "ПАО «Газпром нефть».", "contaminated": false, "contamination_reason": null}
+{"id": "fb_107", "category": "abbr_name", "text": "ТОО «КазАгро», г. Астана.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_108", "category": "abbr_name", "text": "НИИ хирургии им. Вишневского.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_109", "category": "abbr_name", "text": "ЕГЭ по математике.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_110", "category": "abbr_name", "text": "ОСАГО и КАСКО оформлены.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_111", "category": "abbr_name", "text": "ВОЗ опубликовала отчёт.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_112", "category": "abbr_name", "text": "ЦБ РФ поднял ставку.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_113", "category": "abbr_name", "text": "ЖКХ подорожало.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_114", "category": "abbr_name", "text": "ЗАГС работает до 17.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_115", "category": "abbr_name", "text": "ТЦ «Европейский», 3 этаж.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_116", "category": "abbr_name", "text": "РЖД продаёт билеты.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_117", "category": "abbr_name", "text": "ФСИН и МВД.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_118", "category": "abbr_name", "text": "СНИЛС 123-456-789 00.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_119", "category": "abbr_name", "text": "ИНН 7707083893.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_120", "category": "units_frac", "text": "Скорость 60 км/ч.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_121", "category": "units_frac", "text": "Объём 1/2 литра.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_122", "category": "units_frac", "text": "Вес 2 кг 300 г.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_123", "category": "units_frac", "text": "Рост 175 см.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_124", "category": "units_frac", "text": "Площадь 45 м².", "contaminated": false, "contamination_reason": null}
+{"id": "fb_125", "category": "units_frac", "text": "Дистанция 42,195 км.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_126", "category": "units_frac", "text": "Температура −5°C.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_127", "category": "units_frac", "text": "Давление 760 мм рт. ст.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_128", "category": "units_frac", "text": "Ёмкость 100 мА·ч.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_129", "category": "units_frac", "text": "Мощность 2,5 кВт.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_130", "category": "units_frac", "text": "Расход 7 л/100км.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_131", "category": "units_frac", "text": "Частота 50 Гц.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_132", "category": "units_frac", "text": "Память 16 ГБ DDR5.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_133", "category": "units_frac", "text": "3/4 стакана муки.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_134", "category": "units_frac", "text": "1,5 часа пути.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_135", "category": "units_frac", "text": "25% скидка.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_136", "category": "units_frac", "text": "Скорость 1 Гбит/с.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_137", "category": "units_frac", "text": "Разрешение 1920×1080.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_138", "category": "units_frac", "text": "Длина волны 532 нм.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_139", "category": "units_frac", "text": "Ток 220 В, 16 А.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_140", "category": "omograph_stress", "text": "Замок стоит на горе, а на двери висит большой замок.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_141", "category": "omograph_stress", "text": "Мука́ и мука́ разные: му́ка боли и мука́ пшеничная.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_142", "category": "omograph_stress", "text": "Небо покрыто тучами, и парус одинокий белеет.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_143", "category": "omograph_stress", "text": "Он на́чал, но не сконча́л начатое.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_144", "category": "omograph_stress", "text": "Дорога́ дорога до дорогóго города.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_145", "category": "omograph_stress", "text": "Все́ и все́ пришли.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_146", "category": "omograph_stress", "text": "Узна́ем или узнае́м — решим.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_147", "category": "omograph_stress", "text": "Отдал и отдал долг.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_148", "category": "omograph_stress", "text": "Прóклятый проклял всё.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_149", "category": "omograph_stress", "text": "Съешь ещё этих мягких французских булок.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_150", "category": "omograph_stress", "text": "Взгляд был пронзительно-остёр.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_151", "category": "omograph_stress", "text": "Игла́ в стоге сена.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_152", "category": "omograph_stress", "text": "Крýги или круги́ по воде.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_153", "category": "omograph_stress", "text": "Ёжик нёс ёлку.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_154", "category": "omograph_stress", "text": "Всё равно, всё уже решено.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_155", "category": "omograph_stress", "text": "Хло́пок или хлопóк — зависит от контекста.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_156", "category": "omograph_stress", "text": "Атлас и атлас: карты и ткань.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_157", "category": "omograph_stress", "text": "Взгляды были пронзительно остры.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_158", "category": "omograph_stress", "text": "Большая кружка и маленький кружок.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_159", "category": "omograph_stress", "text": "Ведра воды и вёдра слёз.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_160", "category": "code_switch", "text": "Сделай pull request в main ветку.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_161", "category": "code_switch", "text": "Задеплой сервис на production.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_162", "category": "code_switch", "text": "Нужен фикс этого ба ASAP.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_163", "category": "code_switch", "text": "Открой терминал и запусти npm install.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_164", "category": "code_switch", "text": "Это machine learning модель.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_165", "category": "code_switch", "text": "Пришли мне фидбек по дизайну.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_166", "category": "code_switch", "text": "Дедлайн в пятницу, без овертаймов.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_167", "category": "code_switch", "text": "Синк по спринту завтра.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_168", "category": "code_switch", "text": "Скачай драйвер для GPU.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_169", "category": "code_switch", "text": "Чек-лист готов, ревью пройдено.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_170", "category": "code_switch", "text": "Юзай этот промпт для генерации.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_171", "category": "code_switch", "text": "Логи покажут stack trace.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_172", "category": "code_switch", "text": "Собери билд на CI.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_173", "category": "code_switch", "text": "Баг в проде — хотфикс немедленно.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_174", "category": "code_switch", "text": "Фича за флагом, включи feature flag.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_175", "category": "code_switch", "text": "Релиз v2.0.1 сегодня.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_176", "category": "code_switch", "text": "Коммит в репозиторий прошёл.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_177", "category": "code_switch", "text": "Настрой SSH ключ для git.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_178", "category": "code_switch", "text": "API вернул 500 ошибку.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_179", "category": "code_switch", "text": "Докер-контейнер упал.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_180", "category": "long_word_cluster", "text": "Превосходительство распорядился о субстантивировании.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_181", "category": "long_word_cluster", "text": "Рентгеноэлектрокардиографический аппарат.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_182", "category": "long_word_cluster", "text": "Частнопредпринимательская деятельность.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_183", "category": "long_word_cluster", "text": "Удостоверение личности военнослужащего.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_184", "category": "long_word_cluster", "text": "Контрреволюционные настроения.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_185", "category": "long_word_cluster", "text": "Субстантивированное причастие.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_186", "category": "long_word_cluster", "text": "Взгляд пронзительно остёр.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_187", "category": "long_word_cluster", "text": "Взблеск молнии вспыхнул.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_188", "category": "long_word_cluster", "text": "Круглолунная ночь.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_189", "category": "long_word_cluster", "text": "Четырёхсотдвадцатипятилетний юбилей.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_190", "category": "long_word_cluster", "text": "Мягковолосый ребёнок.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_191", "category": "long_word_cluster", "text": "Шерстистоволновая пряжа.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_192", "category": "long_word_cluster", "text": "Административно-территориальное деление.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_193", "category": "long_word_cluster", "text": "Санитарно-эпидемиологическая станция.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_194", "category": "long_word_cluster", "text": "Сельскохозяйственное машиностроение.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_195", "category": "long_word_cluster", "text": "Достопримечательности Санкт-Петербурга.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_196", "category": "long_word_cluster", "text": "Переосвидетельствование комиссии.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_197", "category": "long_word_cluster", "text": "Высокооплачиваемая должность.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_198", "category": "long_word_cluster", "text": "Трансконтинентальная магистраль.", "contaminated": false, "contamination_reason": null}
+{"id": "fb_199", "category": "long_word_cluster", "text": "Многофункциональное устройство.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_000", "category": "mined_s7_fail", "text": "погода сегодня замечательная, пойдем гулять в парк", "contaminated": false, "contamination_reason": null}
+{"id": "hc_001", "category": "mined_s7_fail", "text": "она учится на третьем курсе медицинского университета", "contaminated": false, "contamination_reason": null}
+{"id": "hc_002", "category": "mined_s7_fail", "text": "мне кажется, этот фильм лучше предыдущего", "contaminated": false, "contamination_reason": null}
+{"id": "hc_003", "category": "mined_s7_fail", "text": "четырнадцатыи сезон сериала колобанга только для пользователеи интернета.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_004", "category": "mined_s7_fail", "text": "наити лучшие фильмы жанра приключенческии.", "contaminated": true, "contamination_reason": "4gram_in_train"}
+{"id": "hc_005", "category": "mined_s7_fail", "text": "алевтине евгеньевне царевои.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_006", "category": "mined_s7_fail", "text": "юльке носковои.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_007", "category": "mined_s7_fail", "text": "наити. неупокоенная!", "contaminated": false, "contamination_reason": null}
+{"id": "hc_008", "category": "mined_s7_fail", "text": "джои, какои баланс моеи сберкарты?", "contaminated": false, "contamination_reason": null}
+{"id": "hc_009", "category": "mined_s7_fail", "text": "сколько стоит тысяча фунтов стерлингов в сбербанке?", "contaminated": true, "contamination_reason": "exact_in_train"}
+{"id": "hc_010", "category": "mined_s7_fail", "text": "он работает инженером на заводе уже пять лет", "contaminated": false, "contamination_reason": null}
+{"id": "hc_011", "category": "mined_s7_fail", "text": "на улице холодно, надо надеть теплую куртку", "contaminated": false, "contamination_reason": null}
+{"id": "hc_012", "category": "mined_s7_fail", "text": "мы купили новый холодильник и стиральную машину", "contaminated": false, "contamination_reason": null}
+{"id": "hc_013", "category": "mined_s7_fail", "text": "Вздрогнул от неожиданности и вскрикнул.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_014", "category": "mined_s7_fail", "text": "Столкновение интересов привело к спорам.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_015", "category": "mined_s7_fail", "text": "Впрыск топлива происходит автоматически.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_016", "category": "mined_s7_fail", "text": "Скользкий лёд покрыл тротуары.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_017", "category": "mined_s7_fail", "text": "Купи что-нибудь к чаю.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_018", "category": "mined_s7_fail", "text": "Сорок семь участников зарегистрировались заранее.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_019", "category": "mined_s7_fail", "text": "Пятьдесят шесть процентов проголосовали.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_020", "category": "mined_s7_fail", "text": "Дмитрий встретил нас у входа.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_021", "category": "mined_s7_fail", "text": "Радость встречи переполняла нас.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_022", "category": "mined_s7_fail", "text": "добавь конину. курганскии мк. в корзину.", "contaminated": true, "contamination_reason": "4gram_in_train"}
+{"id": "hc_023", "category": "mined_s7_fail", "text": "добавить в избранное телефон вадима паутова.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_024", "category": "mined_s7_fail", "text": "пополни телефон дарьи.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_025", "category": "mined_s7_fail", "text": "включи на телевизоре передачу. эмеизин.", "contaminated": true, "contamination_reason": "4gram_in_train"}
+{"id": "hc_026", "category": "mined_s7_fail", "text": "как называется фильм, где снялся шурик и советская троица.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_027", "category": "mined_s7_fail", "text": "салют. герман греф любит музыку.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_028", "category": "mined_s7_fail", "text": "строили развитую дорожную сеть.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_029", "category": "mined_s7_fail", "text": "детскии сад номер пятнадцать. адрес.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_030", "category": "mined_s7_fail", "text": "форсаж поставь.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_031", "category": "mined_s7_fail", "text": "вудсток?", "contaminated": false, "contamination_reason": null}
+{"id": "hc_032", "category": "mined_s7_fail", "text": "самыи выгодныи курс белорусского рубля в сбербанке.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_033", "category": "mined_s7_fail", "text": "у тебя будет фильм калеидоскоп любви.", "contaminated": true, "contamination_reason": "4gram_in_train"}
+{"id": "hc_034", "category": "mined_s7_fail", "text": "афина. олегу николаевичу приходилось рисковать.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_035", "category": "mined_s7_fail", "text": "сбер. включи, пожалуиста, свет на чердаке.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_036", "category": "mined_s7_fail", "text": "хочу посмотреть. самоубиицы. история любви эич ди.", "contaminated": false, "contamination_reason": null}
+{"id": "hc_037", "category": "mined_s7_fail", "text": "завтра утром я поеду в командировку в новосибирск", "contaminated": false, "contamination_reason": null}
+{"id": "hc_038", "category": "mined_s7_fail", "text": "привет, как у тебя дела сегодня?", "contaminated": true, "contamination_reason": "4gram_in_train"}
+{"id": "hc_039", "category": "mined_s7_fail", "text": "я не могу найти свои ключи уже целый час", "contaminated": false, "contamination_reason": null}
+{"id": "hc_040", "category": "mined_s7_fail", "text": "завтра мы поедем на дачу и приготовим шашлык", "contaminated": false, "contamination_reason": null}
