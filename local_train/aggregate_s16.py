@@ -102,7 +102,8 @@ def le(a, b):
 
 
 gate = [
-    # ОСНОВНЫЕ (там реально проблема: naturalness и фонемные подмены, не насыщенные оси)
+    # ОСНОВНЫЕ (правило ROADMAP 21.09: CER первый; naturalness/подмены — где реальная проблема)
+    ("CER hard ≤ baseline v1.0", fp_cer, le(fp_cer, BASE.get("frontend_cer"))),
     ("HARD naturalness ≥ baseline v1.0", h.get("naturalness"), ge(h.get("naturalness"), BASE.get("hard_naturalness"))),
     ("HARD подмены ≤ baseline v1.0", sum(subs.values()), le(sum(subs.values()), BASE.get("hard_subs", 0))),
     ("HARD mangled ≤ baseline v1.0", sum(mangled.values()), le(sum(mangled.values()), BASE.get("hard_mangled", 0))),
@@ -120,6 +121,11 @@ L = ["# S16 RESULTS — фонетический буткемп (произно�
      "Микс v16_diction_mix: v7_s7_mix 1:1 + 6088 строк аудио с ПРОВЕРЕННО чистой дикцией",
      "(GigaAM WER ≤0.10, без подмен ы→и / ч-ц / ш-щ; 2620 клипов с трудными словами).",
      "Старт: s7@5750 (v1.0), 750 шагов, lr 2e-6 (консервативно), seed 16.", "",
+     "## Главная метрика: CER на hard-наборе (правило ROADMAP 21.09: CER первый, WER вспомогательный)", "",
+     f"| метрика | v1.0 (s7@5750) | s16@6500 | Δ |",
+     f"|---|---|---|---|",
+     f"| **CER hard (wer_norm→cer)** | {BASE.get('frontend_cer')} | {fp_cer} | {round(fp_cer-BASE['frontend_cer'],4) if isinstance(fp_cer,(int,float)) and BASE.get('frontend_cer') is not None else 'n/a'} |",
+     f"| WER hard (норм., вспомогательная) | {BASE['frontend_wer']} | {fp_wer} | {round(fp_wer-BASE['frontend_wer'],4) if isinstance(fp_wer,(int,float)) else 'n/a'} |", "",
      "## ГЛАВНЫЙ гейт: произношение на трудных текстах (33 текста, те же у baseline)", "",
      "| ось | v1.0 (те же 33) | s16 | Δ |", "|---|---|---|---|"]
 for k in ("accent", "palatalization", "stress", "naturalness"):
