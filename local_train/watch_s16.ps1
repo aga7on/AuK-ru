@@ -29,7 +29,7 @@ function Invoke-Train {
     --init_ckpt G:\AI\AuK\local_train\run_ru_s1\merged\auk_ru_10000.safetensors `
     --output_dir $run --learning_rate 2e-6 --max_updates 6500 --warmup_steps 25 `
     --frames_threshold 384 --max_samples 2 --save_per_updates 250 --logging_steps 10 `
-    --val_per_updates 250 --seed 16 --lora True --lora_r 32 --lora_alpha 64 `
+    --val_per_updates 250 --val_max_rows 100 --seed 16 --lora True --lora_r 32 --lora_alpha 64 `
     --lora_dropout 0.05 --use_ema False --bf16_transformer True *> $log
   return $LASTEXITCODE
 }
