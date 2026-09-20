@@ -81,6 +81,10 @@ def main():
     ap.add_argument("--ckpt", default=V1_CKPT)
     ap.add_argument("--config", default=V1_CONFIG)
     ap.add_argument("--json", default="")
+    ap.add_argument("--nfe", type=int, default=64,
+                    help="64=полный рецепт, 32=fast (RTF 0.83), 16=draft (RTF 0.64, S14)")
+    ap.add_argument("--no-rerank", action="store_true",
+                    help="draft: без composite-скоринга (быстрее на ~1.8 c/кандидат)")
     args = ap.parse_args()
 
     from auk.infer.infer_auk import AukInfer, save_audio
@@ -113,11 +117,13 @@ def main():
     for i, seed in enumerate(SEEDS[:n]):
         audio, sr = eng.generate([{"role": "user", "content": content}],
                                  audio=args.ref, gen_seconds=gen_seconds,
-                                 nfe=64, cfg_strength=2.0, seed=seed)
+                                 nfe=args.nfe, cfg_strength=2.0, seed=seed)
         audio = limit_peak(normalize_rms(audio))
         fp = os.path.join(args.out, f"cand_s{seed}.wav")
         save_audio(audio, sr, fp)
-        if True:
+        if args.no_rerank:
+            score, det = 0.0, {}
+        else:
             x, sr2 = sf.read(fp, dtype="float32")
             if x.ndim > 1:
                 x = x.mean(axis=1)
