@@ -62,7 +62,8 @@ def train_texts(path):
 def main():
     ev = load_eval_texts()
     print("eval+hardcase unique texts:", len(ev))
-    for name in ("v5_s5_mix", "v7_s7_mix", "v8_s8_mix"):
+    for name in ("v5_s5_mix", "v7_s7_mix", "v8_s8_mix", "v9_s8b_mix", "v12_emo_mix",
+                 "v16_diction_mix"):
         p = os.path.join(AUK, "local_train", "data_s2_full", name, "train.jsonl")
         tr = train_texts(p)
         if not tr:
