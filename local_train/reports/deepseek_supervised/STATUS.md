@@ -345,3 +345,11 @@
 > s10rft@6500 — эксперимент (sha256 5b1aef1d…). Вывод: BoN-RFT на 111 паре слишком мал для
 > first-shot; ветка дообучения приостановлена → S11 (reranker как продуктовое решение first-shot)
 > + S13 (human A/B, 40 пар готовы) + S14 (RTF). S10_RESULTS.md.
+
+> **S14 (RTF)**: tts nfe64 0.98 / nfe32 0.67; clone 1.42/0.97; nfe32 приемлем (Δsim −0.004).
+> Reranker overhead ≈5.4 с на best-of-3 запрос. S14_RTF.md.
+> **S15 (адаптеры)**: compose_adapters parity PASS (1.16e-10 ≡ merge_lora); композиция
+> e1.0+n0.5 провалила гейт 0/5 (интерференция) → РЕШЕНИЕ: маршрутизация (route_infer.py):
+> emotion→s7@5750, clone-neutral→s5@4500, plain TTS→s7. Demo 8/8 ok. Эффективный профиль
+> «v1.1-routed» = эмоции 48.3% + clone judge 8.20 + phon 8.06 + TTS 0.077/0.812 (лучшие
+> измеренные значения каждой ветви). S15_RESULTS.md.
