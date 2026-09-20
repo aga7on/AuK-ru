@@ -55,6 +55,12 @@ class TrainConfig:
     max_updates: int = 0  # 0 = no limit; stop cleanly after this many optimizer updates
     dataloader_num_workers: int = 4
     seed: int = 666
+    # --- val cost control (local patch, 21.09) ---
+    # Валидация стоит len(val)*10 forward'ов (t_grid в evaluate()) — на val=619 это ~15 мин
+    # на каждое окно, 84% wall-clock при val_per_updates=250 (замерено по S12/S16 логам),
+    # при том что метрика плоская (spread 0.19% за 1000 апдейтов). Subsample режет окно
+    # пропорционально; 0 = полный вал (прежнее поведение).
+    val_max_rows: int = 0
 
     # --- LoRA fine-tuning (local patch) ---
     lora: bool = False
@@ -77,9 +83,13 @@ class ScriptArgs:
 
 
 class AukJsonlDataset(Dataset):
-    def __init__(self, jsonl_path, processor):
+    def __init__(self, jsonl_path, processor, max_rows: int = 0):
         with open(jsonl_path, "r", encoding="utf-8") as f:
             self.data = [json.loads(line) for line in f if line.strip()]
+        if max_rows and max_rows < len(self.data):
+            # детерминированная равномерная подвыборка (сохраняет распределение длин)
+            step = len(self.data) / float(max_rows)
+            self.data = [self.data[int(i * step)] for i in range(max_rows)]
         self.durations = [row["duration"] for row in self.data]
         self.target_sample_rate = 24000
         self.vae_downsample_rate = 480
@@ -693,7 +703,8 @@ def main():
     train_dataset = AukJsonlDataset(args.train_jsonl, text_processor)
     val_dataset = None
     if args.val_jsonl:
-        val_dataset = AukJsonlDataset(args.val_jsonl, text_processor)
+        val_dataset = AukJsonlDataset(args.val_jsonl, text_processor,
+                                      max_rows=int(getattr(train_config, "val_max_rows", 0) or 0))
 
     if train_config.lora:
         from peft import LoraConfig, get_peft_model
