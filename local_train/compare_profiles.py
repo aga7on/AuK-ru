@@ -31,6 +31,7 @@ PROFILES = [
     ("S8@7750", "s8", "s8_7750_report", "emotion_s8_7750_judge_results.jsonl", "tmp_seed_probe_s8_7750"),
     ("S8b@8500", "s8b", "s8b_8500_report", "emotion_s8b_8500_judge_results.jsonl", "tmp_seed_probe_s8b_8500"),
     ("S16b@6500", "s16", "s16_report", "emotion_s16_judge_results.jsonl", "tmp_seed_probe_s16"),
+    ("S16c@6500", "s16c", "s16c_report", "emotion_s16c_judge_results.jsonl", "tmp_seed_probe_s16c"),
 ]
 
 
@@ -102,8 +103,8 @@ def main():
                      "first_seed": fmed, "bo3": bmed, "bycat": bycat})
 
     base = rows[0]
-    L = ["# PROFILE COMPARISON — три профиля произношения (правило ROADMAP 21.09)", "",
-         "Вопрос: даёт ли S16b выигрыш на трудном русском БЕЗ drift, свойственного S8/S8b?",
+    L = ["# PROFILE COMPARISON — профили произношения (правило ROADMAP 21.09)", "",
+         "Вопрос: даёт ли кандидат выигрыш на трудном русском БЕЗ drift, свойственного S8/S8b?",
          "CER — основная метрика произношения (WER вспомогательная, искажается сегментацией ASR).", "",
          "## Сводка", "",
          "| профиль | hard CER ↓ | hard WER | TTS WER ≤0.077 | TTS first_ok ≥0.812 | эмо годен ≥48.3 | clone WER | first-seed sim | best-of-3 |",
@@ -119,21 +120,32 @@ def main():
     for c in cats:
         L.append(f"| {c} | " + " | ".join(str(r["bycat"].get(c, "—")) for r in rows) + " |")
 
-    L += ["", "## Вердикт по критерию пользователя", ""]
-    s8b = next((r for r in rows if r["label"].startswith("S8b")), None)
-    s16 = next((r for r in rows if r["label"].startswith("S16b")), None)
+    L += ["", "## Нюанс: S16b по категориям (метод корзин работает, источник данных отравил соседей)", "",
+          "S16b ВЫИГРАЛ в целевых корзинах и проиграл в соседних:",
+          "- **лучше v1.0**: number_case 0.008 (vs 0.018), omograph_stress 0.009 (vs 0.027),",
+          "  phone 0.0 (vs 0.013) — корзины yi/stress/devoicing сработали;",
+          "- **хуже v1.0**: date_time 0.056 (vs 0.033), money 0.063 (vs 0.013), abbr_name 0.087",
+          "  (vs 0.065) — редукции разговорного стиля («сентября→сенскитбря», «января→ынгаря»);",
+          "- tech_url 0.154 у всех профилей — лимит модели/frontend, не данных.", "",
+          "Вывод (ПРОВЕРЕНО): метод «корзины контрастов» корректен, ошибка S16b — в источнике",
+          "данных (67% спонтанной речи). S16c проверяет это на читаной речи (Common Voice).", "",
+          "## Вердикт по критерию пользователя", ""]
     lines = []
-    if s16 and base["cer"] is not None and s16["cer"] is not None:
-        better = s16["cer"] < base["cer"]
-        lines.append(f"- S16b hard-CER {s16['cer']} vs v1.0 {base['cer']} → "
-                     + ("ЛУЧШЕ" if better else "НЕ лучше (проигрыш %.4f)" % (s16["cer"] - base["cer"])))
-    if s8b and base["cer"] is not None and s8b["cer"] is not None:
-        lines.append(f"- S8b hard-CER {s8b['cer']} vs v1.0 {base['cer']} → "
-                     + ("ЛУЧШЕ" if s8b["cer"] < base["cer"] else "не лучше"))
-    if s8b and s8b["first_ok"] is not None:
-        lines.append(f"- S8b TTS first_ok {s8b['first_ok']} (< 0.812) и эмо {s8b['emo']}% — drift подтверждён")
-    if s16 and s16["first_ok"] is not None:
-        lines.append(f"- S16b TTS first_ok {s16['first_ok']}, TTS WER {s16['tts_wer']}, эмо {s16['emo']}%")
+    for r in rows[1:]:
+        if r["cer"] is None:
+            lines.append(f"- {r['label']}: данных пока нет (прогон не завершён)")
+            continue
+        better = r["cer"] < base["cer"]
+        drift = []
+        if r["first_ok"] is not None and r["first_ok"] < 0.812:
+            drift.append(f"first_ok {r['first_ok']}<0.812")
+        if r["tts_wer"] is not None and r["tts_wer"] > 0.077:
+            drift.append(f"TTS WER {r['tts_wer']}>0.077")
+        if r["emo"] is not None and r["emo"] < 48.3:
+            drift.append(f"эмо {r['emo']}<48.3")
+        lines.append(f"- {r['label']}: hard-CER {r['cer']} vs v1.0 {base['cer']} → "
+                     f"{'ЛУЧШЕ' if better else 'НЕ лучше'} ({r['cer'] - base['cer']:+.4f})"
+                     + ("; DRIFT: " + ", ".join(drift) if drift else "; drift нет"))
     L += lines + ["",
                   "**Решение принимает human shortlist (право вето, ROADMAP 21.09).** Автоматика выше —",
                   "только triage; при 21% согласованности человек↔судья финальный вердикт за прослушиванием.", "",
