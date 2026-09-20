@@ -93,6 +93,25 @@ python local_train\generate_v1.py --text "Привет, как дела?" --ref 
 Best-of-N seeds (7,123,999) с composite-скорингом; лучший копируется в \1_best.wav\.
 Веса: HF \ga7on/AuK-ru\ → \uk_s7_5750.safetensors\ + \config.yaml\ в \local_train/run_s7/merged/\.
 
+## Статус R&D (20.09.2026)
+
+Дорожная карта S8–S15 исполнена; все отчёты в local_train/reports/deepseek_supervised/ (ROADMAP.md — сводка):
+
+| этап | итог |
+|---|---|
+| S8/S8b neutral recovery | гейты не закрыты (2/5, 0/5) — ветка закрыта |
+| S9 Russian frontend | ✅ wer_mean hard-бенча 0.319→0.255, 241 текст, интеграция в инференс |
+| S10 single-shot / preference | 111 пар намайнено; RFT 4/5, first-shot не достигнут — закрыт |
+| S11 quality-aware inference | ✅ composite reranker + generate_v1.py (калибровка весов ждёт S13) |
+| S12 Emotion v2 | intensity-ось заработала (0.73), whisper-крик устранён; гейт 1/6 — закрыт |
+| S13 human A/B | 40 слепых пар готовы (listen.html), скорер опубликован — ждёт прослушивания |
+| S14 RTF | ✅ TTS 0.67@nfe32 (<1); цель 0.3–0.5 — будущие оптимизации |
+| S15 adapters | композиция весов 0/5 (интерференция); решение — маршрутизация (route_infer.py) |
+
+**Мета-вывод (4 независимых эксперимента):** продолжение LoRA-обучения после s7@5750 системно
+ухудшает TTS first_ok и эмоции — **s7@5750 = окончательный канон v1.0**; прогресс далее только
+на inference-уровне (маршрутизация/reranker) и через human-калибровку.
+
 ## Линейка обучения (доказательная цепочка)
 
 Каждый этап мержится ТОЛЬКО со своей базой (см. `LINEAGE` в отчётах):
