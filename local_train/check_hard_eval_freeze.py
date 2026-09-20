@@ -13,7 +13,7 @@ AUK = r"G:\AI\AuK"
 FROZEN = os.path.join(AUK, "local_train", "hard_eval_v1", "hard_eval_v1_clean.jsonl")
 LEGACY = os.path.join(AUK, "local_train", "hard_cases", "hard_cases_ru.jsonl")
 MIXES = ["v5_s5_mix", "v7_s7_mix", "v8_s8_mix", "v9_s8b_mix", "v12_emo_mix",
-         "v16_diction_mix", "v16b_diction_mix"]
+         "v16_diction_mix", "v16b_diction_mix", "v16c_read_mix"]
 
 
 def norm(t):
