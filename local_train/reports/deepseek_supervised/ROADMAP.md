@@ -16,15 +16,17 @@ normalize_rms + limit_peak, max_ref_seconds=30.
 
 ## Этапы (порядок утверждён)
 
-### S8 — Neutral Recovery (текущий)
+СТАТУСЫ на 20.09 03:00: S8 ЗАКРЫТ (2 итерации, гейт не закрыт — S8B_RESULTS.md);
+S9 ЗАКРЫТ (frontend + benchmark 241 + пробы, wer_mean 0.319→0.255 — S9_FRONTEND.md);
+S10 В РАБОТЕ (RFT от s7@5750, микс v10 888 строк, цель model_6500, гейт-оркестратор автономный);
+S11 prep (rerank_composite.py + DNSMOS, smoke ok); S13 prep (pairwise_v1: 40 пар + listen.html).
+
+### S8 — Neutral Recovery (ЗАКРЫТ: подход не сработал)
 Цель: сохранить эмоции S7, вернуть neutral clone/phonetics ≥ S5@4500.
-Метод: аккуратный replay-микс, НЕ механический clone-boost (S6 доказал бесполезность oversampling).
-Состав: neutral hard cases + phonetic hard cases + clone replay + небольшой emotion replay
-+ upstream replay. В датасет попадают случаи: проглатывание частей слова, смена окончаний,
-повтор конца фразы, поломка длинных слов, путаница согласных, «sim хороший — дикция плохая»,
-скачки громкости между seeds.
-Gate S8: эмоции ≥ S7 (48.3% годен), TTS ≥ S7 (WER ≤0.077, first_ok ≥0.812),
-neutral clone/phonetics судья ≥ S5 (8.20/8.06).
+Итог: S8@7750 → 2/5 гейтов; S8b@8500 (исправленный микс) → 0/5. Продолжение обучения
+после s7 даёт дрейф TTS/эмоций независимо от состава данных. Единственный устойчивый
+выигрыш — first-seed similarity (0.7378→0.7524), учтён в мотивации S10.
+Детали: S8_RESULTS.md, S8B_RESULTS.md.
 
 ### S9 — Russian Frontend (веса не трогаем)
 Конвейер: raw text → normalizer → stress/pronunciation → AuK.
