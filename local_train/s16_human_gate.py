@@ -49,8 +49,12 @@ def screening(probe_dir, judge_jsonl):
     out = {}
     for i, r in res.items():
         j = judged.get(i, {})
-        out[i] = {"file": r["file"], "text": r.get("text") or "", "category": r.get("category"),
-                  "wer": r.get("wer_norm", r.get("wer")),
+        # probe-результаты хранят исходный текст в "raw", нормализованный — в "expected"
+        # (поля "text" там нет) — берём raw для показа человеку, expected как запасной
+        text = r.get("raw") or r.get("expected") or r.get("text") or ""
+        out[i] = {"file": r["file"], "text": text, "expected": r.get("expected"),
+                  "category": r.get("category"),
+                  "wer": r.get("wer_norm", r.get("wer")), "cer": r.get("cer_norm"),
                   "fid": j.get("text_fidelity"), "accent": j.get("accent"),
                   "palat": j.get("palatalization"), "stress": j.get("stress"),
                   "nat": j.get("naturalness"), "verdict": j.get("verdict"),
@@ -59,18 +63,24 @@ def screening(probe_dir, judge_jsonl):
 
 
 def shortlist(a, b, n_pairs=24):
-    """Приоритет: (1) расхождения A/B по осям или WER; (2) подозрительные у обоих;
-    (3) случайные чистые (контроль unbiased)."""
+    """Приоритет: (1) расхождения A/B по CER/WER/осям; (2) подозрительные у обоих;
+    (3) случайные чистые (контроль unbiased). CER — первичная метрика (правило ROADMAP 3)."""
     ids = sorted(set(a) & set(b))
     scored = []
     for i in ids:
         ra, rb = a[i], b[i]
         s = 0
-        for k in ("wer", "fid", "nat"):
+        # CER — основной (весо 1.0), WER — вспомогательный (0.5, искажается сегментацией ASR)
+        for k, w in (("cer", 1.0), ("wer", 0.5)):
             va, vb = ra.get(k), rb.get(k)
             if isinstance(va, (int, float)) and isinstance(vb, (int, float)):
-                s += abs(va - vb) * (1 if k == "wer" else 0.3)
-        susp = (ra.get("wer") or 0) > 0.3 or (rb.get("wer") or 0) > 0.3
+                s += abs(va - vb) * w
+        for k in ("fid", "nat"):
+            va, vb = ra.get(k), rb.get(k)
+            if isinstance(va, (int, float)) and isinstance(vb, (int, float)):
+                s += abs(va - vb) * 0.3
+        susp = ((ra.get("cer") or 0) > 0.15 or (rb.get("cer") or 0) > 0.15
+                or (ra.get("wer") or 0) > 0.5 or (rb.get("wer") or 0) > 0.5)
         if susp:
             s += 1
         scored.append((s, i))
