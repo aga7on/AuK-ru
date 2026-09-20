@@ -6,8 +6,20 @@
 |---|---|---|---|
 | `pairs_v1.jsonl` | 56 | seed-проба s7@5750 (23, WeSpeaker sim, gap≥0.03) + эмо-паки s7@5750/s7@6750 (33, judge verdict/Δoverall≥2) | sim / judge |
 | `pairs_mined_v1.jsonl` | 18 | s10_candidate_mine: 25 clone100-промптов × 4 seeds (7/123/999/2026) на v1.0, composite gap≥0.05 | composite_v1 |
+| `pairs_mined_v2.jsonl` | 37 | s10_mine_v2: 50 HELD-OUT текстов (hard_cases_ru) × 4 seeds × held-out рефы (вне всех train-пулов), composite gap≥0.05 | composite_v1 |
 
-ИТОГО: **74 пары**, missing files = 0 (инвариант проверен).
+ИТОГО: **111 пар**, missing files = 0 (инвариант проверен).
+
+## First-shot gap (три независимых замера)
+
+| набор | first-seed | best-of-N | gap |
+|---|---|---|---|
+| seed-проба 25 клонов (sim) | 0.7378 | 0.7711 (best-of-3) | +0.0333 |
+| mine v1, 25 clone-промптов (composite) | 0.7526 | 0.7789 (best-of-4) | +0.0263 |
+| mine v2, 50 held-out hard-текстов (composite) | 0.7202 | 0.7539 (best-of-4) | +0.0253 |
+
+На held-out hard-текстах gap тот же (+0.025) — феномен «первая попытка хуже лучшей»
+не артефакт лёгких текстов. В 18/50 (36%) первый seed уже лучший.
 
 ## Composite score (v1, веса ROADMAP S11)
 
