@@ -1,0 +1,16 @@
+{
+ "auk_ru_v1.0_s7_5750_lora.pt": {
+  "sha256": "65edacea38ecb2a309de7bb27b6693fc28202abd17a326e78477fb8e844aefd1",
+  "size": 205245411,
+  "update": 5750,
+  "lora_r": 32,
+  "lora_alpha": 64.0
+ },
+ "auk_ru_s5_4500_lora_clone_branch.pt": {
+  "sha256": "51f2f07d9ae65b63c8ca9597931c2c10bbb83d4f58d170a25a7a8b51e10a5b7a",
+  "size": 205248803,
+  "update": 4500,
+  "lora_r": 32,
+  "lora_alpha": 64.0
+ }
+}
