@@ -93,7 +93,7 @@ def shortlist(a, b, n_pairs=24):
     return top + ctrl
 
 
-def build_html(pairs_rows, title):
+def build_html(pairs_rows, title, ls_key="auk_human_gate_s16"):
     rows_js = json.dumps(pairs_rows, ensure_ascii=False)
     return """<!DOCTYPE html>
 <html lang="ru"><head><meta charset="utf-8"><title>__TITLE__</title>
@@ -124,7 +124,7 @@ def build_html(pairs_rows, title):
  &nbsp; <button id="export" onclick="exportCsv()">Экспорт CSV</button> <button onclick="clearAll()">Сброс</button></div>
 <div id="list"></div>
 <script>
-const LS_KEY='auk_human_gate_s16';
+const LS_KEY='__LSKEY__';
 let pairs=__ROWS__;
 let state=JSON.parse(localStorage.getItem(LS_KEY)||'{}');
 render();
@@ -157,9 +157,11 @@ function exportCsv(){let csv='id,category,choice,flag_a_mumbled,flag_b_mumbled\\
  for(const p of pairs){const st=state[p.id]||{};
   csv+=`${p.id},${p.category||''},${st.choice||''},${st.flagA?1:0},${st.flagB?1:0}\\n`;}
  const blob=new Blob([csv],{type:'text/csv'});const a=document.createElement('a');
- a.href=URL.createObjectURL(blob);a.download='human_gate_s16_choices.csv';a.click();}
+ a.href=URL.createObjectURL(blob);a.download='__CSV__';a.click();}
 function clearAll(){if(!confirm('Сбросить всё?'))return;state={};localStorage.removeItem(LS_KEY);render();}
-</script></body></html>""".replace("__TITLE__", title).replace("__ROWS__", rows_js)
+</script></body></html>""".replace("__TITLE__", title).replace("__ROWS__", rows_js) \
+        .replace("__LSKEY__", ls_key) \
+        .replace("__CSV__", f"human_gate_{ls_key.split('_')[-1]}_choices.csv")
 
 
 def main():
@@ -171,9 +173,12 @@ def main():
     ap.add_argument("--judge_a", default=os.path.join(D, "s16_baseline_phonetics_results.jsonl"))
     ap.add_argument("--judge_b", default=os.path.join(D, "s16_phonetics_results.jsonl"))
     ap.add_argument("--n_pairs", type=int, default=24)
+    ap.add_argument("--tag", default="s16",
+                    help="метка варианта B и подкаталог (s16 / s16c) — разные прогоны не перетираются")
     args = ap.parse_args()
 
-    os.makedirs(OUT_DIR, exist_ok=True)
+    out_dir = os.path.join(AUK, "local_tests", f"human_gate_{args.tag}")
+    os.makedirs(out_dir, exist_ok=True)
     if args.shortlist:
         a = screening(args.src_a, args.judge_a)
         b = screening(args.src_b, args.judge_b)
@@ -183,25 +188,27 @@ def main():
         secret = []
         for i in ids:
             swap = rng.random() < 0.5
-            va, vb = ("v1", "s16") if not swap else ("s16", "v1")
+            va, vb = ("v1", args.tag) if not swap else (args.tag, "v1")
             fa = a[i]["file"] if not swap else b[i]["file"]
             fb = b[i]["file"] if not swap else a[i]["file"]
             rows.append({"id": i, "category": a[i].get("category"), "text": (a[i].get("text") or "")[:160],
-                         "a": os.path.relpath(fa, OUT_DIR).replace("\\", "/"),
-                         "b": os.path.relpath(fb, OUT_DIR).replace("\\", "/")})
+                         "a": os.path.relpath(fa, out_dir).replace("\\", "/"),
+                         "b": os.path.relpath(fb, out_dir).replace("\\", "/")})
             secret.append({"id": i, "a_variant": va, "b_variant": vb})
-        json.dump(rows, open(os.path.join(OUT_DIR, "shortlist.json"), "w", encoding="utf-8"),
+        json.dump(rows, open(os.path.join(out_dir, "shortlist.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
-        with open(os.path.join(OUT_DIR, "SECRET_variant_map.csv"), "w", encoding="utf-8", newline="") as f:
+        with open(os.path.join(out_dir, "SECRET_variant_map.csv"), "w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=["id", "a_variant", "b_variant"])
             w.writeheader()
             w.writerows(secret)
-        print("shortlist:", len(rows), "pairs ->", OUT_DIR)
+        print("shortlist:", len(rows), "pairs ->", out_dir)
     if args.build:
-        rows = json.load(open(os.path.join(OUT_DIR, "shortlist.json"), encoding="utf-8"))
-        html = build_html(rows, "S16 human gate — hard_eval_v1 (v1.0 vs s16, слепо)")
-        io.open(os.path.join(OUT_DIR, "listen_s16.html"), "w", encoding="utf-8", newline="\n").write(html)
-        print("listen_s16.html built:", len(rows), "pairs")
+        rows = json.load(open(os.path.join(out_dir, "shortlist.json"), encoding="utf-8"))
+        html = build_html(rows, f"S16 human gate — hard_eval_v1 (v1.0 vs {args.tag}, слепо)",
+                          ls_key=f"auk_human_gate_{args.tag}")
+        io.open(os.path.join(out_dir, f"listen_{args.tag}.html"), "w", encoding="utf-8",
+                newline="\n").write(html)
+        print(f"listen_{args.tag}.html built:", len(rows), "pairs")
 
 
 if __name__ == "__main__":
