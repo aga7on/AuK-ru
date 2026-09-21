@@ -93,6 +93,28 @@ python local_train\generate_v1.py --text "Привет, как дела?" --ref 
 Best-of-N seeds (7,123,999) с composite-скорингом; лучший копируется в \1_best.wav\.
 Веса: HF \ga7on/AuK-ru\ → \uk_s7_5750.safetensors\ + \config.yaml\ в \local_train/run_s7/merged/\.
 
+## 🚀 Релиз v1.0 (LoRA)
+
+**[huggingface.co/aga7on/AuK-ru](https://huggingface.co/aga7on/AuK-ru)** — релиз помечен как LoRA
+(адаптеры 196 МБ + pre-merged 6.1 ГБ), с полным честным списком известных дефектов:
+
+| файл | размер | назначение |
+|---|---|---|
+| dapters/auk_ru_v1.0_s7_5750_lora.pt | 196 МБ | основной адаптер (речь + эмоции) |
+| dapters/auk_ru_s5_4500_lora_clone_branch.pt | 196 МБ | клонирование голоса |
+| uk_s7_5750.safetensors | 6.1 ГБ | v1.0 слитый с базой (готов к инференсу) |
+| uk_s5_4500.safetensors | 6.1 ГБ | s5 слитый |
+
+Эквивалентность проверена побайтово: merge релизного адаптера даёт sha256 7faf25cf… —
+тот же, что pre-merged файл. База для мержа адаптеров: uk_ru_10000.safetensors (цепочка
+апстрим → s0 → s1, см. LINEAGE).
+
+Основные дефекты (полный список из 10 — в model card): нестабильная артикуляция на трудных
+текстах (ы→и, потеря палатализации, оглушение), нестабильность первого seed (нужен best-of-3),
+отсутствие whisper, низкий naturalness на сложном материале,code-switching WER 0.55,
+невозможность композиции адаптеров и **отсутствие headroom для дальнейшего continual
+fine-tuning** (5 экспериментов S8/S8b/S10/S16b/S16c дали дрейф; v1.0 = локальный оптимум).
+
 ## Статус R&D (20.09.2026)
 
 Дорожная карта S8–S15 исполнена; все отчёты в local_train/reports/deepseek_supervised/ (ROADMAP.md — сводка):
